@@ -1,0 +1,53 @@
+{
+  "Time": "2026-10-16T17:45:15.1193034+08:00",
+  "Trial": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\nr_no_fg_20261016_174513",
+  "Settings": "C:\\Users\\ROG\\AppData\\Local\\CD Projekt Red\\Cyberpunk 2077\\UserSettings.json",
+  "SettingsBeforeSHA256": "691A266DF8C8859A114B34C90F2CED7F549441189477BE04BB1F1E15F3692152",
+  "SettingsAfterSHA256": "2DB4B263E77A54E39CC806E6F0694A7A7B508B719B21120082C911DE6E80888C",
+  "Components": [
+    {
+      "Source": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\removed_mod_20261016_165945_f508c8\\nvngx_dlssnr.dll",
+      "Target": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx_dlssnr.dll",
+      "Size": 165840496,
+      "SHA256": "e16bcf15e16e13f527491cdf7845b2fe6521a738d8f7c9c721866a8496e1fc8e",
+      "Version": "310,8,0,0"
+    },
+    {
+      "Source": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\removed_mod_20261016_165945_f508c8\\nvngx.dll_dlssnr.dll",
+      "Target": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx.dll_dlssnr.dll",
+      "Size": 114176,
+      "SHA256": "87408102bc7b6a740c2f771deb131a606424df08165d4b9ab34c2742c2a42ea0",
+      "Version": null
+    },
+    {
+      "Source": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\removed_mod_20261016_165945_f508c8\\OptiScaler.ini",
+      "Target": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\OptiScaler.ini",
+      "Size": 71505,
+      "SHA256": "1c9f012316655802702d68100e2c557a6e375388551b049e56e05fc6611f2e34",
+      "Version": null
+    },
+    {
+      "Source": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\removed_mod_20261016_165945_f508c8\\OptiScaler-NR-install-manifest.json",
+      "Target": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\OptiScaler-NR-install-manifest.json",
+      "Size": 5477,
+      "SHA256": "9a05afd186157f9decdd2916258bcc3f17e64a1a49dbbb33ed981e9338617c3f",
+      "Version": null
+    },
+    {
+      "Source": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\removed_mod_20261016_165945_f508c8\\winmm.dll",
+      "Target": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\winmm.dll",
+      "Size": 26347008,
+      "SHA256": "ad143c5bd6e5fab4d1abd8b048c424e9ddceabf1a864e0e0695c01a0dc82b4c9",
+      "Version": "10.0.0.1"
+    }
+  ],
+  "NR": "ON",
+  "FrameGenerationRequested": "OFF",
+  "CrashBaseline": [
+    "Cyberpunk2077-20261016-121645-23484-39912",
+    "Cyberpunk2077-20261016-121817-27196-16412",
+    "Cyberpunk2077-20261016-133556-32096-14424",
+    "Cyberpunk2077-20261016-165628-34928-43840"
+  ],
+  "ToolCompatibilityBlock": "Retained until validation"
+}

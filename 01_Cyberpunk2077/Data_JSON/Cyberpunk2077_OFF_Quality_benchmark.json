@@ -1,0 +1,15 @@
+{
+  "State": "OFF",
+  "DLSS": "Quality",
+  "Resolution": "2560x1600",
+  "AverageFPS": 116.3,
+  "MinimumFPS": 94.67,
+  "MaximumFPS": 130.29,
+  "Seconds": 64.23,
+  "FrameCount": 7470,
+  "OnePercentLow": "UNKNOWN",
+  "MFGSetting": "3X",
+  "Source": "Observed built-in benchmark result screen",
+  "Scene": "Built-in benchmark deterministic camera route",
+  "Screenshot": "Cyberpunk2077_OFF_Quality_result.jpg"
+}

@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-17T23:10:22.861851",
+  "source": "USB device read, not local copy",
+  "remote_path": "com.505games.deathstranding:/Documents/settings.cfg",
+  "bytes": 186,
+  "sha256": "416acb93476b7db6ca4d1a6c720619069719f37b75313b527bfe52e4d92ad47c",
+  "matches_previous_write": true,
+  "contents": "\"rendering_width\" \"2420\"\n\"rendering_height\" \"1668\"\n\"postprocess_motionblur\" \"0\"\n\"limit_fps\" \"120\"\n\"postprocess_ssr\" \"1\"\n\"postprocess_ao\" \"1\"\n\"hdr\" \"1\"\n\"anti-aliasing\" \"2\"\n\"metal_fx\" \"1\"\n",
+  "game_applied_settings": "UNKNOWN"
+}

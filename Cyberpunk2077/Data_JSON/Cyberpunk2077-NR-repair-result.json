@@ -1,0 +1,19 @@
+{
+  "Time": "2026-10-16T13:21:38.7425685+08:00",
+  "PID": 22668,
+  "Responding": true,
+  "NR": "ON",
+  "Cache": "OFF",
+  "DLSS": "Quality",
+  "RuntimeStatus": "TRUE - model dispatch, composition and recurring timing logs",
+  "NewCrashReports": 0,
+  "MonitorStart": "2026-10-16T13:18:48.0568207+08:00",
+  "MonitorEnd": "2026-10-16T13:20:48.5700091+08:00",
+  "MonitorSamples": 24,
+  "NativeFilesVerified": 13,
+  "LongTermStability": "UNKNOWN",
+  "IniSHA256": "1C9F012316655802702D68100E2C557A6E375388551B049E56E05FC6611F2E34",
+  "UserSettingsSHA256": "691A266DF8C8859A114B34C90F2CED7F549441189477BE04BB1F1E15F3692152",
+  "TrialBackup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\nr_repair_20261016_131448",
+  "Tool": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Tool"
+}

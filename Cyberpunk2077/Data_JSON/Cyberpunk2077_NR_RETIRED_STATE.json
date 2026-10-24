@@ -1,0 +1,15 @@
+{
+  "Time": "2026-10-16T16:59:46.0916128+08:00",
+  "Incident": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\nr_retired_20261016_165944",
+  "LatestCrash": "C:\\Users\\ROG\\AppData\\Local\\REDEngine\\ReportQueue\\Cyberpunk2077-20261016-165628-34928-43840",
+  "CrashBaseline": [
+    "Cyberpunk2077-20261016-121645-23484-39912",
+    "Cyberpunk2077-20261016-121817-27196-16412",
+    "Cyberpunk2077-20261016-133556-32096-14424",
+    "Cyberpunk2077-20261016-165628-34928-43840"
+  ],
+  "ModRemoved": true,
+  "NativeVerified": 13,
+  "CompatibilityBlock": true,
+  "GameEXE": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\Cyberpunk2077.exe"
+}

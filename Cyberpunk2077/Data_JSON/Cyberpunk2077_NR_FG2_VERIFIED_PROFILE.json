@@ -1,0 +1,14 @@
+{
+  "Time": "2026-10-16T18:41:26.4604713+08:00",
+  "Monitor": "PASS_10MIN_NR_FG2",
+  "Start": "2026-10-16T18:19:37.2090633+08:00",
+  "End": "2026-10-16T18:29:39.5246841+08:00",
+  "NewCrashReports": 0,
+  "NR": "ON",
+  "NativeFrameGeneration": "DLSS x2",
+  "X3X4": "BLOCKED",
+  "LongTermStability": "UNKNOWN",
+  "Comparison": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\outputs\\NR_Compare_20261016_1834",
+  "DesktopShortcut": "C:\\Users\\ROG\\Desktop\\NR 对比截图.lnk",
+  "NoGameConfigurationWrittenByThisPublish": true
+}

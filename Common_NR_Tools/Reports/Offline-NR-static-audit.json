@@ -1,0 +1,1044 @@
+{
+  "Repository": "https://github.com/DaniilSokolyuk/video2dlssnr",
+  "Release": "v1.4.1",
+  "Asset": "video2dlssnr_release.zip",
+  "ArchivePath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\downloads\\video2dlssnr_release-v1.4.1.zip",
+  "ArchiveSHA256": "cf1e01b3715b5ee75708744a5d5e6a4f2a96b5504834dd854b4c06388f230ccf",
+  "ArchiveBytes": 247433416,
+  "ArchiveHashMatchesPublished": true,
+  "ExtractionRoot": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1",
+  "EntryCount": 12,
+  "UncompressedBytes": 455956433,
+  "ArchivePathsValidated": true,
+  "Files": [
+    {
+      "ArchiveName": "app.py",
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\app.py",
+      "SizeBytes": 20769,
+      "CompressedBytes": 6646,
+      "SHA256": "a24abac6dacbac44c9096d3e428d3785df705fa26a45b99f700c78a7e60ecbf4"
+    },
+    {
+      "ArchiveName": "LICENSE",
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\LICENSE",
+      "SizeBytes": 1093,
+      "CompressedBytes": 645,
+      "SHA256": "215fb368792df5ae4283fb4d16d6f7ff9f9c28a7fc78b6f4b31bb97e2c1bc3b7"
+    },
+    {
+      "ArchiveName": "nr_video.py",
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\nr_video.py",
+      "SizeBytes": 27241,
+      "CompressedBytes": 9414,
+      "SHA256": "8c40a3d03fb3323bd071df905ccff1f958cff1b04ed4ff2ec88d3a8b92f3cc8d"
+    },
+    {
+      "ArchiveName": "README.md",
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\README.md",
+      "SizeBytes": 25683,
+      "CompressedBytes": 10134,
+      "SHA256": "547d76264035b36f749c5784f91d7cf41f9684474a171a5322e82a6de596f110"
+    },
+    {
+      "ArchiveName": "requirements.txt",
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\requirements.txt",
+      "SizeBytes": 12,
+      "CompressedBytes": 14,
+      "SHA256": "6703c8ba679f2555b9d023448308b8a4c3e902d462d84b5079042d5389481047"
+    },
+    {
+      "ArchiveName": "start.bat",
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\start.bat",
+      "SizeBytes": 707,
+      "CompressedBytes": 354,
+      "SHA256": "c9ee0527309f4be686113a4119a808e6a7fd5ef9441b6a02f0aec7af2fd7e600"
+    },
+    {
+      "ArchiveName": "out/ffmpeg.exe",
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\ffmpeg.exe",
+      "SizeBytes": 115410944,
+      "CompressedBytes": 48254675,
+      "SHA256": "2e1b00eb8fe56ae789a4ca888a66e328b4301add661f8846bf90d2b3a46c1bcf"
+    },
+    {
+      "ArchiveName": "out/ffprobe.exe",
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\ffprobe.exe",
+      "SizeBytes": 115198464,
+      "CompressedBytes": 48152068,
+      "SHA256": "40d4bc84fa99fb5efc2ef812ec429414cc3b484334a66971b02bb009db581252"
+    },
+    {
+      "ArchiveName": "out/nvngx.dll_dlssnr.dll",
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\nvngx.dll_dlssnr.dll",
+      "SizeBytes": 13312,
+      "CompressedBytes": 5742,
+      "SHA256": "a64d48ec6157a6811f9b812de47ecb718f4143c3355879c22515e6418b7c1bea"
+    },
+    {
+      "ArchiveName": "out/nvngx_dlss.dll",
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\nvngx_dlss.dll",
+      "SizeBytes": 58956400,
+      "CompressedBytes": 31142362,
+      "SHA256": "c85f971ce023c9f3492fc7455f0b01a24ba18ea39636407a846902c4360b0b7e"
+    },
+    {
+      "ArchiveName": "out/nvngx_dlssnr.dll",
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\nvngx_dlssnr.dll",
+      "SizeBytes": 165840496,
+      "CompressedBytes": 119634853,
+      "SHA256": "8270b350cd82de5ce89806872cdd6b6a9249b80836b91bbeb3573470744cc206"
+    },
+    {
+      "ArchiveName": "out/video2dlssnr.exe",
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\video2dlssnr.exe",
+      "SizeBytes": 461312,
+      "CompressedBytes": 215237,
+      "SHA256": "7658f780aaa0ce9112d93a036273e19c4d62bf03ffae1a7bb6099d485a97ff58"
+    }
+  ],
+  "Binaries": [
+    {
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\ffmpeg.exe",
+      "Name": "ffmpeg.exe",
+      "SizeBytes": 115410944,
+      "SHA256": "2e1b00eb8fe56ae789a4ca888a66e328b4301add661f8846bf90d2b3a46c1bcf",
+      "Architecture": "x64",
+      "MachineHex": "0x8664",
+      "Imports": [
+        {
+          "Name": "ADVAPI32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\ADVAPI32.dll"
+          ]
+        },
+        {
+          "Name": "AVRT.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\AVRT.dll"
+          ]
+        },
+        {
+          "Name": "bcrypt.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\bcrypt.dll"
+          ]
+        },
+        {
+          "Name": "CFGMGR32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\CFGMGR32.dll"
+          ]
+        },
+        {
+          "Name": "CRYPT32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\CRYPT32.dll"
+          ]
+        },
+        {
+          "Name": "d2d1.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\d2d1.dll"
+          ]
+        },
+        {
+          "Name": "DWrite.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\DWrite.dll"
+          ]
+        },
+        {
+          "Name": "GDI32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\GDI32.dll"
+          ]
+        },
+        {
+          "Name": "IPHLPAPI.DLL",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\IPHLPAPI.DLL"
+          ]
+        },
+        {
+          "Name": "KERNEL32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\KERNEL32.dll"
+          ]
+        },
+        {
+          "Name": "api-ms-win-crt-conio-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-math-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-multibyte-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-private-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-string-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-time-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "ncrypt.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\ncrypt.dll"
+          ]
+        },
+        {
+          "Name": "ntdll.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\ntdll.dll"
+          ]
+        },
+        {
+          "Name": "ole32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\ole32.dll"
+          ]
+        },
+        {
+          "Name": "OLEAUT32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\OLEAUT32.dll"
+          ]
+        },
+        {
+          "Name": "RPCRT4.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\RPCRT4.dll"
+          ]
+        },
+        {
+          "Name": "Secur32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\Secur32.dll"
+          ]
+        },
+        {
+          "Name": "SHELL32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\SHELL32.dll"
+          ]
+        },
+        {
+          "Name": "SHLWAPI.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\SHLWAPI.dll"
+          ]
+        },
+        {
+          "Name": "USER32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\USER32.dll"
+          ]
+        },
+        {
+          "Name": "USP10.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\USP10.dll"
+          ]
+        },
+        {
+          "Name": "AVICAP32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\AVICAP32.dll"
+          ]
+        },
+        {
+          "Name": "WINMM.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\WINMM.dll"
+          ]
+        },
+        {
+          "Name": "WS2_32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\WS2_32.dll"
+          ]
+        },
+        {
+          "Name": "api-ms-win-core-synch-l1-2-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        }
+      ]
+    },
+    {
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\ffprobe.exe",
+      "Name": "ffprobe.exe",
+      "SizeBytes": 115198464,
+      "SHA256": "40d4bc84fa99fb5efc2ef812ec429414cc3b484334a66971b02bb009db581252",
+      "Architecture": "x64",
+      "MachineHex": "0x8664",
+      "Imports": [
+        {
+          "Name": "ADVAPI32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\ADVAPI32.dll"
+          ]
+        },
+        {
+          "Name": "AVRT.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\AVRT.dll"
+          ]
+        },
+        {
+          "Name": "bcrypt.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\bcrypt.dll"
+          ]
+        },
+        {
+          "Name": "CFGMGR32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\CFGMGR32.dll"
+          ]
+        },
+        {
+          "Name": "CRYPT32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\CRYPT32.dll"
+          ]
+        },
+        {
+          "Name": "d2d1.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\d2d1.dll"
+          ]
+        },
+        {
+          "Name": "DWrite.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\DWrite.dll"
+          ]
+        },
+        {
+          "Name": "GDI32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\GDI32.dll"
+          ]
+        },
+        {
+          "Name": "IPHLPAPI.DLL",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\IPHLPAPI.DLL"
+          ]
+        },
+        {
+          "Name": "KERNEL32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\KERNEL32.dll"
+          ]
+        },
+        {
+          "Name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-math-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-multibyte-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-private-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-string-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-time-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "ncrypt.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\ncrypt.dll"
+          ]
+        },
+        {
+          "Name": "ntdll.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\ntdll.dll"
+          ]
+        },
+        {
+          "Name": "ole32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\ole32.dll"
+          ]
+        },
+        {
+          "Name": "OLEAUT32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\OLEAUT32.dll"
+          ]
+        },
+        {
+          "Name": "RPCRT4.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\RPCRT4.dll"
+          ]
+        },
+        {
+          "Name": "Secur32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\Secur32.dll"
+          ]
+        },
+        {
+          "Name": "SHELL32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\SHELL32.dll"
+          ]
+        },
+        {
+          "Name": "SHLWAPI.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\SHLWAPI.dll"
+          ]
+        },
+        {
+          "Name": "USER32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\USER32.dll"
+          ]
+        },
+        {
+          "Name": "USP10.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\USP10.dll"
+          ]
+        },
+        {
+          "Name": "AVICAP32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\AVICAP32.dll"
+          ]
+        },
+        {
+          "Name": "WINMM.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\WINMM.dll"
+          ]
+        },
+        {
+          "Name": "WS2_32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\WS2_32.dll"
+          ]
+        },
+        {
+          "Name": "api-ms-win-core-synch-l1-2-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        }
+      ]
+    },
+    {
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\nvngx.dll_dlssnr.dll",
+      "Name": "nvngx.dll_dlssnr.dll",
+      "SizeBytes": 13312,
+      "SHA256": "a64d48ec6157a6811f9b812de47ecb718f4143c3355879c22515e6418b7c1bea",
+      "Architecture": "x64",
+      "MachineHex": "0x8664",
+      "Imports": [
+        {
+          "Name": "KERNEL32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\KERNEL32.dll"
+          ]
+        },
+        {
+          "Name": "VCRUNTIME140.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\VCRUNTIME140.dll"
+          ]
+        },
+        {
+          "Name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        }
+      ]
+    },
+    {
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\nvngx_dlss.dll",
+      "Name": "nvngx_dlss.dll",
+      "SizeBytes": 58956400,
+      "SHA256": "c85f971ce023c9f3492fc7455f0b01a24ba18ea39636407a846902c4360b0b7e",
+      "Architecture": "x64",
+      "MachineHex": "0x8664",
+      "Imports": [
+        {
+          "Name": "VERSION.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\VERSION.dll"
+          ]
+        },
+        {
+          "Name": "ADVAPI32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\ADVAPI32.dll"
+          ]
+        },
+        {
+          "Name": "USER32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\USER32.dll"
+          ]
+        },
+        {
+          "Name": "KERNEL32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\KERNEL32.dll"
+          ]
+        }
+      ]
+    },
+    {
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\nvngx_dlssnr.dll",
+      "Name": "nvngx_dlssnr.dll",
+      "SizeBytes": 165840496,
+      "SHA256": "8270b350cd82de5ce89806872cdd6b6a9249b80836b91bbeb3573470744cc206",
+      "Architecture": "x64",
+      "MachineHex": "0x8664",
+      "Imports": [
+        {
+          "Name": "VERSION.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\VERSION.dll"
+          ]
+        },
+        {
+          "Name": "ADVAPI32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\ADVAPI32.dll"
+          ]
+        },
+        {
+          "Name": "USER32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\USER32.dll"
+          ]
+        },
+        {
+          "Name": "KERNEL32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\KERNEL32.dll"
+          ]
+        }
+      ]
+    },
+    {
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\video2dlssnr.exe",
+      "Name": "video2dlssnr.exe",
+      "SizeBytes": 461312,
+      "SHA256": "7658f780aaa0ce9112d93a036273e19c4d62bf03ffae1a7bb6099d485a97ff58",
+      "Architecture": "x64",
+      "MachineHex": "0x8664",
+      "Imports": [
+        {
+          "Name": "d3d12.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\d3d12.dll"
+          ]
+        },
+        {
+          "Name": "dxgi.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\dxgi.dll"
+          ]
+        },
+        {
+          "Name": "D3DCOMPILER_47.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\D3DCOMPILER_47.dll"
+          ]
+        },
+        {
+          "Name": "ADVAPI32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\ADVAPI32.dll"
+          ]
+        },
+        {
+          "Name": "USER32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\USER32.dll"
+          ]
+        },
+        {
+          "Name": "VERSION.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\VERSION.dll"
+          ]
+        },
+        {
+          "Name": "SHELL32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\SHELL32.dll"
+          ]
+        },
+        {
+          "Name": "MSVCP140.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\MSVCP140.dll"
+          ]
+        },
+        {
+          "Name": "KERNEL32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\KERNEL32.dll"
+          ]
+        },
+        {
+          "Name": "VCRUNTIME140.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\VCRUNTIME140.dll"
+          ]
+        },
+        {
+          "Name": "VCRUNTIME140_1.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\VCRUNTIME140_1.dll"
+          ]
+        },
+        {
+          "Name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-string-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-math-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-time-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        }
+      ]
+    }
+  ],
+  "ExecutedPackageFiles": [],
+  "ModifiedGameFiles": [],
+  "DependencyCheckLimit": "PE normal and delay imports plus app-local/System32 file presence only. No loading, Windows loader resolution, dynamic LoadLibrary dependency validation, GPU feature creation, or runtime testing performed.",
+  "Decision": "STOP: nvngx_dlssnr.dll Authenticode HashMismatch; do not execute or install this package.",
+  "UserAuthorization": "Download and static review only; no execution, installation, or game-directory writes.",
+  "Signatures": [
+    {
+      "Name": "ffmpeg.exe",
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\ffmpeg.exe",
+      "SizeBytes": 115410944,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "Description": null,
+      "Status": "NotSigned",
+      "StatusMessage": "The file C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\ffmpeg.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170",
+      "Signer": null,
+      "SignerThumbprint": null,
+      "TimeStamper": null
+    },
+    {
+      "Name": "ffprobe.exe",
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\ffprobe.exe",
+      "SizeBytes": 115198464,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "Description": null,
+      "Status": "NotSigned",
+      "StatusMessage": "The file C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\ffprobe.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170",
+      "Signer": null,
+      "SignerThumbprint": null,
+      "TimeStamper": null
+    },
+    {
+      "Name": "nvngx_dlss.dll",
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\nvngx_dlss.dll",
+      "SizeBytes": 58956400,
+      "FileVersion": "310,8,0,0",
+      "ProductVersion": "310,8,0,0",
+      "CompanyName": "NVIDIA",
+      "Description": "NVIDIA DLSS - DVS PRODUCTION",
+      "Status": "Valid",
+      "StatusMessage": "Signature verified.",
+      "Signer": "CN=NVIDIA Corporation, OU=1005bk6, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US",
+      "SignerThumbprint": "7B7B0B6697AFB438CF6F65A155F00E86676FB186",
+      "TimeStamper": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US"
+    },
+    {
+      "Name": "nvngx_dlssnr.dll",
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\nvngx_dlssnr.dll",
+      "SizeBytes": 165840496,
+      "FileVersion": "310,8,0,0",
+      "ProductVersion": "310,8,0,0",
+      "CompanyName": "NVIDIA",
+      "Description": "NVIDIA DLSSNR - DVS PRODUCTION",
+      "Status": "HashMismatch",
+      "StatusMessage": "The contents of file C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\nvngx_dlssnr.dll might have been changed by an unauthorized user or process, because the hash of the file does not match the hash stored in the digital signature. The script cannot run on the specified system. For more information, run Get-Help about_Signing.",
+      "Signer": "CN=NVIDIA Corporation, OU=1005bk6, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US",
+      "SignerThumbprint": "7B7B0B6697AFB438CF6F65A155F00E86676FB186",
+      "TimeStamper": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US"
+    },
+    {
+      "Name": "nvngx.dll_dlssnr.dll",
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\nvngx.dll_dlssnr.dll",
+      "SizeBytes": 13312,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "Description": null,
+      "Status": "NotSigned",
+      "StatusMessage": "The file C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\nvngx.dll_dlssnr.dll is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170",
+      "Signer": null,
+      "SignerThumbprint": null,
+      "TimeStamper": null
+    },
+    {
+      "Name": "video2dlssnr.exe",
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\video2dlssnr.exe",
+      "SizeBytes": 461312,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "Description": null,
+      "Status": "NotSigned",
+      "StatusMessage": "The file C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-video2dlssnr-v1.4.1\\out\\video2dlssnr.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170",
+      "Signer": null,
+      "SignerThumbprint": null,
+      "TimeStamper": null
+    }
+  ],
+  "TextSourceComparison": [
+    {
+      "File": "start.bat",
+      "TagUrl": "https://raw.githubusercontent.com/DaniilSokolyuk/video2dlssnr/v1.4.1/start.bat",
+      "MatchesIgnoringLineEndings": true
+    },
+    {
+      "File": "requirements.txt",
+      "TagUrl": "https://raw.githubusercontent.com/DaniilSokolyuk/video2dlssnr/v1.4.1/requirements.txt",
+      "MatchesIgnoringLineEndings": true
+    },
+    {
+      "File": "app.py",
+      "TagUrl": "https://raw.githubusercontent.com/DaniilSokolyuk/video2dlssnr/v1.4.1/app.py",
+      "MatchesIgnoringLineEndings": true
+    },
+    {
+      "File": "nr_video.py",
+      "TagUrl": "https://raw.githubusercontent.com/DaniilSokolyuk/video2dlssnr/v1.4.1/nr_video.py",
+      "MatchesIgnoringLineEndings": true
+    }
+  ]
+}

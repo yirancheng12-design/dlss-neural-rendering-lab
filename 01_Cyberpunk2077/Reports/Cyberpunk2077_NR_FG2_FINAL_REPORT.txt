@@ -1,0 +1,44 @@
+最新状态：非官方 NR + 原生 DLSS 2× 帧生成
+更新时间：2026-10-16 18:41（北京时间）
+
+当前配置
+NR ON、Quality、原强度、单次处理、模型比例 0.67、编辑缓存 OFF、原生 DLSS 帧生成 ON、倍率 x2。
+DLSS5_STATUS=TRUE（本次进程执行日志确认模型合成）；FrameGeneration_STATUS=TRUE（本次日志 numFramesToGenerate=1）。
+10 分钟观测 18:19:37 至 18:29:39，120 次采样均存活且响应，无新增崩溃。
+测试期间用户实际游玩，画面从室内场景进入城市驾驶，均已观察到。不是固定场景 FPS 基准。
+发布工具配置时同一游戏进程仍在运行，NR cost 日志持续存在，没有新的崩溃目录。
+长时间、全部地图、重复读档的稳定性仍未证明；不承诺永久不崩溃。
+Average FPS / 1% Low=UNKNOWN，不以即时叠加层数字代替完整统计。
+
+工具已更新
+原先“必须关闭帧生成”的限制改为：NR 可配合 DLSS x2，或不使用帧生成。
+原来发生过反复崩溃的 x3 组合不开放；x4 未验证也不开放。
+ON/Launch 前检查 NR 配置、Quality、原生 FG 开关和倍率；偏离允许组合则拒绝。
+这项检查无法阻止用户在游戏中自行修改设置，因此请保持 x2、缓存关闭、原强度。
+关闭旧工具窗口再打开桌面面板，才会加载最新界面代码。
+游戏运行时仍禁止配置切换；若需关闭 NR，退出游戏后用菜单 [2]。
+完全移除本次 Mod 可用菜单 [5]，新增文件移入备份区，原生 DLL 保留。
+来源沿用先前审查的 Skynizz/optiscaler-dlss5 v1.2.1 与原 NVIDIA 签名模型，没有下载新 DLL/EXE，没有修改驱动或安全机制。
+10 分钟未崩溃不能证明 x2 是唯一修复原因；仅支持将 x2 作为当前受限试验方案。
+
+两张对比图
+桌面快捷方式：NR 对比截图。
+实际目录：本报告同目录的 NR_Compare_20261016_1834。
+NR_before.png：同一帧进入 NR 处理之前的参考图。
+NR_after.png：该帧应用 NR 后的图。
+使用作者内置 dlssnr-capture.trigger，导出 before_00.raw 与 after_00.raw；两图是完全相同帧，未切换模型或移动视角。
+这不是两次独立 NR ON/OFF 运行截图；原始缓冲不含最终 HUD。没有声称通过实际关闭 NR 再拍摄得到 OFF 图。
+两图统一按 RGBA16F 解析，线性 RGB 到 sRGB 转换，并截取至 0–1，无自动曝光、额外锐化或风格增强；色调不等同于游戏最终显示。
+拍照模式快捷键受到输入法和用户输入冲突影响，未成功进入拍照模式；没有为了截图重启或改存档。
+原始文件：[GAME_DIR]\Cyberpunk 2077\bin\x64\dlssnr-capture
+图像来源、哈希与转换记录：NR_Compare_20261016_1834\evidence.json / README.txt / source_manifest.txt。
+
+备份及证据
+原生画质和工具调试前备份：E:\steam\steamapps\common\Cyberpunk2077_DLSS5_Backup\incidents\nr_fg2_20261016_181735
+当前工具更新前备份清单：Cyberpunk2077_NR_FG2_TOOL_BACKUPS.json。
+完整运行采样：Cyberpunk2077_NR_FG2_10MIN.json。
+运行日志：Cyberpunk2077_NR_FG2_10MIN.log。
+当前配置结果：Cyberpunk2077_NR_FG2_VERIFIED_PROFILE.json。
+完整外部备份：E:\steam\steamapps\common\Cyberpunk2077_DLSS5_Backup。
+本文件代表最新配置，旧“NR已卸载”“FG必须关闭”等记录是历史状态。
+

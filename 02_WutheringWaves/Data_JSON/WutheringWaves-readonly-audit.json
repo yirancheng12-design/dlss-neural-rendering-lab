@@ -1,0 +1,1966 @@
+{
+  "AuditTimeChina": "2026-10-16T09:03:36.5730785+08:00",
+  "GameRoot": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)",
+  "FilesEnumerated": 2200,
+  "EnumerationErrors": [],
+  "GPU": [
+    {
+      "Name": "GameViewer Virtual Display Adapter",
+      "DriverVersion": "15.6.5.199",
+      "DriverDate": "2026-02-28T08:00:00+08:00"
+    },
+    {
+      "Name": "Intel(R) Graphics",
+      "DriverVersion": "32.0.101.8826",
+      "DriverDate": "2026-05-29T08:00:00+08:00"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 5090 Laptop GPU",
+      "DriverVersion": "32.0.16.1692",
+      "DriverDate": "2026-09-04T08:00:00+08:00"
+    }
+  ],
+  "NvidiaDriver": "616.92 (confirmed by installed nvidia-smi)",
+  "GameProcessRunning": false,
+  "RuntimeApiStatus": "Current live API unverified: game not running. Historical crash records from 2026-09-19 explicitly report D3D12.",
+  "HistoricalApiEvidence": [
+    {
+      "Path": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Saved\\Crashes\\UE4CC-Windows-A813D83142398A963EA4A092ADC76A52_0000\\CrashContext.runtime-xml",
+      "FileLastWriteTime": "2026-09-19T18:36:24.5843122+08:00",
+      "LineNumber": 2774,
+      "Line": "<RHI.RHIName>D3D12</RHI.RHIName>"
+    },
+    {
+      "Path": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Saved\\Crashes\\UE4CC-Windows-A813D83142398A963EA4A092ADC76A52_0000\\CrashContext.runtime-xml",
+      "FileLastWriteTime": "2026-09-19T18:36:24.5843122+08:00",
+      "LineNumber": 2775,
+      "Line": "<RHI.AdapterName>NVIDIA GeForce RTX 5090 Laptop GPU</RHI.AdapterName>"
+    },
+    {
+      "Path": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Saved\\Crashes\\UE4CC-Windows-A813D83142398A963EA4A092ADC76A52_0000\\CrashContext.runtime-xml",
+      "FileLastWriteTime": "2026-09-19T18:36:24.5843122+08:00",
+      "LineNumber": 2776,
+      "Line": "<RHI.UserDriverVersion>616.92</RHI.UserDriverVersion>"
+    },
+    {
+      "Path": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Saved\\Crashes\\UE4CC-Windows-52E35673419E9538E31A84B0A47BBE51_0001\\CrashContext.runtime-xml",
+      "FileLastWriteTime": "2026-09-19T18:34:09.5703058+08:00",
+      "LineNumber": 2764,
+      "Line": "<RHI.RHIName>D3D12</RHI.RHIName>"
+    },
+    {
+      "Path": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Saved\\Crashes\\UE4CC-Windows-52E35673419E9538E31A84B0A47BBE51_0001\\CrashContext.runtime-xml",
+      "FileLastWriteTime": "2026-09-19T18:34:09.5703058+08:00",
+      "LineNumber": 2765,
+      "Line": "<RHI.AdapterName>NVIDIA GeForce RTX 5090 Laptop GPU</RHI.AdapterName>"
+    },
+    {
+      "Path": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Saved\\Crashes\\UE4CC-Windows-52E35673419E9538E31A84B0A47BBE51_0001\\CrashContext.runtime-xml",
+      "FileLastWriteTime": "2026-09-19T18:34:09.5703058+08:00",
+      "LineNumber": 2766,
+      "Line": "<RHI.UserDriverVersion>616.92</RHI.UserDriverVersion>"
+    },
+    {
+      "Path": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Saved\\Crashes\\UE4CC-Windows-52E35673419E9538E31A84B0A47BBE51_0000\\CrashContext.runtime-xml",
+      "FileLastWriteTime": "2026-09-19T18:34:05.6881591+08:00",
+      "LineNumber": 2774,
+      "Line": "<RHI.RHIName>D3D12</RHI.RHIName>"
+    },
+    {
+      "Path": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Saved\\Crashes\\UE4CC-Windows-52E35673419E9538E31A84B0A47BBE51_0000\\CrashContext.runtime-xml",
+      "FileLastWriteTime": "2026-09-19T18:34:05.6881591+08:00",
+      "LineNumber": 2775,
+      "Line": "<RHI.AdapterName>NVIDIA GeForce RTX 5090 Laptop GPU</RHI.AdapterName>"
+    },
+    {
+      "Path": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Saved\\Crashes\\UE4CC-Windows-52E35673419E9538E31A84B0A47BBE51_0000\\CrashContext.runtime-xml",
+      "FileLastWriteTime": "2026-09-19T18:34:05.6881591+08:00",
+      "LineNumber": 2776,
+      "Line": "<RHI.UserDriverVersion>616.92</RHI.UserDriverVersion>"
+    }
+  ],
+  "RequiredDllPresence": [
+    {
+      "Name": "nvngx_dlss.dll",
+      "Found": [
+        "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\DLSS\\Binaries\\ThirdParty\\Win64\\nvngx_dlss.dll"
+      ]
+    },
+    {
+      "Name": "nvngx_dlssg.dll",
+      "Found": [
+        "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\nvngx_dlssg.dll"
+      ]
+    },
+    {
+      "Name": "nvngx_dlssd.dll",
+      "Found": [
+        "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\DLSS\\Binaries\\ThirdParty\\Win64\\nvngx_dlssd.dll"
+      ]
+    },
+    {
+      "Name": "nvngx_dlssnr.dll",
+      "Found": []
+    }
+  ],
+  "DetailedInventory": [
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Wuthering Waves.exe",
+      "Name": "Wuthering Waves.exe",
+      "SizeBytes": 484040,
+      "FileVersion": "",
+      "ProductVersion": "",
+      "CompanyName": "",
+      "FileDescription": "",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "4A5B8DD91B3287B64EB71D41E5266712A2DC3382C8AD31A3E7FBFA1D11F6773B",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=广州库洛科技有限公司, O=广州库洛科技有限公司, L=广州市, S=广东省, C=CN, SERIALNUMBER=91440101MA59JPNR3D, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=天河区, OID.1.3.6.1.4.1.311.60.2.1.2=广东省, OID.1.3.6.1.4.1.311.60.2.1.3=CN",
+      "LastWriteTime": "2026-09-30T22:10:51.1820310+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\amd_fidelityfx_dx12.dll",
+      "Name": "amd_fidelityfx_dx12.dll",
+      "SizeBytes": 6675664,
+      "FileVersion": "1.0.1.41314",
+      "ProductVersion": "1.0.1.0",
+      "CompanyName": "Advanced Micro Devices, Inc.",
+      "FileDescription": "DX12 AMD FidelityFX Library",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "12A5081257EC95B0B53AD51B4A87FB3C03F97FE0BBB59F9496968F8D50EF93A6",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=Advanced Micro Devices, O=Advanced Micro Devices, S=California, C=US",
+      "LastWriteTime": "2026-09-19T17:43:13.5620537+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\Client-Win64-Shipping.exe",
+      "Name": "Client-Win64-Shipping.exe",
+      "SizeBytes": 169828120,
+      "FileVersion": "",
+      "ProductVersion": "",
+      "CompanyName": "",
+      "FileDescription": "",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "61746CA0CCFB39326E56D86F08F907B48CD262A3EA00299B3758B4C909177633",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=广州库洛科技有限公司, O=广州库洛科技有限公司, L=广州市, S=广东省, C=CN, SERIALNUMBER=91440101MA59JPNR3D, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=天河区, OID.1.3.6.1.4.1.311.60.2.1.2=广东省, OID.1.3.6.1.4.1.311.60.2.1.3=CN",
+      "LastWriteTime": "2026-09-30T22:04:59.5896893+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\AntiCheatExpert\\ACE-BASE.sys",
+      "Name": "ACE-BASE.sys",
+      "SizeBytes": 4125432,
+      "FileVersion": "1.0.2603.17210",
+      "ProductVersion": "1.0.2603.17210",
+      "CompanyName": "ANTICHEATEXPERT.COM",
+      "FileDescription": "ACE-BASE64 System Driver",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "5A88DBE617BC8F1A8B87D9B9F1221CAFE24FBC26BCF87CB93DB1AFB3351040DA",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=Microsoft Windows Hardware Compatibility Publisher, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "LastWriteTime": "2026-09-19T17:42:46.4536619+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\AntiCheatExpert\\ACE-Base64.dll",
+      "Name": "ACE-Base64.dll",
+      "SizeBytes": 70043536,
+      "FileVersion": "28.6.2606.970",
+      "ProductVersion": "28.6.2606.970",
+      "CompanyName": "ANTICHEATEXPERT.COM",
+      "FileDescription": "ACE-Base Client DLL",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "CCFA4924B9C31037A66F5041136F365AB459324C74B6A9225FE4835D41932B1F",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=ACEVILLE PTE LTD, O=ACEVILLE PTE LTD, L=Singapore, C=SG, SERIALNUMBER=200510104M, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SG",
+      "LastWriteTime": "2026-09-30T22:04:59.3793731+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\AntiCheatExpert\\ACE-CORE.sys",
+      "Name": "ACE-CORE.sys",
+      "SizeBytes": 3923120,
+      "FileVersion": "27.6.2606.411",
+      "ProductVersion": "27.6.2606.411",
+      "CompanyName": "ANTICHEATEXPERT.COM",
+      "FileDescription": "ACE-CORE32 System Driver",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "F69DC4842C5A44004C00E46AC6B151FB7B1D83FF04E5A0244DCEA0B201DA23C8",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=Microsoft Windows Hardware Compatibility Publisher, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "LastWriteTime": "2026-09-19T17:42:49.7043600+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\AntiCheatExpert\\ACE-IDS64.dll",
+      "Name": "ACE-IDS64.dll",
+      "SizeBytes": 4617616,
+      "FileVersion": "1.0.0.1",
+      "ProductVersion": "1.0.2510.12",
+      "CompanyName": "ANTICHEATEXPERT.COM",
+      "FileDescription": "ACE-IDS64 Client DLL",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "624A047FDFA712113EEA40B3391F6B8DD4D63E85229DD59437201AA50E438E39",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=ACEVILLE PTE LTD, O=ACEVILLE PTE LTD, L=Singapore, C=SG, SERIALNUMBER=200510104M, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SG",
+      "LastWriteTime": "2026-09-30T22:04:59.3843932+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\AntiCheatExpert\\ACE-Service64.exe",
+      "Name": "ACE-Service64.exe",
+      "SizeBytes": 3251080,
+      "FileVersion": "28.5.2606.233",
+      "ProductVersion": "28.5.2606.233",
+      "CompanyName": "ANTICHEATEXPERT.COM",
+      "FileDescription": "ACE-Service exe",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "17C90B6EC22CE851743949BDD0A98F0F25B01B2C30C2C46BA4494C3F3801C3C7",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=ACEVILLE PTE LTD, O=ACEVILLE PTE LTD, L=Singapore, C=SG",
+      "LastWriteTime": "2026-09-19T17:42:49.7179431+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\AntiCheatExpert\\ACE-Setup64.exe",
+      "Name": "ACE-Setup64.exe",
+      "SizeBytes": 899984,
+      "FileVersion": "28.5.2606.276",
+      "ProductVersion": "28.5.2606.276",
+      "CompanyName": "ANTICHEATEXPERT.COM",
+      "FileDescription": "ACE-Setup exe",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "6B1289BC31ABF5A57C9DF8789C88FCCA82AA7071F5F4A2FB1DCBE4DAEBDD8C6D",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=ACEVILLE PTE LTD, O=ACEVILLE PTE LTD, L=Singapore, C=SG, SERIALNUMBER=200510104M, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SG",
+      "LastWriteTime": "2026-09-19T17:42:49.7189432+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\wegame\\dbghelp.dll",
+      "Name": "dbghelp.dll",
+      "SizeBytes": 1508016,
+      "FileVersion": "6.3.9600.17200 (debuggers(dbg).140605-2312)",
+      "ProductVersion": "6.3.9600.17200",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Windows Image Helper",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "262DA3D61BCADA823BDC1EC82732527A976A78FC60BD51E977E61A017ABF21F3",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "LastWriteTime": "2026-09-19T17:43:13.0592957+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\DbgHelp\\dbghelp.dll",
+      "Name": "dbghelp.dll",
+      "SizeBytes": 2221984,
+      "FileVersion": "10.0.25291.1000 (WinBuild.160101.0800)",
+      "ProductVersion": "10.0.25291.1000",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Windows Image Helper",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "4B803D0BFA5D360CFCB3237D260226743D2255EACF6A98615334FB55DEB7CF88",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "LastWriteTime": "2026-09-19T18:13:59.6994760+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Intel\\XeSS\\Binaries\\ThirdParty\\Win64\\libxess_dx11.dll",
+      "Name": "libxess_dx11.dll",
+      "SizeBytes": 156016,
+      "FileVersion": "2.0.2.68",
+      "ProductVersion": "2.0.2.68",
+      "CompanyName": "Intel Corporation",
+      "FileDescription": "XeSS SDK",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "C7CFE86F0C9D94E4FB3696D3CD5035E2BBB6A8B1B0572F8B7395A4CDFD0C625E",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=Intel Corporation, O=Intel Corporation, S=California, C=US",
+      "LastWriteTime": "2026-09-19T18:14:01.3814570+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Intel\\XeSS\\Binaries\\ThirdParty\\Win64\\libxess_fg.dll",
+      "Name": "libxess_fg.dll",
+      "SizeBytes": 22957432,
+      "FileVersion": "1.3.1.78",
+      "ProductVersion": "1.3.1.78",
+      "CompanyName": "Intel Corporation",
+      "FileDescription": "XeSS Frame Generation SDK",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "EC5E0C65E075570C6EDE72618BB666D0BE0C2E10B2EA9762C0FE8CB8E375AB27",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=Intel Corporation, O=Intel Corporation, S=California, C=US",
+      "LastWriteTime": "2026-09-19T18:14:01.4094554+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Intel\\XeSS\\Binaries\\ThirdParty\\Win64\\libxess.dll",
+      "Name": "libxess.dll",
+      "SizeBytes": 77795704,
+      "FileVersion": "2.0.2.68",
+      "ProductVersion": "2.0.2.68",
+      "CompanyName": "Intel Corporation",
+      "FileDescription": "XeSS SDK",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "251659DD84A3E84DE67C886A4186E01F3ECA49B00641906FE38BB6B807E5D5B7",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=Intel Corporation, O=Intel Corporation, S=California, C=US",
+      "LastWriteTime": "2026-09-19T18:14:01.3469462+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\DLSS\\Binaries\\ThirdParty\\Win64\\nvngx_dlss.dll",
+      "Name": "nvngx_dlss.dll",
+      "SizeBytes": 54778992,
+      "FileVersion": "310,5,0,0",
+      "ProductVersion": "310,5,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "NVIDIA DLSS - DVS PRODUCTION",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "22C4660249DA5B352CDE0CE4D95178C3761223DD6AC096D0B88E5C03D7A5CDD1",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=NVIDIA Corporation, OU=1005bk6, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US",
+      "LastWriteTime": "2026-09-19T18:14:01.4434595+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\DLSS\\Binaries\\ThirdParty\\Win64\\nvngx_dlssd.dll",
+      "Name": "nvngx_dlssd.dll",
+      "SizeBytes": 28590704,
+      "FileVersion": "310,5,0,0",
+      "ProductVersion": "310,5,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "NVIDIA DLSS - DVS PRODUCTION",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "50EB21E654A1FD12403E000F5AC9C2488BF9149930C028E73196F3F1D47D10A9",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=NVIDIA Corporation, OU=1005bk6, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US",
+      "LastWriteTime": "2026-09-19T18:14:01.5089670+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\nvngx_deepdvc.dll",
+      "Name": "nvngx_deepdvc.dll",
+      "SizeBytes": 3144304,
+      "FileVersion": "310,5,0,0",
+      "ProductVersion": "310,5,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "NVIDIA Deep Digital Vibrance Control - DVS PRODUCTION",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "60AC1E9F32AB31A8DCDA3E875FD3DC2D3BCFFECA3C6CA33551D6DC6871DBFD1B",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=NVIDIA Corporation, OU=1005bk6, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US",
+      "LastWriteTime": "2026-09-19T18:14:01.5229671+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\nvngx_dlssg.dll",
+      "Name": "nvngx_dlssg.dll",
+      "SizeBytes": 7499376,
+      "FileVersion": "310,6,0,0",
+      "ProductVersion": "310,6,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "NVIDIA DLSS-G MFGLW - DVS PRODUCTION",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "83230804A087272C6D7EB4C805AC5925CE1188C70F150CC8DBD5CD843F53946A",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=NVIDIA Corporation, OU=1005bk6, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US",
+      "LastWriteTime": "2026-09-19T18:14:01.5259671+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.common.dll",
+      "Name": "sl.common.dll",
+      "SizeBytes": 674432,
+      "FileVersion": "2,10,0,0",
+      "ProductVersion": "2,10,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "SL.COMMON PLUGIN - PRODUCTION",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "BE50A4C89177ABB3695DE92C57CC41662BFB7598EC447707B0D6EFB77256D977",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=NVIDIA Corporation, OU=2008B9F, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US",
+      "LastWriteTime": "2026-09-19T18:14:01.5299664+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.deepdvc.dll",
+      "Name": "sl.deepdvc.dll",
+      "SizeBytes": 190592,
+      "FileVersion": "2,10,0,0",
+      "ProductVersion": "2,10,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "SL.DEEPDVC PLUGIN - PRODUCTION",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "C68FC648313C1B5403FB7130D6775540867B7088B0AC280B04E33B47B47B12F7",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=NVIDIA Corporation, OU=2008B9F, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US",
+      "LastWriteTime": "2026-09-19T18:14:01.5309689+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.dlss_g.dll",
+      "Name": "sl.dlss_g.dll",
+      "SizeBytes": 459392,
+      "FileVersion": "2,10,0,0",
+      "ProductVersion": "2,10,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "SL.DLSS_G PLUGIN - PRODUCTION",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "E07FD38310805E34265929D1999F33ED5566CF30176C082CA84EF63992F6C7D7",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=NVIDIA Corporation, OU=2008B9F, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US",
+      "LastWriteTime": "2026-09-19T18:14:01.5309689+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.interposer.dll",
+      "Name": "sl.interposer.dll",
+      "SizeBytes": 569472,
+      "FileVersion": "2,10,0,0",
+      "ProductVersion": "2,10,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "SL.INTERPOSER MODULE - PRODUCTION",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "C2397E96E35C1E78C0B351B0D2B070C6529CCC990F4CC73F04722DB24DC2ACCE",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=NVIDIA Corporation, OU=2008B9F, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US",
+      "LastWriteTime": "2026-09-19T18:14:01.5309689+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.pcl.dll",
+      "Name": "sl.pcl.dll",
+      "SizeBytes": 176256,
+      "FileVersion": "2,10,0,0",
+      "ProductVersion": "2,10,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "SL.PCL PLUGIN - PRODUCTION",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "D6CD931F8DB74978AA9159A41AF288AE1480FFBEAE59E64F4EA447074D861BC0",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=NVIDIA Corporation, OU=2008B9F, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US",
+      "LastWriteTime": "2026-09-19T18:14:01.5319697+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.reflex.dll",
+      "Name": "sl.reflex.dll",
+      "SizeBytes": 198784,
+      "FileVersion": "2,10,0,0",
+      "ProductVersion": "2,10,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "SL.REFLEX PLUGIN - PRODUCTION",
+      "Architecture": "x64 (AMD64, 0x8664)",
+      "SHA256": "42C45991B8F2972D4F341D379BD9BE093C408B59D01F22B338F505F476617CC5",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=NVIDIA Corporation, OU=2008B9F, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US",
+      "LastWriteTime": "2026-09-19T18:14:01.5319697+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\WeGameLauncher\\dbghelp.dll",
+      "Name": "dbghelp.dll",
+      "SizeBytes": 1256080,
+      "FileVersion": "6.3.9600.17237 (debuggers(dbg).140716-0327)",
+      "ProductVersion": "6.3.9600.17237",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Windows Image Helper",
+      "Architecture": "x86 (I386, 0x014c)",
+      "SHA256": "3AB019BD41C6F30D4250F26B40E695021698D7909D538E2F9B8AEAB73BB7B8AA",
+      "AuthenticodeStatus": "Valid",
+      "SignerSubject": "CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "LastWriteTime": "2026-09-19T18:14:01.5544885+08:00",
+      "Origin": "Existing local file; original distribution identity not independently verified",
+      "Action": "Read only; unchanged; not copied or replaced"
+    }
+  ],
+  "AllDllCatalog": [
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\amd_fidelityfx_dx12.dll",
+      "Name": "amd_fidelityfx_dx12.dll",
+      "SizeBytes": 6675664,
+      "FileVersion": "1.0.1.41314",
+      "ProductVersion": "1.0.1.0",
+      "CompanyName": "Advanced Micro Devices, Inc.",
+      "FileDescription": "DX12 AMD FidelityFX Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\cgsdk-loader.dll",
+      "Name": "cgsdk-loader.dll",
+      "SizeBytes": 92360,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\cgsdk.dll",
+      "Name": "cgsdk.dll",
+      "SizeBytes": 791240,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\Client-Win64-ShippingBase.dll",
+      "Name": "Client-Win64-ShippingBase.dll",
+      "SizeBytes": 38673736,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\coreclr.dll",
+      "Name": "coreclr.dll",
+      "SizeBytes": 4991688,
+      "FileVersion": "42,42,42,42424",
+      "ProductVersion": "9.0.6",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": ".NET Runtime"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\CrashSight64.dll",
+      "Name": "CrashSight64.dll",
+      "SizeBytes": 5575368,
+      "FileVersion": "2.2.6.348",
+      "ProductVersion": "2.2.6.348",
+      "CompanyName": "CrashSight",
+      "FileDescription": "CrashSight SDK"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\JoyShockLibrary.dll",
+      "Name": "JoyShockLibrary.dll",
+      "SizeBytes": 224968,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\libcryptoMD.dll",
+      "Name": "libcryptoMD.dll",
+      "SizeBytes": 2428616,
+      "FileVersion": "1.1.0f",
+      "ProductVersion": "1.1.0f",
+      "CompanyName": "The OpenSSL Project, http://www.openssl.org/",
+      "FileDescription": "OpenSSL shared library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\libprotobuf.dll",
+      "Name": "libprotobuf.dll",
+      "SizeBytes": 2318024,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\libScePad.dll",
+      "Name": "libScePad.dll",
+      "SizeBytes": 237256,
+      "FileVersion": "1.5.0.0",
+      "ProductVersion": "1.5.0.0",
+      "CompanyName": "Sony Interactive Entertainment Inc.",
+      "FileDescription": "Pad for Windows (DLL)"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\libsslMD.dll",
+      "Name": "libsslMD.dll",
+      "SizeBytes": 516296,
+      "FileVersion": "1.1.0f",
+      "ProductVersion": "1.1.0f",
+      "CompanyName": "The OpenSSL Project, http://www.openssl.org/",
+      "FileDescription": "OpenSSL shared library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\PerfSight.dll",
+      "Name": "PerfSight.dll",
+      "SizeBytes": 4828360,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\turbojpeg.dll",
+      "Name": "turbojpeg.dll",
+      "SizeBytes": 747208,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\AntiCheatExpert\\ACE-Base64.dll",
+      "Name": "ACE-Base64.dll",
+      "SizeBytes": 70043536,
+      "FileVersion": "28.6.2606.970",
+      "ProductVersion": "28.6.2606.970",
+      "CompanyName": "ANTICHEATEXPERT.COM",
+      "FileDescription": "ACE-Base Client DLL"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\AntiCheatExpert\\ACE-IDS64.dll",
+      "Name": "ACE-IDS64.dll",
+      "SizeBytes": 4617616,
+      "FileVersion": "1.0.0.1",
+      "ProductVersion": "1.0.2510.12",
+      "CompanyName": "ANTICHEATEXPERT.COM",
+      "FileDescription": "ACE-IDS64 Client DLL"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\D3D12\\D3D12Core.dll",
+      "Name": "D3D12Core.dll",
+      "SizeBytes": 4821064,
+      "FileVersion": "1.618.5.0.20251205.1",
+      "ProductVersion": "1.618.5.0.20251205.1",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Direct3D 12 Core Runtime"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\D3D12\\d3d12SDKLayers.dll",
+      "Name": "d3d12SDKLayers.dll",
+      "SizeBytes": 4932640,
+      "FileVersion": "1.618.5.0.20251205.1",
+      "ProductVersion": "1.618.5.0.20251205.1",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Direct3D 12 SDK Layers"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\Mono\\System.Globalization.Native.dll",
+      "Name": "System.Globalization.Native.dll",
+      "SizeBytes": 105672,
+      "FileVersion": "42,42,42,42424",
+      "ProductVersion": "9.0.6",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "System.Globalization.Native"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\Mono\\System.IO.Compression.Native.dll",
+      "Name": "System.IO.Compression.Native.dll",
+      "SizeBytes": 936648,
+      "FileVersion": "42,42,42,42424",
+      "ProductVersion": "9.0.6",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "System.IO.Compression.Native"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\krsdk_zlib.dll",
+      "Name": "krsdk_zlib.dll",
+      "SizeBytes": 103624,
+      "FileVersion": "1.2.13",
+      "ProductVersion": "1.2.13",
+      "CompanyName": "",
+      "FileDescription": "zlib data compression library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKEx.dll",
+      "Name": "KRSDKEx.dll",
+      "SizeBytes": 2069704,
+      "FileVersion": "2.15.0.0",
+      "ProductVersion": "2.15.0.0",
+      "CompanyName": "广州库洛科技有限公司",
+      "FileDescription": "KRSDK"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRShmq.dll",
+      "Name": "KRShmq.dll",
+      "SizeBytes": 45256,
+      "FileVersion": "2.2.0.0",
+      "ProductVersion": "2.2.0.0",
+      "CompanyName": "广州库洛科技有限公司",
+      "FileDescription": "KRShmq"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\kurodata.dll",
+      "Name": "kurodata.dll",
+      "SizeBytes": 373960,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\libcrypto-3-x64.dll",
+      "Name": "libcrypto-3-x64.dll",
+      "SizeBytes": 6050504,
+      "FileVersion": "3.1.0",
+      "ProductVersion": "3.1.0",
+      "CompanyName": "The OpenSSL Project, https://www.openssl.org/",
+      "FileDescription": "OpenSSL library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\libcurl.dll",
+      "Name": "libcurl.dll",
+      "SizeBytes": 540872,
+      "FileVersion": "8.1.1",
+      "ProductVersion": "8.1.1",
+      "CompanyName": "The curl library, https://curl.se/",
+      "FileDescription": "libcurl Shared Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\libkrsdkcurl.dll",
+      "Name": "libkrsdkcurl.dll",
+      "SizeBytes": 496840,
+      "FileVersion": "7.85.0-DEV",
+      "ProductVersion": "7.85.0-DEV",
+      "CompanyName": "The curl library, https://curl.se/",
+      "FileDescription": "libcurl Shared Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\libssl-3-x64.dll",
+      "Name": "libssl-3-x64.dll",
+      "SizeBytes": 796360,
+      "FileVersion": "3.1.0",
+      "ProductVersion": "3.1.0",
+      "CompanyName": "The OpenSSL Project, https://www.openssl.org/",
+      "FileDescription": "OpenSSL library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\mfc140u.dll",
+      "Name": "mfc140u.dll",
+      "SizeBytes": 5821208,
+      "FileVersion": "14.16.27033.0 built by: vcwrkspc",
+      "ProductVersion": "14.16.27033.0",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "MFCDLL Shared Library - Retail Version"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\msvcp140.dll",
+      "Name": "msvcp140.dll",
+      "SizeBytes": 627992,
+      "FileVersion": "14.16.27033.0 built by: vcwrkspc",
+      "ProductVersion": "14.16.27033.0",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Microsoft® C Runtime Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\sqlite3.dll",
+      "Name": "sqlite3.dll",
+      "SizeBytes": 2910920,
+      "FileVersion": "3.42.0",
+      "ProductVersion": "3.42.0",
+      "CompanyName": "SQLite Development Team",
+      "FileDescription": "SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine."
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\thinkingdata.dll",
+      "Name": "thinkingdata.dll",
+      "SizeBytes": 335560,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\vcruntime140.dll",
+      "Name": "vcruntime140.dll",
+      "SizeBytes": 85784,
+      "FileVersion": "14.16.27033.0 built by: vcwrkspc",
+      "ProductVersion": "14.16.27033.0",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Microsoft® C Runtime Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\zlibwapi.dll",
+      "Name": "zlibwapi.dll",
+      "SizeBytes": 137416,
+      "FileVersion": "1.2.13",
+      "ProductVersion": "",
+      "CompanyName": "",
+      "FileDescription": "zlib data compression and ZIP file I/O library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKUnsupportedVideoWebView\\chrome_elf.dll",
+      "Name": "chrome_elf.dll",
+      "SizeBytes": 1166928,
+      "FileVersion": "92.0.4515.107",
+      "ProductVersion": "92.0.4515.107",
+      "CompanyName": "The Chromium Authors",
+      "FileDescription": "Chromium"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKUnsupportedVideoWebView\\d3dcompiler_47.dll",
+      "Name": "d3dcompiler_47.dll",
+      "SizeBytes": 4346120,
+      "FileVersion": "10.0.17134.12 (WinBuild.160101.0800)",
+      "ProductVersion": "10.0.17134.12",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Direct3D HLSL Compiler for Redistribution"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKUnsupportedVideoWebView\\KRShmq.dll",
+      "Name": "KRShmq.dll",
+      "SizeBytes": 45256,
+      "FileVersion": "2.2.0.0",
+      "ProductVersion": "2.2.0.0",
+      "CompanyName": "广州库洛科技有限公司",
+      "FileDescription": "KRShmq"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKUnsupportedVideoWebView\\libcef.dll",
+      "Name": "libcef.dll",
+      "SizeBytes": 155668560,
+      "FileVersion": "92.0.20+g7cfecf1+chromium-92.0.4515.107",
+      "ProductVersion": "92.0.20+g7cfecf1+chromium-92.0.4515.107",
+      "CompanyName": "",
+      "FileDescription": "Chromium Embedded Framework (CEF) Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKUnsupportedVideoWebView\\libEGL.dll",
+      "Name": "libEGL.dll",
+      "SizeBytes": 427088,
+      "FileVersion": "2.1.15711 git hash: 6714781d1502",
+      "ProductVersion": "2.1.15711 git hash: 6714781d1502",
+      "CompanyName": "",
+      "FileDescription": "ANGLE libEGL Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKUnsupportedVideoWebView\\libGLESv2.dll",
+      "Name": "libGLESv2.dll",
+      "SizeBytes": 6919248,
+      "FileVersion": "2.1.15711 git hash: 6714781d1502",
+      "ProductVersion": "2.1.15711 git hash: 6714781d1502",
+      "CompanyName": "",
+      "FileDescription": "ANGLE libGLESv2 Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKUnsupportedVideoWebView\\swiftshader\\libEGL.dll",
+      "Name": "libEGL.dll",
+      "SizeBytes": 444496,
+      "FileVersion": "4.1.0.7",
+      "ProductVersion": "4.1.0.7",
+      "CompanyName": "",
+      "FileDescription": "SwiftShader libEGL 32-bit Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKUnsupportedVideoWebView\\swiftshader\\libGLESv2.dll",
+      "Name": "libGLESv2.dll",
+      "SizeBytes": 2760272,
+      "FileVersion": "4.1.0.7",
+      "ProductVersion": "4.1.0.7",
+      "CompanyName": "",
+      "FileDescription": "SwiftShader libGLESv2 32-bit Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebView\\chrome_elf.dll",
+      "Name": "chrome_elf.dll",
+      "SizeBytes": 1156688,
+      "FileVersion": "92.0.4515.107",
+      "ProductVersion": "92.0.4515.107",
+      "CompanyName": "The Chromium Authors",
+      "FileDescription": "Chromium"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebView\\d3dcompiler_47.dll",
+      "Name": "d3dcompiler_47.dll",
+      "SizeBytes": 4916840,
+      "FileVersion": "10.0.22621.3233 (WinBuild.160101.0800)",
+      "ProductVersion": "10.0.22621.3233",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Direct3D HLSL Compiler for Redistribution"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebView\\KRShmq.dll",
+      "Name": "KRShmq.dll",
+      "SizeBytes": 45256,
+      "FileVersion": "2.2.0.0",
+      "ProductVersion": "2.2.0.0",
+      "CompanyName": "广州库洛科技有限公司",
+      "FileDescription": "KRShmq"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebView\\libcef.dll",
+      "Name": "libcef.dll",
+      "SizeBytes": 156463184,
+      "FileVersion": "92.0.27+g274abcf+chromium-92.0.4515.107",
+      "ProductVersion": "92.0.27+g274abcf+chromium-92.0.4515.107",
+      "CompanyName": "",
+      "FileDescription": "Chromium Embedded Framework (CEF) Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebView\\libEGL.dll",
+      "Name": "libEGL.dll",
+      "SizeBytes": 424528,
+      "FileVersion": "2.1.15711 git hash: 6714781d1502",
+      "ProductVersion": "2.1.15711 git hash: 6714781d1502",
+      "CompanyName": "",
+      "FileDescription": "ANGLE libEGL Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebView\\libGLESv2.dll",
+      "Name": "libGLESv2.dll",
+      "SizeBytes": 6904912,
+      "FileVersion": "2.1.15711 git hash: 6714781d1502",
+      "ProductVersion": "2.1.15711 git hash: 6714781d1502",
+      "CompanyName": "",
+      "FileDescription": "ANGLE libGLESv2 Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebView\\swiftshader\\libEGL.dll",
+      "Name": "libEGL.dll",
+      "SizeBytes": 439888,
+      "FileVersion": "4.1.0.7",
+      "ProductVersion": "4.1.0.7",
+      "CompanyName": "",
+      "FileDescription": "SwiftShader libEGL 32-bit Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebView\\swiftshader\\libGLESv2.dll",
+      "Name": "libGLESv2.dll",
+      "SizeBytes": 2765392,
+      "FileVersion": "4.1.0.7",
+      "ProductVersion": "4.1.0.7",
+      "CompanyName": "",
+      "FileDescription": "SwiftShader libGLESv2 32-bit Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebViewOSR\\chrome_elf.dll",
+      "Name": "chrome_elf.dll",
+      "SizeBytes": 1361608,
+      "FileVersion": "128.0.6613.138",
+      "ProductVersion": "128.0.6613.138",
+      "CompanyName": "The Chromium Authors",
+      "FileDescription": "Chromium"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebViewOSR\\concrt140.dll",
+      "Name": "concrt140.dll",
+      "SizeBytes": 324208,
+      "FileVersion": "14.44.35211.0",
+      "ProductVersion": "14.44.35211.0",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Microsoft® Concurrency Runtime Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebViewOSR\\d3dcompiler_47.dll",
+      "Name": "d3dcompiler_47.dll",
+      "SizeBytes": 4741488,
+      "FileVersion": "10.0.26100.7705 (WinBuild.160101.0800)",
+      "ProductVersion": "10.0.26100.7705",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Direct3D HLSL Compiler for Redistribution"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebViewOSR\\dxcompiler.dll",
+      "Name": "dxcompiler.dll",
+      "SizeBytes": 20708552,
+      "FileVersion": "1.8.2407.0",
+      "ProductVersion": "1.8.2407.0",
+      "CompanyName": "Microsoft(r) Corporation",
+      "FileDescription": "DirectX Compiler - Google Dawn Custom Build"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebViewOSR\\dxil.dll",
+      "Name": "dxil.dll",
+      "SizeBytes": 1508392,
+      "FileVersion": "101.6.2112.13",
+      "ProductVersion": "101.6.2112.13 (release/github-release-1.6.2112, b9cfa8a)",
+      "CompanyName": "Microsoft(r) Corporation",
+      "FileDescription": "DirectX IL for Redistribution"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebViewOSR\\KRCefWrapper.dll",
+      "Name": "KRCefWrapper.dll",
+      "SizeBytes": 1115336,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebViewOSR\\KRShmq.dll",
+      "Name": "KRShmq.dll",
+      "SizeBytes": 45256,
+      "FileVersion": "2.2.0.0",
+      "ProductVersion": "2.2.0.0",
+      "CompanyName": "广州库洛科技有限公司",
+      "FileDescription": "KRShmq"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebViewOSR\\libcef.dll",
+      "Name": "libcef.dll",
+      "SizeBytes": 237359304,
+      "FileVersion": "128.4.13+ge76af7e+chromium-128.0.6613.138",
+      "ProductVersion": "128.4.13+ge76af7e+chromium-128.0.6613.138",
+      "CompanyName": "",
+      "FileDescription": "Chromium Embedded Framework (CEF) Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebViewOSR\\libEGL.dll",
+      "Name": "libEGL.dll",
+      "SizeBytes": 539848,
+      "FileVersion": "2.1.1 git hash: 713102774487",
+      "ProductVersion": "2.1.1 git hash: 713102774487",
+      "CompanyName": "",
+      "FileDescription": "ANGLE libEGL Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebViewOSR\\libGLESv2.dll",
+      "Name": "libGLESv2.dll",
+      "SizeBytes": 8699080,
+      "FileVersion": "2.1.1 git hash: 713102774487",
+      "ProductVersion": "2.1.1 git hash: 713102774487",
+      "CompanyName": "",
+      "FileDescription": "ANGLE libGLESv2 Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebViewOSR\\msvcp140.dll",
+      "Name": "msvcp140.dll",
+      "SizeBytes": 557728,
+      "FileVersion": "14.44.35211.0",
+      "ProductVersion": "14.44.35211.0",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Microsoft® C Runtime Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebViewOSR\\vcruntime140_1.dll",
+      "Name": "vcruntime140_1.dll",
+      "SizeBytes": 49792,
+      "FileVersion": "14.44.35211.0",
+      "ProductVersion": "14.44.35211.0",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Microsoft® C Runtime Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebViewOSR\\vcruntime140.dll",
+      "Name": "vcruntime140.dll",
+      "SizeBytes": 124544,
+      "FileVersion": "14.44.35211.0",
+      "ProductVersion": "14.44.35211.0",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Microsoft® C Runtime Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebViewOSR\\vk_swiftshader.dll",
+      "Name": "vk_swiftshader.dll",
+      "SizeBytes": 5519048,
+      "FileVersion": "5.0.0",
+      "ProductVersion": "5.0.0",
+      "CompanyName": "",
+      "FileDescription": "SwiftShader Vulkan 64-bit Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\KRSDKWebViewOSR\\vulkan-1.dll",
+      "Name": "vulkan-1.dll",
+      "SizeBytes": 936136,
+      "FileVersion": "Vulkan Loader - Dev Build",
+      "ProductVersion": "Vulkan Loader - Dev Build",
+      "CompanyName": "",
+      "FileDescription": "1.3.290.Dev Build"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\wegame\\dbghelp.dll",
+      "Name": "dbghelp.dll",
+      "SizeBytes": 1508016,
+      "FileVersion": "6.3.9600.17200 (debuggers(dbg).140605-2312)",
+      "ProductVersion": "6.3.9600.17200",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Windows Image Helper"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\wegame\\rail_api64.dll",
+      "Name": "rail_api64.dll",
+      "SizeBytes": 17502816,
+      "FileVersion": "1.20.4.418",
+      "ProductVersion": "1.20.4.418",
+      "CompanyName": "Tencent",
+      "FileDescription": "Rail D20250321T100018"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\FFMPEGMedia\\ThirdParty\\ffmpeg\\bin\\vs\\x64\\avcodec-58.dll",
+      "Name": "avcodec-58.dll",
+      "SizeBytes": 18510024,
+      "FileVersion": "58.18.100",
+      "ProductVersion": "4.0",
+      "CompanyName": "FFmpeg Project",
+      "FileDescription": "FFmpeg codec library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\FFMPEGMedia\\ThirdParty\\ffmpeg\\bin\\vs\\x64\\avdevice-58.dll",
+      "Name": "avdevice-58.dll",
+      "SizeBytes": 169160,
+      "FileVersion": "58.3.100",
+      "ProductVersion": "4.0",
+      "CompanyName": "FFmpeg Project",
+      "FileDescription": "FFmpeg device handling library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\FFMPEGMedia\\ThirdParty\\ffmpeg\\bin\\vs\\x64\\avfilter-7.dll",
+      "Name": "avfilter-7.dll",
+      "SizeBytes": 4325064,
+      "FileVersion": "7.16.100",
+      "ProductVersion": "4.0",
+      "CompanyName": "FFmpeg Project",
+      "FileDescription": "FFmpeg audio/video filtering library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\FFMPEGMedia\\ThirdParty\\ffmpeg\\bin\\vs\\x64\\avformat-58.dll",
+      "Name": "avformat-58.dll",
+      "SizeBytes": 3003080,
+      "FileVersion": "58.12.100",
+      "ProductVersion": "4.0",
+      "CompanyName": "FFmpeg Project",
+      "FileDescription": "FFmpeg container format library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\FFMPEGMedia\\ThirdParty\\ffmpeg\\bin\\vs\\x64\\avutil-56.dll",
+      "Name": "avutil-56.dll",
+      "SizeBytes": 651976,
+      "FileVersion": "56.14.100",
+      "ProductVersion": "4.0",
+      "CompanyName": "FFmpeg Project",
+      "FileDescription": "FFmpeg utility library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\FFMPEGMedia\\ThirdParty\\ffmpeg\\bin\\vs\\x64\\postproc-55.dll",
+      "Name": "postproc-55.dll",
+      "SizeBytes": 160456,
+      "FileVersion": "55.1.100",
+      "ProductVersion": "4.0",
+      "CompanyName": "FFmpeg Project",
+      "FileDescription": "FFmpeg postprocessing library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\FFMPEGMedia\\ThirdParty\\ffmpeg\\bin\\vs\\x64\\swresample-3.dll",
+      "Name": "swresample-3.dll",
+      "SizeBytes": 174792,
+      "FileVersion": "3.1.100",
+      "ProductVersion": "4.0",
+      "CompanyName": "FFmpeg Project",
+      "FileDescription": "FFmpeg audio resampling library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\FFMPEGMedia\\ThirdParty\\ffmpeg\\bin\\vs\\x64\\swscale-5.dll",
+      "Name": "swscale-5.dll",
+      "SizeBytes": 1750216,
+      "FileVersion": "5.1.100",
+      "ProductVersion": "4.0",
+      "CompanyName": "FFmpeg Project",
+      "FileDescription": "FFmpeg image rescaling library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\FFMPEGMedia\\ThirdParty\\ffmpeg\\bin\\vs\\x64\\zlib1.dll",
+      "Name": "zlib1.dll",
+      "SizeBytes": 149680,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Kuro\\VolcanoMsgChannel\\Source\\MsgChannSDK\\bin\\x64\\PcMsgChan.dll",
+      "Name": "PcMsgChan.dll",
+      "SizeBytes": 466120,
+      "FileVersion": "1.2.3",
+      "ProductVersion": "1.2.3",
+      "CompanyName": "Volc Engine",
+      "FileDescription": "Cloud Game Message Channel SDK"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Kuro\\WeLingPipeSDK\\ThirdParty\\Win64\\libs\\NamedPipeClient.dll",
+      "Name": "NamedPipeClient.dll",
+      "SizeBytes": 1235656,
+      "FileVersion": "4.17.1.0",
+      "ProductVersion": "2.0.0.1",
+      "CompanyName": "Wellink",
+      "FileDescription": ""
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\TaptapSdk\\TapCommon\\Source\\ThirdParty\\Windows\\taptap_api.dll",
+      "Name": "taptap_api.dll",
+      "SizeBytes": 156936,
+      "FileVersion": "4.0.0.0",
+      "ProductVersion": "v4.0.0-beta.2",
+      "CompanyName": "TapTap",
+      "FileDescription": "tapsdk-loader"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\Ak3DAudioBedMixer.dll",
+      "Name": "Ak3DAudioBedMixer.dll",
+      "SizeBytes": 125736,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkAudioInput.dll",
+      "Name": "AkAudioInput.dll",
+      "SizeBytes": 131888,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkCompressor.dll",
+      "Name": "AkCompressor.dll",
+      "SizeBytes": 163112,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkDelay.dll",
+      "Name": "AkDelay.dll",
+      "SizeBytes": 136488,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkFlanger.dll",
+      "Name": "AkFlanger.dll",
+      "SizeBytes": 157992,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkGain.dll",
+      "Name": "AkGain.dll",
+      "SizeBytes": 131888,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkGuitarDistortion.dll",
+      "Name": "AkGuitarDistortion.dll",
+      "SizeBytes": 171304,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkHarmonizer.dll",
+      "Name": "AkHarmonizer.dll",
+      "SizeBytes": 239408,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkImpacter.dll",
+      "Name": "AkImpacter.dll",
+      "SizeBytes": 230184,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkMatrixReverb.dll",
+      "Name": "AkMatrixReverb.dll",
+      "SizeBytes": 197416,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkMeter.dll",
+      "Name": "AkMeter.dll",
+      "SizeBytes": 161576,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkParametricEQ.dll",
+      "Name": "AkParametricEQ.dll",
+      "SizeBytes": 159536,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkPeakLimiter.dll",
+      "Name": "AkPeakLimiter.dll",
+      "SizeBytes": 139560,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkPitchShifter.dll",
+      "Name": "AkPitchShifter.dll",
+      "SizeBytes": 165680,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkRecorder.dll",
+      "Name": "AkRecorder.dll",
+      "SizeBytes": 129320,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkRecorderADM.dll",
+      "Name": "AkRecorderADM.dll",
+      "SizeBytes": 189736,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkRoomVerb.dll",
+      "Name": "AkRoomVerb.dll",
+      "SizeBytes": 247600,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkSidechain.dll",
+      "Name": "AkSidechain.dll",
+      "SizeBytes": 162600,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkSilenceGenerator.dll",
+      "Name": "AkSilenceGenerator.dll",
+      "SizeBytes": 123176,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkSineTone.dll",
+      "Name": "AkSineTone.dll",
+      "SizeBytes": 131888,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkSoundEngineDLL.dll",
+      "Name": "AkSoundEngineDLL.dll",
+      "SizeBytes": 2110760,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkStereoDelay.dll",
+      "Name": "AkStereoDelay.dll",
+      "SizeBytes": 172840,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkSynthOne.dll",
+      "Name": "AkSynthOne.dll",
+      "SizeBytes": 176944,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkTimeStretch.dll",
+      "Name": "AkTimeStretch.dll",
+      "SizeBytes": 246568,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkToneGen.dll",
+      "Name": "AkToneGen.dll",
+      "SizeBytes": 151848,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\AkTremolo.dll",
+      "Name": "AkTremolo.dll",
+      "SizeBytes": 156464,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\MasteringSuite.dll",
+      "Name": "MasteringSuite.dll",
+      "SizeBytes": 256808,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Plugins\\Wwise\\ThirdParty\\x64_vc160\\Release\\bin\\WwiseProjectDatabase.dll",
+      "Name": "WwiseProjectDatabase.dll",
+      "SizeBytes": 893744,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\CEF3\\Win64\\chrome_elf.dll",
+      "Name": "chrome_elf.dll",
+      "SizeBytes": 569032,
+      "FileVersion": "59.0.3071.15",
+      "ProductVersion": "59.0.3071.15",
+      "CompanyName": "The Chromium Authors",
+      "FileDescription": "Chromium"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\CEF3\\Win64\\d3dcompiler_43.dll",
+      "Name": "d3dcompiler_43.dll",
+      "SizeBytes": 2106216,
+      "FileVersion": "9.29.952.3111",
+      "ProductVersion": "9.29.952.3111",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Direct3D HLSL Compiler"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\CEF3\\Win64\\d3dcompiler_47.dll",
+      "Name": "d3dcompiler_47.dll",
+      "SizeBytes": 4488904,
+      "FileVersion": "10.0.14393.795 (rs1_release_sec.170105-1850)",
+      "ProductVersion": "10.0.14393.795",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Direct3D HLSL Compiler for Redistribution"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\CEF3\\Win64\\libcef.dll",
+      "Name": "libcef.dll",
+      "SizeBytes": 98296520,
+      "FileVersion": "3.3071.1611.g4a19305",
+      "ProductVersion": "3.3071.1611.g4a19305",
+      "CompanyName": "",
+      "FileDescription": "Chromium Embedded Framework (CEF) Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\CEF3\\Win64\\libEGL.dll",
+      "Name": "libEGL.dll",
+      "SizeBytes": 113864,
+      "FileVersion": "2.1.0.a9042d3c1952",
+      "ProductVersion": "2.1.0.a9042d3c1952",
+      "CompanyName": "",
+      "FileDescription": "ANGLE libEGL Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\CEF3\\Win64\\libGLESv2.dll",
+      "Name": "libGLESv2.dll",
+      "SizeBytes": 3943624,
+      "FileVersion": "2.1.0.a9042d3c1952",
+      "ProductVersion": "2.1.0.a9042d3c1952",
+      "CompanyName": "",
+      "FileDescription": "ANGLE libGLESv2 Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\DbgHelp\\dbghelp.dll",
+      "Name": "dbghelp.dll",
+      "SizeBytes": 2221984,
+      "FileVersion": "10.0.25291.1000 (WinBuild.160101.0800)",
+      "ProductVersion": "10.0.25291.1000",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Windows Image Helper"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\HLMediaLibrary\\Windows\\Release\\x64\\HLMediaLibrary.dll",
+      "Name": "HLMediaLibrary.dll",
+      "SizeBytes": 149704,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\NVIDIA\\NVaftermath\\Win64\\GFSDK_Aftermath_Lib.x64.dll",
+      "Name": "GFSDK_Aftermath_Lib.x64.dll",
+      "SizeBytes": 5148256,
+      "FileVersion": "2.21.0.0",
+      "ProductVersion": "2.21",
+      "CompanyName": "NVIDIA Corporation",
+      "FileDescription": "NVIDIA Nsight Aftermath DLL"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\Ogg\\Win64\\VS2015\\libogg_64.dll",
+      "Name": "libogg_64.dll",
+      "SizeBytes": 70344,
+      "FileVersion": "",
+      "ProductVersion": "",
+      "CompanyName": "",
+      "FileDescription": ""
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\APEX_Clothing_x64.dll",
+      "Name": "APEX_Clothing_x64.dll",
+      "SizeBytes": 1239752,
+      "FileVersion": "1.4.0",
+      "ProductVersion": "1.4.0.0",
+      "CompanyName": "NVIDIA Corporation",
+      "FileDescription": "APEX Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\APEX_Destructible_x64.dll",
+      "Name": "APEX_Destructible_x64.dll",
+      "SizeBytes": 2030792,
+      "FileVersion": "1.4.0",
+      "ProductVersion": "1.4.0.0",
+      "CompanyName": "NVIDIA Corporation",
+      "FileDescription": "APEX Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\APEX_Legacy_x64.dll",
+      "Name": "APEX_Legacy_x64.dll",
+      "SizeBytes": 3350728,
+      "FileVersion": "1.4.0",
+      "ProductVersion": "1.4.0.0",
+      "CompanyName": "NVIDIA Corporation",
+      "FileDescription": "APEX Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\ApexFramework_x64.dll",
+      "Name": "ApexFramework_x64.dll",
+      "SizeBytes": 1065160,
+      "FileVersion": "1.4.0",
+      "ProductVersion": "1.4.0.0",
+      "CompanyName": "NVIDIA Corporation",
+      "FileDescription": "APEX Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\NvCloth_x64.dll",
+      "Name": "NvCloth_x64.dll",
+      "SizeBytes": 286920,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PhysX3_x64.dll",
+      "Name": "PhysX3_x64.dll",
+      "SizeBytes": 2127560,
+      "FileVersion": "3.4.0.0",
+      "ProductVersion": "3.4.0.0",
+      "CompanyName": "NVIDIA Corporation",
+      "FileDescription": "PhysX3 64bit Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PhysX3Common_x64.dll",
+      "Name": "PhysX3Common_x64.dll",
+      "SizeBytes": 1620168,
+      "FileVersion": "3.4.0.0",
+      "ProductVersion": "3.4.0.0",
+      "CompanyName": "NVIDIA Corporation",
+      "FileDescription": "PhysX3Common 64bit Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PhysX3Cooking_x64.dll",
+      "Name": "PhysX3Cooking_x64.dll",
+      "SizeBytes": 265928,
+      "FileVersion": "3.4.0.0",
+      "ProductVersion": "3.4.0.0",
+      "CompanyName": "NVIDIA Corporation",
+      "FileDescription": "PhysX3Cooking 64bit Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PxFoundation_x64.dll",
+      "Name": "PxFoundation_x64.dll",
+      "SizeBytes": 75976,
+      "FileVersion": "1.0.0.0",
+      "ProductVersion": "1.0.0.0",
+      "CompanyName": "NVIDIA Corporation",
+      "FileDescription": "PxFoundation 64bit Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PxPvdSDK_x64.dll",
+      "Name": "PxPvdSDK_x64.dll",
+      "SizeBytes": 210120,
+      "FileVersion": "1.0.0.0",
+      "ProductVersion": "1.0.0.0",
+      "CompanyName": "NVIDIA Corporation",
+      "FileDescription": "PxPvdSDK 64bit Dynamic Link Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\Vorbis\\Win64\\VS2015\\libvorbis_64.dll",
+      "Name": "libvorbis_64.dll",
+      "SizeBytes": 1735368,
+      "FileVersion": "",
+      "ProductVersion": "",
+      "CompanyName": "",
+      "FileDescription": ""
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\Vorbis\\Win64\\VS2015\\libvorbisfile_64.dll",
+      "Name": "libvorbisfile_64.dll",
+      "SizeBytes": 59080,
+      "FileVersion": "",
+      "ProductVersion": "",
+      "CompanyName": "",
+      "FileDescription": ""
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\Windows\\XAudio2_9\\x64\\xaudio2_9redist.dll",
+      "Name": "xaudio2_9redist.dll",
+      "SizeBytes": 847440,
+      "FileVersion": "1.0.0.1",
+      "ProductVersion": "1.0.0.1",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "XAudio 2.9 redistributable for Windows 7 SP1, Windows 8.x and Windows 10"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Compositing\\OpenCVLensDistortion\\Binaries\\ThirdParty\\Win64\\opencv_world331.dll",
+      "Name": "opencv_world331.dll",
+      "SizeBytes": 18490568,
+      "FileVersion": "3.3.1",
+      "ProductVersion": "3.3.1",
+      "CompanyName": "",
+      "FileDescription": "OpenCV module: All OpenCV modules"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Intel\\XeSS\\Binaries\\ThirdParty\\Win64\\libxell.dll",
+      "Name": "libxell.dll",
+      "SizeBytes": 411504,
+      "FileVersion": "1.3.0.5",
+      "ProductVersion": "1.3.0.5",
+      "CompanyName": "Intel Corporation",
+      "FileDescription": "XeLL SDK"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Intel\\XeSS\\Binaries\\ThirdParty\\Win64\\libxess_dx11.dll",
+      "Name": "libxess_dx11.dll",
+      "SizeBytes": 156016,
+      "FileVersion": "2.0.2.68",
+      "ProductVersion": "2.0.2.68",
+      "CompanyName": "Intel Corporation",
+      "FileDescription": "XeSS SDK"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Intel\\XeSS\\Binaries\\ThirdParty\\Win64\\libxess_fg.dll",
+      "Name": "libxess_fg.dll",
+      "SizeBytes": 22957432,
+      "FileVersion": "1.3.1.78",
+      "ProductVersion": "1.3.1.78",
+      "CompanyName": "Intel Corporation",
+      "FileDescription": "XeSS Frame Generation SDK"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Intel\\XeSS\\Binaries\\ThirdParty\\Win64\\libxess.dll",
+      "Name": "libxess.dll",
+      "SizeBytes": 77795704,
+      "FileVersion": "2.0.2.68",
+      "ProductVersion": "2.0.2.68",
+      "CompanyName": "Intel Corporation",
+      "FileDescription": "XeSS SDK"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\DLSS\\Binaries\\ThirdParty\\Win64\\nvngx_dlss.dll",
+      "Name": "nvngx_dlss.dll",
+      "SizeBytes": 54778992,
+      "FileVersion": "310,5,0,0",
+      "ProductVersion": "310,5,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "NVIDIA DLSS - DVS PRODUCTION"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\DLSS\\Binaries\\ThirdParty\\Win64\\nvngx_dlssd.dll",
+      "Name": "nvngx_dlssd.dll",
+      "SizeBytes": 28590704,
+      "FileVersion": "310,5,0,0",
+      "ProductVersion": "310,5,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "NVIDIA DLSS - DVS PRODUCTION"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\nvngx_deepdvc.dll",
+      "Name": "nvngx_deepdvc.dll",
+      "SizeBytes": 3144304,
+      "FileVersion": "310,5,0,0",
+      "ProductVersion": "310,5,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "NVIDIA Deep Digital Vibrance Control - DVS PRODUCTION"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\nvngx_dlssg.dll",
+      "Name": "nvngx_dlssg.dll",
+      "SizeBytes": 7499376,
+      "FileVersion": "310,6,0,0",
+      "ProductVersion": "310,6,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "NVIDIA DLSS-G MFGLW - DVS PRODUCTION"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.common.dll",
+      "Name": "sl.common.dll",
+      "SizeBytes": 674432,
+      "FileVersion": "2,10,0,0",
+      "ProductVersion": "2,10,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "SL.COMMON PLUGIN - PRODUCTION"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.deepdvc.dll",
+      "Name": "sl.deepdvc.dll",
+      "SizeBytes": 190592,
+      "FileVersion": "2,10,0,0",
+      "ProductVersion": "2,10,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "SL.DEEPDVC PLUGIN - PRODUCTION"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.dlss_g.dll",
+      "Name": "sl.dlss_g.dll",
+      "SizeBytes": 459392,
+      "FileVersion": "2,10,0,0",
+      "ProductVersion": "2,10,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "SL.DLSS_G PLUGIN - PRODUCTION"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.interposer.dll",
+      "Name": "sl.interposer.dll",
+      "SizeBytes": 569472,
+      "FileVersion": "2,10,0,0",
+      "ProductVersion": "2,10,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "SL.INTERPOSER MODULE - PRODUCTION"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.pcl.dll",
+      "Name": "sl.pcl.dll",
+      "SizeBytes": 176256,
+      "FileVersion": "2,10,0,0",
+      "ProductVersion": "2,10,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "SL.PCL PLUGIN - PRODUCTION"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.reflex.dll",
+      "Name": "sl.reflex.dll",
+      "SizeBytes": 198784,
+      "FileVersion": "2,10,0,0",
+      "ProductVersion": "2,10,0,0",
+      "CompanyName": "NVIDIA",
+      "FileDescription": "SL.REFLEX PLUGIN - PRODUCTION"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\WeGameLauncher\\crash_report_helper.dll",
+      "Name": "crash_report_helper.dll",
+      "SizeBytes": 3178992,
+      "FileVersion": "1.0.2.935",
+      "ProductVersion": "1.0.2.935",
+      "CompanyName": "Tencent",
+      "FileDescription": "Tencent Crash Sender"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\WeGameLauncher\\dbghelp.dll",
+      "Name": "dbghelp.dll",
+      "SizeBytes": 1256080,
+      "FileVersion": "6.3.9600.17237 (debuggers(dbg).140716-0327)",
+      "ProductVersion": "6.3.9600.17237",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Windows Image Helper"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\WeGameLauncher\\msvcp100.dll",
+      "Name": "msvcp100.dll",
+      "SizeBytes": 421200,
+      "FileVersion": "10.00.40219.1",
+      "ProductVersion": "10.00.40219.1",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Microsoft® C Runtime Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\WeGameLauncher\\msvcr100.dll",
+      "Name": "msvcr100.dll",
+      "SizeBytes": 773968,
+      "FileVersion": "10.00.40219.1",
+      "ProductVersion": "10.00.40219.1",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Microsoft® C Runtime Library"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\WeGameLauncher\\normaliz.dll",
+      "Name": "normaliz.dll",
+      "SizeBytes": 23552,
+      "FileVersion": "6.0.5441.0 (winmain(wmbla).060628-1735)",
+      "ProductVersion": "6.0.5441.0",
+      "CompanyName": "Microsoft Corporation",
+      "FileDescription": "Unicode Normalization DLL"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\WeGameLauncher\\platform_health.dll",
+      "Name": "platform_health.dll",
+      "SizeBytes": 549472,
+      "FileVersion": "5.7.0.25",
+      "ProductVersion": "5.7.0.25",
+      "CompanyName": "Entropy",
+      "FileDescription": "健康监控"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\WeGameLauncher\\Tenio\\June.dll",
+      "Name": "June.dll",
+      "SizeBytes": 869984,
+      "FileVersion": "2, 0, 20, 16",
+      "ProductVersion": "2, 0, 20, 16",
+      "CompanyName": "Tencent",
+      "FileDescription": "Tencent Tenio"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\WeGameLauncher\\Tenio\\MemoryAlloctor.dll",
+      "Name": "MemoryAlloctor.dll",
+      "SizeBytes": 205512,
+      "FileVersion": "2, 0, 20, 16",
+      "ProductVersion": "2, 0, 20, 16",
+      "CompanyName": "Tencent",
+      "FileDescription": "Tencent Tenio"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\WeGameLauncher\\Tenio\\TenFact.dll",
+      "Name": "TenFact.dll",
+      "SizeBytes": 131784,
+      "FileVersion": "2, 0, 20, 16",
+      "ProductVersion": "2, 0, 20, 16",
+      "CompanyName": "Tencent",
+      "FileDescription": "Tencent Tenio"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\WeGameLauncher\\Tenio\\TenioTPF.dll",
+      "Name": "TenioTPF.dll",
+      "SizeBytes": 2415712,
+      "FileVersion": "2, 0, 20, 16",
+      "ProductVersion": "2, 0, 20, 16",
+      "CompanyName": "Tencent",
+      "FileDescription": "Tencent Tenio"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\WeGameLauncher\\Tenio\\xRender.dll",
+      "Name": "xRender.dll",
+      "SizeBytes": 193224,
+      "FileVersion": "2, 0, 20, 16",
+      "ProductVersion": "2, 0, 20, 16",
+      "CompanyName": "Tencent",
+      "FileDescription": "Tencent Tenio"
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\WeGameLauncher\\tinydl\\common.dll",
+      "Name": "common.dll",
+      "SizeBytes": 3922016,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "CompanyName": null,
+      "FileDescription": null
+    },
+    {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\WeGameLauncher\\tinydl\\TinyDLProxy.dll",
+      "Name": "TinyDLProxy.dll",
+      "SizeBytes": 1887624,
+      "FileVersion": "1.0.3.0",
+      "ProductVersion": "1.0.3.0",
+      "CompanyName": "Tencent",
+      "FileDescription": ""
+    }
+  ],
+  "CommonProxyFilesBesideExecutables": [],
+  "ModFilenameMarkers": [],
+  "AntiCheatServices": [
+    {
+      "Name": "AntiCheatExpert Service",
+      "DisplayName": "AntiCheatExpert Service",
+      "State": "Stopped",
+      "PathName": "\"C:\\Program Files\\AntiCheatExpert\\SGuard\\x64\\SGuardSvc64.exe\" -autorun"
+    }
+  ],
+  "AntiCheatDrivers": [
+    {
+      "Name": "ACE-ADVT",
+      "DisplayName": "ACE-ADVT",
+      "State": "Stopped",
+      "PathName": "\\??\\C:\\Windows\\system32\\drivers\\ACE-ADVT.sys"
+    },
+    {
+      "Name": "ACE-BASE",
+      "DisplayName": "ACE-BASE",
+      "State": "Stopped",
+      "PathName": "\\??\\C:\\Windows\\system32\\drivers\\ACE-BASE.sys"
+    },
+    {
+      "Name": "ACE-GAME",
+      "DisplayName": "ACE-GAME",
+      "State": "Stopped",
+      "PathName": "\\??\\C:\\Windows\\system32\\drivers\\ACE-GAME.sys"
+    },
+    {
+      "Name": "ACE-SSC-DRV64",
+      "DisplayName": "ACE-SSC-DRV64",
+      "State": "Stopped",
+      "PathName": "\\??\\C:\\Program Files\\AntiCheatExpert\\SGuard\\x64\\plugins\\ACE-SSC-DRV64.sys"
+    }
+  ],
+  "Decision": "STOP: local AntiCheatExpert components and upstream online-game ban warning violate user risk gate.",
+  "ModifiedGameFiles": [],
+  "DownloadedReleaseAssets": [],
+  "BackupFolder": null,
+  "BackupStatus": "No files scheduled for modification; no backup created. Metadata and hashes are not a restorable backup.",
+  "PostInstallChecks": "Not applicable: no installation. Existing selected binaries inspected statically for PE architecture; DLL dependency completeness and runtime compatibility not certified.",
+  "Recovery": "No rollback required for this audit. No existing game file was changed or removed."
+}

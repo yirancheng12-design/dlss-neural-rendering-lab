@@ -1,0 +1,127 @@
+[
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Wuthering Waves.exe",
+    "SHA256": "4A5B8DD91B3287B64EB71D41E5266712A2DC3382C8AD31A3E7FBFA1D11F6773B",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\amd_fidelityfx_dx12.dll",
+    "SHA256": "12A5081257EC95B0B53AD51B4A87FB3C03F97FE0BBB59F9496968F8D50EF93A6",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\Client-Win64-Shipping.exe",
+    "SHA256": "61746CA0CCFB39326E56D86F08F907B48CD262A3EA00299B3758B4C909177633",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\AntiCheatExpert\\ACE-BASE.sys",
+    "SHA256": "5A88DBE617BC8F1A8B87D9B9F1221CAFE24FBC26BCF87CB93DB1AFB3351040DA",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\AntiCheatExpert\\ACE-Base64.dll",
+    "SHA256": "CCFA4924B9C31037A66F5041136F365AB459324C74B6A9225FE4835D41932B1F",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\AntiCheatExpert\\ACE-CORE.sys",
+    "SHA256": "F69DC4842C5A44004C00E46AC6B151FB7B1D83FF04E5A0244DCEA0B201DA23C8",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\AntiCheatExpert\\ACE-IDS64.dll",
+    "SHA256": "624A047FDFA712113EEA40B3391F6B8DD4D63E85229DD59437201AA50E438E39",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\AntiCheatExpert\\ACE-Service64.exe",
+    "SHA256": "17C90B6EC22CE851743949BDD0A98F0F25B01B2C30C2C46BA4494C3F3801C3C7",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\AntiCheatExpert\\ACE-Setup64.exe",
+    "SHA256": "6B1289BC31ABF5A57C9DF8789C88FCCA82AA7071F5F4A2FB1DCBE4DAEBDD8C6D",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Mainland\\KRSDKRes\\wegame\\dbghelp.dll",
+    "SHA256": "262DA3D61BCADA823BDC1EC82732527A976A78FC60BD51E977E61A017ABF21F3",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Binaries\\ThirdParty\\DbgHelp\\dbghelp.dll",
+    "SHA256": "4B803D0BFA5D360CFCB3237D260226743D2255EACF6A98615334FB55DEB7CF88",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Intel\\XeSS\\Binaries\\ThirdParty\\Win64\\libxess_dx11.dll",
+    "SHA256": "C7CFE86F0C9D94E4FB3696D3CD5035E2BBB6A8B1B0572F8B7395A4CDFD0C625E",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Intel\\XeSS\\Binaries\\ThirdParty\\Win64\\libxess_fg.dll",
+    "SHA256": "EC5E0C65E075570C6EDE72618BB666D0BE0C2E10B2EA9762C0FE8CB8E375AB27",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Intel\\XeSS\\Binaries\\ThirdParty\\Win64\\libxess.dll",
+    "SHA256": "251659DD84A3E84DE67C886A4186E01F3ECA49B00641906FE38BB6B807E5D5B7",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\DLSS\\Binaries\\ThirdParty\\Win64\\nvngx_dlss.dll",
+    "SHA256": "22C4660249DA5B352CDE0CE4D95178C3761223DD6AC096D0B88E5C03D7A5CDD1",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\DLSS\\Binaries\\ThirdParty\\Win64\\nvngx_dlssd.dll",
+    "SHA256": "50EB21E654A1FD12403E000F5AC9C2488BF9149930C028E73196F3F1D47D10A9",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\nvngx_deepdvc.dll",
+    "SHA256": "60AC1E9F32AB31A8DCDA3E875FD3DC2D3BCFFECA3C6CA33551D6DC6871DBFD1B",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\nvngx_dlssg.dll",
+    "SHA256": "83230804A087272C6D7EB4C805AC5925CE1188C70F150CC8DBD5CD843F53946A",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.common.dll",
+    "SHA256": "BE50A4C89177ABB3695DE92C57CC41662BFB7598EC447707B0D6EFB77256D977",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.deepdvc.dll",
+    "SHA256": "C68FC648313C1B5403FB7130D6775540867B7088B0AC280B04E33B47B47B12F7",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.dlss_g.dll",
+    "SHA256": "E07FD38310805E34265929D1999F33ED5566CF30176C082CA84EF63992F6C7D7",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.interposer.dll",
+    "SHA256": "C2397E96E35C1E78C0B351B0D2B070C6529CCC990F4CC73F04722DB24DC2ACCE",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.pcl.dll",
+    "SHA256": "D6CD931F8DB74978AA9159A41AF288AE1480FFBEAE59E64F4EA447074D861BC0",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.reflex.dll",
+    "SHA256": "42C45991B8F2972D4F341D379BD9BE093C408B59D01F22B338F505F476617CC5",
+    "MatchesInitialAudit": true
+  },
+  {
+    "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\WeGameLauncher\\dbghelp.dll",
+    "SHA256": "3AB019BD41C6F30D4250F26B40E695021698D7909D538E2F9B8AEAB73BB7B8AA",
+    "MatchesInitialAudit": true
+  }
+]

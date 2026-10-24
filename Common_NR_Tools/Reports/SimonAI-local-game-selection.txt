@@ -1,0 +1,13 @@
+SimonAI 本地游戏筛选复核
+渠道：应用自身本地聊天模块；模型：gemma4:31b
+仅为咨询意见，未执行软件。
+
+问题：
+用户要求在本机找适合 DLSS5 Neural Rendering 的游戏并安装，继续遵守不得绕过反作弊、原版NR模型签名必须有效、每项新GitHub下载先确认、安装后不自动启动。实测已安装六款：Cyberpunk 2077（Steam 2.31，x64，原EXE及SR/RR/FG签名有效，目录无常见反作弊标记或既有代理Mod）；Black Myth Wukong（WeGame，已有DLSS，无常见反作弊文件标记）；ELDEN RING有EAC；鸣潮、Delta Force、Neverness To Everness有ACE。六款均无 nvngx_dlssnr.dll。下载目录与帧率工具目录亦未找到。先前video2dlssnr模型HashMismatch；官方Streamline2.14.1实测没有NR插件/模型。CDPR官方支持一般Mod但不审查个别社区Mod；Dagherbou v0.2.0发布说明提到Cyberpunk NR修复并要求用户自备NR模型。请基于这些给定证据复核选Cyberpunk作为候选是否合理、能否现在宣称安装可运行、缺模型时是否应停止写入游戏而不装一个缺失依赖的空框架。300字内，不假装联网。NR是神经渲染，不是降噪；HashMismatch不等于Windows实际禁止运行；无反作弊文件标记不是零风险保证。
+
+回答：
+1. **候选合理性**：合理。Cyberpunk 2077 无常见反作弊标记，且 Dagherbou v0.2.0 明确提及 NR 修复，符合初步筛选条件。
+2. **运行宣称**：不能。目前缺失核心组件 `nvngx_dlssnr.dll` 及有效的 NR 模型（`video2dlssnr` 存在 HashMismatch，Streamline 2.14.1 无插件/模型），在依赖缺失状态下无法运行。
+3. **写入操作**：应停止写入。依据“原版 NR 模型签名必须有效”的约束，在缺失模型且无法提供有效签名依赖时，安装空框架不符合工程逻辑且违背约束，应在补齐模型前停止安装。
+
+**风险提示**：无反作弊文件标记不代表零风险。

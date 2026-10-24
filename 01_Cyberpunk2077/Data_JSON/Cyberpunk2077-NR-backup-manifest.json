@@ -1,0 +1,1339 @@
+{
+  "CreatedAt": "2026-10-16T10:06:14.2877220+08:00",
+  "GameRoot": "E:\\steam\\steamapps\\common\\Cyberpunk 2077",
+  "BackupRoot": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614",
+  "OriginalFilesReplaced": 0,
+  "BackupsVerified": true,
+  "Items": [
+    {
+      "Kind": "OriginalGameFile",
+      "OriginalFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.reflex.dll",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_game\\bin\\x64\\sl.reflex.dll",
+      "SizeBytes": 198128,
+      "FileVersion": "2,7,1,0",
+      "ProductVersion": "2,7,1,0",
+      "SHA256": "c6938a5a9600033444926b218f7dfccb99d4dea7043daef79f426fc227483c2e",
+      "LastWriteTimeUtc": "2026-09-25T03:05:40.8487655Z"
+    },
+    {
+      "Kind": "OriginalGameFile",
+      "OriginalFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.pcl.dll",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_game\\bin\\x64\\sl.pcl.dll",
+      "SizeBytes": 175096,
+      "FileVersion": "2,7,1,0",
+      "ProductVersion": "2,7,1,0",
+      "SHA256": "9d38b31ea265fa39eaf3e3a723496819a8971afb2eb68e8821ff5a79d2916459",
+      "LastWriteTimeUtc": "2026-09-25T03:05:34.1114929Z"
+    },
+    {
+      "Kind": "OriginalGameFile",
+      "OriginalFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.nis.dll",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_game\\bin\\x64\\sl.nis.dll",
+      "SizeBytes": 966128,
+      "FileVersion": "2,7,1,0",
+      "ProductVersion": "2,7,1,0",
+      "SHA256": "929628871975ecd9e2c56be354b04284eb91855bdf42b0d32ad3df60725016b8",
+      "LastWriteTimeUtc": "2026-09-25T02:42:29.1820291Z"
+    },
+    {
+      "Kind": "OriginalGameFile",
+      "OriginalFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.interposer.dll",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_game\\bin\\x64\\sl.interposer.dll",
+      "SizeBytes": 541176,
+      "FileVersion": "2,7,1,0",
+      "ProductVersion": "2,7,1,0",
+      "SHA256": "e07ed41b17bc74aa7e62cc714e96a62b52be69b3ffb44a00c8baaa12393fe3fc",
+      "LastWriteTimeUtc": "2026-09-25T02:42:29.1820291Z"
+    },
+    {
+      "Kind": "OriginalGameFile",
+      "OriginalFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.dlss_g.dll",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_game\\bin\\x64\\sl.dlss_g.dll",
+      "SizeBytes": 461808,
+      "FileVersion": "2,7,1,0",
+      "ProductVersion": "2,7,1,0",
+      "SHA256": "818dc3370f9bbd225e781be1af7097e8a98318eaa472204620a2848ef2139170",
+      "LastWriteTimeUtc": "2026-09-25T02:42:29.1810293Z"
+    },
+    {
+      "Kind": "OriginalGameFile",
+      "OriginalFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.dlss_d.dll",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_game\\bin\\x64\\sl.dlss_d.dll",
+      "SizeBytes": 250352,
+      "FileVersion": "2,7,1,0",
+      "ProductVersion": "2,7,1,0",
+      "SHA256": "f44c566543270fdd5d27f00f08c61999c19c71de6efb3bf841f2dbc58af3d967",
+      "LastWriteTimeUtc": "2026-09-25T03:05:33.7666010Z"
+    },
+    {
+      "Kind": "OriginalGameFile",
+      "OriginalFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.dlss.dll",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_game\\bin\\x64\\sl.dlss.dll",
+      "SizeBytes": 237040,
+      "FileVersion": "2,7,1,0",
+      "ProductVersion": "2,7,1,0",
+      "SHA256": "6b7adf54786072b7799c908dc1f2dc1310dede855463a5ad0111a66434ec7509",
+      "LastWriteTimeUtc": "2026-09-25T03:05:40.8487655Z"
+    },
+    {
+      "Kind": "OriginalGameFile",
+      "OriginalFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.common.dll",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_game\\bin\\x64\\sl.common.dll",
+      "SizeBytes": 650736,
+      "FileVersion": "2,7,1,0",
+      "ProductVersion": "2,7,1,0",
+      "SHA256": "f76bcee79b9383cb6b9889eeb40bb7cfe6545362f2fcaa7e465a7c30b1a3473b",
+      "LastWriteTimeUtc": "2026-09-25T02:42:29.1810293Z"
+    },
+    {
+      "Kind": "OriginalGameFile",
+      "OriginalFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx_dlssg.dll",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_game\\bin\\x64\\nvngx_dlssg.dll",
+      "SizeBytes": 7607336,
+      "FileVersion": "310,1,0,0",
+      "ProductVersion": "310,1,0,0",
+      "SHA256": "907b036e714a674aa53dba1ecbb251802a684cb684d1ac2d11da85742f2ea906",
+      "LastWriteTimeUtc": "2026-09-25T02:42:29.1790272Z"
+    },
+    {
+      "Kind": "OriginalGameFile",
+      "OriginalFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx_dlssd.dll",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_game\\bin\\x64\\nvngx_dlssd.dll",
+      "SizeBytes": 65630248,
+      "FileVersion": "310,1,0,0",
+      "ProductVersion": "310,1,0,0",
+      "SHA256": "519c98e6d3b44d12671525f20e8fc46366a9fbf15aa5d4bc8446d6ba17699e22",
+      "LastWriteTimeUtc": "2026-09-25T02:42:29.1790272Z"
+    },
+    {
+      "Kind": "OriginalGameFile",
+      "OriginalFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx_dlss.dll",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_game\\bin\\x64\\nvngx_dlss.dll",
+      "SizeBytes": 44609064,
+      "FileVersion": "310,1,0,0",
+      "ProductVersion": "310,1,0,0",
+      "SHA256": "ad3e9c07ee864e9702032459a59c6825166766c2cb75bd0318d5626595693bdb",
+      "LastWriteTimeUtc": "2026-09-25T02:42:29.1790272Z"
+    },
+    {
+      "Kind": "OriginalGameFile",
+      "OriginalFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\dbghelp.dll",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_game\\bin\\x64\\dbghelp.dll",
+      "SizeBytes": 1868736,
+      "FileVersion": "10.0.19041.1 (WinBuild.160101.0800)",
+      "ProductVersion": "10.0.19041.1",
+      "SHA256": "9a02133854ff9f06c3b23a70f8c2a4814b2ed4eef613244b485e3737259ddf9e",
+      "LastWriteTimeUtc": "2026-09-25T02:42:29.1765234Z"
+    },
+    {
+      "Kind": "OriginalGameFile",
+      "OriginalFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\Cyberpunk2077.exe",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_game\\bin\\x64\\Cyberpunk2077.exe",
+      "SizeBytes": 59945608,
+      "FileVersion": "3.0.5294808",
+      "ProductVersion": "2.31",
+      "SHA256": "a7de82945c03e041fc7339fcf9066224d98db2f5d80fea50f7947bb350a60991",
+      "LastWriteTimeUtc": "2026-09-25T02:42:29.1755231Z"
+    },
+    {
+      "Kind": "UserSettings",
+      "OriginalFullPath": "C:\\Users\\ROG\\AppData\\Local\\CD Projekt Red\\Cyberpunk 2077\\UserSettings.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_settings\\UserSettings.json",
+      "SizeBytes": 91706,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "691a266df8c8859a114b34c90f2ced7f549441189477be04bb1f1e15f3692152",
+      "LastWriteTimeUtc": "2026-10-06T08:22:00.2686422Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\steam_autocloud.vdf",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\steam_autocloud.vdf",
+      "SizeBytes": 53,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "16406af7b5f46f39f52462c1e6b8937b42f48a8ad4c970e45990bf546ef3d3e9",
+      "LastWriteTimeUtc": "2026-10-06T07:46:33.0061483Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\user.gls",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\user.gls",
+      "SizeBytes": 252,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "ceb5f799d992c110212d696fb69bab0ec1fa3c6df8c79f8c85982b484c23233a",
+      "LastWriteTimeUtc": "2026-10-06T08:20:31.8539445Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-0\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-0\\metadata.9.json",
+      "SizeBytes": 3159,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "8e630fefda6c01ab2fa8a6d183178432e6e04804df6d5b1709477635ff3e252e",
+      "LastWriteTimeUtc": "2026-10-04T12:37:05.0839251Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-0\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-0\\sav.dat",
+      "SizeBytes": 3007102,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "ccfe254c9e31821106d9905175e28a3283c6aeb2611d5e1c5c25815e5dc948e0",
+      "LastWriteTimeUtc": "2026-10-04T12:37:05.0829246Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-0\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-0\\screenshot.png",
+      "SizeBytes": 254641,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "4e819c768d84cbd344f9aa06446b65471b13ca9d3fbbf20b52d554a9825e1ea0",
+      "LastWriteTimeUtc": "2026-10-04T12:37:05.1059397Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-1\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-1\\metadata.9.json",
+      "SizeBytes": 3157,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "126aba7451b59b5daefe053797658609fb69f636e1283435e71bf602760239ac",
+      "LastWriteTimeUtc": "2026-10-04T12:40:49.8437434Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-1\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-1\\sav.dat",
+      "SizeBytes": 3042654,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "c58af0b2a3119a8a7706783b9847af978a0c7321d9feb9340e9d2abeac24a1e3",
+      "LastWriteTimeUtc": "2026-10-04T12:40:49.8437434Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-1\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-1\\screenshot.png",
+      "SizeBytes": 146132,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "4ccb470d413d91aa55008f90866347a6b33d3488df837d1d2527696ed663bf23",
+      "LastWriteTimeUtc": "2026-10-04T12:40:49.8807847Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-10\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-10\\metadata.9.json",
+      "SizeBytes": 3163,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "e3b85ea8fb34fe9493af404d6065b7575d36cdcfd633320ba9f903161eb26d94",
+      "LastWriteTimeUtc": "2026-10-06T08:00:55.5974167Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-10\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-10\\sav.dat",
+      "SizeBytes": 2982752,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "78ef22d67ebafbb77d8bc08baee08af81f9715a26443839d85db666fa3993de6",
+      "LastWriteTimeUtc": "2026-10-06T08:00:55.5964171Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-10\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-10\\screenshot.png",
+      "SizeBytes": 165233,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "7ceab8dc7fa5bedc8927e2fb18fd1342f639e49b10de07b6409e7de7ae1b0f81",
+      "LastWriteTimeUtc": "2026-10-06T08:00:55.6174346Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-11\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-11\\metadata.9.json",
+      "SizeBytes": 3162,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "9c103d2ee8d6044695b42bcbc398f6e08987aeed9f603c826101c50bcec3ea7a",
+      "LastWriteTimeUtc": "2026-10-06T08:07:57.4655538Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-11\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-11\\sav.dat",
+      "SizeBytes": 3010582,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "28688846703e3abb3d7b3006969d7cda1b4937c52cff865fcfc7db212ef92a05",
+      "LastWriteTimeUtc": "2026-10-06T08:07:57.4645503Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-11\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-11\\screenshot.png",
+      "SizeBytes": 35492,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "253a17569122bbd1b3b3502bd60c751729de34be500fcbc506ba5887477c9778",
+      "LastWriteTimeUtc": "2026-10-06T08:07:57.7793940Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-12\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-12\\metadata.9.json",
+      "SizeBytes": 3151,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "c6af63072106ab06f74a66a529eb7c88f5fb3855d06d5517b13868a1f5519ab2",
+      "LastWriteTimeUtc": "2026-10-06T08:10:41.9119517Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-12\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-12\\sav.dat",
+      "SizeBytes": 3037016,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "49e96e66a05d28fc13e99d72fedcfbe2db3a91574d0f1c7625ea034386bb775b",
+      "LastWriteTimeUtc": "2026-10-06T08:10:41.9109521Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-12\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-12\\screenshot.png",
+      "SizeBytes": 130606,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "0b02860c1401dfa330cc7c21f5bb00c18a9e65365a23c70fd651f03804327cc3",
+      "LastWriteTimeUtc": "2026-10-06T08:10:41.9438088Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-13\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-13\\metadata.9.json",
+      "SizeBytes": 3149,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "1c3a98e722bf8c9b66cd443397a2e4557126e3ecdb3cfdaeb7918e68a7843740",
+      "LastWriteTimeUtc": "2026-10-06T08:13:07.3657340Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-13\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-13\\sav.dat",
+      "SizeBytes": 3029125,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "61151e2fc136387f69792eaabaf872ba2cf00d518319131a5e52116bafd52cdf",
+      "LastWriteTimeUtc": "2026-10-06T08:13:07.3647344Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-13\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-13\\screenshot.png",
+      "SizeBytes": 76592,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "d2fe7f2d46bead6ed7a4afb18f4a6e7e54d62f1798f94ed12a465f6d4d53cb7b",
+      "LastWriteTimeUtc": "2026-10-06T08:13:07.3918726Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-14\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-14\\metadata.9.json",
+      "SizeBytes": 3136,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "6028757d1b186a510235696d3a0520715d908992a33092196a9101cf429895b2",
+      "LastWriteTimeUtc": "2026-10-06T08:14:12.1769169Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-14\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-14\\sav.dat",
+      "SizeBytes": 3039752,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "f6f7167d741992a322925f891048ded3f9631a4acf5fd3567ac785a081f8c633",
+      "LastWriteTimeUtc": "2026-10-06T08:14:12.1759159Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-14\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-14\\screenshot.png",
+      "SizeBytes": 141329,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "bfc1557198a5782fc1c027e6542af32d0c34b0e2454f8dcb7f7aabd57580de2e",
+      "LastWriteTimeUtc": "2026-10-06T08:14:12.2199777Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-15\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-15\\metadata.9.json",
+      "SizeBytes": 3173,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "d7413a7d0d46ba595d6c55f64c495a494cc1b66adbdb9a23207dacb54e2f8131",
+      "LastWriteTimeUtc": "2026-10-06T08:15:42.5583209Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-15\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-15\\sav.dat",
+      "SizeBytes": 3042774,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "cc8d2592955c7308d9c049c413bfc432e3714af0a18ebfe289610107e42831eb",
+      "LastWriteTimeUtc": "2026-10-06T08:15:42.5573154Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-15\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-15\\screenshot.png",
+      "SizeBytes": 191434,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "29c55927d4c21fc04b4bae90a12bf25292ebb7743e2805612ca89db875c039e6",
+      "LastWriteTimeUtc": "2026-10-06T08:15:42.6009062Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-16\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-16\\metadata.9.json",
+      "SizeBytes": 3162,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "ba2ab6e044ae40e444bed324a49d90135cbbc7b48d9686768fba5cbc209e7ad6",
+      "LastWriteTimeUtc": "2026-10-06T08:20:31.7671614Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-16\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-16\\sav.dat",
+      "SizeBytes": 3044523,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "ad2bb86b5e9c3de4fb3ba6d66cbec5af5b8cbaf5b9a6af5e51b37c44a87fd0b4",
+      "LastWriteTimeUtc": "2026-10-06T08:20:31.7671614Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-16\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-16\\screenshot.png",
+      "SizeBytes": 131302,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "a43b1af76c9ac70dadcaf6cf20a2726a0804d7028b70dabe282dea7f2dea6f49",
+      "LastWriteTimeUtc": "2026-10-06T08:20:31.8037020Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-17\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-17\\metadata.9.json",
+      "SizeBytes": 3170,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "aa3a2eb66792eee252852891f155fbc1b6aa015f53b9422f743b99d463346727",
+      "LastWriteTimeUtc": "2026-10-04T12:27:12.5189764Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-17\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-17\\sav.dat",
+      "SizeBytes": 2956698,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "86cd1b982b88ef33ab78415ce5f6001f172eef4b02d78073d02f802126176891",
+      "LastWriteTimeUtc": "2026-10-04T12:27:12.5179757Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-17\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-17\\screenshot.png",
+      "SizeBytes": 187827,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "d4d6e0337246434ce41be773b4c2ea7915d0e417909251484a18574f7a23775c",
+      "LastWriteTimeUtc": "2026-10-04T12:27:12.5655934Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-18\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-18\\metadata.9.json",
+      "SizeBytes": 3167,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "441cc7aab05dd3fb0e3b0e116b657ee4ff55ba1cd2e3af2ccbb293c16a1554f8",
+      "LastWriteTimeUtc": "2026-10-04T12:29:16.3131518Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-18\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-18\\sav.dat",
+      "SizeBytes": 2978078,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "ec02d1e057027771afbe1060f6da99ffff066cd249c4a29cbad5ea4b6c7572d1",
+      "LastWriteTimeUtc": "2026-10-04T12:29:16.3131518Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-18\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-18\\screenshot.png",
+      "SizeBytes": 191508,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "0fbfefc3e8b303ee5bf450a165cdc57fdc8fedb9286f55b5520358aff546a501",
+      "LastWriteTimeUtc": "2026-10-04T12:29:16.3477138Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-19\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-19\\metadata.9.json",
+      "SizeBytes": 3169,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "a4a3749453ba3a0a300f7461264f8d73f3c3c959bc437f353d989d1ffe9b9000",
+      "LastWriteTimeUtc": "2026-10-04T12:35:21.2176018Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-19\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-19\\sav.dat",
+      "SizeBytes": 2983859,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "0ee16c4c71fb741f7431689ad488893bf9da01b071a7cbd333e6eae4541cc330",
+      "LastWriteTimeUtc": "2026-10-04T12:35:21.2176018Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-19\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-19\\screenshot.png",
+      "SizeBytes": 147989,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "bf03af4946974776a165ed63d72fafd45098684f8bd7628f4a98c1be708a27b3",
+      "LastWriteTimeUtc": "2026-10-04T12:35:21.2673420Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-2\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-2\\metadata.9.json",
+      "SizeBytes": 3150,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "b92c1fd29da3cf0c68b061fac197bdc8f63e1500b61fd209aa8812807b4e11dd",
+      "LastWriteTimeUtc": "2026-10-04T12:48:29.8794452Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-2\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-2\\sav.dat",
+      "SizeBytes": 3076287,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "3b67ed5b66b135e995ed7bb016f7a281644121bc2add55dbed3246325a088ce5",
+      "LastWriteTimeUtc": "2026-10-04T12:48:29.8794452Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-2\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-2\\screenshot.png",
+      "SizeBytes": 128496,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "eca139eed55fa57f41362ea072933a1440c8f32983dab9050a6b928dd432bb5d",
+      "LastWriteTimeUtc": "2026-10-04T12:48:29.9225368Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-3\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-3\\metadata.9.json",
+      "SizeBytes": 3170,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "f70780ad8fec8d93295856a3dc1a3b73a0038d12aeac166951680a034fd93fd3",
+      "LastWriteTimeUtc": "2026-10-04T12:52:56.4427220Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-3\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-3\\sav.dat",
+      "SizeBytes": 3090775,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "818ec019ce1a8efb658741b27225296b248c3ed42824252c29e3524eab333dc5",
+      "LastWriteTimeUtc": "2026-10-04T12:52:56.4417215Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-3\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-3\\screenshot.png",
+      "SizeBytes": 164853,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "270f785d3ca6c77930829c7a0c91dbad1943ccebc32ca49ac7b2ccc44bb2ba6b",
+      "LastWriteTimeUtc": "2026-10-04T12:52:56.4862586Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-4\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-4\\metadata.9.json",
+      "SizeBytes": 3149,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "f12785f3fca8f78bcf8366ffb43add9fa7571e0ad493f335146fed69b2b4818f",
+      "LastWriteTimeUtc": "2026-10-04T12:53:17.1663929Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-4\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-4\\sav.dat",
+      "SizeBytes": 3085230,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "b202d824d24d666d8f092911e3beed0ca4afa6c3686f682e7e0f96fa4e47a7e2",
+      "LastWriteTimeUtc": "2026-10-04T12:53:17.1653939Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-4\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-4\\screenshot.png",
+      "SizeBytes": 81544,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "8e1e9b1fe27afccd9b1bde8b868c74a2874ec58a57d51fefbba8218742888bfe",
+      "LastWriteTimeUtc": "2026-10-04T12:53:17.1972049Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-5\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-5\\metadata.9.json",
+      "SizeBytes": 3161,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "44232e7d409a64e189e6d1e94e1054d983043417a42719cf89e9a35b412b90ff",
+      "LastWriteTimeUtc": "2026-10-04T12:55:17.4647168Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-5\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-5\\sav.dat",
+      "SizeBytes": 3067026,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "b7a7420117d5f809cfc5be447f58cb0f15c1377bbbedd2d16bed306b6d6828d0",
+      "LastWriteTimeUtc": "2026-10-04T12:55:17.4637160Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-5\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-5\\screenshot.png",
+      "SizeBytes": 96651,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "a7d953eef04ff9b34ec63a2e0a226b441b91312651b468eefc45851c62efd548",
+      "LastWriteTimeUtc": "2026-10-04T12:55:17.4994103Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-6\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-6\\metadata.9.json",
+      "SizeBytes": 3172,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "025c92108500788a4ce1f98e3f0594de4a62490c41a0974ce0863c7bb23be1a0",
+      "LastWriteTimeUtc": "2026-10-04T12:59:21.9396040Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-6\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-6\\sav.dat",
+      "SizeBytes": 3063369,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "8028bf23e90400f3508811d97fab107a2e023edabbfb5bbfb89d63d0c31f358f",
+      "LastWriteTimeUtc": "2026-10-04T12:59:21.9390998Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-6\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-6\\screenshot.png",
+      "SizeBytes": 1004,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "ffca513684588e14b561e952675089d234943fb2630ab0ccbdcbb510569e9290",
+      "LastWriteTimeUtc": "2026-10-04T12:59:21.9491169Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-7\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-7\\metadata.9.json",
+      "SizeBytes": 3155,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "76e94141bd58151591e601e2c1d062174f58b52bd8fe56e8c51cbc6cb64e47f9",
+      "LastWriteTimeUtc": "2026-10-06T07:50:42.4764206Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-7\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-7\\sav.dat",
+      "SizeBytes": 2998590,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "66ac085517f2078f301264257bb4610fb7973d545d32c2bfd441e50975f21304",
+      "LastWriteTimeUtc": "2026-10-06T07:50:42.4754214Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-7\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-7\\screenshot.png",
+      "SizeBytes": 63718,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "e997ef70362d1044545b4d353a285c88cc766b7abe5183e4edddb56ce438d235",
+      "LastWriteTimeUtc": "2026-10-06T07:50:42.4994368Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-8\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-8\\metadata.9.json",
+      "SizeBytes": 3147,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "fe2ba65ec94fc8aa14f45265b9b4f64577d71fea486914114e6033dcc9e6c7ae",
+      "LastWriteTimeUtc": "2026-10-06T07:55:29.5261308Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-8\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-8\\sav.dat",
+      "SizeBytes": 2984989,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "4fb65f8d60e68a742199a1d46f4f06141f1102c9b6e00c3ad1ef8ad4cb877cd9",
+      "LastWriteTimeUtc": "2026-10-06T07:55:29.5251321Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-8\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-8\\screenshot.png",
+      "SizeBytes": 1007,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "1e573530ce290ea811629254231a11b4739f117f7dc3725dfd0d5a93dd55789a",
+      "LastWriteTimeUtc": "2026-10-06T07:55:29.5498321Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-9\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-9\\metadata.9.json",
+      "SizeBytes": 3158,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "7cbb6d6a4bd1a501ee68a9d79d1fbc96512711b1f48b874e9c34cf272b788222",
+      "LastWriteTimeUtc": "2026-10-06T08:00:49.9126310Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-9\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-9\\sav.dat",
+      "SizeBytes": 2983618,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "fa7f119aadb93b15351d62300781280446dfc0f726a6fe1ea93a35c39168a145",
+      "LastWriteTimeUtc": "2026-10-06T08:00:49.9126310Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\AutoSave-9\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\AutoSave-9\\screenshot.png",
+      "SizeBytes": 36285,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "8889e8fa6835d19101a7ef631bd477a1882dd0ef7bc0886916c724226678e156",
+      "LastWriteTimeUtc": "2026-10-06T08:00:49.9276468Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\EndGameSave-0\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\EndGameSave-0\\metadata.9.json",
+      "SizeBytes": 3934,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "edf73389bb9a9f11b78e0159f21a40511eef61a81adafa3ccb31f6fc80585306",
+      "LastWriteTimeUtc": "2025-06-30T12:44:02.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\EndGameSave-0\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\EndGameSave-0\\sav.dat",
+      "SizeBytes": 3507815,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "0e0826b510df0beeb694ed0811e64f7cc68794af857950a45fcafff19a1a489f",
+      "LastWriteTimeUtc": "2025-06-30T12:44:02.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\EndGameSave-0\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\EndGameSave-0\\screenshot.png",
+      "SizeBytes": 967,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "131bd738d4c3ed7fe0817b0b4662f4d57d41483c15efdda5ce091b2e71f798be",
+      "LastWriteTimeUtc": "2025-06-30T12:44:02.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-0\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-0\\metadata.9.json",
+      "SizeBytes": 2637,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "896af5b780c3b5b8d05ca12ab2380190ae9cec37a746cb574eb8495b7cc7bd6a",
+      "LastWriteTimeUtc": "2024-11-29T14:46:18.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-0\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-0\\sav.dat",
+      "SizeBytes": 1820444,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "2c49c2a27c2c9b80837611db19e417fe60a0ed9d964ef0c584faa285a716362e",
+      "LastWriteTimeUtc": "2024-11-29T14:46:18.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-0\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-0\\screenshot.png",
+      "SizeBytes": 200239,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "aca970ad8f3d933093f143bd4570778548e3020744dbb3a5999d5b0320cd1b4d",
+      "LastWriteTimeUtc": "2024-11-29T14:46:18.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-1\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-1\\metadata.9.json",
+      "SizeBytes": 2719,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "26f6030d967e560cf64ce9a35f0f38acbefe74b15e4d04095b9d829247e8c239",
+      "LastWriteTimeUtc": "2025-01-19T12:47:12.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-1\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-1\\sav.dat",
+      "SizeBytes": 2085892,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "10660df4d0d824927b7aeb9090dbe7a215acc181338e84365406509939a7aea7",
+      "LastWriteTimeUtc": "2025-01-19T12:47:12.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-1\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-1\\screenshot.png",
+      "SizeBytes": 52432,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "8e5b7f592b07cc0dfbbf3c05e5a62c93df584fd2bda457985df2f823a9f59c29",
+      "LastWriteTimeUtc": "2025-01-19T12:47:12.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-10\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-10\\metadata.9.json",
+      "SizeBytes": 3978,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "ac4e705ef2368ecf4e905bc0c1b255e65ccfb4cd0e4dcc5e71669ad21ec8f4c8",
+      "LastWriteTimeUtc": "2025-07-01T11:39:12.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-10\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-10\\sav.dat",
+      "SizeBytes": 3727750,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "34643781b0f7587b655f4c49eff2fef533b08875cbcbb4339dd1867b2252f72e",
+      "LastWriteTimeUtc": "2025-07-01T11:39:12.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-10\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-10\\screenshot.png",
+      "SizeBytes": 179882,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "c09a3de95de06797c4a087237087e7a47c0167913fe92a1b4eb643551dec53b9",
+      "LastWriteTimeUtc": "2025-07-01T11:39:12.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-11\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-11\\metadata.9.json",
+      "SizeBytes": 2743,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "d52c4b5d7340be72eb32c7883588731970f82e32aa4466e1368e968d4592c4c4",
+      "LastWriteTimeUtc": "2025-07-02T04:04:50.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-11\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-11\\sav.dat",
+      "SizeBytes": 1964620,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "8ec0d19b56ac106353c12104e4f12966a5ca1ff11a620c6148660711c0feabe5",
+      "LastWriteTimeUtc": "2025-07-02T04:04:50.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-11\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-11\\screenshot.png",
+      "SizeBytes": 55608,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "e99bcbc384d41ba9c849074882e544815027bbfd5235cb28e32a56034afb981a",
+      "LastWriteTimeUtc": "2025-07-02T04:04:51.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-12\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-12\\metadata.9.json",
+      "SizeBytes": 2731,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "25f9d695f2595d596de0a07f87e6cee714368b6de78653b656d169b4f165a42e",
+      "LastWriteTimeUtc": "2025-07-15T13:01:01.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-12\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-12\\sav.dat",
+      "SizeBytes": 2054583,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "16bff1a5f0fafc7d2950072ca49226ea366618e0ae242c35e59ec7b217631bb4",
+      "LastWriteTimeUtc": "2025-07-15T13:01:01.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-12\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-12\\screenshot.png",
+      "SizeBytes": 155438,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "c4e0aac74688e797c4b7dae0efd913f0b2a74d78730fc8a82a97a24d7ba0bc33",
+      "LastWriteTimeUtc": "2025-07-15T13:01:02.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-13\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-13\\metadata.9.json",
+      "SizeBytes": 2743,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "ccf35edbcf3ca427a9b40cb3593bd2d4310192496cba4fc6a99836ee195c9412",
+      "LastWriteTimeUtc": "2025-07-16T00:48:56.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-13\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-13\\sav.dat",
+      "SizeBytes": 1964897,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "2dbddce36e1d023f634e569aa7e1922a3f664659e2477a8527fcd3c970212167",
+      "LastWriteTimeUtc": "2025-07-16T00:48:56.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-13\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-13\\screenshot.png",
+      "SizeBytes": 61916,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "42a8f744591caa488bc11d78eefc6a4f248ac10e98e76eeb4401e3adf0dc197a",
+      "LastWriteTimeUtc": "2025-07-16T00:48:57.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-14\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-14\\metadata.9.json",
+      "SizeBytes": 2838,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "0df50428265301740a1457d92bb85f3712d6ee8522675f470c7e49f89d7b8e00",
+      "LastWriteTimeUtc": "2025-08-29T12:54:23.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-14\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-14\\sav.dat",
+      "SizeBytes": 2363113,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "9dcb7bcfcb9975d43560e83f69a3f43fdb925a09fe6b0c29382f86768f16aeff",
+      "LastWriteTimeUtc": "2025-08-29T12:54:23.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-14\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-14\\screenshot.png",
+      "SizeBytes": 193746,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "fafec25c2c5c20d0b85382b2f3d3e8fa2efd4cb7ae7374e233d784e2a646b23d",
+      "LastWriteTimeUtc": "2025-08-29T12:54:22.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-15\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-15\\metadata.9.json",
+      "SizeBytes": 2860,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "2d3777553c8c7f1a2719444ab3d60c0c1f5a110d7035f40553ba9b27a1ab64ec",
+      "LastWriteTimeUtc": "2026-04-03T11:01:10.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-15\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-15\\sav.dat",
+      "SizeBytes": 2982340,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "1c67f6111ed28d82ef47153f3ddfe686a3c7f65e04c9e2960994ceb1eaf91cf8",
+      "LastWriteTimeUtc": "2026-04-03T11:01:09.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-15\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-15\\screenshot.png",
+      "SizeBytes": 170647,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "65a2148ae14515a78ac233540e4844b74cb17fd8c3d3253f831ee7c0af9b4d5e",
+      "LastWriteTimeUtc": "2026-04-03T11:01:10.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-16\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-16\\metadata.9.json",
+      "SizeBytes": 2860,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "38c21ba9aedbebf60abeba446659f7e9a53aa23a0f5f1188dd2939e047f171ae",
+      "LastWriteTimeUtc": "2026-04-03T11:01:15.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-16\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-16\\sav.dat",
+      "SizeBytes": 2982340,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "45bc09a901b4a5032633ac7684b330f1310af1c94be8b9e67981bf5054302095",
+      "LastWriteTimeUtc": "2026-04-03T11:01:15.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-16\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-16\\screenshot.png",
+      "SizeBytes": 170647,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "65a2148ae14515a78ac233540e4844b74cb17fd8c3d3253f831ee7c0af9b4d5e",
+      "LastWriteTimeUtc": "2026-04-03T11:01:16.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-2\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-2\\metadata.9.json",
+      "SizeBytes": 2741,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "8f1d991c16d20b5da04ec5f871b457c769aafdfe46489200c2fa14bfc927ae43",
+      "LastWriteTimeUtc": "2025-01-19T13:10:15.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-2\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-2\\sav.dat",
+      "SizeBytes": 2131536,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "87893c25707e9ca59546802802ced3549e3d35d345c335c70ff1c3d217473c35",
+      "LastWriteTimeUtc": "2025-01-19T13:10:16.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-2\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-2\\screenshot.png",
+      "SizeBytes": 156308,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "0eeb9d2000f3877274cbffcf697d2f8e686040c6f3a4d8c9d2c5048ebb83b749",
+      "LastWriteTimeUtc": "2025-01-19T13:10:16.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-3\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-3\\metadata.9.json",
+      "SizeBytes": 2778,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "d7ea5155cecc6aec4647bf29c32d07f527321e899d2f50ce9d53a8099dfb1d1f",
+      "LastWriteTimeUtc": "2025-01-20T03:44:39.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-3\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-3\\sav.dat",
+      "SizeBytes": 2010305,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "195694504fd20f64460b0f6fec76092cc51622a282166648b2665f1b7f6ee0f3",
+      "LastWriteTimeUtc": "2025-01-20T03:44:39.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-3\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-3\\screenshot.png",
+      "SizeBytes": 104487,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "3c38d7f0143fab7075956e16c0eaa49f532cc7b025abd64142f31cf023ec0215",
+      "LastWriteTimeUtc": "2025-01-20T03:44:39.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-4\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-4\\metadata.9.json",
+      "SizeBytes": 2766,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "aa29f0e1249e7aeb97d8144194bb11a16afe25e596ddfb5391b2df3aeac18fd1",
+      "LastWriteTimeUtc": "2025-01-20T04:18:10.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-4\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-4\\sav.dat",
+      "SizeBytes": 2150408,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "dabe7e00e8b12e49bc38a1dad4723b6586cb2caa7ff8f5fc5c7fca950b7ff7d2",
+      "LastWriteTimeUtc": "2025-01-20T04:18:10.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-4\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-4\\screenshot.png",
+      "SizeBytes": 138085,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "9ec6f5446db16b786d34d7552021b75dd78f6d20e83c96814dcc0c0f3d3f355d",
+      "LastWriteTimeUtc": "2025-01-20T04:18:10.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-5\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-5\\metadata.9.json",
+      "SizeBytes": 2783,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "065d563c35d847447a8ac27d8cbf7df023c3c483d25b7cd3991dd6de16fce8ed",
+      "LastWriteTimeUtc": "2025-01-20T07:30:41.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-5\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-5\\sav.dat",
+      "SizeBytes": 2178208,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "4240aff2e359cb4993b02c0ad398d93aaf3f0ad8c0e89f723c9de7afc2be9f48",
+      "LastWriteTimeUtc": "2025-01-20T07:30:41.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-5\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-5\\screenshot.png",
+      "SizeBytes": 100825,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "257c44a941402e33eec4c65eff5d2a47d27f405d731a3a6bd6b857a9ddb80578",
+      "LastWriteTimeUtc": "2025-01-20T07:30:41.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-6\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-6\\metadata.9.json",
+      "SizeBytes": 3029,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "1c0e26d583487ce7d34fdc11d4aa8784e35f4285c5a05c16406952f85cca6753",
+      "LastWriteTimeUtc": "2025-01-20T14:01:22.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-6\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-6\\sav.dat",
+      "SizeBytes": 2851199,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "0539b9a331ffb694a92aa663908fac9804da200688481c9d11f9adbaac43588a",
+      "LastWriteTimeUtc": "2025-01-20T14:01:22.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-6\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-6\\screenshot.png",
+      "SizeBytes": 97949,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "4d493ed0b8f7a86b0eadccba95390153f68d7bc18561452b9d4df9c473f64376",
+      "LastWriteTimeUtc": "2025-01-20T14:01:22.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-7\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-7\\metadata.9.json",
+      "SizeBytes": 3861,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "19737dcbaa818a5150c038ee4c6ba5ac929f8c82fcf2c2d267458a38f3b4f202",
+      "LastWriteTimeUtc": "2025-06-01T13:25:05.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-7\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-7\\sav.dat",
+      "SizeBytes": 3747123,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "4ced48ebc9617e1f36c5e9d5c63e04f23aab402a394d9217d17ee60f3a4c7e6d",
+      "LastWriteTimeUtc": "2025-06-01T13:25:05.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-7\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-7\\screenshot.png",
+      "SizeBytes": 163142,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "a3b506fbde8821f8dd690803be55c6e9d169cf90279a119783c03bcc30f95239",
+      "LastWriteTimeUtc": "2025-06-01T13:25:06.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-8\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-8\\metadata.9.json",
+      "SizeBytes": 3860,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "38d57a2b15ff8a76a3db867a09723082acd410a5a12002bbd1c8f95e0f2da630",
+      "LastWriteTimeUtc": "2025-06-05T14:18:17.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-8\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-8\\sav.dat",
+      "SizeBytes": 3702894,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "8776766a8f441bd5139ac2a8104a7632e880015e7e421b8d2a93d00010e663b9",
+      "LastWriteTimeUtc": "2025-06-05T14:18:17.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-8\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-8\\screenshot.png",
+      "SizeBytes": 181415,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "2972d5e5c2514b36b106dae1dec414ed79daf3c5c73b3d4c25e5a2ea85a0a7cf",
+      "LastWriteTimeUtc": "2025-06-05T14:18:17.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-9\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-9\\metadata.9.json",
+      "SizeBytes": 3955,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "8c1cd7a92fbed5a1d9a329119bcaea4081d5527110c6d6b48b6f789f0bbe7b70",
+      "LastWriteTimeUtc": "2025-06-27T13:55:58.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-9\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-9\\sav.dat",
+      "SizeBytes": 3676972,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "93271d898059ea8096248dcd1bb198612b544d408006535985b79aa36c87f2e8",
+      "LastWriteTimeUtc": "2025-06-27T13:55:58.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\ManualSave-9\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\ManualSave-9\\screenshot.png",
+      "SizeBytes": 162463,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "d77a0a3f466ad9022121b824e9a0f7c1caa13e1ddd4deaff717959c87438bf9a",
+      "LastWriteTimeUtc": "2025-06-27T13:55:58.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\PointOfNoReturnSave-0\\metadata.9.json",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\PointOfNoReturnSave-0\\metadata.9.json",
+      "SizeBytes": 3972,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "1f7d7d9b746055d24c584a160c90bb49008a7417bfe9dd0f8c2df90e913d43d8",
+      "LastWriteTimeUtc": "2025-06-27T14:04:39.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\PointOfNoReturnSave-0\\sav.dat",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\PointOfNoReturnSave-0\\sav.dat",
+      "SizeBytes": 3803094,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "4398c12dc4b6dd760616478547f1b59234fb94a0fd20941554031c7ccff7a382",
+      "LastWriteTimeUtc": "2025-06-27T14:04:40.0000000Z"
+    },
+    {
+      "Kind": "SaveFile",
+      "OriginalFullPath": "C:\\Users\\ROG\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\PointOfNoReturnSave-0\\screenshot.png",
+      "BackupFullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614\\original_saves\\PointOfNoReturnSave-0\\screenshot.png",
+      "SizeBytes": 165485,
+      "FileVersion": null,
+      "ProductVersion": null,
+      "SHA256": "f919bec0f28c1d20f12982ff4cdef89dbe5cc06b9c58dd28700b6a19219d55df",
+      "LastWriteTimeUtc": "2025-06-27T14:04:39.0000000Z"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "Started": "2026-10-16T13:47:13.9932326+08:00",
+  "Finished": "2026-10-16T13:48:14.2420373+08:00",
+  "Samples": [
+    {
+      "Time": "2026-10-16T13:47:14.0104052+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:47:19.0403669+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:47:24.0689990+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:47:29.0845703+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:47:34.1128957+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:47:39.1269822+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:47:44.1391892+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:47:49.1600863+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:47:54.1868615+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:47:59.1939264+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:48:04.1981264+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:48:09.2047826+08:00",
+      "Running": true,
+      "Responding": true
+    }
+  ],
+  "NewCrashReports": []
+}

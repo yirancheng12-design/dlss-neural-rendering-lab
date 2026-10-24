@@ -1,0 +1,31 @@
+{
+  "bundle": "com.505games.deathstranding",
+  "game_version": "1.1.4",
+  "original_documents": [
+    "screenshots",
+    "sinfo",
+    "touch_button_settings.cfg",
+    "OnDemandResources",
+    "cloudsave.dat"
+  ],
+  "files": [
+    {
+      "path": "/Documents/sinfo",
+      "bytes": 76,
+      "sha256": "9f93ed57f8823c4f406a2ed911c5a5db99da233414637750c2bad277e5211f85"
+    },
+    {
+      "path": "/Documents/touch_button_settings.cfg",
+      "bytes": 915,
+      "sha256": "5fa72dd7790b5a600c55a250d7642ede8458dc82d2736442c546434c2c8488b7"
+    },
+    {
+      "path": "/Documents/cloudsave.dat",
+      "bytes": 1078,
+      "sha256": "65539643590a346dde6defd7fcf6ddcb52b5c3357bc39f69d65b6fc8d3f5b8a7"
+    }
+  ],
+  "settings_cfg_originally_existed": false,
+  "runtime_status": "UNKNOWN",
+  "configuration_written": false
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Tool\\DLSS5Control.ps1",
+    "Name": "DLSS5Control.ps1",
+    "SizeBefore": 11853,
+    "SHA256Before": "5D3176E29E1CDCBB480C4498E33666E6BA9F361AB0A082FE491B0C118FCD1B41",
+    "SHA256After": "17B3F9778BDE96CE216D86176253DE9CB67D3A540F10F490BB5B7D2338DF5183",
+    "FileVersion": null,
+    "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\objects\\5d3176e29e1cdcbb480c4498e33666e6ba9f361ab0a082fe491b0c118fcd1b41"
+  },
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Tool\\tool_config.json",
+    "Name": "tool_config.json",
+    "SizeBefore": 787,
+    "SHA256Before": "0C7A7E9EDEC8D59127508473774710E29A40FF06F6A43EBE638F2576EEDAFBA7",
+    "SHA256After": "3642B23CB8FA1101E34050E1F3512F0C5ECC115FE70FBF6C66B193E489171F79",
+    "FileVersion": null,
+    "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\objects\\0c7a7e9edec8d59127508473774710e29a40ff06f6a43ebe638f2576eedafba7"
+  },
+  {
+    "Path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\outputs\\Cyberpunk2077_DLSS5_Tool\\DLSS5Control.ps1",
+    "Name": "DLSS5Control.ps1",
+    "SizeBefore": 11853,
+    "SHA256Before": "5D3176E29E1CDCBB480C4498E33666E6BA9F361AB0A082FE491B0C118FCD1B41",
+    "SHA256After": "17B3F9778BDE96CE216D86176253DE9CB67D3A540F10F490BB5B7D2338DF5183",
+    "FileVersion": null,
+    "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\objects\\5d3176e29e1cdcbb480c4498e33666e6ba9f361ab0a082fe491b0c118fcd1b41"
+  },
+  {
+    "Path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\outputs\\Cyberpunk2077_DLSS5_Tool\\tool_config.json",
+    "Name": "tool_config.json",
+    "SizeBefore": 787,
+    "SHA256Before": "0C7A7E9EDEC8D59127508473774710E29A40FF06F6A43EBE638F2576EEDAFBA7",
+    "SHA256After": "3642B23CB8FA1101E34050E1F3512F0C5ECC115FE70FBF6C66B193E489171F79",
+    "FileVersion": null,
+    "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\objects\\0c7a7e9edec8d59127508473774710e29a40ff06f6a43ebe638f2576eedafba7"
+  }
+]

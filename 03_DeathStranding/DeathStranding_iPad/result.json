@@ -1,0 +1,51 @@
+{
+  "bundle": "com.505games.deathstranding",
+  "game_version": "1.1.4",
+  "original_documents": [
+    "screenshots",
+    "sinfo",
+    "touch_button_settings.cfg",
+    "OnDemandResources",
+    "cloudsave.dat"
+  ],
+  "files": [
+    {
+      "path": "/Documents/sinfo",
+      "bytes": 76,
+      "sha256": "9f93ed57f8823c4f406a2ed911c5a5db99da233414637750c2bad277e5211f85"
+    },
+    {
+      "path": "/Documents/touch_button_settings.cfg",
+      "bytes": 915,
+      "sha256": "5fa72dd7790b5a600c55a250d7642ede8458dc82d2736442c546434c2c8488b7"
+    },
+    {
+      "path": "/Documents/cloudsave.dat",
+      "bytes": 1078,
+      "sha256": "65539643590a346dde6defd7fcf6ddcb52b5c3357bc39f69d65b6fc8d3f5b8a7"
+    }
+  ],
+  "settings_cfg_originally_existed": false,
+  "runtime_status": "UNKNOWN",
+  "configuration_written": true,
+  "new_file": "/Documents/settings.cfg",
+  "new_sha256": "416acb93476b7db6ca4d1a6c720619069719f37b75313b527bfe52e4d92ad47c",
+  "backup": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\outputs\\DeathStranding_iPad\\backup_20261017_220101",
+  "settings": {
+    "target_width": 2420,
+    "target_height": 1668,
+    "motion_blur": 0,
+    "fps_limit": 120,
+    "postprocess_ssr": "1",
+    "postprocess_ao": "1",
+    "hdr": "1",
+    "anti-aliasing": "2",
+    "metal_fx": "1"
+  },
+  "effective_settings": "USER_REPORTED_NOT_EFFECTIVE",
+  "fps120_backup": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\outputs\\DeathStranding_iPad\\fps120_backup_20261017_222525",
+  "visual_options_backup": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\outputs\\DeathStranding_iPad\\visual_backup_20261017_223507",
+  "metalfx_highest_quality": "NOT_CONFIGURED: enum mapping unverified; mode and quality left at game defaults",
+  "antialiasing_mode": "2 requested; actual iPad runtime behavior unverified",
+  "user_report": "用户确认未生效。文件存在不构成游戏采用配置的证据。具体原因尚未定位。"
+}

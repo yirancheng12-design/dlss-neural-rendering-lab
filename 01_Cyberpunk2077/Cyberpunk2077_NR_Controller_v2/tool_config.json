@@ -1,0 +1,26 @@
+﻿{
+  "GameExeHint": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\Cyberpunk2077.exe",
+  "BackupRoot": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup",
+  "GameExeSHA256": "a7de82945c03e041fc7339fcf9066224d98db2f5d80fea50f7947bb350a60991",
+  "ExpectedHashes": {
+    "winmm.dll": "ad143c5bd6e5fab4d1abd8b048c424e9ddceabf1a864e0e0695c01a0dc82b4c9",
+    "nvngx.dll_dlssnr.dll": "87408102bc7b6a740c2f771deb131a606424df08165d4b9ab34c2742c2a42ea0",
+    "nvngx_dlssnr.dll": "e16bcf15e16e13f527491cdf7845b2fe6521a738d8f7c9c721866a8496e1fc8e"
+  },
+  "CompatibilityBlock": "",
+  "ModRelease": "Skynizz/optiscaler-dlss5 v1.2.1",
+  "NRVersion": "310.8.0.0",
+  "RequiredNrSettings": {
+    "CacheEnabled": "false",
+    "CacheAsync": "false",
+    "PreSr": "false",
+    "Passes": "1",
+    "WorkingScale": "0.67",
+    "JbuUpsample": "true",
+    "TransferStrength": "auto",
+    "ColourStrength": "auto"
+  },
+  "StabilityNote": "NR plus native DLSS x2: actual gameplay and 10-minute monitoring passed with no new crash. Quality, default strength, cache OFF. x3/x4 blocked; long-term stability unknown.",
+  "RequiredFrameGenerationOff": false,
+  "AllowFrameGenerationX2": true
+}

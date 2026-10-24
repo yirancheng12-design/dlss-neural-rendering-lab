@@ -1,0 +1,14 @@
+{
+  "Time": "2026-10-16T18:14:48.9068698+08:00",
+  "CorrectedMonitorResult": "PASS_10MIN_MONITOR",
+  "Correction": "Raw monitor counted a null placeholder as a crash. 120/120 samples alive and responsive; no named or actual new crash report.",
+  "NRRequested": "ON",
+  "GameRunning": false,
+  "FrameGeneration": "OFF",
+  "RuntimeStatusNow": "NOT_RUNNING - launch to run NR",
+  "PriorRunNRExecution": "CONFIRMED",
+  "LongTermStability": "UNKNOWN",
+  "ReloadTest": "NOT_COMPLETED",
+  "Guard": "Reject ON/Launch when native FrameGeneration is not Off or DLSSFrameGen is not false",
+  "TrialSettingsBackup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\nr_no_fg_20261016_174513\\UserSettings.before.json"
+}

@@ -1,0 +1,70 @@
+Cyberpunk 2077 非官方 NR 修复记录
+日期：2026-10-16（北京时间）
+
+结果
+DLSS5_STATUS=TRUE（本次运行中 NR 模型确实执行，不只是 DLL 存在或加载）
+OptiScaler_STATUS=TRUE
+Stability=短时读档复测通过；长期稳定性 UNKNOWN。
+
+修复后的配置
+RTX 5090 Laptop / 驱动 616.92 / Cyberpunk 2077 2.31 / 社区 Mod v1.2.1。
+NR Enabled=true；CacheEnabled=false；CacheAsync=false；PreSr=false；WorkingScale=0.67；Passes=1；JbuUpsample=true。
+原生 DLSS Quality 和多帧生成保留；UserSettings.json 与测试前原始备份的 SHA-256 一致。
+本次仅改变 NR 开启状态和 NR 编辑缓存开关，没有替换任何 DLL，没有下载新程序。
+编辑缓存关闭后，模型每帧执行，可能比此前缓存方案更慢；这是一项稳定性折中，不是免费提升 FPS。
+
+验证
+启动正版游戏 EXE（命令行请求 AutoSave-16），观察到车内剧情实际运行，随后暂停及设置菜单可响应。
+从游戏菜单再次读档后，观察到持枪室内场景正常渲染。
+第二次加载的具体存档槽位未独立核验，因此不宣称完成了同一槽位两次验证。
+13:18:48 至 13:20:48，持续监测约 120 秒，24 次采样均为进程运行且响应正常，新增崩溃报告 0。
+本次可见场景未发现明显黑屏或 HUD 破坏；没有进行全部任务、地图和长时间运动鬼影测试。
+当前运行 PID=22668；游戏保持运行，NR 开启。
+日志有模型创建、Dispatch、composition、周期性 DLSS-NR cost 记录；模型分辨率 1715x1072。
+记录示例：13:20:38，NR cost 5.68ms total=5.23ms model+0.46ms ours。
+这是单次计时日志，不是平均耗时、FPS 或性能保证。
+本次 Average FPS / 1% Low=UNKNOWN；不把叠加层即时数字当成完整基准。
+13 个原始游戏 EXE/DLSS/Streamline/dbghelp 文件与备份哈希一致；模型 NVIDIA 签名有效。
+
+原因边界
+先前两次读档发生 0xC0000005，游戏 EXE 偏移 0x4d7efe；当时编辑缓存开启且使用过 Balanced 测试配置。
+崩溃前日志出现 Streamline 帧资源标签失效警告，仅为线索，不等于证明因果。
+现有证据支持“缓存关闭、Quality 配置能短时运行”的解决办法；尚不能证明缓存是唯一根因。
+没有重新启用旧缓存组合复现故障，也没有把全部存档兼容性标记为已通过。
+作者说明该 NR 接口非 NVIDIA 官方支持；作者 v1.2.1 Release 未列出针对本次 Cyberpunk 读档崩溃的修复。
+来源：https://github.com/Skynizz/optiscaler-dlss5/releases/tag/v1.2.1
+来源：https://github.com/Skynizz/optiscaler-dlss5/blob/v1.2.1/OptiScaler/dlssnr/README.md
+
+一键工具
+E:\steam\steamapps\common\Cyberpunk2077_DLSS5_Tool\Toggle_DLSS5.bat
+解除原来对所有 ON 的临时阻止，改为配置约束：仅允许本次缓存关闭配置和 DLSS Quality。
+若以后改回 CacheEnabled=true 或其他未测试的关键设置，工具拒绝 ON/Launch，要求重新审查。
+菜单 [1] ON / [2] OFF / [3] 状态 / [4] 启动 / [5] 恢复原版 / [6] 日志。
+切换和恢复前必须退出游戏；工具拒绝在运行中切换。
+菜单状态对运行效果仍保守显示 UNKNOWN；本报告 TRUE 来自此次单独审核的当前运行日志。
+
+修改与备份
+游戏修改文件：[GAME_DIR]\Cyberpunk 2077\bin\x64\OptiScaler.ini
+修改前 INI、日志、游戏画质配置备份：
+E:\steam\steamapps\common\Cyberpunk2077_DLSS5_Backup\incidents\nr_repair_20261016_131448
+该目录 manifest.json 含原始路径、文件名、大小、SHA-256、文件版本和备份位置。
+修复后 INI SHA-256：1C9F012316655802702D68100E2C557A6E375388551B049E56E05FC6611F2E34
+工具及其交付副本修改：DLSS5Control.ps1、tool_config.json。
+工具修改前逐项保存到外部备份 objects；路径、大小、哈希、版本记录见 Cyberpunk2077-NR-repair-tool-changes.json。
+原始游戏文件未覆盖、删除；驱动、System32、注册表、安全机制未修改。
+
+恢复办法
+只关闭 NR：完全退出游戏，运行工具菜单 [2]。
+移除本次全部 Mod：完全退出游戏，运行工具菜单 [5]。新增组件移动到外部备份区，原始文件保留。
+回到本次修复前 NR OFF 状态：退出游戏后，可用上述现场目录的 OptiScaler.ini 恢复；该操作也应先备份当前配置。
+
+同目录证据
+Cyberpunk2077-NR-repair-result.json：最终状态及配置哈希。
+Cyberpunk2077-NR-repair-reload-monitor.json：120 秒完整采样。
+Cyberpunk2077-NR-repair-final.log：实际 NR 执行日志。
+Cyberpunk2077-NR-repair-native-verification.json：13 个原始文件核验。
+Cyberpunk2077-NR-repair-tool-changes.json：工具变更及备份清单。
+Cyberpunk2077-NR-repair-gameplay.jpg、Cyberpunk2077-NR-repair-reload-gameplay.jpg：两个已进入的实际场景。
+
+此报告是最新修复状态，取代先前卡退报告中“当前 NR OFF、ON 暂时锁定”的状态描述；旧报告保留为历史记录。
+

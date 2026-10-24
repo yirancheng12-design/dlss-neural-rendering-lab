@@ -1,0 +1,65 @@
+[
+  {
+    "Path": "C:\\Users\\ROG\\AppData\\Local\\CD Projekt Red\\Cyberpunk 2077\\UserSettings.json",
+    "Size": 91705,
+    "SHA256Before": "18f40ad4d42e51dfdbad8d43b3c23555515bf4d0063fd2c3191c2568057d1992",
+    "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\objects\\18f40ad4d42e51dfdbad8d43b3c23555515bf4d0063fd2c3191c2568057d1992",
+    "Version": null
+  },
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Tool\\DLSS5Control.ps1",
+    "Size": 16375,
+    "SHA256Before": "30a5d5a2cb47d4265ee364e1c2fe66e314e7161b7e95ef065dcdc18110dad627",
+    "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\objects\\30a5d5a2cb47d4265ee364e1c2fe66e314e7161b7e95ef065dcdc18110dad627",
+    "Version": null
+  },
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Tool\\NRDebugPanel.ps1",
+    "Size": 10054,
+    "SHA256Before": "a37ec7bcd15df2771b66050e8fbc39cd24218c1fa580afe0cd043bb4c37f80ac",
+    "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\objects\\a37ec7bcd15df2771b66050e8fbc39cd24218c1fa580afe0cd043bb4c37f80ac",
+    "Version": null
+  },
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Tool\\tool_config.json",
+    "Size": 1232,
+    "SHA256Before": "f62207b7dc6eb68677beeef879cb8f06159a34496a9d2bac8a43520212caaa43",
+    "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\objects\\f62207b7dc6eb68677beeef879cb8f06159a34496a9d2bac8a43520212caaa43",
+    "Version": null
+  },
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Tool\\README.txt",
+    "Size": 1473,
+    "SHA256Before": "309c9a6995b38e251d8669e6405e9ae2989ba79d779d34f06e96d4c7b48f2474",
+    "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\objects\\309c9a6995b38e251d8669e6405e9ae2989ba79d779d34f06e96d4c7b48f2474",
+    "Version": null
+  },
+  {
+    "Path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\outputs\\Cyberpunk2077_DLSS5_Tool\\DLSS5Control.ps1",
+    "Size": 16375,
+    "SHA256Before": "30a5d5a2cb47d4265ee364e1c2fe66e314e7161b7e95ef065dcdc18110dad627",
+    "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\objects\\30a5d5a2cb47d4265ee364e1c2fe66e314e7161b7e95ef065dcdc18110dad627",
+    "Version": null
+  },
+  {
+    "Path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\outputs\\Cyberpunk2077_DLSS5_Tool\\NRDebugPanel.ps1",
+    "Size": 10054,
+    "SHA256Before": "a37ec7bcd15df2771b66050e8fbc39cd24218c1fa580afe0cd043bb4c37f80ac",
+    "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\objects\\a37ec7bcd15df2771b66050e8fbc39cd24218c1fa580afe0cd043bb4c37f80ac",
+    "Version": null
+  },
+  {
+    "Path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\outputs\\Cyberpunk2077_DLSS5_Tool\\tool_config.json",
+    "Size": 1232,
+    "SHA256Before": "f62207b7dc6eb68677beeef879cb8f06159a34496a9d2bac8a43520212caaa43",
+    "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\objects\\f62207b7dc6eb68677beeef879cb8f06159a34496a9d2bac8a43520212caaa43",
+    "Version": null
+  },
+  {
+    "Path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\outputs\\Cyberpunk2077_DLSS5_Tool\\README.txt",
+    "Size": 1473,
+    "SHA256Before": "309c9a6995b38e251d8669e6405e9ae2989ba79d779d34f06e96d4c7b48f2474",
+    "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\objects\\309c9a6995b38e251d8669e6405e9ae2989ba79d779d34f06e96d4c7b48f2474",
+    "Version": null
+  }
+]

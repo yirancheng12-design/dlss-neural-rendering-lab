@@ -1,0 +1,54 @@
+{
+  "Status": "Installed; static verification complete; game not launched",
+  "InstalledAt": "2026-10-16T10:06:14.2877220+08:00",
+  "GameRoot": "E:\\steam\\steamapps\\common\\Cyberpunk 2077",
+  "GameBin": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64",
+  "BackupRoot": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614",
+  "AddedFiles": [
+    "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\winmm.dll",
+    "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx.dll_dlssnr.dll",
+    "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx_dlssnr.dll",
+    "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\OptiScaler.ini",
+    "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\OptiScaler-NR-install-manifest.json"
+  ],
+  "ManifestSHA256": "9a05afd186157f9decdd2916258bcc3f17e64a1a49dbbb33ed981e9338617c3f",
+  "OriginalFileBackups": 13,
+  "SettingsBackups": 1,
+  "SaveFileBackups": 119,
+  "BackupBytes": 300452091.0,
+  "OriginalAndBackupHashesUnchanged": true,
+  "DLLChecks": [
+    {
+      "Name": "winmm.dll",
+      "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\winmm.dll",
+      "Architecture": "x64 PE32+",
+      "SHA256": "ad143c5bd6e5fab4d1abd8b048c424e9ddceabf1a864e0e0695c01a0dc82b4c9",
+      "SignatureStatus": "NotSigned",
+      "Signer": null
+    },
+    {
+      "Name": "nvngx.dll_dlssnr.dll",
+      "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx.dll_dlssnr.dll",
+      "Architecture": "x64 PE32+",
+      "SHA256": "87408102bc7b6a740c2f771deb131a606424df08165d4b9ab34c2742c2a42ea0",
+      "SignatureStatus": "NotSigned",
+      "Signer": null
+    },
+    {
+      "Name": "nvngx_dlssnr.dll",
+      "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx_dlssnr.dll",
+      "Architecture": "x64 PE32+",
+      "SHA256": "e16bcf15e16e13f527491cdf7845b2fe6521a738d8f7c9c721866a8496e1fc8e",
+      "SignatureStatus": "Valid",
+      "Signer": "CN=NVIDIA Corporation, OU=1005bk6, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US"
+    }
+  ],
+  "StaticUnresolvedImports": [],
+  "ExistingTargetsOverwritten": 0,
+  "GameLaunched": false,
+  "RegistryModified": false,
+  "DriverFilesModified": false,
+  "WutheringWavesModified": false,
+  "ExecutedDownloadedFiles": [],
+  "Limitations": "Static import presence, identity, signature and architecture checks only. Dynamic dependencies and NR feature creation require a later user-authorized runtime test."
+}

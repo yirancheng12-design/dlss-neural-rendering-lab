@@ -1,0 +1,74 @@
+Cyberpunk 2077 重复崩溃修复：停用并移除不稳定 NR
+更新时间：2026-10-16T17:11:51.2544921+08:00
+
+最新结论
+本次社区 NR 组合未通过实际稳定性验证，停止作为可用 Mod 交付。
+DLSS5_STATUS=FALSE（组件已撤下）；OptiScaler_STATUS=FALSE。
+原生 DLSS / DLSSG / DLSSD / Streamline 文件保留。
+恢复到本次 Mod 安装前的游戏文件状态后，故障对应 AutoSave-19 已请求加载，实际场景可见。
+5 分钟观察结果：PASS_5_MINUTE_OBSERVATION，60 次采样，新增崩溃 0。
+观察开始：10/16/2026 17:06:23
+观察结束：10/16/2026 17:11:24
+实际观察秒数：301.36
+5 分钟测试只覆盖此次场景，不能保证游戏在任何条件下永不报错。
+
+故障事实
+最新崩溃：[USER_HOME]\AppData\Local\REDEngine\ReportQueue\Cyberpunk2077-20261016-165628-34928-43840
+读访问冲突 0xC0000005，读取无效地址 0x155。
+当时 NR Enabled=true、原强度 auto、编辑缓存 false。
+因此“关闭编辑缓存、恢复原强度”并未解决全部实玩崩溃；之前 60/120 秒测试仅短时通过，不足以建立兼容性。
+不凭此单次错误断言唯一根因，也不继续靠调参强开同一社区组合。
+崩溃附件的 sav.dat 与本地 AutoSave-19 SHA-256 相同：
+A35F63A6F1EA2C73AA07C095C10109E5CF24CCC82197E61E8728874EFFA7457A
+
+已执行
+修改前保存最新 INI、日志、崩溃附件和工具配置，文件备份逐项校验 SHA-256。
+13 个原始 EXE/DLSS/Streamline/dbghelp 文件均与安装前哈希一致。
+使用已审查的 Restore 功能，把本次新增文件移出 bin\x64，未删除原文件：
+winmm.dll
+nvngx.dll_dlssnr.dll
+nvngx_dlssnr.dll
+OptiScaler.ini
+OptiScaler-NR-install-manifest.json
+OptiScaler.log
+移入：E:\steam\steamapps\common\Cyberpunk2077_DLSS5_Backup\removed_mod_20261016_165945_f508c8
+目录内 restoration.json 保留移出路径、哈希、备份对象记录。
+没有修改驱动、System32、安全机制或存档。
+旧崩溃窗口仅在保留现场后关闭，未发送诊断数据；没有隐藏后续游戏崩溃或关闭错误报告机制。
+
+预防再次误开启
+实际工具及交付副本的 tool_config.json 已设置 CompatibilityBlock。
+ON 和 Strength 写入被阻止；桌面面板同步显示“社区 NR 已卸载”。
+开启 NR、强度滑块、应用和恢复原强度入口禁用；游戏未运行时仍可启动原版。
+NR 调试面板当前未重新打开，以免打断正在运行的原版实机测试；下次从桌面打开会使用更新后的禁用状态。
+工具 README 已添加最新停用说明，旧历史报告的 NR 可用结论不再代表当前状态。
+
+备份
+本次现场：E:\steam\steamapps\common\Cyberpunk2077_DLSS5_Backup\incidents\nr_retired_20261016_165944
+完整备份：E:\steam\steamapps\common\Cyberpunk2077_DLSS5_Backup
+桌面工具：赛博朋克2077 NR 调试面板 / 赛博朋克2077 DLSS5 开关。
+游戏：[GAME_DIR]\Cyberpunk 2077\bin\x64\Cyberpunk2077.exe
+后续不会自动恢复或开启这套 NR；需要作者有明确修复并重新审查后，才能重新评估。
+
+证据（同目录）
+Cyberpunk2077_NR_RETIRED_STATE.json
+Cyberpunk2077_ORIGINAL_5MIN_TEST.json
+Cyberpunk2077_ORIGINAL_RUNTIME_MODULES.json
+Cyberpunk2077_ORIGINAL_FINAL_MODULES.json
+Cyberpunk2077-original-gameplay-start.jpg
+Cyberpunk2077-original-gameplay-end.jpg
+
+最终画面核验限制（优先于前文对测试通过的概述）
+5 分钟 PASS 仅指进程采样存活且响应、无新增崩溃目录；测试开始和中途已看到实际游戏场景。
+结束截图为纯黑，窗口激活失败。刷新窗口对象后重试一次仍失败，已停止 UI 自动操作。
+因此不能确认结束时用户实际看到的画面，也不能断言这只是截图问题。原版最终画面稳定性核验尚未完成。
+已向用户询问当前是否锁屏、最小化或切出，等待桌面状态信息再继续核验。
+最新只读检查：游戏进程仍响应、NR 模块数量 0；没有新的崩溃目录。不能以这些指标代替实际画面检查。
+Cyberpunk2077-original-gameplay-end.jpg 是异常黑色截图证据，不应作为正常画面通过证据。
+
+最终人工画面核验补充
+用户明确确认：画面正常，也能操作。这项人工确认补足了最终画面核验。
+自动截图及窗口检测失败不能代表用户实际画面异常，自动窗口工具当时不可靠。
+非官方 NR 保持卸载及重新开启封锁，不再为了测试重新启用。
+此前等待用户确认的状态已更新；不承诺任何场景永久不会报错。
+

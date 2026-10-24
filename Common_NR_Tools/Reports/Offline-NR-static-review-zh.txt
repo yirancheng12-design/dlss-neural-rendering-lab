@@ -1,0 +1,101 @@
+video2dlssnr v1.4.1 离线 NR 包静态审查结果
+检查日期：2026-10-16，Asia/Shanghai
+
+结论：未通过，停止执行与安装。
+决定性证据：包内 nvngx_dlssnr.dll 的 Authenticode 结果为 HashMismatch。用户已明确要求模型 DLL 来源或签名未通过即停止，因此未尝试运行、修补或替换。
+这不是恶意软件判定。该结果表示当前文件不能通过现有 NVIDIA 签名的内容完整性验证；无法仅凭此确定是谁、为何修改了它。证书字段显示 NVIDIA 不等于签名验证成功。
+
+授权与实际操作
+用户授权：仅下载与静态审查；不执行、不安装、不写游戏目录。
+已下载 1 个批准归档，并在工作区独立目录解压 12 个文件供只读检查。
+没有运行 start.bat、app.py、nr_video.py、ffmpeg.exe、ffprobe.exe、video2dlssnr.exe，也没有加载包内 DLL。
+没有创建该包的 Python 环境，没有安装 pip 依赖，没有启用网页 UI。
+没有启动《鸣潮》、注入游戏、修改 ACE、安全软件、System32、NVIDIA 驱动或注册表。
+独立存放目录不是运行沙箱；安全边界来自没有执行包内内容。
+
+来源链与归档
+作者仓库：https://github.com/DaniilSokolyuk/video2dlssnr
+Release：https://github.com/DaniilSokolyuk/video2dlssnr/releases/tag/v1.4.1
+资产名：video2dlssnr_release.zip
+下载地址：https://github.com/DaniilSokolyuk/video2dlssnr/releases/download/v1.4.1/video2dlssnr_release.zip
+归档大小：247,433,416 字节。
+实际 SHA-256 与 GitHub 资产页面公布值一致：
+cf1e01b3715b5ee75708744a5d5e6a4f2a96b5504834dd854b4c06388f230ccf
+来源：https://github.com/DaniilSokolyuk/video2dlssnr/releases/expanded_assets/v1.4.1
+归档完整性通过，仅说明收到的字节与发布资产一致，不能抵消包内模型 DLL 的签名失败。
+
+静态检查摘要
+归档条目：12；解压合计 455,956,433 字节。
+解压前检查了路径越界、绝对路径、Windows 保留名、重复目标、符号链接及总大小限制，未发现这些问题。
+PE 文件：6，全部为 x64（AMD64）。
+读取普通导入表和延迟导入表后，在程序目录/System32 内未发现明确缺失的普通 DLL；Windows API-set 单独标记为系统契约。
+这不是依赖完整性认证：未实际加载文件，未递归验证系统 DLL 的依赖，未验证动态加载的 NGX/CUDA/GPU 组件或运行时行为。Python 依赖也没有安装验证。
+
+签名结果
+nvngx_dlss.dll：310.8.0.0，NVIDIA 签名 Valid。
+nvngx_dlssnr.dll：310.8.0.0，NVIDIA 签名 HashMismatch——停止项。
+nvngx.dll_dlssnr.dll、video2dlssnr.exe、ffmpeg.exe、ffprobe.exe：NotSigned。
+未签名本身不等于恶意；项目主程序与转发器来自已核对的作者 Release，但本次未进行可复现构建验证，也未独立证实 FFmpeg 二进制的上游构建来源。
+Get-AuthenticodeSignature 的通用状态消息包含“cannot run/script”等模板用语；本审查没有据此测试或推断 Windows 是否实际拦截执行，明确结论只使用签名状态。
+
+脚本审查
+start.bat、requirements.txt、app.py、nr_video.py 与仓库 v1.4.1 标签的对应文本一致（忽略 CRLF/LF 与末尾空白）。
+start.bat 会创建 .venv，升级 pip，然后安装 requirements.txt；requirements.txt 仅约束 gradio>=4.0，未锁定完整依赖版本及哈希。
+app.py 在依赖缺失时也会调用 pip，并在执行入口启动 Gradio UI；这些操作本次均未执行。
+nr_video.py 会启动处理器及 FFmpeg/FFprobe；优先使用包内程序，然后才查找其他位置。本次未执行这些程序。
+没有把文本一致误称为发布 EXE 与源码构建一致。
+
+为什么该包不能用于本次 RTX 5090 Laptop 验证
+1. NR 模型的签名完整性未通过，违反已明确的停止条件。
+2. 不能用“从作者 GitHub 下载”“整个压缩包校验正确”替代 NVIDIA 专有 DLL 的签名检查。
+3. 不应为试验而修补 DLL、去掉签名检查、关闭安全软件，或通过加载失败与否来试探它。
+
+修改/恢复记录
+被覆盖、删除、替换的既有游戏文件：0。
+新增游戏目录文件：0。
+驱动与 ACE 改动：0。
+没有安装 Mod，游戏无需卸载或恢复；没有拟覆盖的游戏文件，所以没有创建游戏 backup 文件夹。
+新增的是工作区下载归档、独立解压副本、审查脚本与报告。它们保留用于复核，未删除任何原始 DLL。
+如果以后只清理本次审查资料，可在确认无需保留后删除下方两个新建工作区路径；不要删除《鸣潮》或系统中的任何文件。本次没有执行清理。
+
+后续重新评估条件
+需提供来源可追溯、NVIDIA Authenticode 为 Valid 的未修补 nvngx_dlssnr.dll，并重新核对 x64、版本、哈希和所需依赖。任何新仓库/Release/下载仍要事先说明并获用户确认。
+即使未来离线验证通过，也不能推导《鸣潮》实时集成兼容或 ACE 认可；原先实时 Mod 的停止决定保持。
+
+本次下载归档：[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\work\downloads\video2dlssnr_release-v1.4.1.zip
+本次解压目录：[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\work\review-video2dlssnr-v1.4.1
+
+失败模型 DLL 完整路径：[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\work\review-video2dlssnr-v1.4.1\out\nvngx_dlssnr.dll
+失败模型 DLL 大小：165840496 字节
+失败模型 DLL SHA-256：8270b350cd82de5ce89806872cdd6b6a9249b80836b91bbeb3573470744cc206
+失败模型 DLL 签名状态：HashMismatch
+
+全部新增包文件：
+[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\work\review-video2dlssnr-v1.4.1\app.py
+大小：20769 字节；SHA-256：a24abac6dacbac44c9096d3e428d3785df705fa26a45b99f700c78a7e60ecbf4
+[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\work\review-video2dlssnr-v1.4.1\LICENSE
+大小：1093 字节；SHA-256：215fb368792df5ae4283fb4d16d6f7ff9f9c28a7fc78b6f4b31bb97e2c1bc3b7
+[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\work\review-video2dlssnr-v1.4.1\nr_video.py
+大小：27241 字节；SHA-256：8c40a3d03fb3323bd071df905ccff1f958cff1b04ed4ff2ec88d3a8b92f3cc8d
+[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\work\review-video2dlssnr-v1.4.1\README.md
+大小：25683 字节；SHA-256：547d76264035b36f749c5784f91d7cf41f9684474a171a5322e82a6de596f110
+[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\work\review-video2dlssnr-v1.4.1\requirements.txt
+大小：12 字节；SHA-256：6703c8ba679f2555b9d023448308b8a4c3e902d462d84b5079042d5389481047
+[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\work\review-video2dlssnr-v1.4.1\start.bat
+大小：707 字节；SHA-256：c9ee0527309f4be686113a4119a808e6a7fd5ef9441b6a02f0aec7af2fd7e600
+[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\work\review-video2dlssnr-v1.4.1\out\ffmpeg.exe
+大小：115410944 字节；SHA-256：2e1b00eb8fe56ae789a4ca888a66e328b4301add661f8846bf90d2b3a46c1bcf
+[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\work\review-video2dlssnr-v1.4.1\out\ffprobe.exe
+大小：115198464 字节；SHA-256：40d4bc84fa99fb5efc2ef812ec429414cc3b484334a66971b02bb009db581252
+[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\work\review-video2dlssnr-v1.4.1\out\nvngx.dll_dlssnr.dll
+大小：13312 字节；SHA-256：a64d48ec6157a6811f9b812de47ecb718f4143c3355879c22515e6418b7c1bea
+[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\work\review-video2dlssnr-v1.4.1\out\nvngx_dlss.dll
+大小：58956400 字节；SHA-256：c85f971ce023c9f3492fc7455f0b01a24ba18ea39636407a846902c4360b0b7e
+[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\work\review-video2dlssnr-v1.4.1\out\nvngx_dlssnr.dll
+大小：165840496 字节；SHA-256：8270b350cd82de5ce89806872cdd6b6a9249b80836b91bbeb3573470744cc206
+[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\work\review-video2dlssnr-v1.4.1\out\video2dlssnr.exe
+大小：461312 字节；SHA-256：7658f780aaa0ce9112d93a036273e19c4d62bf03ffae1a7bb6099d485a97ff58
+
+详细证据：Offline-NR-static-audit.json、Offline-NR-signatures.json、Offline-NR-source-comparison.json。
+SimonAI 咨询：SimonAI-consultation.txt；签名问题专项复核已完成并保存为 SimonAI-signature-review.txt。咨询意见不能改变实测签名状态或代替用户批准。
+

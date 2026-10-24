@@ -1,0 +1,67 @@
+{
+  "CapturedAt": "2026-10-16T12:07:45.7991074+08:00",
+  "Test": "ON_Quality_in_benchmark",
+  "PID": 27468,
+  "Modules": [
+    {
+      "Name": "sl.interposer.dll",
+      "Path": "E:\\steam\\steamapps\\common\\cyberpunk 2077\\bin\\x64\\sl.interposer.dll",
+      "Version": "2,7,1,0"
+    },
+    {
+      "Name": "dxgi.dll",
+      "Path": "C:\\Windows\\SYSTEM32\\dxgi.dll",
+      "Version": "10.0.26100.9444 (WinBuild.160101.0800)"
+    },
+    {
+      "Name": "WINMM.dll",
+      "Path": "E:\\steam\\steamapps\\common\\cyberpunk 2077\\bin\\x64\\WINMM.dll",
+      "Version": "10.0.0.1"
+    },
+    {
+      "Name": "winmm.dll",
+      "Path": "C:\\Windows\\system32\\winmm.dll",
+      "Version": "10.0.26100.8875 (WinBuild.160101.0800)"
+    },
+    {
+      "Name": "_nvngx.dll",
+      "Path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvamsi.inf_amd64_f3ff0022ad7f3f4a\\_nvngx.dll",
+      "Version": "32.0.16.1692"
+    },
+    {
+      "Name": "d3d12.dll",
+      "Path": "C:\\Windows\\SYSTEM32\\d3d12.dll",
+      "Version": "10.0.26100.9278 (WinBuild.160101.0800)"
+    },
+    {
+      "Name": "nvngx_dlss.dll",
+      "Path": "E:\\steam\\steamapps\\common\\cyberpunk 2077\\bin\\x64\\nvngx_dlss.dll",
+      "Version": "310,1,0,0"
+    },
+    {
+      "Name": "nvngx_dlssg.dll",
+      "Path": "E:\\steam\\steamapps\\common\\cyberpunk 2077\\bin\\x64\\nvngx_dlssg.dll",
+      "Version": "310,1,0,0"
+    },
+    {
+      "Name": "nvngx_dlssd.dll",
+      "Path": "E:\\steam\\steamapps\\common\\cyberpunk 2077\\bin\\x64\\nvngx_dlssd.dll",
+      "Version": "310,1,0,0"
+    },
+    {
+      "Name": "nvngx_dlssnr.dll",
+      "Path": "E:\\steam\\steamapps\\common\\cyberpunk 2077\\bin\\x64\\nvngx_dlssnr.dll",
+      "Version": "310,8,0,0"
+    },
+    {
+      "Name": "D3D12Core.dll",
+      "Path": "C:\\Windows\\SYSTEM32\\D3D12Core.dll",
+      "Version": "10.0.26100.9278 (WinBuild.160101.0800)"
+    },
+    {
+      "Name": "nvngx.dll_dlssnr.dll",
+      "Path": "E:\\steam\\steamapps\\common\\cyberpunk 2077\\bin\\x64\\nvngx.dll_dlssnr.dll",
+      "Version": null
+    }
+  ]
+}

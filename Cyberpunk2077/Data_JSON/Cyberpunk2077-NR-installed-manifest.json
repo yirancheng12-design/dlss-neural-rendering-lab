@@ -1,0 +1,130 @@
+{
+  "SchemaVersion": 1,
+  "InstalledAt": "2026-10-16T10:06:14.2877220+08:00",
+  "GameRoot": "E:\\steam\\steamapps\\common\\Cyberpunk 2077",
+  "GameBin": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64",
+  "BackupRoot": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614",
+  "MarkerName": "OptiScaler-NR-install-manifest.json",
+  "Files": [
+    {
+      "Name": "winmm.dll",
+      "Source": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-optiscaler-dlss5-v1.2.1\\DLSS5-Optimised\\OptiScaler.dll",
+      "StagePath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\staged-cyberpunk-nr\\winmm.dll",
+      "Target": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\winmm.dll",
+      "SourceRelease": "Skynizz/optiscaler-dlss5 v1.2.1",
+      "Purpose": "Load OptiScaler through the existing WINMM import; no original DLL replacement.",
+      "SizeBytes": 26347008,
+      "SHA256": "ad143c5bd6e5fab4d1abd8b048c424e9ddceabf1a864e0e0695c01a0dc82b4c9",
+      "TargetExistedBefore": false
+    },
+    {
+      "Name": "nvngx.dll_dlssnr.dll",
+      "Source": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-optiscaler-dlss5-v1.2.1\\DLSS5-Optimised\\nvngx.dll_dlssnr.dll",
+      "StagePath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\staged-cyberpunk-nr\\nvngx.dll_dlssnr.dll",
+      "Target": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx.dll_dlssnr.dll",
+      "SourceRelease": "Skynizz/optiscaler-dlss5 v1.2.1",
+      "Purpose": "Open-source NR caller forwarder.",
+      "SizeBytes": 114176,
+      "SHA256": "87408102bc7b6a740c2f771deb131a606424df08165d4b9ab34c2742c2a42ea0",
+      "TargetExistedBefore": false
+    },
+    {
+      "Name": "nvngx_dlssnr.dll",
+      "Source": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\outputs\\NR-runtime-310.8.0\\nvngx_dlssnr.dll",
+      "StagePath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\staged-cyberpunk-nr\\nvngx_dlssnr.dll",
+      "Target": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx_dlssnr.dll",
+      "SourceRelease": "RankFTW/rhi-repo dlssnr-310.8.0; NVIDIA Authenticode Valid",
+      "Purpose": "Signed NVIDIA NR model runtime.",
+      "SizeBytes": 165840496,
+      "SHA256": "e16bcf15e16e13f527491cdf7845b2fe6521a738d8f7c9c721866a8496e1fc8e",
+      "TargetExistedBefore": false
+    },
+    {
+      "Name": "OptiScaler.ini",
+      "Source": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\review-optiscaler-dlss5-v1.2.1\\DLSS5-Optimised\\OptiScaler.ini",
+      "StagePath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\staged-cyberpunk-nr\\OptiScaler.ini",
+      "Target": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\OptiScaler.ini",
+      "SourceRelease": "Skynizz/optiscaler-dlss5 v1.2.1 template + recorded task-specific settings",
+      "Purpose": "Game-local NR and scope configuration.",
+      "SizeBytes": 71504,
+      "SHA256": "47ca3a961a2e2f556fa3fd5c239fb459afe154d3c67d4a36aac0a1be7caee16e",
+      "TargetExistedBefore": false
+    }
+  ],
+  "Settings": {
+    "Upscalers": {
+      "Dx12Upscaler": "dlss"
+    },
+    "FrameGen": {
+      "Enabled": "false",
+      "FGInput": "nofg",
+      "FGOutput": "nofg",
+      "FGNvngxReplacement": "None"
+    },
+    "Inputs": {
+      "EnableDlssInputs": "true",
+      "EnableXeSSInputs": "false",
+      "EnableFsr2Inputs": "false",
+      "UseFsr2Inputs": "false",
+      "EnableFsr3Inputs": "false",
+      "UseFsr3Inputs": "false",
+      "EnableFfxInputs": "false",
+      "UseFfxInputs": "false"
+    },
+    "Spoofing": {
+      "StreamlineSpoofing": "false",
+      "Dxgi": "false",
+      "Vulkan": "false",
+      "VulkanExtensionSpoofing": "false",
+      "SpoofHAGS": "false",
+      "Registry": "false",
+      "User32": "false",
+      "D3DFeatureLevel": "false"
+    },
+    "Plugins": {
+      "LoadAsiPlugins": "false",
+      "LoadReshade": "false",
+      "LoadCustomAmdxc64OnRdna2": "false"
+    },
+    "fakenvapi": {
+      "UseFakenvapi": "false"
+    },
+    "ProcessFilter": {
+      "TargetProcessName": "Cyberpunk2077.exe"
+    },
+    "Hotfix": {
+      "CheckForUpdate": "false",
+      "DisableOverlays": "false"
+    },
+    "Menu": {
+      "OverlayMenu": "true"
+    },
+    "Log": {
+      "LogToFile": "true",
+      "LogLevel": "2"
+    },
+    "DlssNr": {
+      "Enabled": "true",
+      "PreSr": "false",
+      "WorkingScale": "0.67",
+      "CacheEnabled": "true",
+      "CacheInterval": "2",
+      "CacheAsync": "false",
+      "Passes": "1",
+      "AutoCapture": "false",
+      "JbuUpsample": "true",
+      "WhitePointSource": "3",
+      "CompareKey": "117"
+    }
+  },
+  "OriginalFilesOverwritten": [],
+  "OriginalFilesDeleted": [],
+  "GameLaunched": false,
+  "DriverOrSystemFilesModified": false,
+  "RegistryModified": false,
+  "SourceURLs": [
+    "https://github.com/Skynizz/optiscaler-dlss5/releases/tag/v1.2.1",
+    "https://github.com/RankFTW/rhi-repo/releases/tag/dlssnr-310.8.0"
+  ],
+  "Qualification": "Static checks only. Two community DLLs are unsigned. NR rendering and runtime stability are not tested."
+}

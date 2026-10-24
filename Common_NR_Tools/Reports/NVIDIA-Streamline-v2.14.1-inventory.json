@@ -1,0 +1,3068 @@
+[
+  {
+    "Path": "_artifacts/sl.dlss_g/",
+    "Size": 0,
+    "CompressedSize": 0,
+    "Attributes": 0
+  },
+  {
+    "Path": "_artifacts/shaders/copy_cs.h",
+    "Size": 3475,
+    "CompressedSize": 717,
+    "Attributes": 0
+  },
+  {
+    "Path": "_artifacts/shaders/copy_spv.h",
+    "Size": 5024,
+    "CompressedSize": 906,
+    "Attributes": 0
+  },
+  {
+    "Path": "_artifacts/shaders/copy_to_buffer_cs.h",
+    "Size": 3837,
+    "CompressedSize": 789,
+    "Attributes": 0
+  },
+  {
+    "Path": "_artifacts/shaders/copy_to_buffer_spv.h",
+    "Size": 6996,
+    "CompressedSize": 1177,
+    "Attributes": 0
+  },
+  {
+    "Path": "_artifacts/shaders/mvec_cs.h",
+    "Size": 7762,
+    "CompressedSize": 1263,
+    "Attributes": 0
+  },
+  {
+    "Path": "_artifacts/shaders/mvec_spv.h",
+    "Size": 12855,
+    "CompressedSize": 1925,
+    "Attributes": 0
+  },
+  {
+    "Path": "_artifacts/sl.dlss_g/Develop_x64/sl.dlss_g.dll",
+    "Size": 830592,
+    "CompressedSize": 392323,
+    "Attributes": 0
+  },
+  {
+    "Path": "_artifacts/sl.dlss_g/Production_x64/sl.dlss_g.dll",
+    "Size": 636032,
+    "CompressedSize": 290880,
+    "Attributes": 0
+  },
+  {
+    "Path": ".agents/plugins/marketplace.json",
+    "Size": 408,
+    "CompressedSize": 197,
+    "Attributes": 0
+  },
+  {
+    "Path": ".claude-plugin/marketplace.json",
+    "Size": 367,
+    "CompressedSize": 189,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/nis.license.txt",
+    "Size": 1199,
+    "CompressedSize": 686,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/NvLowLatencyVk.dll",
+    "Size": 57840,
+    "CompressedSize": 28693,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/nvngx_deepdvc.dll",
+    "Size": 3104880,
+    "CompressedSize": 1557156,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/nvngx_dlss.dll",
+    "Size": 58956912,
+    "CompressedSize": 31123319,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/nvngx_dlss.license.txt",
+    "Size": 26727,
+    "CompressedSize": 9256,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/nvngx_dlssd.dll",
+    "Size": 48343664,
+    "CompressedSize": 21565278,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/nvngx_dlssg.dll",
+    "Size": 7460976,
+    "CompressedSize": 3717448,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/reflex.license.txt",
+    "Size": 20504,
+    "CompressedSize": 7617,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/sl.common.dll",
+    "Size": 843392,
+    "CompressedSize": 390298,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/sl.deepdvc.dll",
+    "Size": 376448,
+    "CompressedSize": 174626,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/sl.directsr.dll",
+    "Size": 369792,
+    "CompressedSize": 171218,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/sl.dlss_d.dll",
+    "Size": 437376,
+    "CompressedSize": 198360,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/sl.dlss_g.dll",
+    "Size": 636032,
+    "CompressedSize": 290880,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/sl.dlss.dll",
+    "Size": 422016,
+    "CompressedSize": 194964,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/sl.interposer.dll",
+    "Size": 652928,
+    "CompressedSize": 284550,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/sl.nis.dll",
+    "Size": 1155712,
+    "CompressedSize": 346553,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/sl.nvperf.dll",
+    "Size": 761472,
+    "CompressedSize": 342626,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/sl.pcl.dll",
+    "Size": 360064,
+    "CompressedSize": 167265,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/sl.reflex.dll",
+    "Size": 388736,
+    "CompressedSize": 180983,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/nis.license.txt",
+    "Size": 1199,
+    "CompressedSize": 686,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/NvLowLatencyVk.dll",
+    "Size": 57840,
+    "CompressedSize": 28693,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/nvngx_deepdvc.dll",
+    "Size": 12354672,
+    "CompressedSize": 6419753,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/nvngx_dlss.dll",
+    "Size": 59383920,
+    "CompressedSize": 31269435,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/nvngx_dlss.license.txt",
+    "Size": 26727,
+    "CompressedSize": 9256,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/nvngx_dlssd.dll",
+    "Size": 93504624,
+    "CompressedSize": 59709048,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/nvngx_dlssg.dll",
+    "Size": 7997552,
+    "CompressedSize": 3944280,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/reflex.license.txt",
+    "Size": 20504,
+    "CompressedSize": 7617,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/sl.common.dll",
+    "Size": 849536,
+    "CompressedSize": 388172,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/sl.deepdvc.dll",
+    "Size": 382080,
+    "CompressedSize": 170105,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/sl.directsr.dll",
+    "Size": 366208,
+    "CompressedSize": 163867,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/sl.dlss_d.dll",
+    "Size": 445568,
+    "CompressedSize": 194852,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/sl.dlss_g.dll",
+    "Size": 830592,
+    "CompressedSize": 392323,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/sl.dlss.dll",
+    "Size": 431232,
+    "CompressedSize": 191449,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/sl.imgui.dll",
+    "Size": 1360512,
+    "CompressedSize": 698145,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/sl.interposer.dll",
+    "Size": 704640,
+    "CompressedSize": 304085,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/sl.nis.dll",
+    "Size": 1161344,
+    "CompressedSize": 343077,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/sl.nvperf.dll",
+    "Size": 762496,
+    "CompressedSize": 335805,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/sl.pcl.dll",
+    "Size": 354944,
+    "CompressedSize": 159075,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/sl.reflex.dll",
+    "Size": 390272,
+    "CompressedSize": 175893,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/winpixeventruntime-LICENSE.md",
+    "Size": 12732,
+    "CompressedSize": 5201,
+    "Attributes": 0
+  },
+  {
+    "Path": "bin/x64/development/WinPixEventRuntime.dll",
+    "Size": 34896,
+    "CompressedSize": 19345,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/APIChangesAndImprovements.md",
+    "Size": 5873,
+    "CompressedSize": 2676,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/Debugging - JSON Configs (Plugin Configs).md",
+    "Size": 5153,
+    "CompressedSize": 1819,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/Debugging - SL ImGUI (Realtime Data Inspection).md",
+    "Size": 5879,
+    "CompressedSize": 2240,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/DLSS Programming Guide.pdf",
+    "Size": 6207258,
+    "CompressedSize": 5925877,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/DLSS-FG Programming Guide.pdf",
+    "Size": 31554993,
+    "CompressedSize": 30004470,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/DLSS-RR Integration Guide.pdf",
+    "Size": 622585,
+    "CompressedSize": 535363,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/ProgrammingGuide.md",
+    "Size": 80861,
+    "CompressedSize": 23761,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/ProgrammingGuideDeepDVC.md",
+    "Size": 8181,
+    "CompressedSize": 2903,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/ProgrammingGuideDirectSR.md",
+    "Size": 6946,
+    "CompressedSize": 2802,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/ProgrammingGuideDLSS_G.md",
+    "Size": 73795,
+    "CompressedSize": 24843,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/ProgrammingGuideDLSS_RR.md",
+    "Size": 25547,
+    "CompressedSize": 8161,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/ProgrammingGuideDLSS.md",
+    "Size": 15942,
+    "CompressedSize": 5187,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/ProgrammingGuideManualHooking.md",
+    "Size": 26875,
+    "CompressedSize": 7915,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/ProgrammingGuideNIS.md",
+    "Size": 9480,
+    "CompressedSize": 3585,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/ProgrammingGuidePCL.md",
+    "Size": 7806,
+    "CompressedSize": 3077,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/ProgrammingGuideReflex.md",
+    "Size": 19796,
+    "CompressedSize": 6914,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/RTX Developer Localization Strings.zip",
+    "Size": 738854,
+    "CompressedSize": 729406,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/RTX UI Developer Guidelines Chinese Version.pdf",
+    "Size": 1102608,
+    "CompressedSize": 800312,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/RTX UI Developer Guidelines.pdf",
+    "Size": 585023,
+    "CompressedSize": 534740,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/Streamline Developer Guide.pdf",
+    "Size": 25197258,
+    "CompressedSize": 24990352,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/dlssg_docs_bidirectional_distortion_field_rg_abs.png",
+    "Size": 577820,
+    "CompressedSize": 504721,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/dlssg_docs_bidirectional_distortion_field.png",
+    "Size": 411941,
+    "CompressedSize": 357910,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/dlssg_docs_depth.png",
+    "Size": 88312,
+    "CompressedSize": 88093,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/dlssg_docs_final_color_subrect.png",
+    "Size": 812960,
+    "CompressedSize": 810521,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/dlssg_docs_final_color.png",
+    "Size": 726132,
+    "CompressedSize": 726010,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/dlssg_docs_hudless.png",
+    "Size": 715576,
+    "CompressedSize": 715232,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/dlssg_docs_mvec.png",
+    "Size": 68925,
+    "CompressedSize": 64887,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/dlssg_docs_overview.png",
+    "Size": 286754,
+    "CompressedSize": 224147,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/dlssg_docs_ui_alpha.png",
+    "Size": 33463,
+    "CompressedSize": 32685,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/dlssg_docs_ui_color_and_alpha.png",
+    "Size": 86029,
+    "CompressedSize": 80688,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/nvperf-fileloc.png",
+    "Size": 71981,
+    "CompressedSize": 56383,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/nvperf-gui-crop.png",
+    "Size": 156612,
+    "CompressedSize": 150633,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/nvperf-gui1.png",
+    "Size": 2104627,
+    "CompressedSize": 2074027,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/nvperf-gui2.png",
+    "Size": 1842464,
+    "CompressedSize": 1805726,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/sl_imgui_collapsed_view_captions.png",
+    "Size": 800569,
+    "CompressedSize": 800452,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/sl_imgui_common.png",
+    "Size": 92344,
+    "CompressedSize": 92116,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/sl_imgui_dlss.png",
+    "Size": 60545,
+    "CompressedSize": 60565,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/sl_imgui_dlssg_buffer_alignment.png",
+    "Size": 430596,
+    "CompressedSize": 429190,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/sl_imgui_dlssg_dynamic_objs.png",
+    "Size": 9994,
+    "CompressedSize": 9198,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/sl_imgui_dlssg.png",
+    "Size": 64182,
+    "CompressedSize": 64202,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/sl_imgui_interposer.png",
+    "Size": 40572,
+    "CompressedSize": 40587,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/sl_imgui_nis.png",
+    "Size": 46892,
+    "CompressedSize": 46897,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/sl_imgui_reflex_sync.png",
+    "Size": 48799,
+    "CompressedSize": 48776,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/sl_imgui_reflex.png",
+    "Size": 51321,
+    "CompressedSize": 51341,
+    "Attributes": 0
+  },
+  {
+    "Path": "docs/media/Validation.png",
+    "Size": 1013237,
+    "CompressedSize": 1012496,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/",
+    "Size": 0,
+    "CompressedSize": 0,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/",
+    "Size": 0,
+    "CompressedSize": 0,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3d12.h",
+    "Size": 1544758,
+    "CompressedSize": 150932,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3d12.idl",
+    "Size": 274997,
+    "CompressedSize": 46889,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3d12compatibility.h",
+    "Size": 23377,
+    "CompressedSize": 3273,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3d12compatibility.idl",
+    "Size": 4668,
+    "CompressedSize": 1521,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3d12sdklayers.h",
+    "Size": 181399,
+    "CompressedSize": 20970,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3d12sdklayers.idl",
+    "Size": 97168,
+    "CompressedSize": 18440,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3d12shader.h",
+    "Size": 28117,
+    "CompressedSize": 5489,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/D3D12TokenizedProgramFormat.hpp",
+    "Size": 133012,
+    "CompressedSize": 20631,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3d12video.h",
+    "Size": 393203,
+    "CompressedSize": 34969,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3d12video.idl",
+    "Size": 155995,
+    "CompressedSize": 21593,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3dcommon.h",
+    "Size": 51955,
+    "CompressedSize": 7905,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3dcommon.idl",
+    "Size": 47674,
+    "CompressedSize": 8507,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/directsr.h",
+    "Size": 21747,
+    "CompressedSize": 3824,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/directsr.idl",
+    "Size": 11090,
+    "CompressedSize": 2350,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/dxgiformat.h",
+    "Size": 8022,
+    "CompressedSize": 1139,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/dxgiformat.idl",
+    "Size": 7909,
+    "CompressedSize": 1083,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3dx12/d3dx12_barriers.h",
+    "Size": 6635,
+    "CompressedSize": 1174,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3dx12/d3dx12_check_feature_support.h",
+    "Size": 45487,
+    "CompressedSize": 7904,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3dx12/d3dx12_core.h",
+    "Size": 59908,
+    "CompressedSize": 7474,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3dx12/d3dx12_default.h",
+    "Size": 325,
+    "CompressedSize": 167,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3dx12/d3dx12_pipeline_state_stream.h",
+    "Size": 85838,
+    "CompressedSize": 6173,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3dx12/d3dx12_property_format_table.h",
+    "Size": 11182,
+    "CompressedSize": 2265,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3dx12/d3dx12_render_pass.h",
+    "Size": 4251,
+    "CompressedSize": 785,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3dx12/d3dx12_resource_helpers.h",
+    "Size": 25978,
+    "CompressedSize": 4270,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3dx12/d3dx12_root_signature.h",
+    "Size": 53425,
+    "CompressedSize": 4691,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3dx12/d3dx12_state_object.h",
+    "Size": 76699,
+    "CompressedSize": 9325,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/dx-agility-sdk-headers-1.714.0-preview/include/d3dx12/d3dx12.h",
+    "Size": 915,
+    "CompressedSize": 338,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/",
+    "Size": 0,
+    "CompressedSize": 0,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/LICENSE.MIT",
+    "Size": 1097,
+    "CompressedSize": 659,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/nlohmann_json.natvis",
+    "Size": 19852,
+    "CompressedSize": 1193,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/thirdparty/",
+    "Size": 0,
+    "CompressedSize": 0,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/adl_serializer.hpp",
+    "Size": 2334,
+    "CompressedSize": 625,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/byte_container_with_subtype.hpp",
+    "Size": 3636,
+    "CompressedSize": 837,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/json_fwd.hpp",
+    "Size": 2543,
+    "CompressedSize": 986,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/json.hpp",
+    "Size": 199076,
+    "CompressedSize": 27588,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/ordered_map.hpp",
+    "Size": 11806,
+    "CompressedSize": 2301,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/abi_macros.hpp",
+    "Size": 3907,
+    "CompressedSize": 915,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/exceptions.hpp",
+    "Size": 9383,
+    "CompressedSize": 2158,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/hash.hpp",
+    "Size": 4145,
+    "CompressedSize": 1157,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/json_pointer.hpp",
+    "Size": 38055,
+    "CompressedSize": 6045,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/json_ref.hpp",
+    "Size": 1889,
+    "CompressedSize": 742,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/macro_scope.hpp",
+    "Size": 43329,
+    "CompressedSize": 5050,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/macro_unscope.hpp",
+    "Size": 1264,
+    "CompressedSize": 586,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/string_concat.hpp",
+    "Size": 6152,
+    "CompressedSize": 988,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/string_escape.hpp",
+    "Size": 2240,
+    "CompressedSize": 890,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/value_t.hpp",
+    "Size": 4444,
+    "CompressedSize": 1660,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/conversions/from_json.hpp",
+    "Size": 19377,
+    "CompressedSize": 3285,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/conversions/to_chars.hpp",
+    "Size": 39621,
+    "CompressedSize": 11549,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/conversions/to_json.hpp",
+    "Size": 16195,
+    "CompressedSize": 2717,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/input/binary_reader.hpp",
+    "Size": 106184,
+    "CompressedSize": 14522,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/input/input_adapters.hpp",
+    "Size": 17866,
+    "CompressedSize": 3899,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/input/json_sax.hpp",
+    "Size": 22098,
+    "CompressedSize": 3783,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/input/lexer.hpp",
+    "Size": 56176,
+    "CompressedSize": 9737,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/input/parser.hpp",
+    "Size": 19229,
+    "CompressedSize": 3279,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/input/position_t.hpp",
+    "Size": 995,
+    "CompressedSize": 483,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/iterators/internal_iterator.hpp",
+    "Size": 1106,
+    "CompressedSize": 533,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/iterators/iter_impl.hpp",
+    "Size": 24657,
+    "CompressedSize": 3753,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/iterators/iteration_proxy.hpp",
+    "Size": 8204,
+    "CompressedSize": 2115,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/iterators/iterator_traits.hpp",
+    "Size": 1818,
+    "CompressedSize": 670,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp",
+    "Size": 3991,
+    "CompressedSize": 1184,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/iterators/primitive_iterator.hpp",
+    "Size": 3359,
+    "CompressedSize": 992,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/meta/cpp_future.hpp",
+    "Size": 5349,
+    "CompressedSize": 1890,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/meta/detected.hpp",
+    "Size": 2179,
+    "CompressedSize": 662,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/meta/identity_tag.hpp",
+    "Size": 547,
+    "CompressedSize": 330,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/meta/is_sax.hpp",
+    "Size": 7119,
+    "CompressedSize": 1181,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/meta/std_fs.hpp",
+    "Size": 795,
+    "CompressedSize": 365,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/meta/type_traits.hpp",
+    "Size": 28839,
+    "CompressedSize": 5638,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/meta/void_t.hpp",
+    "Size": 621,
+    "CompressedSize": 355,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/meta/call_std/begin.hpp",
+    "Size": 470,
+    "CompressedSize": 289,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/meta/call_std/end.hpp",
+    "Size": 468,
+    "CompressedSize": 288,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/output/binary_writer.hpp",
+    "Size": 71731,
+    "CompressedSize": 8339,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/output/output_adapters.hpp",
+    "Size": 4214,
+    "CompressedSize": 1065,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/detail/output/serializer.hpp",
+    "Size": 40884,
+    "CompressedSize": 8127,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp",
+    "Size": 5658,
+    "CompressedSize": 1031,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/json/include/nlohmann/thirdparty/hedley/hedley.hpp",
+    "Size": 88113,
+    "CompressedSize": 9570,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/lib/",
+    "Size": 0,
+    "CompressedSize": 0,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/license.txt",
+    "Size": 26727,
+    "CompressedSize": 9256,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/include/nvsdk_ngx_defs_deepdvc.h",
+    "Size": 1630,
+    "CompressedSize": 619,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/include/nvsdk_ngx_defs_dlssd.h",
+    "Size": 14859,
+    "CompressedSize": 2036,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/include/nvsdk_ngx_defs_vk.h",
+    "Size": 3302,
+    "CompressedSize": 1030,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/include/nvsdk_ngx_defs.h",
+    "Size": 45172,
+    "CompressedSize": 9407,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/include/nvsdk_ngx_helpers_cuda.h",
+    "Size": 3668,
+    "CompressedSize": 1060,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/include/nvsdk_ngx_helpers_d3d.h",
+    "Size": 32383,
+    "CompressedSize": 3288,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/include/nvsdk_ngx_helpers_deepdvc_vk.h",
+    "Size": 4127,
+    "CompressedSize": 1337,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/include/nvsdk_ngx_helpers_deepdvc.h",
+    "Size": 8050,
+    "CompressedSize": 1257,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/include/nvsdk_ngx_helpers_dlssd_d3d.h",
+    "Size": 73389,
+    "CompressedSize": 7751,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/include/nvsdk_ngx_helpers_dlssd_vk.h",
+    "Size": 38716,
+    "CompressedSize": 4271,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/include/nvsdk_ngx_helpers_dlssd.h",
+    "Size": 749,
+    "CompressedSize": 407,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/include/nvsdk_ngx_helpers_vk.h",
+    "Size": 19995,
+    "CompressedSize": 3241,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/include/nvsdk_ngx_helpers.h",
+    "Size": 5436,
+    "CompressedSize": 1320,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/include/nvsdk_ngx_params_dlssd.h",
+    "Size": 1235,
+    "CompressedSize": 589,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/include/nvsdk_ngx_params.h",
+    "Size": 7860,
+    "CompressedSize": 1089,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/include/nvsdk_ngx_vk.h",
+    "Size": 39150,
+    "CompressedSize": 7278,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/include/nvsdk_ngx.h",
+    "Size": 41001,
+    "CompressedSize": 7223,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/lib/Windows_x86_64/nvsdk_ngx_d_dbg.lib",
+    "Size": 4266572,
+    "CompressedSize": 1107573,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/ngx-sdk/lib/Windows_x86_64/nvsdk_ngx_d.lib",
+    "Size": 4090694,
+    "CompressedSize": 1066686,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/LICENSE.txt",
+    "Size": 11558,
+    "CompressedSize": 3948,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_CUDA_Types.h",
+    "Size": 2521,
+    "CompressedSize": 1049,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_CUDA.h",
+    "Size": 1733,
+    "CompressedSize": 813,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_CUDART_Types.h",
+    "Size": 2504,
+    "CompressedSize": 1046,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_CUDART.h",
+    "Size": 1753,
+    "CompressedSize": 817,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_D3D12_Types.h",
+    "Size": 5421,
+    "CompressedSize": 1538,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_D3D12.h",
+    "Size": 2309,
+    "CompressedSize": 1004,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_GPUTrace_Common_Types.h",
+    "Size": 13044,
+    "CompressedSize": 3344,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_GPUTrace_Common.h",
+    "Size": 4757,
+    "CompressedSize": 1570,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_GPUTrace_CUDA_Types.h",
+    "Size": 5611,
+    "CompressedSize": 1410,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_GPUTrace_CUDA.h",
+    "Size": 4074,
+    "CompressedSize": 1299,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_GPUTrace_CUDART_Types.h",
+    "Size": 5771,
+    "CompressedSize": 1425,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_GPUTrace_CUDART.h",
+    "Size": 4116,
+    "CompressedSize": 1302,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_GPUTrace_D3D12_Types.h",
+    "Size": 5414,
+    "CompressedSize": 1369,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_GPUTrace_D3D12.h",
+    "Size": 4094,
+    "CompressedSize": 1301,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_GPUTrace_OpenGL_Types.h",
+    "Size": 4686,
+    "CompressedSize": 1114,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_GPUTrace_OpenGL.h",
+    "Size": 4253,
+    "CompressedSize": 1348,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_GPUTrace_Vulkan_Types.h",
+    "Size": 5441,
+    "CompressedSize": 1365,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_GPUTrace_Vulkan.h",
+    "Size": 4114,
+    "CompressedSize": 1310,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_GraphicsCapture_Common_Types.h",
+    "Size": 7348,
+    "CompressedSize": 2426,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_GraphicsCapture_Common.h",
+    "Size": 3562,
+    "CompressedSize": 1354,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_GraphicsCapture_D3D12_Types.h",
+    "Size": 5692,
+    "CompressedSize": 1306,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_GraphicsCapture_D3D12.h",
+    "Size": 4017,
+    "CompressedSize": 1204,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_GraphicsCapture_Vulkan_Types.h",
+    "Size": 5555,
+    "CompressedSize": 1241,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_GraphicsCapture_Vulkan.h",
+    "Size": 4052,
+    "CompressedSize": 1213,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_OpenGL_Types.h",
+    "Size": 1676,
+    "CompressedSize": 721,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_OpenGL.h",
+    "Size": 1889,
+    "CompressedSize": 895,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_SystemProfiling_Common_Types.h",
+    "Size": 2212,
+    "CompressedSize": 907,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_SystemProfiling_Common.h",
+    "Size": 2000,
+    "CompressedSize": 904,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_SystemProfiling_D3D12_Types.h",
+    "Size": 4570,
+    "CompressedSize": 1110,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_SystemProfiling_D3D12.h",
+    "Size": 3843,
+    "CompressedSize": 1210,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_SystemProfiling_Vulkan_Types.h",
+    "Size": 4423,
+    "CompressedSize": 1046,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_SystemProfiling_Vulkan.h",
+    "Size": 3863,
+    "CompressedSize": 1214,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_Types.h",
+    "Size": 7038,
+    "CompressedSize": 2229,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_Vulkan_Types.h",
+    "Size": 5141,
+    "CompressedSize": 1448,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/NGFX_Vulkan.h",
+    "Size": 2322,
+    "CompressedSize": 1005,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/Impl/NGFX_Core.h",
+    "Size": 74274,
+    "CompressedSize": 12288,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nsight-sdk/SystemsGraphics/include/Impl/NGFX_Defines.h",
+    "Size": 3570,
+    "CompressedSize": 1030,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nvapi/nvapi_interface.h",
+    "Size": 32169,
+    "CompressedSize": 8760,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nvapi/nvapi_lite_common.h",
+    "Size": 44385,
+    "CompressedSize": 11663,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nvapi/nvapi_lite_d3dext.h",
+    "Size": 10277,
+    "CompressedSize": 2295,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nvapi/nvapi_lite_salend.h",
+    "Size": 27881,
+    "CompressedSize": 2685,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nvapi/nvapi_lite_salstart.h",
+    "Size": 27222,
+    "CompressedSize": 2710,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nvapi/nvapi_lite_sli.h",
+    "Size": 14515,
+    "CompressedSize": 3480,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nvapi/nvapi_lite_stereo.h",
+    "Size": 30239,
+    "CompressedSize": 4479,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nvapi/nvapi_lite_surround.h",
+    "Size": 6300,
+    "CompressedSize": 1736,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nvapi/nvapi.h",
+    "Size": 1412051,
+    "CompressedSize": 204413,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nvapi/NvApiDriverSettings.c",
+    "Size": 61049,
+    "CompressedSize": 8607,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nvapi/NvApiDriverSettings.h",
+    "Size": 79267,
+    "CompressedSize": 12519,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nvapi/nvHLSLExtns.h",
+    "Size": 101159,
+    "CompressedSize": 9865,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nvapi/nvHLSLExtnsInternal.h",
+    "Size": 37016,
+    "CompressedSize": 4768,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nvapi/nvShaderExtnEnums.h",
+    "Size": 11176,
+    "CompressedSize": 2216,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nvapi/aarch64/nvapia64.lib",
+    "Size": 840896,
+    "CompressedSize": 135406,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/nvapi/amd64/nvapi64.lib",
+    "Size": 999686,
+    "CompressedSize": 181292,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/reflex-sdk-vk/reflex.license.txt",
+    "Size": 20504,
+    "CompressedSize": 7617,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/reflex-sdk-vk/inc/NvLowLatencyVk.h",
+    "Size": 21726,
+    "CompressedSize": 5319,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/reflex-sdk-vk/lib/NvLowLatencyVk.dll",
+    "Size": 57840,
+    "CompressedSize": 28693,
+    "Attributes": 0
+  },
+  {
+    "Path": "external/reflex-sdk-vk/lib/NvLowLatencyVk.lib",
+    "Size": 4096,
+    "CompressedSize": 929,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_appidentity.h",
+    "Size": 206,
+    "CompressedSize": 144,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_consts.h",
+    "Size": 12814,
+    "CompressedSize": 3264,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_core_api.h",
+    "Size": 17127,
+    "CompressedSize": 3968,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_core_types.h",
+    "Size": 34283,
+    "CompressedSize": 10373,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_deepdvc.h",
+    "Size": 3890,
+    "CompressedSize": 1692,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_device_wrappers.h",
+    "Size": 205,
+    "CompressedSize": 146,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_directsr.h",
+    "Size": 6536,
+    "CompressedSize": 2314,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_dlss_d.h",
+    "Size": 8222,
+    "CompressedSize": 2607,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_dlss_g.h",
+    "Size": 10941,
+    "CompressedSize": 3814,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_dlss.h",
+    "Size": 8489,
+    "CompressedSize": 2808,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_helpers_vk.h",
+    "Size": 15100,
+    "CompressedSize": 2981,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_helpers.h",
+    "Size": 16950,
+    "CompressedSize": 3793,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_hooks.h",
+    "Size": 4480,
+    "CompressedSize": 1524,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_matrix_helpers.h",
+    "Size": 12405,
+    "CompressedSize": 3365,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_nis.h",
+    "Size": 3805,
+    "CompressedSize": 1645,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_nvperf.h",
+    "Size": 2994,
+    "CompressedSize": 1392,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_pcl.h",
+    "Size": 5726,
+    "CompressedSize": 2141,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_reflex.h",
+    "Size": 10565,
+    "CompressedSize": 3408,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_result.h",
+    "Size": 2535,
+    "CompressedSize": 1160,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_security.h",
+    "Size": 20501,
+    "CompressedSize": 5714,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_struct.h",
+    "Size": 4839,
+    "CompressedSize": 1662,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_template.h",
+    "Size": 2353,
+    "CompressedSize": 1139,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl_version.h",
+    "Size": 3640,
+    "CompressedSize": 1261,
+    "Attributes": 0
+  },
+  {
+    "Path": "include/sl.h",
+    "Size": 2201,
+    "CompressedSize": 1045,
+    "Attributes": 0
+  },
+  {
+    "Path": "lib/x64/sl.interposer.lib",
+    "Size": 65176,
+    "CompressedSize": 11003,
+    "Attributes": 0
+  },
+  {
+    "Path": "plugins/streamline-agent-skills/skills/",
+    "Size": 0,
+    "CompressedSize": 0,
+    "Attributes": 0
+  },
+  {
+    "Path": "plugins/streamline-agent-skills/AGENTS.md",
+    "Size": 2227,
+    "CompressedSize": 1052,
+    "Attributes": 0
+  },
+  {
+    "Path": "plugins/streamline-agent-skills/CLAUDE.md",
+    "Size": 233,
+    "CompressedSize": 167,
+    "Attributes": 0
+  },
+  {
+    "Path": "plugins/streamline-agent-skills/.claude-plugin/plugin.json",
+    "Size": 567,
+    "CompressedSize": 290,
+    "Attributes": 0
+  },
+  {
+    "Path": "plugins/streamline-agent-skills/.codex-plugin/plugin.json",
+    "Size": 2089,
+    "CompressedSize": 661,
+    "Attributes": 0
+  },
+  {
+    "Path": "plugins/streamline-agent-skills/skills/authoring-dlss-agent-skills/SKILL.md",
+    "Size": 2662,
+    "CompressedSize": 1165,
+    "Attributes": 0
+  },
+  {
+    "Path": "plugins/streamline-agent-skills/skills/integrate-dlss-fg/SKILL.md",
+    "Size": 11027,
+    "CompressedSize": 4279,
+    "Attributes": 0
+  },
+  {
+    "Path": "plugins/streamline-agent-skills/skills/integrate-dlss-fg/references/integration-checklist.md",
+    "Size": 18471,
+    "CompressedSize": 6361,
+    "Attributes": 0
+  },
+  {
+    "Path": "plugins/streamline-agent-skills/skills/integrate-dlss-fg/references/validation-checklist.md",
+    "Size": 15130,
+    "CompressedSize": 5252,
+    "Attributes": 0
+  },
+  {
+    "Path": "plugins/streamline-agent-skills/skills/integrate-dlss-rr/SKILL.md",
+    "Size": 12610,
+    "CompressedSize": 4858,
+    "Attributes": 0
+  },
+  {
+    "Path": "plugins/streamline-agent-skills/skills/integrate-dlss-rr/references/integration-checklist.md",
+    "Size": 29072,
+    "CompressedSize": 9845,
+    "Attributes": 0
+  },
+  {
+    "Path": "plugins/streamline-agent-skills/skills/integrate-dlss-rr/references/validation-checklist.md",
+    "Size": 20398,
+    "CompressedSize": 7020,
+    "Attributes": 0
+  },
+  {
+    "Path": "plugins/streamline-agent-skills/skills/integrate-dlss-sr/SKILL.md",
+    "Size": 6936,
+    "CompressedSize": 2835,
+    "Attributes": 0
+  },
+  {
+    "Path": "plugins/streamline-agent-skills/skills/integrate-dlss-sr/references/integration-checklist.md",
+    "Size": 6952,
+    "CompressedSize": 2784,
+    "Attributes": 0
+  },
+  {
+    "Path": "plugins/streamline-agent-skills/skills/integrate-dlss-sr/references/validation-checklist.md",
+    "Size": 3121,
+    "CompressedSize": 1279,
+    "Attributes": 0
+  },
+  {
+    "Path": "plugins/streamline-agent-skills/skills/integrate-reflex-pcl/SKILL.md",
+    "Size": 2070,
+    "CompressedSize": 933,
+    "Attributes": 0
+  },
+  {
+    "Path": "plugins/streamline-agent-skills/skills/integrate-reflex-pcl/references/integration-checklist.md",
+    "Size": 10848,
+    "CompressedSize": 3859,
+    "Attributes": 0
+  },
+  {
+    "Path": "plugins/streamline-agent-skills/skills/integrate-reflex-pcl/references/validation-checklist.md",
+    "Size": 9732,
+    "CompressedSize": 3615,
+    "Attributes": 0
+  },
+  {
+    "Path": "scripts/_manifest.lua",
+    "Size": 88,
+    "CompressedSize": 59,
+    "Attributes": 0
+  },
+  {
+    "Path": "scripts/_preload.lua",
+    "Size": 1950,
+    "CompressedSize": 794,
+    "Attributes": 0
+  },
+  {
+    "Path": "scripts/ngx_driver_onscreenindicator_off.reg",
+    "Size": 289,
+    "CompressedSize": 178,
+    "Attributes": 0
+  },
+  {
+    "Path": "scripts/ngx_driver_onscreenindicator.reg",
+    "Size": 289,
+    "CompressedSize": 179,
+    "Attributes": 0
+  },
+  {
+    "Path": "scripts/sl.cmake",
+    "Size": 7036,
+    "CompressedSize": 2084,
+    "Attributes": 0
+  },
+  {
+    "Path": "scripts/sl.common.json",
+    "Size": 366,
+    "CompressedSize": 203,
+    "Attributes": 0
+  },
+  {
+    "Path": "scripts/sl.imgui.json",
+    "Size": 82,
+    "CompressedSize": 71,
+    "Attributes": 0
+  },
+  {
+    "Path": "scripts/sl.interposer.json",
+    "Size": 520,
+    "CompressedSize": 301,
+    "Attributes": 0
+  },
+  {
+    "Path": "scripts/sl.reflex.json",
+    "Size": 60,
+    "CompressedSize": 58,
+    "Attributes": 0
+  },
+  {
+    "Path": "scripts/streamline_logging_disable.reg",
+    "Size": 354,
+    "CompressedSize": 193,
+    "Attributes": 0
+  },
+  {
+    "Path": "scripts/streamline_logging_enable.reg",
+    "Size": 354,
+    "CompressedSize": 196,
+    "Attributes": 0
+  },
+  {
+    "Path": "shaders/copy_to_buffer_cs.h",
+    "Size": 6986,
+    "CompressedSize": 956,
+    "Attributes": 0
+  },
+  {
+    "Path": "shaders/copy_to_buffer_spv.h",
+    "Size": 13813,
+    "CompressedSize": 1572,
+    "Attributes": 0
+  },
+  {
+    "Path": "shaders/copy_to_buffer.hlsl",
+    "Size": 870,
+    "CompressedSize": 479,
+    "Attributes": 0
+  },
+  {
+    "Path": "shaders/copy.hlsl",
+    "Size": 454,
+    "CompressedSize": 275,
+    "Attributes": 0
+  },
+  {
+    "Path": "shaders/mvec.hlsl",
+    "Size": 1496,
+    "CompressedSize": 611,
+    "Attributes": 0
+  },
+  {
+    "Path": "shaders/vulkan_clear_image_view_spirv.h",
+    "Size": 9566,
+    "CompressedSize": 1108,
+    "Attributes": 0
+  },
+  {
+    "Path": "shaders/vulkan_clear_image_view.comp",
+    "Size": 488,
+    "CompressedSize": 258,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/",
+    "Size": 0,
+    "CompressedSize": 0,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/platforms/",
+    "Size": 0,
+    "CompressedSize": 0,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/",
+    "Size": 0,
+    "CompressedSize": 0,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.api/internal.h",
+    "Size": 12025,
+    "CompressedSize": 3089,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.api/internalDataSharing.h",
+    "Size": 4227,
+    "CompressedSize": 1961,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.api/plugin-manager.h",
+    "Size": 1742,
+    "CompressedSize": 918,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.api/sl.cpp",
+    "Size": 46946,
+    "CompressedSize": 9226,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.exception/exception.cpp",
+    "Size": 5237,
+    "CompressedSize": 2190,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.exception/exception.h",
+    "Size": 1902,
+    "CompressedSize": 944,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.extra/extra.cpp",
+    "Size": 4597,
+    "CompressedSize": 1860,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.extra/extra.h",
+    "Size": 13780,
+    "CompressedSize": 4455,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.file/file.h",
+    "Size": 8709,
+    "CompressedSize": 2972,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/exports.def",
+    "Size": 6678,
+    "CompressedSize": 1690,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/hook.cpp",
+    "Size": 10342,
+    "CompressedSize": 3005,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/hook.h",
+    "Size": 3882,
+    "CompressedSize": 1664,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/interposer.rc",
+    "Size": 1052,
+    "CompressedSize": 410,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/resource.h",
+    "Size": 982,
+    "CompressedSize": 377,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/versions.h",
+    "Size": 1327,
+    "CompressedSize": 741,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/d3d11/d3d11.cpp",
+    "Size": 6335,
+    "CompressedSize": 2217,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/d3d12/d3d12.cpp",
+    "Size": 10339,
+    "CompressedSize": 2553,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/d3d12/d3d12.h",
+    "Size": 1259022,
+    "CompressedSize": 124540,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/d3d12/d3d12CommandList.cpp",
+    "Size": 27328,
+    "CompressedSize": 5410,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/d3d12/d3d12CommandList.h",
+    "Size": 15736,
+    "CompressedSize": 3599,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/d3d12/d3d12CommandQueue.cpp",
+    "Size": 7876,
+    "CompressedSize": 2497,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/d3d12/d3d12CommandQueue.h",
+    "Size": 4395,
+    "CompressedSize": 1653,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/d3d12/d3d12Device.cpp",
+    "Size": 38856,
+    "CompressedSize": 7229,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/d3d12/d3d12Device.h",
+    "Size": 16721,
+    "CompressedSize": 3658,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/dxgi/dxgi.cpp",
+    "Size": 18474,
+    "CompressedSize": 3342,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/dxgi/dxgiFactory.cpp",
+    "Size": 19900,
+    "CompressedSize": 4287,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/dxgi/dxgiFactory.h",
+    "Size": 5995,
+    "CompressedSize": 1839,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/dxgi/dxgiSwapchain.cpp",
+    "Size": 26499,
+    "CompressedSize": 5195,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/dxgi/dxgiSwapchain.h",
+    "Size": 6456,
+    "CompressedSize": 2009,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/vulkan/layer.h",
+    "Size": 31908,
+    "CompressedSize": 5051,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.interposer/vulkan/wrapper.cpp",
+    "Size": 116875,
+    "CompressedSize": 16820,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.log/log.cpp",
+    "Size": 13571,
+    "CompressedSize": 4530,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.log/log.h",
+    "Size": 6177,
+    "CompressedSize": 2254,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.ota/iota.h",
+    "Size": 5330,
+    "CompressedSize": 2038,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.ota/ota.cpp",
+    "Size": 38129,
+    "CompressedSize": 10464,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.ota/ota.h",
+    "Size": 5228,
+    "CompressedSize": 2061,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.param/parameters.cpp",
+    "Size": 7694,
+    "CompressedSize": 1698,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.param/parameters.h",
+    "Size": 7627,
+    "CompressedSize": 2198,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.plugin/plugin.cpp",
+    "Size": 13900,
+    "CompressedSize": 4532,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.plugin/plugin.h",
+    "Size": 14287,
+    "CompressedSize": 2839,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.plugin-manager/pluginManager.cpp",
+    "Size": 64263,
+    "CompressedSize": 14649,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.plugin-manager/pluginManager.h",
+    "Size": 5022,
+    "CompressedSize": 1815,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.plugin-manager/pluginManagerEntry.cpp",
+    "Size": 2672,
+    "CompressedSize": 1155,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.security/secureLoadLibrary.cpp",
+    "Size": 1448,
+    "CompressedSize": 834,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.security/secureLoadLibrary.h",
+    "Size": 1265,
+    "CompressedSize": 742,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/core/sl.thread/thread.h",
+    "Size": 8762,
+    "CompressedSize": 2989,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/platforms/sl.chi/compute.h",
+    "Size": 44141,
+    "CompressedSize": 11829,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/platforms/sl.chi/d3d11.cpp",
+    "Size": 61635,
+    "CompressedSize": 13247,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/platforms/sl.chi/d3d11.h",
+    "Size": 11871,
+    "CompressedSize": 3217,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/platforms/sl.chi/d3d12.cpp",
+    "Size": 116281,
+    "CompressedSize": 24378,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/platforms/sl.chi/d3d12.h",
+    "Size": 18288,
+    "CompressedSize": 5063,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/platforms/sl.chi/d3dx12.h",
+    "Size": 175794,
+    "CompressedSize": 19743,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/platforms/sl.chi/generic.cpp",
+    "Size": 60103,
+    "CompressedSize": 13085,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/platforms/sl.chi/generic.h",
+    "Size": 18458,
+    "CompressedSize": 5036,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/platforms/sl.chi/nvapiCompat.h",
+    "Size": 2026,
+    "CompressedSize": 1054,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/platforms/sl.chi/nvllvk.cpp",
+    "Size": 8299,
+    "CompressedSize": 2532,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/platforms/sl.chi/nvllvk.h",
+    "Size": 1389,
+    "CompressedSize": 815,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/platforms/sl.chi/vknvll2.cpp",
+    "Size": 18651,
+    "CompressedSize": 5086,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/platforms/sl.chi/vknvll2.h",
+    "Size": 2587,
+    "CompressedSize": 1204,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/platforms/sl.chi/vulkan.cpp",
+    "Size": 162865,
+    "CompressedSize": 32026,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/platforms/sl.chi/vulkan.h",
+    "Size": 22656,
+    "CompressedSize": 5978,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/platforms/sl.chi/vulkannv.h",
+    "Size": 6535,
+    "CompressedSize": 1328,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.common/common.json",
+    "Size": 2643,
+    "CompressedSize": 399,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.common/commonDRSInterface.h",
+    "Size": 2258,
+    "CompressedSize": 952,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.common/commonEntry.cpp",
+    "Size": 86198,
+    "CompressedSize": 19559,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.common/commonInterface.cpp",
+    "Size": 34279,
+    "CompressedSize": 9261,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.common/commonInterface.h",
+    "Size": 25121,
+    "CompressedSize": 7127,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.common/drs.cpp",
+    "Size": 5698,
+    "CompressedSize": 1720,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.common/drs.h",
+    "Size": 1668,
+    "CompressedSize": 830,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.common/plugin.rc",
+    "Size": 1052,
+    "CompressedSize": 410,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.common/resource.h",
+    "Size": 974,
+    "CompressedSize": 376,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.common/resourceTaggingForFrame.cpp",
+    "Size": 16102,
+    "CompressedSize": 4695,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.common/resourceTaggingForFrame.h",
+    "Size": 3163,
+    "CompressedSize": 1030,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.common/versions.h",
+    "Size": 1327,
+    "CompressedSize": 741,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.deepdvc/deepdvc_hooks.json",
+    "Size": 952,
+    "CompressedSize": 253,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.deepdvc/deepdvc.json",
+    "Size": 200,
+    "CompressedSize": 130,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.deepdvc/deepDVCEntry.cpp",
+    "Size": 23066,
+    "CompressedSize": 6304,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.deepdvc/plugin.rc",
+    "Size": 1050,
+    "CompressedSize": 411,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.deepdvc/resource.h",
+    "Size": 971,
+    "CompressedSize": 373,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.deepdvc/versions.h",
+    "Size": 1329,
+    "CompressedSize": 741,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.directsr/directsr_guid.cpp",
+    "Size": 217,
+    "CompressedSize": 170,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.directsr/directsr.json",
+    "Size": 201,
+    "CompressedSize": 122,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.directsr/directsrEntry.cpp",
+    "Size": 23223,
+    "CompressedSize": 5815,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.directsr/plugin.rc",
+    "Size": 1052,
+    "CompressedSize": 410,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.directsr/resource.h",
+    "Size": 973,
+    "CompressedSize": 375,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.directsr/versions.h",
+    "Size": 1322,
+    "CompressedSize": 736,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.dlss/dlss_shared.h",
+    "Size": 2034,
+    "CompressedSize": 1177,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.dlss/dlss.json",
+    "Size": 205,
+    "CompressedSize": 125,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.dlss/dlssEntry.cpp",
+    "Size": 55252,
+    "CompressedSize": 12004,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.dlss/plugin.rc",
+    "Size": 1052,
+    "CompressedSize": 410,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.dlss/resource.h",
+    "Size": 970,
+    "CompressedSize": 375,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.dlss/versions.h",
+    "Size": 1327,
+    "CompressedSize": 741,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.dlss_d/dlss_d.json",
+    "Size": 212,
+    "CompressedSize": 128,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.dlss_d/dlss_dEntry.cpp",
+    "Size": 91056,
+    "CompressedSize": 15169,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.dlss_d/plugin.rc",
+    "Size": 1052,
+    "CompressedSize": 410,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.dlss_d/resource.h",
+    "Size": 971,
+    "CompressedSize": 373,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.dlss_d/versions.h",
+    "Size": 1327,
+    "CompressedSize": 741,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.imgui/DroidSans-Mono.h",
+    "Size": 731790,
+    "CompressedSize": 133255,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.imgui/imgui_impl_dx12.cpp",
+    "Size": 29279,
+    "CompressedSize": 7761,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.imgui/imgui_impl_dx12.h",
+    "Size": 2169,
+    "CompressedSize": 951,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.imgui/imgui_impl_vulkan.cpp",
+    "Size": 66954,
+    "CompressedSize": 14724,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.imgui/imgui_impl_vulkan.h",
+    "Size": 7200,
+    "CompressedSize": 2402,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.imgui/imgui_impl_win32.cpp",
+    "Size": 22983,
+    "CompressedSize": 6944,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.imgui/imgui_impl_win32.h",
+    "Size": 2321,
+    "CompressedSize": 1125,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.imgui/imgui.h",
+    "Size": 85703,
+    "CompressedSize": 17290,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.imgui/imgui.json",
+    "Size": 1801,
+    "CompressedSize": 366,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.imgui/imguiEntry.cpp",
+    "Size": 134770,
+    "CompressedSize": 25861,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.imgui/imguiTypes.h",
+    "Size": 72740,
+    "CompressedSize": 19786,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.imgui/input.h",
+    "Size": 3052,
+    "CompressedSize": 917,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.imgui/plugin.rc",
+    "Size": 1052,
+    "CompressedSize": 410,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.imgui/resource.h",
+    "Size": 972,
+    "CompressedSize": 376,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.imgui/types.h",
+    "Size": 917,
+    "CompressedSize": 237,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.imgui/versions.h",
+    "Size": 1327,
+    "CompressedSize": 742,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.nis/nis_compile.py",
+    "Size": 8839,
+    "CompressedSize": 2649,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.nis/NIS_shaders.h",
+    "Size": 4673192,
+    "CompressedSize": 326375,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.nis/nis.json",
+    "Size": 203,
+    "CompressedSize": 125,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.nis/nisEntry.cpp",
+    "Size": 26845,
+    "CompressedSize": 6701,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.nis/plugin.rc",
+    "Size": 1052,
+    "CompressedSize": 410,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.nis/resource.h",
+    "Size": 968,
+    "CompressedSize": 374,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.nis/versions.h",
+    "Size": 1327,
+    "CompressedSize": 741,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.nis/NIS/NIS_Config.h",
+    "Size": 27598,
+    "CompressedSize": 6900,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.nis/NIS/NIS_Main.hlsl",
+    "Size": 2966,
+    "CompressedSize": 1285,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.nis/NIS/NIS_Scaler.h",
+    "Size": 37269,
+    "CompressedSize": 9114,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.pcl/pcl.h",
+    "Size": 1363,
+    "CompressedSize": 766,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.pcl/pcl.json",
+    "Size": 308,
+    "CompressedSize": 181,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.pcl/pclEntry.cpp",
+    "Size": 7526,
+    "CompressedSize": 2624,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.pcl/pclImpl.h",
+    "Size": 5136,
+    "CompressedSize": 1705,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.pcl/pclstats.h",
+    "Size": 8751,
+    "CompressedSize": 2169,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.pcl/plugin.rc",
+    "Size": 1050,
+    "CompressedSize": 411,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.pcl/resource.h",
+    "Size": 963,
+    "CompressedSize": 370,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.pcl/versions.h",
+    "Size": 1322,
+    "CompressedSize": 736,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.reflex/plugin.rc",
+    "Size": 1052,
+    "CompressedSize": 410,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.reflex/reflex_shared.h",
+    "Size": 4216,
+    "CompressedSize": 1684,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.reflex/reflex.json",
+    "Size": 917,
+    "CompressedSize": 301,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.reflex/reflexEntry.cpp",
+    "Size": 40419,
+    "CompressedSize": 10744,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.reflex/resource.h",
+    "Size": 974,
+    "CompressedSize": 377,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.reflex/versions.h",
+    "Size": 1327,
+    "CompressedSize": 741,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.template/plugin.rc",
+    "Size": 1052,
+    "CompressedSize": 410,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.template/resource.h",
+    "Size": 978,
+    "CompressedSize": 379,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.template/template.json",
+    "Size": 1875,
+    "CompressedSize": 838,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.template/templateEntry.cpp",
+    "Size": 16885,
+    "CompressedSize": 5580,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/plugins/sl.template/versions.h",
+    "Size": 1327,
+    "CompressedSize": 741,
+    "Attributes": 0
+  },
+  {
+    "Path": "source/shared/sharedVersions.h",
+    "Size": 1723,
+    "CompressedSize": 866,
+    "Attributes": 0
+  },
+  {
+    "Path": "symbols/sl.common.pdb",
+    "Size": 13160448,
+    "CompressedSize": 3301916,
+    "Attributes": 0
+  },
+  {
+    "Path": "symbols/sl.deepdvc.pdb",
+    "Size": 6557696,
+    "CompressedSize": 1468373,
+    "Attributes": 0
+  },
+  {
+    "Path": "symbols/sl.directsr.pdb",
+    "Size": 5468160,
+    "CompressedSize": 1230201,
+    "Attributes": 0
+  },
+  {
+    "Path": "symbols/sl.dlss_d.pdb",
+    "Size": 7286784,
+    "CompressedSize": 1621798,
+    "Attributes": 0
+  },
+  {
+    "Path": "symbols/sl.dlss.pdb",
+    "Size": 7024640,
+    "CompressedSize": 1606024,
+    "Attributes": 0
+  },
+  {
+    "Path": "symbols/sl.imgui.pdb",
+    "Size": 10072064,
+    "CompressedSize": 2668784,
+    "Attributes": 0
+  },
+  {
+    "Path": "symbols/sl.interposer.pdb",
+    "Size": 9785344,
+    "CompressedSize": 2375860,
+    "Attributes": 0
+  },
+  {
+    "Path": "symbols/sl.nis.pdb",
+    "Size": 6713344,
+    "CompressedSize": 1542417,
+    "Attributes": 0
+  },
+  {
+    "Path": "symbols/sl.nvperf.pdb",
+    "Size": 8105984,
+    "CompressedSize": 1987047,
+    "Attributes": 0
+  },
+  {
+    "Path": "symbols/sl.pcl.pdb",
+    "Size": 5066752,
+    "CompressedSize": 1111808,
+    "Attributes": 0
+  },
+  {
+    "Path": "symbols/sl.reflex.pdb",
+    "Size": 6508544,
+    "CompressedSize": 1484008,
+    "Attributes": 0
+  },
+  {
+    "Path": "tools/bin2cheader.ps1",
+    "Size": 2596,
+    "CompressedSize": 1379,
+    "Attributes": 0
+  },
+  {
+    "Path": "tools/build_shader.bat",
+    "Size": 42,
+    "CompressedSize": 39,
+    "Attributes": 0
+  },
+  {
+    "Path": "tools/gitVersion.bat",
+    "Size": 775,
+    "CompressedSize": 322,
+    "Attributes": 0
+  },
+  {
+    "Path": "tools/vswhere.exe",
+    "Size": 455056,
+    "CompressedSize": 235764,
+    "Attributes": 0
+  },
+  {
+    "Path": "tools/packman/config.packman.xml",
+    "Size": 207,
+    "CompressedSize": 150,
+    "Attributes": 0
+  },
+  {
+    "Path": "tools/packman/packman",
+    "Size": 5800,
+    "CompressedSize": 2268,
+    "Attributes": 0
+  },
+  {
+    "Path": "tools/packman/packman.cmd",
+    "Size": 2037,
+    "CompressedSize": 835,
+    "Attributes": 0
+  },
+  {
+    "Path": "tools/packman/packmanconf.py",
+    "Size": 4037,
+    "CompressedSize": 1568,
+    "Attributes": 0
+  },
+  {
+    "Path": "tools/packman/python.bat",
+    "Size": 756,
+    "CompressedSize": 480,
+    "Attributes": 0
+  },
+  {
+    "Path": "tools/packman/python.sh",
+    "Size": 1020,
+    "CompressedSize": 615,
+    "Attributes": 0
+  },
+  {
+    "Path": "tools/packman/bootstrap/configure.bat",
+    "Size": 6671,
+    "CompressedSize": 2405,
+    "Attributes": 0
+  },
+  {
+    "Path": "tools/packman/bootstrap/download_file_from_url.ps1",
+    "Size": 1429,
+    "CompressedSize": 784,
+    "Attributes": 0
+  },
+  {
+    "Path": "tools/packman/bootstrap/fetch_file_from_packman_bootstrap.cmd",
+    "Size": 1420,
+    "CompressedSize": 804,
+    "Attributes": 0
+  },
+  {
+    "Path": "tools/packman/bootstrap/generate_temp_file_name.ps1",
+    "Size": 10263,
+    "CompressedSize": 6120,
+    "Attributes": 0
+  },
+  {
+    "Path": "tools/packman/bootstrap/generate_temp_folder.ps1",
+    "Size": 10420,
+    "CompressedSize": 6234,
+    "Attributes": 0
+  },
+  {
+    "Path": "tools/packman/bootstrap/install_package.py",
+    "Size": 5930,
+    "CompressedSize": 2114,
+    "Attributes": 0
+  },
+  {
+    "Path": "utils/reflex/capturePclEtw.bat",
+    "Size": 107,
+    "CompressedSize": 84,
+    "Attributes": 0
+  },
+  {
+    "Path": "utils/reflex/FVSDKSetup.exe",
+    "Size": 10217816,
+    "CompressedSize": 9652250,
+    "Attributes": 0
+  },
+  {
+    "Path": "utils/reflex/PrintPCL.exe",
+    "Size": 155176,
+    "CompressedSize": 86444,
+    "Attributes": 0
+  },
+  {
+    "Path": "utils/reflex/ReflexTest.exe",
+    "Size": 262696,
+    "CompressedSize": 141633,
+    "Attributes": 0
+  },
+  {
+    "Path": "utils/reflex/ReflexTestCleanup.bat",
+    "Size": 24,
+    "CompressedSize": 26,
+    "Attributes": 0
+  },
+  {
+    "Path": "utils/reflex/ReflexTestEnable.exe",
+    "Size": 178216,
+    "CompressedSize": 98254,
+    "Attributes": 0
+  },
+  {
+    "Path": "utils/reflex/ReflexTestSetup.bat",
+    "Size": 46,
+    "CompressedSize": 37,
+    "Attributes": 0
+  },
+  {
+    "Path": ".gitattributes",
+    "Size": 301,
+    "CompressedSize": 69,
+    "Attributes": 0
+  },
+  {
+    "Path": ".gitignore",
+    "Size": 114,
+    "CompressedSize": 91,
+    "Attributes": 0
+  },
+  {
+    "Path": "3rd-party-licenses.md",
+    "Size": 14682,
+    "CompressedSize": 2574,
+    "Attributes": 0
+  },
+  {
+    "Path": "build_all.bat",
+    "Size": 413,
+    "CompressedSize": 165,
+    "Attributes": 0
+  },
+  {
+    "Path": "build.bat",
+    "Size": 3905,
+    "CompressedSize": 799,
+    "Attributes": 0
+  },
+  {
+    "Path": "changelog.txt",
+    "Size": 32086,
+    "CompressedSize": 9272,
+    "Attributes": 0
+  },
+  {
+    "Path": "CLA.md",
+    "Size": 8302,
+    "CompressedSize": 3041,
+    "Attributes": 0
+  },
+  {
+    "Path": "CMakeLists.txt",
+    "Size": 7036,
+    "CompressedSize": 2084,
+    "Attributes": 0
+  },
+  {
+    "Path": "CONTRIBUTING.md",
+    "Size": 1907,
+    "CompressedSize": 990,
+    "Attributes": 0
+  },
+  {
+    "Path": "license.txt",
+    "Size": 1591,
+    "CompressedSize": 883,
+    "Attributes": 0
+  },
+  {
+    "Path": "NVIDIA Nsight Graphics SDK License (Apache 2.0).txt",
+    "Size": 11558,
+    "CompressedSize": 3948,
+    "Attributes": 0
+  },
+  {
+    "Path": "NVIDIA Nsight Perf SDK License (28Sept2022).pdf",
+    "Size": 133833,
+    "CompressedSize": 128888,
+    "Attributes": 0
+  },
+  {
+    "Path": "package.bat",
+    "Size": 21840,
+    "CompressedSize": 3969,
+    "Attributes": 0
+  },
+  {
+    "Path": "premake.lua",
+    "Size": 22707,
+    "CompressedSize": 4911,
+    "Attributes": 0
+  },
+  {
+    "Path": "project.xml",
+    "Size": 1452,
+    "CompressedSize": 388,
+    "Attributes": 0
+  },
+  {
+    "Path": "README.md",
+    "Size": 9510,
+    "CompressedSize": 3874,
+    "Attributes": 0
+  },
+  {
+    "Path": "setup.bat",
+    "Size": 1327,
+    "CompressedSize": 374,
+    "Attributes": 0
+  }
+]

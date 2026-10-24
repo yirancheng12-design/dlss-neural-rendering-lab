@@ -1,0 +1,720 @@
+[
+  {
+    "Path": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\Client-Win64-Shipping.exe",
+    "PE": {
+      "FullPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\Client-Win64-Shipping.exe",
+      "Name": "Client-Win64-Shipping.exe",
+      "SizeBytes": 169828120,
+      "SHA256": "61746ca0ccfb39326e56d86f08f907b48cd262a3ea00299b3758b4c909177633",
+      "Architecture": "x64",
+      "MachineHex": "0x8664",
+      "Imports": [
+        {
+          "Name": "Client-Win64-ShippingBase.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\Client-Win64-ShippingBase.dll"
+          ]
+        },
+        {
+          "Name": "ApexFramework_x64.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "PhysX3_x64.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "PhysX3Cooking_x64.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "PhysX3Common_x64.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "PxFoundation_x64.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "PxPvdSDK_x64.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "D3DCOMPILER_47.dll",
+          "Kind": "delay",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\D3DCOMPILER_47.dll"
+          ]
+        },
+        {
+          "Name": "GFSDK_Aftermath_Lib.x64.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "SHLWAPI.dll",
+          "Kind": "delay",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\SHLWAPI.dll"
+          ]
+        },
+        {
+          "Name": "d3d12.dll",
+          "Kind": "delay",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\d3d12.dll"
+          ]
+        },
+        {
+          "Name": "NvCloth_x64.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "PcMsgChan.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "libScePad.dll",
+          "Kind": "delay",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\libScePad.dll"
+          ]
+        },
+        {
+          "Name": "opencv_world331.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "avcodec-58.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "avformat-58.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "avutil-56.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "swresample-3.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "swscale-5.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "libxell.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "libxess_fg.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "libvorbis_64.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "KRSDKEx.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "turbojpeg.dll",
+          "Kind": "delay",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\turbojpeg.dll"
+          ]
+        },
+        {
+          "Name": "libvorbisfile_64.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "XAudio2_9Redist.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "libcef.dll",
+          "Kind": "delay",
+          "Resolution": "Not found beside binary or in System32; requires further resolution review",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "dbghelp.dll",
+          "Kind": "delay",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\dbghelp.dll"
+          ]
+        },
+        {
+          "Name": "MFPlat.DLL",
+          "Kind": "delay",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\MFPlat.DLL"
+          ]
+        },
+        {
+          "Name": "MF.dll",
+          "Kind": "delay",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\MF.dll"
+          ]
+        },
+        {
+          "Name": "MFReadWrite.dll",
+          "Kind": "delay",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\MFReadWrite.dll"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\staged-cyberpunk-nr\\winmm.dll",
+    "PE": {
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\staged-cyberpunk-nr\\winmm.dll",
+      "Name": "winmm.dll",
+      "SizeBytes": 26347008,
+      "SHA256": "ad143c5bd6e5fab4d1abd8b048c424e9ddceabf1a864e0e0695c01a0dc82b4c9",
+      "Architecture": "x64",
+      "MachineHex": "0x8664",
+      "Imports": [
+        {
+          "Name": "WINHTTP.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\WINHTTP.dll"
+          ]
+        },
+        {
+          "Name": "api-ms-win-core-synch-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-handle-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-processthreads-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-timezone-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-file-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-console-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-console-l2-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-processenvironment-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-sysinfo-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-errorhandling-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-string-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-libraryloader-l1-2-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-com-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-synch-l1-2-1.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-string-obsolete-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-io-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-ntuser-sysparams-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-libraryloader-l1-2-1.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-memory-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-processthreads-l1-1-1.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-toolhelp-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-winrt-string-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-winrt-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-profile-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-heap-l2-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-heap-obsolete-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-localization-l1-2-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-sysinfo-l1-2-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-synch-l1-2-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-registry-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-console-l3-2-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-version-l1-1-1.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-version-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "KERNEL32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\KERNEL32.dll"
+          ]
+        },
+        {
+          "Name": "USER32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\USER32.dll"
+          ]
+        },
+        {
+          "Name": "GDI32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\GDI32.dll"
+          ]
+        },
+        {
+          "Name": "SHELL32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\SHELL32.dll"
+          ]
+        },
+        {
+          "Name": "MSVCP140.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\MSVCP140.dll"
+          ]
+        },
+        {
+          "Name": "MSVCP140_ATOMIC_WAIT.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\MSVCP140_ATOMIC_WAIT.dll"
+          ]
+        },
+        {
+          "Name": "VERSION.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\VERSION.dll"
+          ]
+        },
+        {
+          "Name": "IMM32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\IMM32.dll"
+          ]
+        },
+        {
+          "Name": "VCRUNTIME140_1.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\VCRUNTIME140_1.dll"
+          ]
+        },
+        {
+          "Name": "VCRUNTIME140.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\VCRUNTIME140.dll"
+          ]
+        },
+        {
+          "Name": "api-ms-win-crt-string-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-time-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-math-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-multibyte-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-file-l1-2-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-file-l1-2-2.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-file-l2-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "api-ms-win-core-interlocked-l1-1-0.dll",
+          "Kind": "normal",
+          "Resolution": "Windows API-set contract; not expected as ordinary app-local DLL",
+          "CandidatePaths": []
+        },
+        {
+          "Name": "dxgi.dll",
+          "Kind": "delay",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\dxgi.dll"
+          ]
+        },
+        {
+          "Name": "D3DCOMPILER_47.dll",
+          "Kind": "delay",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\D3DCOMPILER_47.dll"
+          ]
+        },
+        {
+          "Name": "d3d12.dll",
+          "Kind": "delay",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\d3d12.dll"
+          ]
+        },
+        {
+          "Name": "vulkan-1.dll",
+          "Kind": "delay",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\vulkan-1.dll"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\staged-cyberpunk-nr\\nvngx.dll_dlssnr.dll",
+    "PE": {
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\staged-cyberpunk-nr\\nvngx.dll_dlssnr.dll",
+      "Name": "nvngx.dll_dlssnr.dll",
+      "SizeBytes": 114176,
+      "SHA256": "87408102bc7b6a740c2f771deb131a606424df08165d4b9ab34c2742c2a42ea0",
+      "Architecture": "x64",
+      "MachineHex": "0x8664",
+      "Imports": [
+        {
+          "Name": "KERNEL32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\KERNEL32.dll"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\staged-cyberpunk-nr\\nvngx_dlssnr.dll",
+    "PE": {
+      "FullPath": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\work\\staged-cyberpunk-nr\\nvngx_dlssnr.dll",
+      "Name": "nvngx_dlssnr.dll",
+      "SizeBytes": 165840496,
+      "SHA256": "e16bcf15e16e13f527491cdf7845b2fe6521a738d8f7c9c721866a8496e1fc8e",
+      "Architecture": "x64",
+      "MachineHex": "0x8664",
+      "Imports": [
+        {
+          "Name": "VERSION.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\VERSION.dll"
+          ]
+        },
+        {
+          "Name": "ADVAPI32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\ADVAPI32.dll"
+          ]
+        },
+        {
+          "Name": "USER32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\USER32.dll"
+          ]
+        },
+        {
+          "Name": "KERNEL32.dll",
+          "Kind": "normal",
+          "Resolution": "File found; static presence only",
+          "CandidatePaths": [
+            "C:\\Windows\\System32\\KERNEL32.dll"
+          ]
+        }
+      ]
+    }
+  }
+]

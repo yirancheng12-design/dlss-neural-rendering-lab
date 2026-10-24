@@ -1,0 +1,14 @@
+[
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Tool\\tool_config.json",
+    "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\objects\\3642b23cb8fa1101e34050e1f3512f0c5ecc115fe70fbf6c66b193e489171f79",
+    "SHA256Before": "3642B23CB8FA1101E34050E1F3512F0C5ECC115FE70FBF6C66B193E489171F79",
+    "SHA256After": "7C054CDCDB9142F0D06408A7146B17B01D199B727FF8E1AFD4C2DB96D9275218"
+  },
+  {
+    "Path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\outputs\\Cyberpunk2077_DLSS5_Tool\\tool_config.json",
+    "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\objects\\3642b23cb8fa1101e34050e1f3512f0c5ecc115fe70fbf6c66b193e489171f79",
+    "SHA256Before": "3642B23CB8FA1101E34050E1F3512F0C5ECC115FE70FBF6C66B193E489171F79",
+    "SHA256After": "7C054CDCDB9142F0D06408A7146B17B01D199B727FF8E1AFD4C2DB96D9275218"
+  }
+]

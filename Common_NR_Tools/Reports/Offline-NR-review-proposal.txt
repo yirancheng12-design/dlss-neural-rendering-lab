@@ -1,0 +1,52 @@
+《鸣潮》NR 后续验证提案——授权前的历史提案
+日期：2026-10-16（Asia/Shanghai）
+
+后续状态：用户已批准仅下载审查。已完成下载及静态审查，但包内 nvngx_dlssnr.dll 签名为 HashMismatch，执行与安装已停止。最新结果见 Offline-NR-static-review-zh.txt；下文“未下载”等文字描述的是授权前阶段，不是当前状态。
+
+SimonAI 咨询已完成
+通过用户已安装应用的 local_assistant.llm.create_chat_model 模块调用其配置的本地 gemma4:31b 模型；没有启动桌面界面，也没有改写应用聊天历史。原始问答已保存为 SimonAI-consultation.txt。
+采纳的建议：当前不继续向游戏目录安装 Mod；覆盖层不能自动保证账号安全；离线图像/视频处理只能验证离线 NR 能力，不等于游戏实时兼容。
+未采纳的断言：安装代理 DLL 不应直接等同于绕过 ACE；没有证据证明特定 Mod 必然被检测或必封；官方路线也不应表述为“绝对账号安全”。SimonAI 是咨询工具，其推测不能替代项目文档、实测结果或用户审批。
+
+现有约束保持：发现 ACE/账号风险即停止游戏修改；不绕过反作弊；不改系统驱动；下载前向用户列明组件并取得确认。
+
+目前无法消除的阻碍
+1. OptiScaler 对在线游戏的封号风险警告，与本机《鸣潮》ACE 组件共同触发停止条件。
+2. 桌面覆盖层并非自动安全：NeuralScreen 作者仍提示反作弊风险，且混合显卡笔记本属实验性支持。
+3. 模型 DLL 来源、签名、架构与本机兼容性仍需验证；GitHub 作者公开仓库不等于全部内含二进制均已验证。
+
+建议由用户选择是否调整目标
+保持游戏关闭，使用已经存在的《鸣潮》截图或录屏，在单独程序中进行 NR 处理。
+可验证：NR 模型在这张 GPU/当前驱动上的加载、截图或视频视觉效果、离线处理耗时。
+不能验证：《鸣潮》实时集成、游戏内帧率与延迟、ACE 许可或账号安全。
+本次未在游戏 Client\Saved\Screenshots 位置找到截图目录，未继续扫描无关个人文件。
+
+具体候选（仅审阅官方作者页面）
+作者仓库：https://github.com/DaniilSokolyuk/video2dlssnr
+Release：v1.4.1
+Release 页面：https://github.com/DaniilSokolyuk/video2dlssnr/releases/tag/v1.4.1
+拟供下载审查的文件：video2dlssnr_release.zip
+页面显示大小：236 MB
+公布 SHA-256：cf1e01b3715b5ee75708744a5d5e6a4f2a96b5504834dd854b4c06388f230ccf
+元数据页：https://github.com/DaniilSokolyuk/video2dlssnr/releases/expanded_assets/v1.4.1
+状态：未下载、未解压、未执行、未安装。
+
+拟授权的下一阶段仅限下载与静态审查
+1. 将上述归档保存到本次工作区 work\downloads，核对 SHA-256。
+2. 先列出归档内容、检查路径安全，再仅解压到工作区隔离目录。
+3. 读取启动脚本，列出 EXE/DLL 与依赖，核对 PE x64、签名和文件哈希；不运行脚本、EXE 或加载 DLL。
+4. 对 NVIDIA 专有 DLL 要求可验证的来源与 NVIDIA 有效签名；不从第三方 DLL 站、论坛附件补齐，不修补模型或驱动。
+5. 若依赖不完整、来源无法核验或脚本存在不符合限制的操作，停止，不安装。
+6. 审查通过后，再提供准确文件清单与独立运行方式；执行验证另需用户确认离线目标和输入素材。
+
+这一阶段不会写入游戏目录，因此没有要覆盖的游戏文件，也无需为游戏创建恢复备份。工作区审查文件不是已安装 Mod。
+
+原生实时路线
+NVIDIA 官方已公告《鸣潮》支持 DLSS 超分辨率、帧生成/多帧生成与 Reflex。使用游戏正式提供的选项可以保留实时玩法，但不能称为 DLSS 5 NR。本次没有打开游戏或改动这些选项。
+来源：https://www.nvidia.com/en-sg/geforce/news/battlefield-6-dlss-4-multi-frame-gen-reflex-pc-trailer/
+
+其他核查来源
+https://github.com/optiscaler/OptiScaler#installation
+https://github.com/perseval-BLR/NeuralScreen
+https://github.com/DaniilSokolyuk/video2dlssnr#requirements
+

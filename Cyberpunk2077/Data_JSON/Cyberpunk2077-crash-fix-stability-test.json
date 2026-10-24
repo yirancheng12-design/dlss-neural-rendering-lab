@@ -1,0 +1,84 @@
+{
+  "Started": "2026-10-16T13:07:00.4285674+08:00",
+  "Finished": "2026-10-16T13:08:00.7531793+08:00",
+  "NonPausedObservationSeconds": 60.3246251,
+  "PID": 48936,
+  "Samples": [
+    {
+      "Time": "2026-10-16T13:07:00.5362804+08:00",
+      "Running": true,
+      "Responding": true,
+      "CPUSeconds": 5534.578125
+    },
+    {
+      "Time": "2026-10-16T13:07:05.5799893+08:00",
+      "Running": true,
+      "Responding": true,
+      "CPUSeconds": 5556.25
+    },
+    {
+      "Time": "2026-10-16T13:07:10.5994983+08:00",
+      "Running": true,
+      "Responding": true,
+      "CPUSeconds": 5575.40625
+    },
+    {
+      "Time": "2026-10-16T13:07:15.6160635+08:00",
+      "Running": true,
+      "Responding": true,
+      "CPUSeconds": 5595.96875
+    },
+    {
+      "Time": "2026-10-16T13:07:20.6201236+08:00",
+      "Running": true,
+      "Responding": true,
+      "CPUSeconds": 5612.40625
+    },
+    {
+      "Time": "2026-10-16T13:07:25.6237944+08:00",
+      "Running": true,
+      "Responding": true,
+      "CPUSeconds": 5630.21875
+    },
+    {
+      "Time": "2026-10-16T13:07:30.6396598+08:00",
+      "Running": true,
+      "Responding": true,
+      "CPUSeconds": 5647.765625
+    },
+    {
+      "Time": "2026-10-16T13:07:35.6694831+08:00",
+      "Running": true,
+      "Responding": true,
+      "CPUSeconds": 5665.546875
+    },
+    {
+      "Time": "2026-10-16T13:07:40.6820327+08:00",
+      "Running": true,
+      "Responding": true,
+      "CPUSeconds": 5681.140625
+    },
+    {
+      "Time": "2026-10-16T13:07:45.6865853+08:00",
+      "Running": true,
+      "Responding": true,
+      "CPUSeconds": 5697.984375
+    },
+    {
+      "Time": "2026-10-16T13:07:50.7114520+08:00",
+      "Running": true,
+      "Responding": true,
+      "CPUSeconds": 5713.390625
+    },
+    {
+      "Time": "2026-10-16T13:07:55.7173228+08:00",
+      "Running": true,
+      "Responding": true,
+      "CPUSeconds": 5730.359375
+    }
+  ],
+  "NewCrashReports": [],
+  "SceneVisuallyConfirmed": true,
+  "NRRequested": "OFF",
+  "Result": "PASS_SHORT_STABILITY_TEST"
+}

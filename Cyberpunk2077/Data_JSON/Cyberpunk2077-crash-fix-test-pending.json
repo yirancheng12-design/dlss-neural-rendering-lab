@@ -1,0 +1,12 @@
+{
+  "CheckedAt": "2026-10-16T12:36:12.6418413+08:00",
+  "Test": "NR OFF, original UserSettings, requested AutoSave-16",
+  "ProcessRunning": true,
+  "UptimeSeconds": 175.0,
+  "NewCrashReports": [],
+  "UIStatus": "Windows locked. Scene entry and render stability cannot be confirmed until unlock.",
+  "Result": "PENDING",
+  "OptiScalerLog": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\OptiScaler.log",
+  "NRRequested": "OFF",
+  "NROnToolLocked": true
+}

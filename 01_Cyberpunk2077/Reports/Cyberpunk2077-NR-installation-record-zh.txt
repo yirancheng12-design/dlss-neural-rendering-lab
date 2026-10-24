@@ -1,0 +1,230 @@
+赛博朋克 2077 社区 NR Mod 安装与恢复记录
+安装时间：2026-10-16T10:06:14.2877220+08:00
+
+结果：已完成文件部署与静态检查。没有启动游戏，没有执行下载包中的 BAT/Python 安装器或 DLL。
+NR 是否实际创建成功、画质和性能是否可用，尚未经过运行验证。不能据此宣称绝对安全、零封号或已实现原生官方 DLSS 5 支持。
+
+一、目标和选择依据
+游戏根目录：[GAME_DIR]\Cyberpunk 2077
+EXE：[GAME_DIR]\Cyberpunk 2077\bin\x64\Cyberpunk2077.exe
+游戏产品版本 2.31；EXE 文件版本 3.0.5294808；Steam App 1091500。
+图形路径：DX12；EXE 的静态图形导入和游戏原生 DLSS/Streamline 文件已检查。未通过运行中的进程再次确认。
+GPU：NVIDIA GeForce [GPU_MODEL]；审查时驱动 616.92。保留原驱动及原生 DLSS 310.1.0.0 / Streamline 2.7.1.0。
+本机赛博朋克目录未发现常见反作弊或既有 Mod 标记；游戏有官方一般 Mod 支持。此信息不等于对本社区 Mod 的官方认证。
+官方一般 Mod 支持：https://www.cyberpunk.net/en/modding-support
+OptiScaler 通用兼容性参考（不证明本 NR 分支已在这台机器验证）：https://github.com/optiscaler/OptiScaler/wiki/Compatibility-List
+《鸣潮》存在 ACE 反作弊，保持原版，未安装本 Mod、未绕过或关闭反作弊。
+
+二、下载来源与核实边界
+社区 Mod 作者仓库：https://github.com/Skynizz/optiscaler-dlss5
+Release：v1.2.1；地址：https://github.com/Skynizz/optiscaler-dlss5/releases/tag/v1.2.1
+资产文件：OptiScaler-DLSS5-1.2.1-win-x64.zip；6,456,692 字节。
+ZIP SHA256：0d5b24887ea2c622754da68efc76ef55ae42b5d3be350a8d43cafbabb6747ec6
+作者 GitHub Release 的资产哈希与本地 ZIP 一致；安装器文本/AST 与对应标签源码一致，但未执行安装器。采用本任务自行编写、禁止覆盖的复制脚本。
+其中 OptiScaler.dll 与 nvngx.dll_dlssnr.dll 都未签名；已核实作者发布来源和哈希，未完成可复现构建或穷尽源码安全审计。
+
+NR 运行库镜像仓库：https://github.com/RankFTW/rhi-repo
+Release：dlssnr-310.8.0；地址：https://github.com/RankFTW/rhi-repo/releases/tag/dlssnr-310.8.0
+资产文件：nvngx_dlssnr_310.8.0.zip；109,425,288 字节。
+ZIP SHA256：388c0a7912e15ec911b9c9e11a692142b11fe387ddf2b637d8c358138fffb3ac
+原版模型 DLL SHA256：e16bcf15e16e13f527491cdf7845b2fe6521a738d8f7c9c721866a8496e1fc8e
+版本 310.8.0.0；NVIDIA Authenticode 状态 Valid；独立项目固定的原版哈希也一致。
+这是社区 RHI 组件镜像，不是 NVIDIA 托管下载。有效签名核实 NVIDIA 签名内容，不证明 NVIDIA 认可该镜像、本集成或再分发授权。未运行任何签名修复或补丁工具。
+
+三、游戏目录变更
+下列目标在安装前均不存在，因此没有“被替换的旧版本”；没有覆盖、删除或重命名任何原游戏文件。
+
+winmm.dll
+  新位置：[GAME_DIR]\Cyberpunk 2077\bin\x64\winmm.dll
+  原位置/原大小/原版本：此目标原先不存在；无旧文件被替换。
+  来源本地位置：[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\work\review-optiscaler-dlss5-v1.2.1\DLSS5-Optimised\OptiScaler.dll
+  来源 Release：https://github.com/Skynizz/optiscaler-dlss5/releases/tag/v1.2.1
+  大小：26,347,008 字节；SHA256：ad143c5bd6e5fab4d1abd8b048c424e9ddceabf1a864e0e0695c01a0dc82b4c9
+  用途：作者包内 OptiScaler.dll 原样改名。EXE 本身导入 WINMM.dll，利用空闲本地代理名称加载 Mod；原 dbghelp.dll 保持原样。
+
+nvngx.dll_dlssnr.dll
+  新位置：[GAME_DIR]\Cyberpunk 2077\bin\x64\nvngx.dll_dlssnr.dll
+  原位置/原大小/原版本：此目标原先不存在；无旧文件被替换。
+  来源本地位置：[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\work\review-optiscaler-dlss5-v1.2.1\DLSS5-Optimised\nvngx.dll_dlssnr.dll
+  来源 Release：https://github.com/Skynizz/optiscaler-dlss5/releases/tag/v1.2.1
+  大小：114,176 字节；SHA256：87408102bc7b6a740c2f771deb131a606424df08165d4b9ab34c2742c2a42ea0
+  用途：社区 NR 调用转发组件，与该分支搭配使用。
+
+nvngx_dlssnr.dll
+  新位置：[GAME_DIR]\Cyberpunk 2077\bin\x64\nvngx_dlssnr.dll
+  原位置/原大小/原版本：此目标原先不存在；无旧文件被替换。
+  来源本地位置：[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\outputs\NR-runtime-310.8.0\nvngx_dlssnr.dll
+  来源 Release：https://github.com/RankFTW/rhi-repo/releases/tag/dlssnr-310.8.0
+  大小：165,840,496 字节；SHA256：e16bcf15e16e13f527491cdf7845b2fe6521a738d8f7c9c721866a8496e1fc8e
+  用途：NVIDIA 签名 NR 模型运行库。
+
+OptiScaler.ini
+  新位置：[GAME_DIR]\Cyberpunk 2077\bin\x64\OptiScaler.ini
+  原位置/原大小/原版本：此目标原先不存在；无旧文件被替换。
+  来源本地位置：[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\work\review-optiscaler-dlss5-v1.2.1\DLSS5-Optimised\OptiScaler.ini
+  来源 Release：https://github.com/Skynizz/optiscaler-dlss5/releases/tag/v1.2.1
+  大小：71,504 字节；SHA256：47ca3a961a2e2f556fa3fd5c239fb459afe154d3c67d4a36aac0a1be7caee16e
+  用途：作者配置模板加本任务记录的配置，用于限定进程、输入与 NR 后处理参数。
+
+OptiScaler-NR-install-manifest.json
+  新位置：[GAME_DIR]\Cyberpunk 2077\bin\x64\OptiScaler-NR-install-manifest.json
+  原先不存在。本任务生成，非下载文件；记录版本、来源、设置、备份路径。
+  大小：5,477 字节；SHA256：9a05afd186157f9decdd2916258bcc3f17e64a1a49dbbb33ed981e9338617c3f
+
+四、先备份后部署
+备份目录：[GAME_DIR]\Cyberpunk 2077\backup_OptiScaler_NR_20261016_100614
+备份：13 个原始 EXE/DLSS/Streamline/dbghelp 文件、1 个 UserSettings.json、119 个存档文件，共 300,452,091 字节。
+每一项均校验原件和备份的 SHA256；部署后再次确认原件和备份未变化。
+完整 133 项清单：[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\outputs\Cyberpunk2077-NR-backup-manifest.json
+备份内清单：[GAME_DIR]\Cyberpunk 2077\backup_OptiScaler_NR_20261016_100614\backup_manifest.json
+清单逐项包含原始完整路径、备份完整路径、大小、文件版本、产品版本、时间和 SHA256；JSON/存档无 PE 版本时记为 null。
+
+原始程序文件和设置摘要：
+  原位置：[GAME_DIR]\Cyberpunk 2077\bin\x64\sl.reflex.dll
+  大小：198,128 字节；文件版本：2,7,1,0；产品版本：2,7,1,0
+  SHA256：c6938a5a9600033444926b218f7dfccb99d4dea7043daef79f426fc227483c2e
+  备份：[GAME_DIR]\Cyberpunk 2077\backup_OptiScaler_NR_20261016_100614\original_game\bin\x64\sl.reflex.dll
+  原位置：[GAME_DIR]\Cyberpunk 2077\bin\x64\sl.pcl.dll
+  大小：175,096 字节；文件版本：2,7,1,0；产品版本：2,7,1,0
+  SHA256：9d38b31ea265fa39eaf3e3a723496819a8971afb2eb68e8821ff5a79d2916459
+  备份：[GAME_DIR]\Cyberpunk 2077\backup_OptiScaler_NR_20261016_100614\original_game\bin\x64\sl.pcl.dll
+  原位置：[GAME_DIR]\Cyberpunk 2077\bin\x64\sl.nis.dll
+  大小：966,128 字节；文件版本：2,7,1,0；产品版本：2,7,1,0
+  SHA256：929628871975ecd9e2c56be354b04284eb91855bdf42b0d32ad3df60725016b8
+  备份：[GAME_DIR]\Cyberpunk 2077\backup_OptiScaler_NR_20261016_100614\original_game\bin\x64\sl.nis.dll
+  原位置：[GAME_DIR]\Cyberpunk 2077\bin\x64\sl.interposer.dll
+  大小：541,176 字节；文件版本：2,7,1,0；产品版本：2,7,1,0
+  SHA256：e07ed41b17bc74aa7e62cc714e96a62b52be69b3ffb44a00c8baaa12393fe3fc
+  备份：[GAME_DIR]\Cyberpunk 2077\backup_OptiScaler_NR_20261016_100614\original_game\bin\x64\sl.interposer.dll
+  原位置：[GAME_DIR]\Cyberpunk 2077\bin\x64\sl.dlss_g.dll
+  大小：461,808 字节；文件版本：2,7,1,0；产品版本：2,7,1,0
+  SHA256：818dc3370f9bbd225e781be1af7097e8a98318eaa472204620a2848ef2139170
+  备份：[GAME_DIR]\Cyberpunk 2077\backup_OptiScaler_NR_20261016_100614\original_game\bin\x64\sl.dlss_g.dll
+  原位置：[GAME_DIR]\Cyberpunk 2077\bin\x64\sl.dlss_d.dll
+  大小：250,352 字节；文件版本：2,7,1,0；产品版本：2,7,1,0
+  SHA256：f44c566543270fdd5d27f00f08c61999c19c71de6efb3bf841f2dbc58af3d967
+  备份：[GAME_DIR]\Cyberpunk 2077\backup_OptiScaler_NR_20261016_100614\original_game\bin\x64\sl.dlss_d.dll
+  原位置：[GAME_DIR]\Cyberpunk 2077\bin\x64\sl.dlss.dll
+  大小：237,040 字节；文件版本：2,7,1,0；产品版本：2,7,1,0
+  SHA256：6b7adf54786072b7799c908dc1f2dc1310dede855463a5ad0111a66434ec7509
+  备份：[GAME_DIR]\Cyberpunk 2077\backup_OptiScaler_NR_20261016_100614\original_game\bin\x64\sl.dlss.dll
+  原位置：[GAME_DIR]\Cyberpunk 2077\bin\x64\sl.common.dll
+  大小：650,736 字节；文件版本：2,7,1,0；产品版本：2,7,1,0
+  SHA256：f76bcee79b9383cb6b9889eeb40bb7cfe6545362f2fcaa7e465a7c30b1a3473b
+  备份：[GAME_DIR]\Cyberpunk 2077\backup_OptiScaler_NR_20261016_100614\original_game\bin\x64\sl.common.dll
+  原位置：[GAME_DIR]\Cyberpunk 2077\bin\x64\nvngx_dlssg.dll
+  大小：7,607,336 字节；文件版本：310,1,0,0；产品版本：310,1,0,0
+  SHA256：907b036e714a674aa53dba1ecbb251802a684cb684d1ac2d11da85742f2ea906
+  备份：[GAME_DIR]\Cyberpunk 2077\backup_OptiScaler_NR_20261016_100614\original_game\bin\x64\nvngx_dlssg.dll
+  原位置：[GAME_DIR]\Cyberpunk 2077\bin\x64\nvngx_dlssd.dll
+  大小：65,630,248 字节；文件版本：310,1,0,0；产品版本：310,1,0,0
+  SHA256：519c98e6d3b44d12671525f20e8fc46366a9fbf15aa5d4bc8446d6ba17699e22
+  备份：[GAME_DIR]\Cyberpunk 2077\backup_OptiScaler_NR_20261016_100614\original_game\bin\x64\nvngx_dlssd.dll
+  原位置：[GAME_DIR]\Cyberpunk 2077\bin\x64\nvngx_dlss.dll
+  大小：44,609,064 字节；文件版本：310,1,0,0；产品版本：310,1,0,0
+  SHA256：ad3e9c07ee864e9702032459a59c6825166766c2cb75bd0318d5626595693bdb
+  备份：[GAME_DIR]\Cyberpunk 2077\backup_OptiScaler_NR_20261016_100614\original_game\bin\x64\nvngx_dlss.dll
+  原位置：[GAME_DIR]\Cyberpunk 2077\bin\x64\dbghelp.dll
+  大小：1,868,736 字节；文件版本：10.0.19041.1 (WinBuild.160101.0800)；产品版本：10.0.19041.1
+  SHA256：9a02133854ff9f06c3b23a70f8c2a4814b2ed4eef613244b485e3737259ddf9e
+  备份：[GAME_DIR]\Cyberpunk 2077\backup_OptiScaler_NR_20261016_100614\original_game\bin\x64\dbghelp.dll
+  原位置：[GAME_DIR]\Cyberpunk 2077\bin\x64\Cyberpunk2077.exe
+  大小：59,945,608 字节；文件版本：3.0.5294808；产品版本：2.31
+  SHA256：a7de82945c03e041fc7339fcf9066224d98db2f5d80fea50f7947bb350a60991
+  备份：[GAME_DIR]\Cyberpunk 2077\backup_OptiScaler_NR_20261016_100614\original_game\bin\x64\Cyberpunk2077.exe
+  原位置：[USER_HOME]\AppData\Local\CD Projekt Red\Cyberpunk 2077\UserSettings.json
+  大小：91,706 字节；文件版本：无 PE 版本；产品版本：无 PE 版本
+  SHA256：691a266df8c8859a114b34c90f2ced7f549441189477be04bb1f1e15f3692152
+  备份：[GAME_DIR]\Cyberpunk 2077\backup_OptiScaler_NR_20261016_100614\original_settings\UserSettings.json
+
+五、配置及原因
+仅针对 Cyberpunk2077.exe，使用 DLSS 输入和 DX12 DLSS 输出。FSR/XeSS/FidelityFX 输入关闭。
+GPU/Streamline/注册表等伪装关闭；ASI、ReShade、Fakenvapi 和额外 AMD 组件加载关闭；版本联网检查关闭。
+OptiScaler 的帧生成替换关闭；此设置不等于关闭游戏本身的 NVIDIA 帧生成。
+NR 使用超分辨率之后的处理路径（PreSr=false），工作分辨率 67%，隔帧缓存、单 pass、异步缓存关闭。选择此路径以避开已知 pre-SR 与光线重建组合问题；这不代表已验证全部模式兼容。
+游戏 UserSettings.json 未改：保留已有 DLSS Quality/Transformer、光线重建开关和原生帧生成设置。
+自动截图关闭，日志开启。正式效果/性能待用户手动运行验证。
+完整配置修改如下：
+[Upscalers]
+Dx12Upscaler=dlss
+[FrameGen]
+Enabled=false
+FGInput=nofg
+FGOutput=nofg
+FGNvngxReplacement=None
+[Inputs]
+EnableDlssInputs=true
+EnableXeSSInputs=false
+EnableFsr2Inputs=false
+UseFsr2Inputs=false
+EnableFsr3Inputs=false
+UseFsr3Inputs=false
+EnableFfxInputs=false
+UseFfxInputs=false
+[Spoofing]
+StreamlineSpoofing=false
+Dxgi=false
+Vulkan=false
+VulkanExtensionSpoofing=false
+SpoofHAGS=false
+Registry=false
+User32=false
+D3DFeatureLevel=false
+[Plugins]
+LoadAsiPlugins=false
+LoadReshade=false
+LoadCustomAmdxc64OnRdna2=false
+[fakenvapi]
+UseFakenvapi=false
+[ProcessFilter]
+TargetProcessName=Cyberpunk2077.exe
+[Hotfix]
+CheckForUpdate=false
+DisableOverlays=false
+[Menu]
+OverlayMenu=true
+[Log]
+LogToFile=true
+LogLevel=2
+[DlssNr]
+Enabled=true
+PreSr=false
+WorkingScale=0.67
+CacheEnabled=true
+CacheInterval=2
+CacheAsync=false
+Passes=1
+AutoCapture=false
+JbuUpsample=true
+WhitePointSource=3
+CompareKey=117
+
+六、安装后静态检查
+三个新增 DLL 均为 x64 PE32+；安装后哈希与审查文件一致。
+NR 模型签名 Valid；两个社区 DLL 为 NotSigned。
+普通和延迟导入的 DLL 未发现明显缺失；API-set 按 Windows 合约处理。不能据此保证全部动态 NGX/GPU 依赖和函数解析均成功。
+未发现已有同名代理文件或已知 Mod 文件冲突。原生 DLSS/DLSSG/DLSSD、Streamline、dbghelp 未改。
+INI 回读与计划一致；卸载脚本语法及只读预览通过，共定位 5 个新增文件。未执行卸载。
+未修改 System32、NVIDIA 驱动文件或注册表；未关闭安全软件；未启动游戏。
+安装核实：[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\outputs\Cyberpunk2077-NR-installation-verification.json
+安装后 PE/导入检查：[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\outputs\Cyberpunk2077-NR-postinstall-static-check.json
+卸载预览结果：[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\outputs\Cyberpunk2077-NR-restore-preview.json
+已按要求咨询本机 SimonAI；其原答复错误地声称 OptiScaler 也通过签名检查，已在咨询记录开头更正。工程结论以实际签名与哈希证据为准。
+
+七、完全卸载本次安装
+先退出赛博朋克 2077。在 PowerShell 中执行以下命令；第一条只预览，第二条才执行恢复：
+& '[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\outputs\Restore-Cyberpunk2077-NR.ps1'
+& '[USER_HOME]\Documents\Codex\2026-10-16\windows-mod-gpu-nvidia-geforce-rtx\outputs\Restore-Cyberpunk2077-NR.ps1' -Apply
+脚本限定固定目录和 5 个文件名，检查路径、游戏进程和 DLL/清单哈希，再把新增文件移入上述备份目录下的 removed_mod_时间戳 文件夹，不删除任何文件。INI 即使调整过也会保存。
+若 DLL/清单被其他工具更新，脚本会停止，避免误移其他版本。
+原始游戏文件、游戏设置与存档从未被本次安装改动，因此卸载无需用旧备份覆盖它们，也不会倒退后续存档。
+本次尚未运行游戏，没有 Mod 生成的日志、截图或缓存。以后运行产生的诊断文件不属于此次 5 个文件部署；若需清理，应另外核实生成来源后移动，避免误动原始游戏缓存。
+若系统策略阻止运行脚本，不需要关闭安全软件或绕过策略；可让我按同一清单执行恢复。
+
+八、手动验证入口（本次未执行）
+通过正常 Steam 入口手动启动赛博朋克 2077。按作者说明，Insert 打开 OptiScaler 菜单，DLSS 5 页检查 NR 状态，F6 可循环优化/原始 NR/关闭进行对比。
+菜单出现不等于 NR 创建成功；应结合运行日志和开关对比确认。不要把这些文件复制到鸣潮或其他反作弊游戏。
+若游戏无法启动或画面异常，先退出并执行上面的恢复命令。
+
+本记录更新了先前“缺少可信 NR 运行库、未安装”的阶段性状态；历史记录保留作为审查过程证据。
+

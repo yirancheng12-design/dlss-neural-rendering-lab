@@ -1,0 +1,165 @@
+{
+  "CheckedAt": "2026-10-16T09:40:16.3283972+08:00",
+  "GameRoot": "E:\\steam\\steamapps\\common\\Cyberpunk 2077",
+  "Exe": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\Cyberpunk2077.exe",
+  "Files": [
+    {
+      "FullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.reflex.dll",
+      "Size": 198128,
+      "FileVersion": "2,7,1,0",
+      "ProductVersion": "2,7,1,0",
+      "Machine": "0x8664",
+      "Architecture": "x64",
+      "SHA256": "C6938A5A9600033444926B218F7DFCCB99D4DEA7043DAEF79F426FC227483C2E",
+      "SignatureStatus": "Valid",
+      "Signer": "CN=NVIDIA Corporation, OU=2-J, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US"
+    },
+    {
+      "FullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.pcl.dll",
+      "Size": 175096,
+      "FileVersion": "2,7,1,0",
+      "ProductVersion": "2,7,1,0",
+      "Machine": "0x8664",
+      "Architecture": "x64",
+      "SHA256": "9D38B31EA265FA39EAF3E3A723496819A8971AFB2EB68E8821FF5A79D2916459",
+      "SignatureStatus": "Valid",
+      "Signer": "CN=NVIDIA Corporation, OU=2-J, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US"
+    },
+    {
+      "FullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.nis.dll",
+      "Size": 966128,
+      "FileVersion": "2,7,1,0",
+      "ProductVersion": "2,7,1,0",
+      "Machine": "0x8664",
+      "Architecture": "x64",
+      "SHA256": "929628871975ECD9E2C56BE354B04284EB91855BDF42B0D32AD3DF60725016B8",
+      "SignatureStatus": "Valid",
+      "Signer": "CN=NVIDIA Corporation, OU=2-J, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US"
+    },
+    {
+      "FullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.interposer.dll",
+      "Size": 541176,
+      "FileVersion": "2,7,1,0",
+      "ProductVersion": "2,7,1,0",
+      "Machine": "0x8664",
+      "Architecture": "x64",
+      "SHA256": "E07ED41B17BC74AA7E62CC714E96A62B52BE69B3FFB44A00C8BAAA12393FE3FC",
+      "SignatureStatus": "Valid",
+      "Signer": "CN=NVIDIA Corporation, OU=2-J, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US"
+    },
+    {
+      "FullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.dlss_g.dll",
+      "Size": 461808,
+      "FileVersion": "2,7,1,0",
+      "ProductVersion": "2,7,1,0",
+      "Machine": "0x8664",
+      "Architecture": "x64",
+      "SHA256": "818DC3370F9BBD225E781BE1AF7097E8A98318EAA472204620A2848EF2139170",
+      "SignatureStatus": "Valid",
+      "Signer": "CN=NVIDIA Corporation, OU=2-J, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US"
+    },
+    {
+      "FullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.dlss_d.dll",
+      "Size": 250352,
+      "FileVersion": "2,7,1,0",
+      "ProductVersion": "2,7,1,0",
+      "Machine": "0x8664",
+      "Architecture": "x64",
+      "SHA256": "F44C566543270FDD5D27F00F08C61999C19C71DE6EFB3BF841F2DBC58AF3D967",
+      "SignatureStatus": "Valid",
+      "Signer": "CN=NVIDIA Corporation, OU=2-J, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US"
+    },
+    {
+      "FullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.dlss.dll",
+      "Size": 237040,
+      "FileVersion": "2,7,1,0",
+      "ProductVersion": "2,7,1,0",
+      "Machine": "0x8664",
+      "Architecture": "x64",
+      "SHA256": "6B7ADF54786072B7799C908DC1F2DC1310DEDE855463A5AD0111A66434EC7509",
+      "SignatureStatus": "Valid",
+      "Signer": "CN=NVIDIA Corporation, OU=2-J, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US"
+    },
+    {
+      "FullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.common.dll",
+      "Size": 650736,
+      "FileVersion": "2,7,1,0",
+      "ProductVersion": "2,7,1,0",
+      "Machine": "0x8664",
+      "Architecture": "x64",
+      "SHA256": "F76BCEE79B9383CB6B9889EEB40BB7CFE6545362F2FCAA7E465A7C30B1A3473B",
+      "SignatureStatus": "Valid",
+      "Signer": "CN=NVIDIA Corporation, OU=2-J, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US"
+    },
+    {
+      "FullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx_dlssg.dll",
+      "Size": 7607336,
+      "FileVersion": "310,1,0,0",
+      "ProductVersion": "310,1,0,0",
+      "Machine": "0x8664",
+      "Architecture": "x64",
+      "SHA256": "907B036E714A674AA53DBA1ECBB251802A684CB684D1AC2D11DA85742F2EA906",
+      "SignatureStatus": "Valid",
+      "Signer": "CN=NVIDIA Corporation, OU=1-G, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US"
+    },
+    {
+      "FullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx_dlssd.dll",
+      "Size": 65630248,
+      "FileVersion": "310,1,0,0",
+      "ProductVersion": "310,1,0,0",
+      "Machine": "0x8664",
+      "Architecture": "x64",
+      "SHA256": "519C98E6D3B44D12671525F20E8FC46366A9FBF15AA5D4BC8446D6BA17699E22",
+      "SignatureStatus": "Valid",
+      "Signer": "CN=NVIDIA Corporation, OU=1-G, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US"
+    },
+    {
+      "FullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx_dlss.dll",
+      "Size": 44609064,
+      "FileVersion": "310,1,0,0",
+      "ProductVersion": "310,1,0,0",
+      "Machine": "0x8664",
+      "Architecture": "x64",
+      "SHA256": "AD3E9C07EE864E9702032459A59C6825166766C2CB75BD0318D5626595693BDB",
+      "SignatureStatus": "Valid",
+      "Signer": "CN=NVIDIA Corporation, OU=1-G, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US"
+    },
+    {
+      "FullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\dbghelp.dll",
+      "Size": 1868736,
+      "FileVersion": "10.0.19041.1 (WinBuild.160101.0800)",
+      "ProductVersion": "10.0.19041.1",
+      "Machine": "0x8664",
+      "Architecture": "x64",
+      "SHA256": "9A02133854FF9F06C3B23A70F8C2A4814B2ED4EEF613244B485E3737259DDF9E",
+      "SignatureStatus": "Valid",
+      "Signer": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+    },
+    {
+      "FullPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\Cyberpunk2077.exe",
+      "Size": 59945608,
+      "FileVersion": "3.0.5294808",
+      "ProductVersion": "2.31",
+      "Machine": "0x8664",
+      "Architecture": "x64",
+      "SHA256": "A7DE82945C03E041FC7339FCF9066224D98DB2F5D80FEA50F7947BB350A60991",
+      "SignatureStatus": "Valid",
+      "Signer": "CN=CD PROJEKT S.A., O=CD PROJEKT S.A., L=Warszawa, S=mazowieckie, C=PL, SERIALNUMBER=0000006865, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=PL"
+    }
+  ],
+  "ExistingModMarkers": [],
+  "Running": false,
+  "NativeConfigFiles": [
+    {
+      "Name": "CrashInfo.json",
+      "Length": 0
+    },
+    {
+      "Name": "UserSettings.json",
+      "Length": 91706
+    }
+  ],
+  "BackupCreated": false,
+  "GameModifications": [],
+  "Status": "Candidate only; missing trusted NR model; installation not started"
+}

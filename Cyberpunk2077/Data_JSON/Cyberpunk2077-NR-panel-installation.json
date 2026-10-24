@@ -1,0 +1,44 @@
+{
+  "Created": "2026-10-16T13:58:48.7900367+08:00",
+  "Shortcut": "C:\\Users\\ROG\\Desktop\\赛博朋克2077 NR 调试面板.lnk",
+  "Target": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "Arguments": "-NoProfile -STA -WindowStyle Hidden -File \"E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Tool\\NRDebugPanel.ps1\"",
+  "Files": [
+    {
+      "Path": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Tool\\NRDebugPanel.ps1",
+      "Before": null,
+      "After": "51F9AD643524AD25B73B5D932DC6C78A90928103B1357BBB115338743EB4DE91",
+      "Backup": null
+    },
+    {
+      "Path": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Tool\\DLSS5Control.ps1",
+      "Before": "17B3F9778BDE96CE216D86176253DE9CB67D3A540F10F490BB5B7D2338DF5183",
+      "After": "819A70E2A478916DD0D09E7A83C60E01AEC8E85049AE00ECCEEBE92B1994AA4B",
+      "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\objects\\17b3f9778bde96ce216d86176253de9cb67d3a540f10f490bb5b7d2338df5183"
+    },
+    {
+      "Path": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Tool\\Start_NRDebugPanel.bat",
+      "Before": null,
+      "After": "E79557E915B55DAAF14317B95B1E370B0B26A351E2474B2AD98A7891CD868741",
+      "Backup": null
+    },
+    {
+      "Path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\outputs\\Cyberpunk2077_DLSS5_Tool\\NRDebugPanel.ps1",
+      "Before": null,
+      "After": "51F9AD643524AD25B73B5D932DC6C78A90928103B1357BBB115338743EB4DE91",
+      "Backup": null
+    },
+    {
+      "Path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\outputs\\Cyberpunk2077_DLSS5_Tool\\DLSS5Control.ps1",
+      "Before": "17B3F9778BDE96CE216D86176253DE9CB67D3A540F10F490BB5B7D2338DF5183",
+      "After": "819A70E2A478916DD0D09E7A83C60E01AEC8E85049AE00ECCEEBE92B1994AA4B",
+      "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\objects\\17b3f9778bde96ce216d86176253de9cb67d3a540f10f490bb5b7d2338df5183"
+    },
+    {
+      "Path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\outputs\\Cyberpunk2077_DLSS5_Tool\\Start_NRDebugPanel.bat",
+      "Before": null,
+      "After": "E79557E915B55DAAF14317B95B1E370B0B26A351E2474B2AD98A7891CD868741",
+      "Backup": null
+    }
+  ]
+}

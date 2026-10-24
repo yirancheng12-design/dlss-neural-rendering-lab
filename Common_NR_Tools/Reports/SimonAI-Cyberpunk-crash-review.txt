@@ -1,0 +1,5 @@
+问题：
+请作为SimonAI仅做工程诊断，200字内，不执行操作。Cyberpunk2077 2.31、RTX5090Laptop、驱动616.92。Skynizz optiscaler-dlss5 v1.2.1+NVIDIA签名NR310.8.0，winmm代理，无其他改动。此前相同64秒内置基准：NR OFF116.30FPS，ON99.47FPS，ON日志确有Dispatch及composition，不能证明存档加载稳定。现在连续两次加载03_night_city存档崩溃：0xC0000005读地址0x155，minidump故障模块均是Cyberpunk2077.exe+0x4d7efe，并非直接在NR DLL中。尚不能判定具体责任模块。原EXE及12个原生DLSS/Streamline文件哈希未变，存档已备份。本次故障全量现场已备份。计划锁定工具ON，先设置[DlssNr]Enabled=false并恢复测试前UserSettings，再加载同一存档；若仍崩溃则把新增Mod文件移到外部备份并验证纯原版同存档与基准；不改驱动/System32/反作弊，不下载组件，不强行恢复NR。指出关键遗漏、判因边界。
+
+SimonAI答复（咨询意见）：
+咨询未完成：OpenAITimeoutError

@@ -1,0 +1,61 @@
+{
+    "GameEXE":  "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\Cyberpunk2077.exe",
+    "GameVersion":  "2.31",
+    "RequestedNR":  "ON",
+    "GameRunning":  true,
+    "OptiScalerLoadedNow":  true,
+    "NRModelDLLLoadedNow":  true,
+    "DLSS5_RUNTIME_STATUS":  "UNKNOWN - inspect current-run evaluate/model logs; DLL loading alone is insufficient",
+    "CompatibilityBlock":  "",
+    "Modules":  [
+                    {
+                        "Name":  "sl.interposer.dll",
+                        "Path":  "E:\\steam\\steamapps\\common\\cyberpunk 2077\\bin\\x64\\sl.interposer.dll"
+                    },
+                    {
+                        "Name":  "dxgi.dll",
+                        "Path":  "C:\\Windows\\SYSTEM32\\dxgi.dll"
+                    },
+                    {
+                        "Name":  "WINMM.dll",
+                        "Path":  "E:\\steam\\steamapps\\common\\cyberpunk 2077\\bin\\x64\\WINMM.dll"
+                    },
+                    {
+                        "Name":  "winmm.dll",
+                        "Path":  "C:\\Windows\\system32\\winmm.dll"
+                    },
+                    {
+                        "Name":  "_nvngx.dll",
+                        "Path":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvamsi.inf_amd64_f3ff0022ad7f3f4a\\_nvngx.dll"
+                    },
+                    {
+                        "Name":  "d3d12.dll",
+                        "Path":  "C:\\Windows\\SYSTEM32\\d3d12.dll"
+                    },
+                    {
+                        "Name":  "nvngx_dlss.dll",
+                        "Path":  "E:\\steam\\steamapps\\common\\cyberpunk 2077\\bin\\x64\\nvngx_dlss.dll"
+                    },
+                    {
+                        "Name":  "nvngx_dlssg.dll",
+                        "Path":  "E:\\steam\\steamapps\\common\\cyberpunk 2077\\bin\\x64\\nvngx_dlssg.dll"
+                    },
+                    {
+                        "Name":  "nvngx_dlssd.dll",
+                        "Path":  "E:\\steam\\steamapps\\common\\cyberpunk 2077\\bin\\x64\\nvngx_dlssd.dll"
+                    },
+                    {
+                        "Name":  "nvngx_dlssnr.dll",
+                        "Path":  "E:\\steam\\steamapps\\common\\cyberpunk 2077\\bin\\x64\\nvngx_dlssnr.dll"
+                    },
+                    {
+                        "Name":  "D3D12Core.dll",
+                        "Path":  "C:\\Windows\\SYSTEM32\\D3D12Core.dll"
+                    },
+                    {
+                        "Name":  "nvngx.dll_dlssnr.dll",
+                        "Path":  "E:\\steam\\steamapps\\common\\cyberpunk 2077\\bin\\x64\\nvngx.dll_dlssnr.dll"
+                    }
+                ],
+    "Backup":  "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup"
+}

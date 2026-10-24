@@ -1,0 +1,127 @@
+{
+  "Start": "2026-10-16T13:18:48.0568207+08:00",
+  "End": "2026-10-16T13:20:48.5700091+08:00",
+  "Samples": [
+    {
+      "Time": "2026-10-16T13:18:48.0716600+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:18:53.1043691+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:18:58.1318810+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:19:03.1382479+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:19:08.1509029+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:19:13.1752299+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:19:18.1890653+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:19:23.2076124+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:19:28.2432402+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:19:33.2654365+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:19:38.2770739+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:19:43.3014948+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:19:48.3240839+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:19:53.3364125+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:19:58.3588724+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:20:03.3723775+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:20:08.3981714+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:20:13.4182053+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:20:18.4411174+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:20:23.4728634+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:20:28.4831149+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:20:33.4852243+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:20:38.5064301+08:00",
+      "Running": true,
+      "Responding": true
+    },
+    {
+      "Time": "2026-10-16T13:20:43.5115748+08:00",
+      "Running": true,
+      "Responding": true
+    }
+  ],
+  "NewCrashReports": []
+}

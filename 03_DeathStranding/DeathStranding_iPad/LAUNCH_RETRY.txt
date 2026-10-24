@@ -1,0 +1,13 @@
+重新启动尝试结果：未成功，不能声称游戏已运行。
+
+USB 文件共享保持可用；开发者模式再次查询为 false；开发者镜像为 false。
+爱思投屏 USB 提示窗口可读取和激活，但鼠标与 Return 输入均未关闭提示，未建立可用 iPad 控制通道。
+静态检查确认 i4AirPlayer.exe 与 i4Tools.exe 均声明 requestedExecutionLevel requireAdministrator。该信息与自动输入失败相符，但未单独证实是失败唯一原因。
+设备工具作者文档确认开发者启动接口需要 Developer Mode 与开发者镜像。
+未开启开发者模式，未修改程序 manifest，未绕过 UAC，未重启 iPad，未改动现有画质配置。
+
+配置写入状态：已写入，并有独立设备回读证据。
+游戏启动状态：未确认。
+画质生效状态：UNKNOWN。
+资料：https://doronz88.github.io/pymobiledevice3/cli/
+

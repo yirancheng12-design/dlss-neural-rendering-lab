@@ -1,0 +1,28 @@
+{
+  "Label": "ON_Quality",
+  "WindowSeconds": 60,
+  "Samples": 60,
+  "FPS": "UNKNOWN",
+  "OnePercentLow": "UNKNOWN",
+  "Source": "NVIDIA nvidia-smi and Windows GetSystemTimes. Total GPU/system metrics; not isolated game process. No frame-time capture.",
+  "GPU_Usage_Percent": {
+    "Mean": 43.95,
+    "Max": 54.0
+  },
+  "GPU_Temperature_C": {
+    "Mean": 68.183,
+    "Max": 69.0
+  },
+  "GPU_Power_W": {
+    "Mean": 108.474,
+    "Max": 126.85
+  },
+  "VRAM_MiB": {
+    "Mean": 7424.383,
+    "Max": 7500.0
+  },
+  "CPU_Total_Percent": {
+    "Mean": 31.671,
+    "Max": 43.443
+  }
+}

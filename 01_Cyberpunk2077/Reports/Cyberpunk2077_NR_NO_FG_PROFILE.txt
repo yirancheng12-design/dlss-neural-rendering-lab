@@ -1,0 +1,49 @@
+最新 NR 试验配置状态（2026-10-16）
+
+已开放受限制的 NR 配置：Quality、原强度、缓存关闭、单次处理、原生帧生成/MFG 关闭。
+当前游戏未启动；INI 已设 NR ON。下次启动才会实际执行，不宣称当前正在渲染。
+
+验证依据
+17:47:11 至 17:57:13，约 10 分钟，120 次采样进程存活且响应正常，无新增崩溃目录。
+NR 运行日志在 17:57:12 仍记录 composition，模型 1715x1072。
+日志显示 sl.dlss_g 没有被游戏请求；此轮未同时启用原生帧生成。
+此前采样脚本把空报告列表的 null 占位误算为一个崩溃，导致原始 JSON 标为 FAIL_OR_INCOMPLETE。
+原始记录保留不改；已逐项确认所有非空崩溃名均为空、实际崩溃目录无新增，并生成纠正后的结果。
+纠正结果：Cyberpunk2077_NR_NO_FG_VERIFIED_PROFILE.json。
+
+重要边界
+这是 10 分钟监测通过的试验配置，不是全部场景长期稳定保证。
+重新读档验证未完成：用户按物理 Escape 停止了界面自动操作。后续没有擅自继续控制游戏。
+尚未证明帧生成是唯一根因；关闭帧生成后这一轮未复现崩溃，只支持把它作为当前配置约束。
+原有 NR 与帧生成同时开启的组合仍不建议使用。
+关闭帧生成可能明显降低屏幕 FPS。本轮没有可靠的完整平均 FPS / 1% Low，均为 UNKNOWN。
+
+为什么刚才不能开启
+NR 开关处于 OFF，工具还缓存/保留了上一轮 CompatibilityBlock；画质配置的帧生成也回到了 ON。
+现在已备份该画质配置，仅将 FrameGeneration 改为 Off/index 0、DLSSFrameGen 改为 false，并将 NR 设为 ON。
+工具解除一概封锁，改为启动和开启前强制验证原生帧生成关闭；若改回 ON，工具拒绝启动带 NR 的游戏。
+游戏里手动开启 FG 不能被工具实时拦截，因此使用此方案时不要同时开启 FG/MFG。
+
+使用
+关闭旧工具窗口，再双击桌面“赛博朋克2077 NR 调试面板”或“赛博朋克2077 DLSS5 开关”。
+NR 已设为 ON；选择启动游戏即可。游戏运行时禁止切换配置。
+关闭 NR：退出游戏，使用面板“关闭 NR”或菜单 [2]。
+移除 Mod：退出游戏，菜单 [5]；新增文件移到备份，不删除原始文件。
+
+备份与恢复
+完整备份：E:\steam\steamapps\common\Cyberpunk2077_DLSS5_Backup
+此轮调试前的画质文件：
+E:\steam\steamapps\common\Cyberpunk2077_DLSS5_Backup\incidents\nr_no_fg_20261016_174513\UserSettings.before.json
+最近工具/画质修改前备份路径、大小、版本及哈希：Cyberpunk2077_NR_NO_FG_TOOL_BACKUPS.json。
+菜单 [5] 移除 Mod 不会自动重置用户画质设置。需要恢复原帧生成，可在 NR OFF 或 Mod 移除后通过游戏设置开启。
+未修改驱动、System32、安全机制或存档；复用已核验的原组件，没有下载新 DLL/EXE。
+
+证据
+Cyberpunk2077_NR_NO_FG_TRIAL.json
+Cyberpunk2077_NR_NO_FG_10MIN.json（原始分类存在上述空值计数错误）
+Cyberpunk2077_NR_NO_FG_10MIN.log
+Cyberpunk2077_NR_NO_FG_VERIFIED_PROFILE.json
+Cyberpunk2077_NR_NO_FG_TOOL_BACKUPS.json
+
+本文件代表最新状态；旧的“NR 已卸载且全面封锁”说明保留为历史记录，不代表当前配置。
+

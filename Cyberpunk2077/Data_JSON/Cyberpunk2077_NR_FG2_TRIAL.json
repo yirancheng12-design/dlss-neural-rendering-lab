@@ -1,0 +1,43 @@
+{
+  "Start": "2026-10-16T18:17:35.2087049+08:00",
+  "Trial": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\nr_fg2_20261016_181735",
+  "Entries": [
+    {
+      "Path": "C:\\Users\\ROG\\AppData\\Local\\CD Projekt Red\\Cyberpunk 2077\\UserSettings.json",
+      "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\nr_fg2_20261016_181735\\1_UserSettings.json",
+      "Size": 91705,
+      "SHA256": "6AA1464AF8B30645D785C3E19EFEE90D8D4196F71B65B9780BD5EBD2FA00DE5B",
+      "Version": null
+    },
+    {
+      "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\OptiScaler.ini",
+      "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\nr_fg2_20261016_181735\\2_OptiScaler.ini",
+      "Size": 71505,
+      "SHA256": "1C9F012316655802702D68100E2C557A6E375388551B049E56E05FC6611F2E34",
+      "Version": null
+    },
+    {
+      "Path": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Tool\\tool_config.json",
+      "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\nr_fg2_20261016_181735\\3_tool_config.json",
+      "Size": 1158,
+      "SHA256": "AE89EA2915B9F227ECF3D11BD405BC1B9792393F823CCCD0C6CEF35D2CE31307",
+      "Version": null
+    },
+    {
+      "Path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-16\\windows-mod-gpu-nvidia-geforce-rtx\\outputs\\Cyberpunk2077_DLSS5_Tool\\tool_config.json",
+      "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\nr_fg2_20261016_181735\\4_tool_config.json",
+      "Size": 1158,
+      "SHA256": "AE89EA2915B9F227ECF3D11BD405BC1B9792393F823CCCD0C6CEF35D2CE31307",
+      "Version": null
+    }
+  ],
+  "Settings": "C:\\Users\\ROG\\AppData\\Local\\CD Projekt Red\\Cyberpunk 2077\\UserSettings.json",
+  "FG": "DLSS x2",
+  "NR": "ON",
+  "CrashBaseline": [
+    "Cyberpunk2077-20261016-121645-23484-39912",
+    "Cyberpunk2077-20261016-121817-27196-16412",
+    "Cyberpunk2077-20261016-133556-32096-14424",
+    "Cyberpunk2077-20261016-165628-34928-43840"
+  ]
+}

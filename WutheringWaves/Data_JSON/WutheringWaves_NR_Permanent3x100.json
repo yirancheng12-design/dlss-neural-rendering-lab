@@ -1,0 +1,16 @@
+{
+  "Status": "PERMANENT_CONFIGURATION_SAVED",
+  "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\OptiScaler.ini",
+  "OriginalFileName": "OptiScaler.ini",
+  "OriginalSize": 71513,
+  "OriginalVersion": null,
+  "BeforeSHA256": "0FF7552FDC682AFF5F9A3310FE7F81FFE96FE2E7163CD5264C52425BF4C4ABB7",
+  "AfterSHA256": "419FCEF5218A32AE406F3F7FD1B291D8604C212AA9D1A4EF1CF4C28F0BD0F5BF",
+  "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\permanent3x100_20261017_173559\\OptiScaler.before.ini",
+  "Passes": 3,
+  "WorkingScale": 1.0,
+  "NR": "ON",
+  "NativeFG": "3x saved by game before this edit; unchanged by this operation",
+  "RuntimeTest": "NOT_RUN",
+  "Warning": "67% triple pass was user-confirmed smooth; 100% triple pass remains untested."
+}

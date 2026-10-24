@@ -1,0 +1,22 @@
+[
+  {
+    "File": "start.bat",
+    "TagUrl": "https://raw.githubusercontent.com/DaniilSokolyuk/video2dlssnr/v1.4.1/start.bat",
+    "MatchesIgnoringLineEndings": true
+  },
+  {
+    "File": "requirements.txt",
+    "TagUrl": "https://raw.githubusercontent.com/DaniilSokolyuk/video2dlssnr/v1.4.1/requirements.txt",
+    "MatchesIgnoringLineEndings": true
+  },
+  {
+    "File": "app.py",
+    "TagUrl": "https://raw.githubusercontent.com/DaniilSokolyuk/video2dlssnr/v1.4.1/app.py",
+    "MatchesIgnoringLineEndings": true
+  },
+  {
+    "File": "nr_video.py",
+    "TagUrl": "https://raw.githubusercontent.com/DaniilSokolyuk/video2dlssnr/v1.4.1/nr_video.py",
+    "MatchesIgnoringLineEndings": true
+  }
+]

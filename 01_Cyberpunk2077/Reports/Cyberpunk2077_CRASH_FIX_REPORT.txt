@@ -1,0 +1,69 @@
+Cyberpunk 2077 卡退修复与实机复测报告
+日期：2026-10-16
+
+结论
+同一 AutoSave-16 存档已进入实际游戏场景；暂停菜单及返回游戏响应正常。
+13:07:00 至 13:08:00 完成 60.32 秒非暂停场景观察，12 次采样均为进程存活且响应正常，新增崩溃报告 0。
+结果：PASS_SHORT_STABILITY_TEST。当前 NR 关闭后短时复测未复现卡退；不是长期稳定性保证。
+进程运行总时间包含锁屏、暂停等待，不能计作连续实玩时间。
+
+硬件与游戏
+GPU：NVIDIA GeForce [GPU_MODEL]（24GB）
+Driver：616.92
+Game：Cyberpunk 2077 2.31，EXE 文件版本 3.0.5294808
+EXE：[GAME_DIR]\Cyberpunk 2077\bin\x64\Cyberpunk2077.exe
+API：D3D12（运行模块记录）
+Mod：Skynizz/optiscaler-dlss5 v1.2.1
+
+故障证据与诊断边界
+此前两次读档崩溃：12:16:45、12:18:17。
+两份 minidump 均为读访问冲突 0xC0000005，地址 0x155，位置 Cyberpunk2077.exe+0x4d7efe。
+崩溃时 NR ON；13 个原始 EXE/DLSS/Streamline/dbghelp 文件哈希与安装前一致。
+崩溃位置不能证明 EXE 损坏，也不能单独证明 NR DLL 是唯一原因。
+恢复同时关闭 NR 并恢复画质配置，尚未单独隔离 NR、Balanced 配置或两者交互的贡献。
+现有社区 NR 组合在本机版本的读档稳定性未通过，不再强行启用。
+
+已执行的可恢复修复
+1. 修改前备份本次现场 22 个文件并校验 SHA-256，包含配置、Mod、日志、工具配置、两份崩溃报告。
+2. bin\x64\OptiScaler.ini：[DlssNr] Enabled=false。
+3. 恢复测试前 UserSettings.json 原始内容，撤回未完成的 Balanced 测试，回到 Quality/Transformer。
+   设置文件：[USER_HOME]\AppData\Local\CD Projekt Red\Cyberpunk 2077\UserSettings.json
+   SHA-256：691a266df8c8859a114b34c90f2ced7f549441189477be04bb1f1e15f3692152
+4. 工具增加 CompatibilityBlock，阻止 NR ON；OFF、状态、恢复原版保留。
+5. 未改驱动、System32、反作弊或安全设置；本次未下载任何 DLL/EXE；未改存档。
+
+当前实际运行状态
+OptiScaler_STATUS=TRUE（游戏目录 winmm.dll 已加载）
+DLSS5_STATUS=FALSE（当前关闭）
+NR DLL 已映射不等于 NR 正在执行；OptiScaler 日志明确记载：DLSS-NR did not run: it is switched off。
+运行模块包含游戏原生 nvngx_dlss.dll、nvngx_dlssg.dll、nvngx_dlssd.dll、sl.interposer.dll。
+本次复测未发现明显界面异常；未进行长时间全场景画质评估。
+
+历史内置基准（不是本次读档修复后的重新跑分）
+2560x1600、Quality，两次各约 64 秒。
+NR OFF Average FPS：116.30；1% Low：UNKNOWN。
+NR ON Average FPS：99.47；1% Low：UNKNOWN。
+ON 相比 OFF：-16.83 FPS（-14.47%）。
+历史 ON 日志曾证明 NR dispatch/composition 执行过，但随后读档崩溃，不能据此判定兼容。
+当前修复后 FPS、1% Low、GPU 温度/功耗/占用/显存、CPU 占用：UNKNOWN（本次未可靠采集）。
+建议：保持 NR OFF 和恢复后的 Quality 设置。Balanced、Performance 未完成有效比较，不能宣称已找出最优设置。
+
+备份与一键恢复
+完整备份：E:\steam\steamapps\common\Cyberpunk2077_DLSS5_Backup
+本次现场：E:\steam\steamapps\common\Cyberpunk2077_DLSS5_Backup\incidents\crash_20261016_122109
+工具：E:\steam\steamapps\common\Cyberpunk2077_DLSS5_Tool\Toggle_DLSS5.bat
+完全退出游戏，运行工具并选 [5] 恢复原版。工具将新增 Mod 文件移至外部备份，不删除原始文件。
+恢复范围是此次安装的 Mod；不替代游戏平台对未来更新文件的验证。
+驱动或游戏更新后重新核对：游戏版本、原生 DLSS/Streamline 文件哈希与版本、社区 winmm.dll、NR 转发 DLL、NR 模型 DLL 的版本/哈希/来源/签名，以及配置和新日志。不要自动解除 ON 阻止。
+
+审计证据（与本报告同目录）
+Cyberpunk2077-crash-fix-stability-test.json：60.32 秒完整采样。
+Cyberpunk2077-crash-fix-runtime-evidence.json：配置、模块及崩溃目录记录。
+Cyberpunk2077-crash-fix-gameplay-start.jpg：已加载实际存档场景截图。
+Cyberpunk2077-crash-fix-NR-OFF.log：本次关闭 NR 日志快照。
+Cyberpunk2077-crash-minidump-analysis.json：两份崩溃转储静态分析。
+Cyberpunk2077-crash-incident-backup.json：现场备份清单。
+Cyberpunk2077_DLSS5_BACKUP.txt：完整备份文件路径、大小、哈希及版本清单。
+
+SimonAI：已尝试本地咨询但超时，未获得诊断结论；已结束此次咨询遗留的模型工作进程并释放其资源。该资源占用发生在原始两次崩溃之后，不作为原始崩溃原因。
+

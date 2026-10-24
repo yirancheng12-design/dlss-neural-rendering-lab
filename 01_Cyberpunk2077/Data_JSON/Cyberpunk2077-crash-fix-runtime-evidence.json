@@ -1,0 +1,59 @@
+{
+  "CheckedAt": "2026-10-16T13:08:07.7063476+08:00",
+  "PID": 48936,
+  "Running": true,
+  "Responding": true,
+  "UptimeSeconds": 2090.0,
+  "NR_Enabled": "false",
+  "UserSettingsSHA256": "691A266DF8C8859A114B34C90F2CED7F549441189477BE04BB1F1E15F3692152",
+  "Modules": [
+    {
+      "Name": "sl.interposer.dll",
+      "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.interposer.dll"
+    },
+    {
+      "Name": "dxgi.dll",
+      "Path": "C:\\Windows\\SYSTEM32\\dxgi.dll"
+    },
+    {
+      "Name": "WINMM.dll",
+      "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\WINMM.dll"
+    },
+    {
+      "Name": "winmm.dll",
+      "Path": "C:\\Windows\\system32\\winmm.dll"
+    },
+    {
+      "Name": "_nvngx.dll",
+      "Path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvamsi.inf_amd64_f3ff0022ad7f3f4a\\_nvngx.dll"
+    },
+    {
+      "Name": "d3d12.dll",
+      "Path": "C:\\Windows\\SYSTEM32\\d3d12.dll"
+    },
+    {
+      "Name": "nvngx_dlss.dll",
+      "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx_dlss.dll"
+    },
+    {
+      "Name": "nvngx_dlssg.dll",
+      "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx_dlssg.dll"
+    },
+    {
+      "Name": "nvngx_dlssd.dll",
+      "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx_dlssd.dll"
+    },
+    {
+      "Name": "nvngx_dlssnr.dll",
+      "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx_dlssnr.dll"
+    },
+    {
+      "Name": "D3D12Core.dll",
+      "Path": "C:\\Windows\\SYSTEM32\\D3D12Core.dll"
+    }
+  ],
+  "CrashFolders": [
+    "Cyberpunk2077-20261016-121645-23484-39912",
+    "Cyberpunk2077-20261016-121817-27196-16412"
+  ]
+}

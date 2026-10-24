@@ -1,0 +1,183 @@
+{
+  "CreatedAt": "2026-10-16T12:21:10.5643260+08:00",
+  "BackupRoot": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109",
+  "OriginalNativeBinariesUnchanged": true,
+  "Files": [
+    {
+      "OriginalPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\winmm.dll",
+      "FileName": "winmm.dll",
+      "Bytes": 26347008,
+      "SHA256": "AD143C5BD6E5FAB4D1ABD8B048C424E9DDCEABF1A864E0E0695C01A0DC82B4C9",
+      "FileVersion": "10.0.0.1",
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\game\\winmm.dll"
+    },
+    {
+      "OriginalPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx.dll_dlssnr.dll",
+      "FileName": "nvngx.dll_dlssnr.dll",
+      "Bytes": 114176,
+      "SHA256": "87408102BC7B6A740C2F771DEB131A606424DF08165D4B9AB34C2742C2A42EA0",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\game\\nvngx.dll_dlssnr.dll"
+    },
+    {
+      "OriginalPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx_dlssnr.dll",
+      "FileName": "nvngx_dlssnr.dll",
+      "Bytes": 165840496,
+      "SHA256": "E16BCF15E16E13F527491CDF7845B2FE6521A738D8F7C9C721866A8496E1FC8E",
+      "FileVersion": "310,8,0,0",
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\game\\nvngx_dlssnr.dll"
+    },
+    {
+      "OriginalPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\OptiScaler.ini",
+      "FileName": "OptiScaler.ini",
+      "Bytes": 71504,
+      "SHA256": "47CA3A961A2E2F556FA3FD5C239FB459AFE154D3C67D4A36AAC0A1BE7CAEE16E",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\game\\OptiScaler.ini"
+    },
+    {
+      "OriginalPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\OptiScaler-NR-install-manifest.json",
+      "FileName": "OptiScaler-NR-install-manifest.json",
+      "Bytes": 5477,
+      "SHA256": "9A05AFD186157F9DECDD2916258BCC3F17E64A1A49DBBB33ED981E9338617C3F",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\game\\OptiScaler-NR-install-manifest.json"
+    },
+    {
+      "OriginalPath": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\OptiScaler.log",
+      "FileName": "OptiScaler.log",
+      "Bytes": 280147,
+      "SHA256": "9FCECA11E1604B6D5B6EA2E576B2F2408733F73A4F0AC7BC5B26C40DFA8F2F6F",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\game\\OptiScaler.log"
+    },
+    {
+      "OriginalPath": "C:\\Users\\ROG\\AppData\\Local\\CD Projekt Red\\Cyberpunk 2077\\UserSettings.json",
+      "FileName": "UserSettings.json",
+      "Bytes": 91706,
+      "SHA256": "C958885B78AF71D768F2D1DF01F5A3B9FB4CAB8F0ED693F7FC091A661E688BE1",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\settings\\UserSettings.json"
+    },
+    {
+      "OriginalPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Tool\\tool_config.json",
+      "FileName": "tool_config.json",
+      "Bytes": 677,
+      "SHA256": "29A20C260CCF5515C366F0E00FF1B4161E3CED3EB08744923E7707D4A3E11160",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\tool\\tool_config.json"
+    },
+    {
+      "OriginalPath": "C:\\Users\\ROG\\AppData\\Local\\REDEngine\\ReportQueue\\Cyberpunk2077-20261016-121817-27196-16412\\Cyberpunk2077.dmp",
+      "FileName": "Cyberpunk2077.dmp",
+      "Bytes": 31161690,
+      "SHA256": "EFD7445814A2C324EDFE558B35C64B8298181649424F3D6E9A8E39929B0B0896",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\crash_reports\\Cyberpunk2077-20261016-121817-27196-16412\\Cyberpunk2077.dmp"
+    },
+    {
+      "OriginalPath": "C:\\Users\\ROG\\AppData\\Local\\REDEngine\\ReportQueue\\Cyberpunk2077-20261016-121817-27196-16412\\integrity.json",
+      "FileName": "integrity.json",
+      "Bytes": 705,
+      "SHA256": "6F5F2177DC25AC4182B344EA0BA2547D194578ECDFC4D54E206755CE29086D13",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\crash_reports\\Cyberpunk2077-20261016-121817-27196-16412\\integrity.json"
+    },
+    {
+      "OriginalPath": "C:\\Users\\ROG\\AppData\\Local\\REDEngine\\ReportQueue\\Cyberpunk2077-20261016-121817-27196-16412\\report.txt",
+      "FileName": "report.txt",
+      "Bytes": 6687,
+      "SHA256": "D66AC87D4B36E6473101DCD2502036DEBB6C2AA170CD0864CE34E8D8D9D2B779",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\crash_reports\\Cyberpunk2077-20261016-121817-27196-16412\\report.txt"
+    },
+    {
+      "OriginalPath": "C:\\Users\\ROG\\AppData\\Local\\REDEngine\\ReportQueue\\Cyberpunk2077-20261016-121817-27196-16412\\stacktrace.txt",
+      "FileName": "stacktrace.txt",
+      "Bytes": 175,
+      "SHA256": "8DCF5E7794E714EA6DA32A0F1B340FB3CCE6CBB39E25F9DD8C0C73E2D30F93EF",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\crash_reports\\Cyberpunk2077-20261016-121817-27196-16412\\stacktrace.txt"
+    },
+    {
+      "OriginalPath": "C:\\Users\\ROG\\AppData\\Local\\REDEngine\\ReportQueue\\Cyberpunk2077-20261016-121817-27196-16412\\sysinfo.json",
+      "FileName": "sysinfo.json",
+      "Bytes": 4607,
+      "SHA256": "78292C2D5AA8045641561CF450A4FD0A401881DB90689D5FCAD1E089DCFE0640",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\crash_reports\\Cyberpunk2077-20261016-121817-27196-16412\\sysinfo.json"
+    },
+    {
+      "OriginalPath": "C:\\Users\\ROG\\AppData\\Local\\REDEngine\\ReportQueue\\Cyberpunk2077-20261016-121817-27196-16412\\attch\\Cyberpunk2077.exe-20261016-121703-27196-44452.txt",
+      "FileName": "Cyberpunk2077.exe-20261016-121703-27196-44452.txt",
+      "Bytes": 8326,
+      "SHA256": "8BAC7D51DF429158220040C7851C0F26C32D6AD9534ABCCA3A23D8B4FA9D18A4",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\crash_reports\\Cyberpunk2077-20261016-121817-27196-16412\\attch\\Cyberpunk2077.exe-20261016-121703-27196-44452.txt"
+    },
+    {
+      "OriginalPath": "C:\\Users\\ROG\\AppData\\Local\\REDEngine\\ReportQueue\\Cyberpunk2077-20261016-121817-27196-16412\\attch\\metadata.9.json",
+      "FileName": "metadata.9.json",
+      "Bytes": 3162,
+      "SHA256": "BA2AB6E044AE40E444BED324A49D90135CBBC7B48D9686768FBA5CBC209E7AD6",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\crash_reports\\Cyberpunk2077-20261016-121817-27196-16412\\attch\\metadata.9.json"
+    },
+    {
+      "OriginalPath": "C:\\Users\\ROG\\AppData\\Local\\REDEngine\\ReportQueue\\Cyberpunk2077-20261016-121817-27196-16412\\attch\\sav.dat",
+      "FileName": "sav.dat",
+      "Bytes": 3044523,
+      "SHA256": "AD2BB86B5E9C3DE4FB3BA6D66CBEC5AF5B8CBAF5B9A6AF5E51B37C44A87FD0B4",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\crash_reports\\Cyberpunk2077-20261016-121817-27196-16412\\attch\\sav.dat"
+    },
+    {
+      "OriginalPath": "C:\\Users\\ROG\\AppData\\Local\\REDEngine\\ReportQueue\\Cyberpunk2077-20261016-121817-27196-16412\\attch\\screenshot.png",
+      "FileName": "screenshot.png",
+      "Bytes": 131302,
+      "SHA256": "A43B1AF76C9AC70DADCAF6CF20A2726A0804D7028B70DABE282DEA7F2DEA6F49",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\crash_reports\\Cyberpunk2077-20261016-121817-27196-16412\\attch\\screenshot.png"
+    },
+    {
+      "OriginalPath": "C:\\Users\\ROG\\AppData\\Local\\REDEngine\\ReportQueue\\Cyberpunk2077-20261016-121645-23484-39912\\Cyberpunk2077.dmp",
+      "FileName": "Cyberpunk2077.dmp",
+      "Bytes": 30731846,
+      "SHA256": "AD8CCA70415BB22D5399F6E46975E154095EDB4B24B7907E0F1D80BF9F2C3839",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\crash_reports\\Cyberpunk2077-20261016-121645-23484-39912\\Cyberpunk2077.dmp"
+    },
+    {
+      "OriginalPath": "C:\\Users\\ROG\\AppData\\Local\\REDEngine\\ReportQueue\\Cyberpunk2077-20261016-121645-23484-39912\\integrity.json",
+      "FileName": "integrity.json",
+      "Bytes": 360,
+      "SHA256": "B1C03A503BC4A99D5ED748DC111131FBAE64262A2BFF3143E135F6383008360D",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\crash_reports\\Cyberpunk2077-20261016-121645-23484-39912\\integrity.json"
+    },
+    {
+      "OriginalPath": "C:\\Users\\ROG\\AppData\\Local\\REDEngine\\ReportQueue\\Cyberpunk2077-20261016-121645-23484-39912\\report.txt",
+      "FileName": "report.txt",
+      "Bytes": 6616,
+      "SHA256": "AE3DC8FD1F2EE3DFC850A5D74EBCC0E8E5C67E002C5C613848495352EBD5D3D8",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\crash_reports\\Cyberpunk2077-20261016-121645-23484-39912\\report.txt"
+    },
+    {
+      "OriginalPath": "C:\\Users\\ROG\\AppData\\Local\\REDEngine\\ReportQueue\\Cyberpunk2077-20261016-121645-23484-39912\\stacktrace.txt",
+      "FileName": "stacktrace.txt",
+      "Bytes": 175,
+      "SHA256": "8DCF5E7794E714EA6DA32A0F1B340FB3CCE6CBB39E25F9DD8C0C73E2D30F93EF",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\crash_reports\\Cyberpunk2077-20261016-121645-23484-39912\\stacktrace.txt"
+    },
+    {
+      "OriginalPath": "C:\\Users\\ROG\\AppData\\Local\\REDEngine\\ReportQueue\\Cyberpunk2077-20261016-121645-23484-39912\\sysinfo.json",
+      "FileName": "sysinfo.json",
+      "Bytes": 4607,
+      "SHA256": "2FFA3582E7171C5E9DAA5FD63658BD8F175FC31C6A7F00961CB15ABE6FDA6F9C",
+      "FileVersion": null,
+      "BackupPath": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\incidents\\crash_20261016_122109\\crash_reports\\Cyberpunk2077-20261016-121645-23484-39912\\sysinfo.json"
+    }
+  ]
+}

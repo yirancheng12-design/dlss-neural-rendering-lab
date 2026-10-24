@@ -1,0 +1,45 @@
+Cyberpunk 2077 增强 NR 崩溃与恢复记录
+日期：2026-10-16（北京时间）
+
+已恢复：NR 原强度 1.0（TransferStrength=auto、ColourStrength=auto）、编辑缓存关闭、单次处理、DLSS Quality。
+当前保留非官方 NR 开启；此次恢复运行的日志持续记录模型执行、composition 和 NR cost，不只是 DLL 已加载。
+INI 已逐字节恢复到增强前，SHA-256：1C9F012316655802702D68100E2C557A6E375388551B049E56E05FC6611F2E34。
+
+增强尝试
+用户选择明显加强光影和色彩。
+仅把 TransferStrength 从默认 1.0 改为 1.35，ColourStrength 从 auto 改为显式 1.0；未增加模型处理次数或重新开启缓存。
+修改前已备份配置和日志。
+增强测试进程 PID 32096 在启动约 9 秒时崩溃；报告为 GPU Crash。
+日志：Present 0x887A0005；DXGI_ERROR_DEVICE_HUNG。
+这不同于此前的 0xC0000005 读档访问冲突。
+一次相关性不能证明强度参数是唯一根因；本次不再继续提高强度。
+
+恢复及测试
+保留增强配置、日志和完整崩溃目录后，恢复增强前 INI 并校验哈希。
+13:42:52 启动恢复配置（PID 46076），确认实际存档场景显示正常。
+随后完成单独 60 秒有效监测；每次采样进程都存活且响应，无新增崩溃目录。
+恢复配置已运行数分钟，实际场景截图和日志已保存；不将全进程存活时间当成连续实玩时间。
+短时复测通过，长期稳定性 UNKNOWN。
+早期文件 Cyberpunk2077-strong-NR-rollback-monitor.json 因采样等待参数错误无有效时长，不作为测试证据。
+有效证据：Cyberpunk2077-strong-NR-rollback-monitor-valid.json。
+
+防止误用
+一键工具及交付副本的 RequiredNrSettings 增加 TransferStrength=auto、ColourStrength=auto 校验。
+工具将拒绝在增强配置下执行 ON/Launch，保留 OFF 和恢复功能；运行中仍禁止切换。
+Windows PowerShell 5.1 已验证当前配置通过检查，运行中切换被拒绝。
+本次工具修改清单：Cyberpunk2077-NR-strength-rollback-tool-changes.json。
+
+现场及备份
+E:\steam\steamapps\common\Cyberpunk2077_DLSS5_Backup\incidents\nr_strong_look_20261016_133547
+原配置：上述目录的 OptiScaler.ini。
+增强失败现场：上述目录的 failed_strong_profile，含增强 INI、OptiScaler.log、Cyberpunk2077-20261016-133556-32096-14424 完整崩溃报告。
+一键工具：E:\steam\steamapps\common\Cyberpunk2077_DLSS5_Tool\Toggle_DLSS5.bat
+退出游戏后菜单 [2] 关闭 NR；[5] 移除本次 Mod 并保留外部备份。
+未修改驱动、System32、游戏安全机制或存档；没有下载新组件。
+
+同目录证据
+Cyberpunk2077-NR-strength-rollback.log
+Cyberpunk2077-NR-strength-rollback-gameplay.jpg
+Cyberpunk2077-strong-NR-rollback-monitor-valid.json
+Cyberpunk2077-NR-strength-rollback-tool-changes.json
+

@@ -1,0 +1,54 @@
+[
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.reflex.dll",
+    "Match": true
+  },
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.pcl.dll",
+    "Match": true
+  },
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.nis.dll",
+    "Match": true
+  },
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.interposer.dll",
+    "Match": true
+  },
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.dlss_g.dll",
+    "Match": true
+  },
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.dlss_d.dll",
+    "Match": true
+  },
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.dlss.dll",
+    "Match": true
+  },
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\sl.common.dll",
+    "Match": true
+  },
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx_dlssg.dll",
+    "Match": true
+  },
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx_dlssd.dll",
+    "Match": true
+  },
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx_dlss.dll",
+    "Match": true
+  },
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\dbghelp.dll",
+    "Match": true
+  },
+  {
+    "Path": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\Cyberpunk2077.exe",
+    "Match": true
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "INI": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\OptiScaler.ini",
+  "Backup": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\quality85_20261017_140510\\OptiScaler.ini",
+  "BeforeSHA256": "BDE9EBF43A91B560DA0224C4B4A30E9AFA03A34FCC530BA4D26F85F07A08C234",
+  "AfterSHA256": "9AC421E6ED8A332E3E02FFD26B8A401B48F7313410CC2C6C39912B89B1426B50",
+  "WorkingScaleBefore": 0.67,
+  "WorkingScaleAfter": 0.85,
+  "Style": 0,
+  "TransferStrength": 1.0,
+  "ColourStrength": 1.0,
+  "Passes": 1,
+  "CacheEnabled": false,
+  "ExtendedStateRestore": true,
+  "RuntimeTest": "NOT_RUN",
+  "GameWasRunning": false
+}

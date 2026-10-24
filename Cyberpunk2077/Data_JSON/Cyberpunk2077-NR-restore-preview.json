@@ -1,0 +1,37 @@
+{
+  "Mode": "Preview only; no files changed",
+  "FilesToMove": [
+    {
+      "Name": "winmm.dll",
+      "Source": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\winmm.dll",
+      "SHA256": "ad143c5bd6e5fab4d1abd8b048c424e9ddceabf1a864e0e0695c01a0dc82b4c9",
+      "SizeBytes": 26347008
+    },
+    {
+      "Name": "nvngx.dll_dlssnr.dll",
+      "Source": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx.dll_dlssnr.dll",
+      "SHA256": "87408102bc7b6a740c2f771deb131a606424df08165d4b9ab34c2742c2a42ea0",
+      "SizeBytes": 114176
+    },
+    {
+      "Name": "nvngx_dlssnr.dll",
+      "Source": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\nvngx_dlssnr.dll",
+      "SHA256": "e16bcf15e16e13f527491cdf7845b2fe6521a738d8f7c9c721866a8496e1fc8e",
+      "SizeBytes": 165840496
+    },
+    {
+      "Name": "OptiScaler.ini",
+      "Source": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\OptiScaler.ini",
+      "SHA256": "47ca3a961a2e2f556fa3fd5c239fb459afe154d3c67d4a36aac0a1be7caee16e",
+      "SizeBytes": 71504
+    },
+    {
+      "Name": "OptiScaler-NR-install-manifest.json",
+      "Source": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\OptiScaler-NR-install-manifest.json",
+      "SHA256": "9a05afd186157f9decdd2916258bcc3f17e64a1a49dbbb33ed981e9338617c3f",
+      "SizeBytes": 5477
+    }
+  ],
+  "BackupRoot": "E:\\steam\\steamapps\\common\\Cyberpunk 2077\\backup_OptiScaler_NR_20261016_100614",
+  "OriginalsSettingsAndSavesWillRemainUnchanged": true
+}

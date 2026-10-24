@@ -1,0 +1,359 @@
+《鸣潮》非官方 DLSS 5 / Neural Rendering 只读检查与零修改记录
+检查日期：2026-10-16，Asia/Shanghai
+
+结论：停止安装。
+已确认本机《鸣潮》包含 AntiCheatExpert（ACE）反作弊组件；OptiScaler 上游明确警告在线游戏使用可能触发反作弊并导致封号。按照用户第 6 条停止条件，不执行下载、注入、安装或试运行。
+这不是“已证明显卡不支持”或“已通过测试证明游戏绝对不兼容”的结论。技术运行兼容性未测试；当前方案不满足用户的账号风险限制。
+
+一、实际安装与运行程序
+安装来源线索：Windows 卸载登记中的“鸣潮”指向 WeGame 安装位置，且目标目录与程序真实存在。
+安装根目录：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)
+根目录启动程序：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Wuthering Waves.exe
+实际游戏程序：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Binaries\Win64\Client-Win64-Shipping.exe
+两者均为 x64 PE 文件，本次 Authenticode 检查状态均为 Valid。EXE 的文件版本资源为空，不能从空值推断游戏版本。
+检查期间未发现游戏进程；未启动游戏、启动器或反作弊程序。
+
+二、显卡、驱动与渲染 API
+GPU：NVIDIA GeForce [GPU_MODEL]。
+已安装 NVIDIA 驱动：616.92；Windows 版本号 32.0.16.1692，驱动日期 2026-09-04。
+驱动版本由本机已安装的 nvidia-smi 查询确认，未下载或执行外部 EXE。
+历史运行 API：D3D12 / DirectX 12。2026-09-19 的三份 CrashContext.runtime-xml 明确写有 RHI.RHIName=D3D12，并同时记录这张 GPU 和驱动 616.92。
+当前/下一次启动 API：未能确认。游戏未运行；最近 2026-10-14 的 Client 日志中没有检索到可用的明文 RHI 证据。不能把历史记录或 D3D12 DLL 的存在当作当前启动 API 的证明。
+历史证据的完整文件路径、时间与行号附于本报告末尾和 JSON。
+
+三、DLSS、FSR、XeSS 与已有 Mod 检查
+nvngx_dlss.dll：存在，文件版本 310.5.0.0，54,778,992 字节。
+nvngx_dlssg.dll：存在，文件版本 310.6.0.0，7,499,376 字节。
+nvngx_dlssd.dll：存在，文件版本 310.5.0.0，28,590,704 字节。
+nvngx_dlssnr.dll：在本次游戏目录完整递归清点中未发现；常见本地 RHI\DLSS-NR 缓存目录也不存在。
+上述前三个 DLL 均为 x64，NVIDIA Authenticode 签名检查状态为 Valid。
+其他发现：amd_fidelityfx_dx12.dll、libxess.dll、libxess_dx11.dll、libxess_fg.dll、nvngx_deepdvc.dll，以及 sl.common / sl.deepdvc / sl.dlss_g / sl.interposer / sl.pcl / sl.reflex DLL。
+现有 DLSS 超分辨率、帧生成、光线重建文件，不等于已具备 Neural Rendering 模型。
+没有发现文件名含 OptiScaler、ReShade、dlssnr、dlssg_to_fsr、fakenvapi 的文件；检查全部 DLL 版本描述时也未识别出 OptiScaler/ReShade。
+游戏根目录与实际游戏 EXE 同目录未发现本次检查列表中的常见代理 DLL/ASI 文件。这只是静态冲突筛查，不保证不存在经过改名的 Mod 或运行时注入。
+清单中的 dbghelp.dll 分布在不同工具子目录；WeGameLauncher 内的一份为 x86，不能据此认定 x64 游戏存在加载冲突，未尝试移动或替换。
+签名有效不等于已经与官方安装清单逐一比对；本记录描述的是现有本机文件，不宣称整个安装已经验证为纯净原版。
+
+四、反作弊与账号风险：安装停止依据
+游戏目录实际存在：
+E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Binaries\Win64\AntiCheatExpert\ACE-BASE.sys
+E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Binaries\Win64\AntiCheatExpert\ACE-CORE.sys
+以及 ACE-Base64.dll、ACE-IDS64.dll、ACE-Service64.exe、ACE-Setup64.exe。
+系统中还登记了 AntiCheatExpert Service 及 ACE 驱动服务；本次读取时为 Stopped。停止状态不代表游戏启动时不会启用，也不代表可安全加载 Mod。本次未改变任何服务或驱动状态。
+OptiScaler 上游安装说明警告在线游戏使用可能触发反作弊、导致封号。
+库洛用户协议第 4.6 至 4.8 条涉及相关程序监测及违规处理；没有取得对这些具体 Mod 的官方授权或账号安全保证。不将“可能封号”夸大成“安装必封”。
+独立的文件完整性校验算法、检测阈值与实际封禁概率未验证；已有反作弊证据足以触发用户的停止条件，无需进行试探。
+来源：https://github.com/optiscaler/OptiScaler#installation
+来源：https://wutheringwaves.kurogames.com/p/agreement_public.html
+
+五、组件与硬件适配核查
+Dagherbou v0.2.0-dlssnr 发布说明给出的最低驱动为 616.56；本机 616.92 在版本号上满足这一最低要求。RTX 5090 Laptop 属于 Blackwell；该说明中针对更早架构的模型修改要求不能据此套用到本机。
+满足 GPU 架构及最低驱动条件只是必要条件，不能证明此 WeGame 游戏版本、图形资源、NR 模型版本或反作弊兼容。
+该 Release 不含 nvngx_dlssnr.dll，要求另备模型。Skynizz 分支也不分发该 NVIDIA 专有模型。开源集成代码不意味着专有模型 DLL 开源。
+本次没有取得或验证任何新 NR 模型，不从第三方网盘、论坛附件或 DLL 下载站补齐。没有读取、提取或修改 NVIDIA 驱动文件来获得模型。
+由于风险门槛未通过，没有选定用于《鸣潮》的安装方案。以下项目只核查公开页面与 Release 文件名，不是已批准下载清单，也不是安全认证。
+GitHub REST 元数据请求遇到 403 速率限制；随后通过 GitHub 官方 Release 页面及 expanded_assets 页面核对。没有下载 Release 归档或执行其中任何内容。
+
+仓库：https://github.com/optiscaler/OptiScaler
+Release：v0.9.4
+Release 页面：https://github.com/optiscaler/OptiScaler/releases/tag/v0.9.4
+发布资产文件名：Optiscaler_0.9.4-final.20260718._MM.7z
+页面公布的 SHA-256：575cb4df866116093df75af607e37fd70e10f5163e0f23fd5c804142e80ef0ad
+资产元数据页面：https://github.com/optiscaler/OptiScaler/releases/expanded_assets/v0.9.4
+用途/限制：OptiScaler 上游项目；用于超分辨率/帧生成转换。不能将上游项目名称直接等同于 DLSS 5 NR 分支。
+状态：未下载，未安装；公布哈希未与实际归档比对，因为归档未下载。
+
+仓库：https://github.com/Dagherbou/OptiScaler_DLSSNR
+Release：v0.2.0-dlssnr
+Release 页面：https://github.com/Dagherbou/OptiScaler_DLSSNR/releases/tag/v0.2.0-dlssnr
+发布资产文件名：OptiScaler-DLSSNR-v0.2.0.zip
+页面公布的 SHA-256：8eece7a4d7de6de5917f0c99ac60540b2d77022e7699bba717b0a6d9e1829bce
+资产元数据页面：https://github.com/Dagherbou/OptiScaler_DLSSNR/releases/expanded_assets/v0.2.0-dlssnr
+用途/限制：社区 Neural Rendering 集成分支。发布说明要求驱动至少 616.56，并明确不包含 nvngx_dlssnr.dll。
+状态：未下载，未安装；公布哈希未与实际归档比对，因为归档未下载。
+
+仓库：https://github.com/Skynizz/optiscaler-dlss5
+Release：v1.2.1
+Release 页面：https://github.com/Skynizz/optiscaler-dlss5/releases/tag/v1.2.1
+发布资产文件名：OptiScaler-DLSS5-1.2.1-win-x64.zip
+页面公布的 SHA-256：0d5b24887ea2c622754da68efc76ef55ae42b5d3be350a8d43cafbabb6747ec6
+资产元数据页面：https://github.com/Skynizz/optiscaler-dlss5/releases/expanded_assets/v1.2.1
+用途/限制：基于 Dagherbou 集成的社区性能优化分支；同样要求用户自行提供 NR 模型 DLL，并说明使用未公开驱动功能。
+状态：未下载，未安装；公布哈希未与实际归档比对，因为归档未下载。
+
+六、完整修改与恢复记录
+修改的游戏文件：0。
+覆盖/替换/删除的原文件：0。
+新增的游戏目录文件：0。
+下载的 EXE、DLL 或 GitHub Release 归档：0。
+修改的 NVIDIA 驱动、System32 文件、NVIDIA 核心注册表项：0。
+关闭或绕过的安全软件/反作弊/联网验证：0。
+游戏启动次数：0。
+需要备份的拟修改文件：无，因此未在游戏目录创建 backup 文件夹，也没有把文件清单误称为备份。
+本报告及 JSON 仅保存元数据、版本、签名结果和哈希，不能用于恢复文件内容。
+本次卸载及恢复方式：无需操作。没有 Mod 被安装，不要运行任何卸载器，也不要删除已有 DLL。检查前后的既有游戏文件保持原位。
+若以后有另行授权、且通过风险检查的修改任务，必须先创建明确命名的 backup 文件夹，复制每一个拟改动原文件并校验哈希，随后才能改动；本次未进入这一阶段。
+
+七、安装前后检查状态与边界
+已完成：选定现有文件的 x64/x86 PE 头静态检查、文件版本、大小、SHA-256、Authenticode、常见代理 DLL 冲突筛查。
+未执行：新 DLL 的导入依赖完整性验证、递归依赖解析、安装后的 DLL 冲突测试、运行时兼容性/效果/性能测试。原因是安装已按要求停止，且没有新 DLL。
+不得把“现有 DLL 签名有效”或“驱动达到最低版本”解释为安装许可或封号风险消失。
+
+八、审计附件
+WutheringWaves-readonly-audit.json：本机检测与全量 DLL 元数据目录；重点文件完整路径、大小、版本、架构、签名与 SHA-256。
+GitHub-release-review.json：已审阅仓库、Release、发布文件名、公布哈希与未下载状态。
+本报告：WutheringWaves-DLSS5-audit-zh.txt。
+这些输出只创建在当前 Codex 工作区 outputs 文件夹；中间审计脚本保存在当前工作区 work 文件夹。
+
+本机清点时间：10/16/2026 09:03:36
+递归文件数量：2200；DLL 数量：157；详细静态检查文件：25；枚举错误：0
+
+附录 A：重点文件原始位置及只读基线
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Wuthering Waves.exe
+文件大小：484040 字节
+文件版本：[版本资源为空]
+产品版本：[版本资源为空]
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=广州库洛科技有限公司, O=广州库洛科技有限公司, L=广州市, S=广东省, C=CN, SERIALNUMBER=91440101MA59JPNR3D, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=天河区, OID.1.3.6.1.4.1.311.60.2.1.2=广东省, OID.1.3.6.1.4.1.311.60.2.1.3=CN
+SHA-256：4A5B8DD91B3287B64EB71D41E5266712A2DC3382C8AD31A3E7FBFA1D11F6773B
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Binaries\Win64\amd_fidelityfx_dx12.dll
+文件大小：6675664 字节
+文件版本：1.0.1.41314
+产品版本：1.0.1.0
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=Advanced Micro Devices, O=Advanced Micro Devices, S=California, C=US
+SHA-256：12A5081257EC95B0B53AD51B4A87FB3C03F97FE0BBB59F9496968F8D50EF93A6
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Binaries\Win64\Client-Win64-Shipping.exe
+文件大小：169828120 字节
+文件版本：[版本资源为空]
+产品版本：[版本资源为空]
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=广州库洛科技有限公司, O=广州库洛科技有限公司, L=广州市, S=广东省, C=CN, SERIALNUMBER=91440101MA59JPNR3D, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=天河区, OID.1.3.6.1.4.1.311.60.2.1.2=广东省, OID.1.3.6.1.4.1.311.60.2.1.3=CN
+SHA-256：61746CA0CCFB39326E56D86F08F907B48CD262A3EA00299B3758B4C909177633
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Binaries\Win64\AntiCheatExpert\ACE-BASE.sys
+文件大小：4125432 字节
+文件版本：1.0.2603.17210
+产品版本：1.0.2603.17210
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=Microsoft Windows Hardware Compatibility Publisher, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+SHA-256：5A88DBE617BC8F1A8B87D9B9F1221CAFE24FBC26BCF87CB93DB1AFB3351040DA
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Binaries\Win64\AntiCheatExpert\ACE-Base64.dll
+文件大小：70043536 字节
+文件版本：28.6.2606.970
+产品版本：28.6.2606.970
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=ACEVILLE PTE LTD, O=ACEVILLE PTE LTD, L=Singapore, C=SG, SERIALNUMBER=200510104M, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SG
+SHA-256：CCFA4924B9C31037A66F5041136F365AB459324C74B6A9225FE4835D41932B1F
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Binaries\Win64\AntiCheatExpert\ACE-CORE.sys
+文件大小：3923120 字节
+文件版本：27.6.2606.411
+产品版本：27.6.2606.411
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=Microsoft Windows Hardware Compatibility Publisher, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+SHA-256：F69DC4842C5A44004C00E46AC6B151FB7B1D83FF04E5A0244DCEA0B201DA23C8
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Binaries\Win64\AntiCheatExpert\ACE-IDS64.dll
+文件大小：4617616 字节
+文件版本：1.0.0.1
+产品版本：1.0.2510.12
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=ACEVILLE PTE LTD, O=ACEVILLE PTE LTD, L=Singapore, C=SG, SERIALNUMBER=200510104M, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SG
+SHA-256：624A047FDFA712113EEA40B3391F6B8DD4D63E85229DD59437201AA50E438E39
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Binaries\Win64\AntiCheatExpert\ACE-Service64.exe
+文件大小：3251080 字节
+文件版本：28.5.2606.233
+产品版本：28.5.2606.233
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=ACEVILLE PTE LTD, O=ACEVILLE PTE LTD, L=Singapore, C=SG
+SHA-256：17C90B6EC22CE851743949BDD0A98F0F25B01B2C30C2C46BA4494C3F3801C3C7
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Binaries\Win64\AntiCheatExpert\ACE-Setup64.exe
+文件大小：899984 字节
+文件版本：28.5.2606.276
+产品版本：28.5.2606.276
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=ACEVILLE PTE LTD, O=ACEVILLE PTE LTD, L=Singapore, C=SG, SERIALNUMBER=200510104M, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SG
+SHA-256：6B1289BC31ABF5A57C9DF8789C88FCCA82AA7071F5F4A2FB1DCBE4DAEBDD8C6D
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Binaries\Win64\ThirdParty\KrPcSdk_Mainland\KRSDKRes\wegame\dbghelp.dll
+文件大小：1508016 字节
+文件版本：6.3.9600.17200 (debuggers(dbg).140605-2312)
+产品版本：6.3.9600.17200
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+SHA-256：262DA3D61BCADA823BDC1EC82732527A976A78FC60BD51E977E61A017ABF21F3
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+文件大小：2221984 字节
+文件版本：10.0.25291.1000 (WinBuild.160101.0800)
+产品版本：10.0.25291.1000
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+SHA-256：4B803D0BFA5D360CFCB3237D260226743D2255EACF6A98615334FB55DEB7CF88
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Engine\Plugins\Runtime\Intel\XeSS\Binaries\ThirdParty\Win64\libxess_dx11.dll
+文件大小：156016 字节
+文件版本：2.0.2.68
+产品版本：2.0.2.68
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=Intel Corporation, O=Intel Corporation, S=California, C=US
+SHA-256：C7CFE86F0C9D94E4FB3696D3CD5035E2BBB6A8B1B0572F8B7395A4CDFD0C625E
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Engine\Plugins\Runtime\Intel\XeSS\Binaries\ThirdParty\Win64\libxess_fg.dll
+文件大小：22957432 字节
+文件版本：1.3.1.78
+产品版本：1.3.1.78
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=Intel Corporation, O=Intel Corporation, S=California, C=US
+SHA-256：EC5E0C65E075570C6EDE72618BB666D0BE0C2E10B2EA9762C0FE8CB8E375AB27
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Engine\Plugins\Runtime\Intel\XeSS\Binaries\ThirdParty\Win64\libxess.dll
+文件大小：77795704 字节
+文件版本：2.0.2.68
+产品版本：2.0.2.68
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=Intel Corporation, O=Intel Corporation, S=California, C=US
+SHA-256：251659DD84A3E84DE67C886A4186E01F3ECA49B00641906FE38BB6B807E5D5B7
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Engine\Plugins\Runtime\Nvidia\DLSS\Binaries\ThirdParty\Win64\nvngx_dlss.dll
+文件大小：54778992 字节
+文件版本：310,5,0,0
+产品版本：310,5,0,0
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=NVIDIA Corporation, OU=1005bk6, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US
+SHA-256：22C4660249DA5B352CDE0CE4D95178C3761223DD6AC096D0B88E5C03D7A5CDD1
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Engine\Plugins\Runtime\Nvidia\DLSS\Binaries\ThirdParty\Win64\nvngx_dlssd.dll
+文件大小：28590704 字节
+文件版本：310,5,0,0
+产品版本：310,5,0,0
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=NVIDIA Corporation, OU=1005bk6, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US
+SHA-256：50EB21E654A1FD12403E000F5AC9C2488BF9149930C028E73196F3F1D47D10A9
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Engine\Plugins\Runtime\Nvidia\StreamlineCore\Binaries\ThirdParty\Win64\nvngx_deepdvc.dll
+文件大小：3144304 字节
+文件版本：310,5,0,0
+产品版本：310,5,0,0
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=NVIDIA Corporation, OU=1005bk6, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US
+SHA-256：60AC1E9F32AB31A8DCDA3E875FD3DC2D3BCFFECA3C6CA33551D6DC6871DBFD1B
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Engine\Plugins\Runtime\Nvidia\StreamlineCore\Binaries\ThirdParty\Win64\nvngx_dlssg.dll
+文件大小：7499376 字节
+文件版本：310,6,0,0
+产品版本：310,6,0,0
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=NVIDIA Corporation, OU=1005bk6, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US
+SHA-256：83230804A087272C6D7EB4C805AC5925CE1188C70F150CC8DBD5CD843F53946A
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Engine\Plugins\Runtime\Nvidia\StreamlineCore\Binaries\ThirdParty\Win64\sl.common.dll
+文件大小：674432 字节
+文件版本：2,10,0,0
+产品版本：2,10,0,0
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=NVIDIA Corporation, OU=2008B9F, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US
+SHA-256：BE50A4C89177ABB3695DE92C57CC41662BFB7598EC447707B0D6EFB77256D977
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Engine\Plugins\Runtime\Nvidia\StreamlineCore\Binaries\ThirdParty\Win64\sl.deepdvc.dll
+文件大小：190592 字节
+文件版本：2,10,0,0
+产品版本：2,10,0,0
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=NVIDIA Corporation, OU=2008B9F, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US
+SHA-256：C68FC648313C1B5403FB7130D6775540867B7088B0AC280B04E33B47B47B12F7
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Engine\Plugins\Runtime\Nvidia\StreamlineCore\Binaries\ThirdParty\Win64\sl.dlss_g.dll
+文件大小：459392 字节
+文件版本：2,10,0,0
+产品版本：2,10,0,0
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=NVIDIA Corporation, OU=2008B9F, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US
+SHA-256：E07FD38310805E34265929D1999F33ED5566CF30176C082CA84EF63992F6C7D7
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Engine\Plugins\Runtime\Nvidia\StreamlineCore\Binaries\ThirdParty\Win64\sl.interposer.dll
+文件大小：569472 字节
+文件版本：2,10,0,0
+产品版本：2,10,0,0
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=NVIDIA Corporation, OU=2008B9F, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US
+SHA-256：C2397E96E35C1E78C0B351B0D2B070C6529CCC990F4CC73F04722DB24DC2ACCE
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Engine\Plugins\Runtime\Nvidia\StreamlineCore\Binaries\ThirdParty\Win64\sl.pcl.dll
+文件大小：176256 字节
+文件版本：2,10,0,0
+产品版本：2,10,0,0
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=NVIDIA Corporation, OU=2008B9F, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US
+SHA-256：D6CD931F8DB74978AA9159A41AF288AE1480FFBEAE59E64F4EA447074D861BC0
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Engine\Plugins\Runtime\Nvidia\StreamlineCore\Binaries\ThirdParty\Win64\sl.reflex.dll
+文件大小：198784 字节
+文件版本：2,10,0,0
+产品版本：2,10,0,0
+架构：x64 (AMD64, 0x8664)
+签名：Valid；签名者：CN=NVIDIA Corporation, OU=2008B9F, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US
+SHA-256：42C45991B8F2972D4F341D379BD9BE093C408B59D01F22B338F505F476617CC5
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+完整路径：E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\WeGameLauncher\dbghelp.dll
+文件大小：1256080 字节
+文件版本：6.3.9600.17237 (debuggers(dbg).140716-0327)
+产品版本：6.3.9600.17237
+架构：x86 (I386, 0x014c)
+签名：Valid；签名者：CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+SHA-256：3AB019BD41C6F30D4250F26B40E695021698D7909D538E2F9B8AEAB73BB7B8AA
+动作：只读检查，保持原位；未替换，未备份，不适用新 Release 来源。
+
+附录 B：历史渲染 API 证据
+E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Saved\Crashes\UE4CC-Windows-A813D83142398A963EA4A092ADC76A52_0000\CrashContext.runtime-xml，行 2774，文件时间 09/19/2026 18:36:24
+<RHI.RHIName>D3D12</RHI.RHIName>
+E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Saved\Crashes\UE4CC-Windows-A813D83142398A963EA4A092ADC76A52_0000\CrashContext.runtime-xml，行 2775，文件时间 09/19/2026 18:36:24
+<RHI.AdapterName>NVIDIA GeForce [GPU_MODEL]</RHI.AdapterName>
+E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Saved\Crashes\UE4CC-Windows-A813D83142398A963EA4A092ADC76A52_0000\CrashContext.runtime-xml，行 2776，文件时间 09/19/2026 18:36:24
+<RHI.UserDriverVersion>616.92</RHI.UserDriverVersion>
+E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Saved\Crashes\UE4CC-Windows-52E35673419E9538E31A84B0A47BBE51_0001\CrashContext.runtime-xml，行 2764，文件时间 09/19/2026 18:34:09
+<RHI.RHIName>D3D12</RHI.RHIName>
+E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Saved\Crashes\UE4CC-Windows-52E35673419E9538E31A84B0A47BBE51_0001\CrashContext.runtime-xml，行 2765，文件时间 09/19/2026 18:34:09
+<RHI.AdapterName>NVIDIA GeForce [GPU_MODEL]</RHI.AdapterName>
+E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Saved\Crashes\UE4CC-Windows-52E35673419E9538E31A84B0A47BBE51_0001\CrashContext.runtime-xml，行 2766，文件时间 09/19/2026 18:34:09
+<RHI.UserDriverVersion>616.92</RHI.UserDriverVersion>
+E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Saved\Crashes\UE4CC-Windows-52E35673419E9538E31A84B0A47BBE51_0000\CrashContext.runtime-xml，行 2774，文件时间 09/19/2026 18:34:05
+<RHI.RHIName>D3D12</RHI.RHIName>
+E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Saved\Crashes\UE4CC-Windows-52E35673419E9538E31A84B0A47BBE51_0000\CrashContext.runtime-xml，行 2775，文件时间 09/19/2026 18:34:05
+<RHI.AdapterName>NVIDIA GeForce [GPU_MODEL]</RHI.AdapterName>
+E:\WeGameApps\rail_apps\Wuthering Waves(2002137)\Client\Saved\Crashes\UE4CC-Windows-52E35673419E9538E31A84B0A47BBE51_0000\CrashContext.runtime-xml，行 2776，文件时间 09/19/2026 18:34:05
+<RHI.UserDriverVersion>616.92</RHI.UserDriverVersion>
+
+结束复核：25 个重点文件重新计算 SHA-256，与本次初始清点不一致的文件数量为 0。该复核只覆盖重点文件，不是全游戏官方完整性校验。
+

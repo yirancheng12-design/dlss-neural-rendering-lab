@@ -1,0 +1,50 @@
+[
+  {
+    "ReportFolder": "C:\\Users\\ROG\\AppData\\Local\\REDEngine\\ReportQueue\\Cyberpunk2077-20261016-121817-27196-16412",
+    "DumpFile": "C:\\Users\\ROG\\AppData\\Local\\REDEngine\\ReportQueue\\Cyberpunk2077-20261016-121817-27196-16412\\Cyberpunk2077.dmp",
+    "ExceptionCode": "0xc0000005",
+    "ExceptionAddress": "0x7ff628f97efe",
+    "ExceptionParameters": [
+      "0x0",
+      "0x155"
+    ],
+    "FaultModule": "Cyberpunk2077.exe",
+    "ModuleOffset": "0x4d7efe",
+    "ModRelevantModules": [
+      "winmm.dll",
+      "winmm.dll",
+      "_nvngx.dll",
+      "D3D12.dll",
+      "nvngx_dlss.dll",
+      "nvngx_dlssg.dll",
+      "nvngx_dlssd.dll",
+      "nvngx_dlssnr.dll",
+      "D3D12Core.dll",
+      "nvngx.dll_dlssnr.dll"
+    ]
+  },
+  {
+    "ReportFolder": "C:\\Users\\ROG\\AppData\\Local\\REDEngine\\ReportQueue\\Cyberpunk2077-20261016-121645-23484-39912",
+    "DumpFile": "C:\\Users\\ROG\\AppData\\Local\\REDEngine\\ReportQueue\\Cyberpunk2077-20261016-121645-23484-39912\\Cyberpunk2077.dmp",
+    "ExceptionCode": "0xc0000005",
+    "ExceptionAddress": "0x7ff628f97efe",
+    "ExceptionParameters": [
+      "0x0",
+      "0x155"
+    ],
+    "FaultModule": "cyberpunk2077.exe",
+    "ModuleOffset": "0x4d7efe",
+    "ModRelevantModules": [
+      "winmm.dll",
+      "winmm.dll",
+      "_nvngx.dll",
+      "D3D12.dll",
+      "nvngx_dlss.dll",
+      "nvngx_dlssg.dll",
+      "nvngx_dlssd.dll",
+      "nvngx_dlssnr.dll",
+      "D3D12Core.dll",
+      "nvngx.dll_dlssnr.dll"
+    ]
+  }
+]

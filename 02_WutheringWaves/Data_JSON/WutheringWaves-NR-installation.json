@@ -1,0 +1,224 @@
+{
+  "GameRoot": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)",
+  "GameBin": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64",
+  "BackupRoot": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733",
+  "InstalledAt": "20261016_221733",
+  "RuntimeStatus": "NR67_FGOFF_PASS_5MIN",
+  "Release": "https://github.com/Skynizz/optiscaler-dlss5/releases/tag/v1.2.1",
+  "ModelSource": "https://github.com/RankFTW/rhi-repo/releases/tag/dlssnr-310.8.0",
+  "RiskAccepted": true,
+  "Originals": [
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\amd_fidelityfx_dx12.dll",
+      "Name": "amd_fidelityfx_dx12.dll",
+      "Size": 6675664,
+      "Version": "1.0.1.41314",
+      "SHA256": "12a5081257ec95b0b53ad51b4a87fb3c03f97fe0bbb59f9496968f8d50ef93a6",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Client\\Binaries\\Win64\\amd_fidelityfx_dx12.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\cgsdk-loader.dll",
+      "Name": "cgsdk-loader.dll",
+      "Size": 92360,
+      "Version": null,
+      "SHA256": "3a6d6a0b798b8f230b5d56869878bf4c5d3ab0de9ae704bbe8116c6050b41c46",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Client\\Binaries\\Win64\\cgsdk-loader.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\cgsdk.dll",
+      "Name": "cgsdk.dll",
+      "Size": 791240,
+      "Version": null,
+      "SHA256": "dd2d5eeeb360a2a4938d9bd5a05a087bcce99823c5c494b5cce7abe84e2e7afc",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Client\\Binaries\\Win64\\cgsdk.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\Client-Win64-Shipping.exe",
+      "Name": "Client-Win64-Shipping.exe",
+      "Size": 169819416,
+      "Version": "",
+      "SHA256": "0b93442831d565d9d3b3101f601e5cb6273552cb900e7aa27e0caaaa2e652859",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Client\\Binaries\\Win64\\Client-Win64-Shipping.exe"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\Client-Win64-ShippingBase.dll",
+      "Name": "Client-Win64-ShippingBase.dll",
+      "Size": 38673736,
+      "Version": null,
+      "SHA256": "9ceb2e6f4a2e8d579003374cef95071b3b1de0a64968166a0b457c5af0cfb63c",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Client\\Binaries\\Win64\\Client-Win64-ShippingBase.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\coreclr.dll",
+      "Name": "coreclr.dll",
+      "Size": 4993736,
+      "Version": "42,42,42,42424",
+      "SHA256": "0debe7e6ac8d0e23a1f5a11fd494dfe0322ccb47f4b991847245a4d79a46769c",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Client\\Binaries\\Win64\\coreclr.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\CrashSight64.dll",
+      "Name": "CrashSight64.dll",
+      "Size": 5575368,
+      "Version": "2.2.6.348",
+      "SHA256": "9a32dcaff09012199e3e225c83ea129d749f6c257e8c240ca5aa1022f87fc99f",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Client\\Binaries\\Win64\\CrashSight64.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\JoyShockLibrary.dll",
+      "Name": "JoyShockLibrary.dll",
+      "Size": 224968,
+      "Version": null,
+      "SHA256": "59c26d0823f943325a797d6c9665a6b6be728f8fbcbae57cf1d58cf9f2b0fe75",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Client\\Binaries\\Win64\\JoyShockLibrary.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\libcryptoMD.dll",
+      "Name": "libcryptoMD.dll",
+      "Size": 2428616,
+      "Version": "1.1.0f",
+      "SHA256": "489c2792226f0b1b1d863b5c673a778d4e330c133826f2d68cdb3d114c82fb97",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Client\\Binaries\\Win64\\libcryptoMD.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\libprotobuf.dll",
+      "Name": "libprotobuf.dll",
+      "Size": 2318024,
+      "Version": null,
+      "SHA256": "77156048e61e8f105f1ea230899064f07f4dbca1cc2f193ae455a6ac92245edc",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Client\\Binaries\\Win64\\libprotobuf.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\libScePad.dll",
+      "Name": "libScePad.dll",
+      "Size": 237256,
+      "Version": "1.5.0.0",
+      "SHA256": "58bc2ce3085787e9ba3be00a147e631f18939bc2349cc03324992b4dd857e223",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Client\\Binaries\\Win64\\libScePad.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\libsslMD.dll",
+      "Name": "libsslMD.dll",
+      "Size": 516296,
+      "Version": "1.1.0f",
+      "SHA256": "be69f3c51fdaf3dc3f0c1e18e6078c148340535ab459a5fe872b7eaf97dfde06",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Client\\Binaries\\Win64\\libsslMD.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\PerfSight.dll",
+      "Name": "PerfSight.dll",
+      "Size": 4828360,
+      "Version": null,
+      "SHA256": "b0f616db3a2fde63390f347af367a1671bcd6677272c3ec0a9a65adf6efade77",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Client\\Binaries\\Win64\\PerfSight.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\turbojpeg.dll",
+      "Name": "turbojpeg.dll",
+      "Size": 747208,
+      "Version": null,
+      "SHA256": "baa893aeb157cac0dceaedd51122909f5a1bb47eca32333769b5cc2cb89f9e46",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Client\\Binaries\\Win64\\turbojpeg.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\DLSS\\Binaries\\ThirdParty\\Win64\\nvngx_dlss.dll",
+      "Name": "nvngx_dlss.dll",
+      "Size": 54778992,
+      "Version": "310,5,0,0",
+      "SHA256": "22c4660249da5b352cde0ce4d95178c3761223dd6ac096d0b88e5c03d7a5cdd1",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Engine\\Plugins\\Runtime\\Nvidia\\DLSS\\Binaries\\ThirdParty\\Win64\\nvngx_dlss.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\DLSS\\Binaries\\ThirdParty\\Win64\\nvngx_dlssd.dll",
+      "Name": "nvngx_dlssd.dll",
+      "Size": 28590704,
+      "Version": "310,5,0,0",
+      "SHA256": "50eb21e654a1fd12403e000f5ac9c2488bf9149930c028e73196f3f1d47d10a9",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Engine\\Plugins\\Runtime\\Nvidia\\DLSS\\Binaries\\ThirdParty\\Win64\\nvngx_dlssd.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\nvngx_deepdvc.dll",
+      "Name": "nvngx_deepdvc.dll",
+      "Size": 3144304,
+      "Version": "310,5,0,0",
+      "SHA256": "60ac1e9f32ab31a8dcda3e875fd3dc2d3bcffeca3c6ca33551d6dc6871dbfd1b",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\nvngx_deepdvc.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\nvngx_dlssg.dll",
+      "Name": "nvngx_dlssg.dll",
+      "Size": 7499376,
+      "Version": "310,6,0,0",
+      "SHA256": "83230804a087272c6d7eb4c805ac5925ce1188c70f150cc8dbd5cd843f53946a",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\nvngx_dlssg.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.common.dll",
+      "Name": "sl.common.dll",
+      "Size": 674432,
+      "Version": "2,10,0,0",
+      "SHA256": "be50a4c89177abb3695de92c57cc41662bfb7598ec447707b0d6efb77256d977",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.common.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.deepdvc.dll",
+      "Name": "sl.deepdvc.dll",
+      "Size": 190592,
+      "Version": "2,10,0,0",
+      "SHA256": "c68fc648313c1b5403fb7130d6775540867b7088b0ac280b04e33b47b47b12f7",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.deepdvc.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.dlss_g.dll",
+      "Name": "sl.dlss_g.dll",
+      "Size": 459392,
+      "Version": "2,10,0,0",
+      "SHA256": "e07fd38310805e34265929d1999f33ed5566cf30176c082ca84ef63992f6c7d7",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.dlss_g.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.interposer.dll",
+      "Name": "sl.interposer.dll",
+      "Size": 569472,
+      "Version": "2,10,0,0",
+      "SHA256": "c2397e96e35c1e78c0b351b0d2b070c6529ccc990f4cc73f04722db24dc2acce",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.interposer.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.pcl.dll",
+      "Name": "sl.pcl.dll",
+      "Size": 176256,
+      "Version": "2,10,0,0",
+      "SHA256": "d6cd931f8db74978aa9159a41af288ae1480ffbeae59e64f4ea447074d861bc0",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.pcl.dll"
+    },
+    {
+      "OriginalPath": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.reflex.dll",
+      "Name": "sl.reflex.dll",
+      "Size": 198784,
+      "Version": "2,10,0,0",
+      "SHA256": "42c45991b8f2972d4f341d379bd9be093c408b59d01f22b338f505f476617cc5",
+      "BackupPath": "E:\\WeGameApps\\rail_apps\\WutheringWaves_DLSS5_Backup\\20261016_221733\\original\\Engine\\Plugins\\Runtime\\Nvidia\\StreamlineCore\\Binaries\\ThirdParty\\Win64\\sl.reflex.dll"
+    }
+  ],
+  "AddedFiles": [
+    {
+      "Path": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\winmm.dll",
+      "SHA256": "ad143c5bd6e5fab4d1abd8b048c424e9ddceabf1a864e0e0695c01a0dc82b4c9"
+    },
+    {
+      "Path": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\nvngx_dlssnr.dll",
+      "SHA256": "e16bcf15e16e13f527491cdf7845b2fe6521a738d8f7c9c721866a8496e1fc8e"
+    },
+    {
+      "Path": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\nvngx.dll_dlssnr.dll",
+      "SHA256": "87408102bc7b6a740c2f771deb131a606424df08165d4b9ab34c2742c2a42ea0"
+    },
+    {
+      "Path": "E:\\WeGameApps\\rail_apps\\Wuthering Waves(2002137)\\Client\\Binaries\\Win64\\OptiScaler.ini",
+      "SHA256": "0ff7552fdc682aff5f9a3310fe7f81ffe96fe2e7163cd5264c52425bf4c4abb7"
+    }
+  ],
+  "SecurityBypassed": false,
+  "Trial": "67% one pass NR ON, native FG OFF; no new crash in 5-minute sampled observation"
+}

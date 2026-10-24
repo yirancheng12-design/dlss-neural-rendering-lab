@@ -1,0 +1,19 @@
+{
+  "PID": 45228,
+  "ProcessStart": "2026-10-17T18:11:29.3757084+08:00",
+  "ObservedAt": "2026-10-17T18:30:54.3490368+08:00",
+  "ElapsedMinutes": 19.4,
+  "Responding": true,
+  "NewCrashReports": 0,
+  "NR": "Execution confirmed by fresh composition/cost logs",
+  "NativeFG": "2x enabled confirmed numFramesToGenerate=1",
+  "TestedPrecision": 67,
+  "TestedPasses": 1,
+  "GameScene": "Actual Night City street gameplay visible",
+  "AverageFPS": "UNKNOWN",
+  "OnePercentLow": "UNKNOWN",
+  "ControllerTest": "WinPS5 initialization PASS; live-game write guard PASS; native JSON formatter test PASS",
+  "HigherPrecisionAndPasses": "Controls added, runtime stability NOT_TESTED",
+  "Backup": "E:\\steam\\steamapps\\common\\Cyberpunk2077_DLSS5_Backup\\controller_v2_20261017_181129",
+  "Desktop": "C:\\Users\\ROG\\Desktop\\赛博朋克2077 NR 精度控制台.lnk"
+}
