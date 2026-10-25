@@ -1,4 +1,4 @@
-# DLSS 神经渲染：社区实验与证据归档
+# DLSS 神经渲染实验室
 
 [English](README.md) · [英文结论与原始证据](docs/findings.md) · [只读工具](docs/usage.md)
 
