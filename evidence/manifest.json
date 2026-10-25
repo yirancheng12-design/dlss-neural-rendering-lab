@@ -1,0 +1,1143 @@
+{
+  "schema_version": 1,
+  "baseline_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1",
+  "archive_roots": [
+    "01_Cyberpunk2077",
+    "02_WutheringWaves",
+    "03_Common_NR_Tools",
+    "04_AisiAssistant",
+    "Common_NR_Tools",
+    "Cyberpunk2077",
+    "WutheringWaves"
+  ],
+  "files": [
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_DLSS5_Tool/DLSS5Control.ps1",
+      "size": 18592,
+      "sha256": "b6d23a7dec1cf286aa70d70c7726a2ea555e55baacd3a94e4050d2a4a92eb815",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_DLSS5_Tool/NRDebugPanel.ps1",
+      "size": 10674,
+      "sha256": "43be3ff5725f689e7c6513f7accd9dc62e4a4bb3761abb7a4a8bb7219b270b27",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_DLSS5_Tool/README.txt",
+      "size": 1911,
+      "sha256": "32a532b152091b3c62fc396f0ca198044b540ccfc8a73090d2e85c4bbcb7f4aa",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_DLSS5_Tool/Start_NRDebugPanel.bat",
+      "size": 103,
+      "sha256": "e79557e915b55daaf14317b95b1e370b0b26a351e2474b2ad98a7891cd868741",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_DLSS5_Tool/Toggle_DLSS5.bat",
+      "size": 254,
+      "sha256": "4a5fd5710a99f8efa16bcf7b5f494e2b874a0acdc74e1f216b052f0a13efff77",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_DLSS5_Tool/tool_config.json",
+      "size": 1180,
+      "sha256": "7bf605aa58b34886566ef6a9ba8e227e9dcb032a1c3dde6612493903529c56d2",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_NR100_3Pass_COMPARE_20261017/NR_OFF.jpg",
+      "size": 285099,
+      "sha256": "393279ea393eb7049608232cd71fa5c9c435ad4d530ead2c1ef0486ad1d40fa1",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_NR100_3Pass_COMPARE_20261017/NR_ON_100pct_3passes.jpg",
+      "size": 299141,
+      "sha256": "cbc61579686c2f7a9346071f92e51104e8edae3d3323bb4e55292a94d72d5ee0",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_NR100_3Pass_COMPARE_20261017/OptiScaler.before.ini",
+      "size": 69653,
+      "sha256": "15e2a9b7f6b8e0db2f48d4c4030a2ef573c8e6898736b572117d5306ccb0b9a3",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_NR100_3Pass_COMPARE_20261017/README.txt",
+      "size": 909,
+      "sha256": "0b2b33ead76220437b5fadd3ce640c5996233c45da9772c6f4000a235f08e492",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_NR100_3Pass_COMPARE_20261017/image_manifest.json",
+      "size": 415,
+      "sha256": "ed120e784986758fef0276ccf1fd69c8d7e7432f8e3120990abb2c2ce08d048b",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_NR100_3Pass_COMPARE_20261017/previous_screenshot_shortcut.lnk",
+      "size": 1502,
+      "sha256": "691f536ff4d378e8d35a9ffb56db9b5a1d360b1114cfe49e18100d9114167d36",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_NR100_3Pass_COMPARE_20261017/restoration.json",
+      "size": 60,
+      "sha256": "80d3becf2a518fb2eb7db15120ee7da1df74c1397d1ffda1de96475d35fcebb1",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_NR_Controller_v2/CPPrecisionEngine.ps1",
+      "size": 6216,
+      "sha256": "dcbbf62c49f75c0a7a09e8599a783ca892c0dfd2398d8e32f19268c68c3c2cde",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_NR_Controller_v2/CPPrecisionPanel.ps1",
+      "size": 5035,
+      "sha256": "93c64cf78fafd66e87b3324478c5949c35219c0d41a4f453da8a0fe88dd3b7e3",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_NR_Controller_v2/NRDebugPanel.ps1",
+      "size": 10951,
+      "sha256": "4eb1c7c7d0481e167a757d2456a671a5f3a33d8ab6a77e35c8b22c251f3512c7",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_NR_Controller_v2/REPORT.txt",
+      "size": 1075,
+      "sha256": "ae1cfe071b73703c149ae69520b9387ed4f5cfb452e2df5dfa3c6ddfa1d7aede",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_NR_Controller_v2/game_verified.jpg",
+      "size": 327415,
+      "sha256": "5f031d14b9c22729423dafadf4a0b37d76b8e18db5f4560b90a1e9dfc2be6e64",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_NR_Controller_v2/tool_config.json",
+      "size": 1180,
+      "sha256": "7bf605aa58b34886566ef6a9ba8e227e9dcb032a1c3dde6612493903529c56d2",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Cyberpunk2077_NR_Controller_v2/verification.json",
+      "size": 857,
+      "sha256": "9b6ac654ed4c292815a654cbc6e8030287d71093738452902131fd78c9297048",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-backup-manifest.json",
+      "size": 71255,
+      "sha256": "f4d6a0925955eb99fcba00dec20862f21b56397c9f88e7c9d0e86f288db1ef48",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-deployment-plan.json",
+      "size": 4994,
+      "sha256": "88639706173aada8992b29f33d3d8fb30fe6ddc9cedc9ce9cf8949713a501d14",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-installation-verification.json",
+      "size": 2493,
+      "sha256": "e6a4b79fab84039cf4a43198cd1d9a47dce31f7c31a4151aea03ca97af0e983d",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-installed-manifest.json",
+      "size": 5348,
+      "sha256": "d58e2b14e9a5ed0a671dc03ec2fabd453a3fe7590525416690369b8195129814",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-panel-installation.json",
+      "size": 2315,
+      "sha256": "4080d73fec5377122df845813f24b2ab3b2160baab0db1f283631717ec5291ec",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-postinstall-static-check.json",
+      "size": 17363,
+      "sha256": "ae8f631ba5bf3bcc4b0bdb336fdcd26240530ec36c15d172a2dc3a661d432d7d",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-preinstall-audit.json",
+      "size": 6829,
+      "sha256": "5e9766604d47b1f8d660303eacfdc8c22eb7d57998f40294c897f07b3ad95aca",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-repair-native-verification.json",
+      "size": 1462,
+      "sha256": "7c536f88217237ab7c31e4200426a19be0028c53611674678a09b599b71cdf45",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-repair-reload-monitor.json",
+      "size": 2829,
+      "sha256": "bc24e11d3aed1dac6b87b956b4d085bef79af720ffb93d9c89e5d66e9b579ae8",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-repair-result.json",
+      "size": 801,
+      "sha256": "e047b349309cbbc8f93042b291de2e28ced3b3c6a45e7aa1acfc095033d30dfe",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-repair-tool-changes.json",
+      "size": 2129,
+      "sha256": "a926c064525dbec81f901a4b3ba4bef07fb1949503f91c4e4f244de8d210d2e2",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-repair-trial1-process.json",
+      "size": 1227,
+      "sha256": "31de4db545b7efd1a63a19d1e0d331e5b040c690098249a7027173ddf93a4e95",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-restore-preview.json",
+      "size": 1503,
+      "sha256": "6e1d6d0a5887222b2ea8fa9e4adaefa09be617b5e0a74407902cd2c8548f7d50",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-strength-rollback-tool-changes.json",
+      "size": 904,
+      "sha256": "2da850d18ec7a4f3083b35c9f30e1dff8ad144c82b9973002edc2fa2f9989755",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-crash-fix-runtime-evidence.json",
+      "size": 1710,
+      "sha256": "a0998e453b00cb4dcd385c5e681605a5285843c7cc8ac85888b2c08dd1216de8",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-crash-fix-stability-test.json",
+      "size": 2040,
+      "sha256": "9b21e1428ee77aa2de536f1001885ba5eed4f74ec4421d034ec91292c14fb2e2",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-crash-fix-test-pending.json",
+      "size": 464,
+      "sha256": "86c442d257834cb42b435ed46c65cba2b9c2b8353d6c332c43b73969dcb728c0",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-crash-fix-test-start.json",
+      "size": 148,
+      "sha256": "22204d90fbf177ff871cd8adee7d837069a3486d63e3a2185d40dd3f0e146a65",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-crash-incident-backup.json",
+      "size": 10878,
+      "sha256": "4369cc8853fb98bfc1c85cd9f4ccade0edc7bb622a30d7fbdf02eceee828083a",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-crash-minidump-analysis.json",
+      "size": 1484,
+      "sha256": "37bf6681bf483993a84fa1b0f8f563b739cf01fd6d1896dcdba19bce8572e338",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-strong-NR-rollback-monitor-valid.json",
+      "size": 1492,
+      "sha256": "0fa28e0bbf2899e138e320b7fa9cf939058533f2d140cabb289a006e4d724d1e",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077-strong-NR-rollback-monitor.json",
+      "size": 1227,
+      "sha256": "8bcef754c01674c0f654399309104c24dc6e3088d24a0538b7a7a3fac9bf861f",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_DLSS5_Tool_Status_PowerShell51.json",
+      "size": 2800,
+      "sha256": "9c2a07d0379c9a8a30f047d8357ca9b26002a98019b3898dbaa644c9ca857932",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_DLSS5_external_backup.json",
+      "size": 70470,
+      "sha256": "24541d042bf9360f8151e1a9a95818d3074108294684a766fc21ea3e0c9c53a9",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_FG2_10MIN.json",
+      "size": 17085,
+      "sha256": "9f396e11eeedda5be7a7f2f3cc108388db4c2508ab687f30e97d9febb88c0205",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_FG2_TOOL_BACKUPS.json",
+      "size": 3263,
+      "sha256": "575ef0a06ba4b873c56d58ce4b1d06f3efe7307e0128e51806c21d6f2087d860",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_FG2_TRIAL.json",
+      "size": 2038,
+      "sha256": "00658ffc3bed8f8bd9bd3aee1c77b6c018f92b44822e80e0747e2ab79684066a",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_FG2_VERIFIED_PROFILE.json",
+      "size": 564,
+      "sha256": "f09bf56eb6f681f1ab52a39833b536da9cb8d631f1e4fc74f23051ec9d070ef2",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_NO_FG_10MIN.json",
+      "size": 19470,
+      "sha256": "76c55f34d461c3d13adfa5632ee35ae8ce199d72ef631d5f03bcfdecc137d8e8",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_NO_FG_TOOL_BACKUPS.json",
+      "size": 3597,
+      "sha256": "21bcd207a9724dbfb2ad95e09474026fe75ce57eb90ebcc01dbeeda463b96eba",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_NO_FG_TRIAL.json",
+      "size": 2653,
+      "sha256": "8930361f2da080425c4c510ff62bd8600c79c7697f0884cea40290a4dd1c98e6",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_NO_FG_VERIFIED_PROFILE.json",
+      "size": 728,
+      "sha256": "b8b94d3ce64ba021b09a99314c9f6e795927b47c4a14831506b751d40418e2aa",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_RETIRED_STATE.json",
+      "size": 668,
+      "sha256": "8ebb895f8debafca99dc2d01877c7ff622ecc5a633d15b0b8900ab999419b984",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_OFF_Quality_benchmark.json",
+      "size": 408,
+      "sha256": "6a840b10dde5daee21991faf746933323dafec531db01c4cf1a8397fb9eebc92",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_OFF_Quality_modules.json",
+      "size": 2100,
+      "sha256": "fcc41a63886a884dd5ebf6433cf240253cc0b29dd967e4a64db011ac31b4e776",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_OFF_Quality_telemetry-summary.json",
+      "size": 577,
+      "sha256": "45e9dc72f5cdd00e29b717a7afa7df119b1769529f9e9450ab3188c3e208d099",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_ON_Quality_benchmark.json",
+      "size": 507,
+      "sha256": "bb58b1b02d253b184fcee7f12cb0e647e1e4dd138ad5720b844096672dbf6e7f",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_ON_Quality_in_benchmark_modules.json",
+      "size": 2054,
+      "sha256": "392a8126975f22085af59aaee53cabd104adcaf4ffd3dd8fc7f48c69140907b4",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_ON_Quality_modules.json",
+      "size": 2093,
+      "sha256": "ab5c62007203fd8c05f33a453d998abcac42d67ac12094c97b06179d19e6b964",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_ON_Quality_telemetry-summary.json",
+      "size": 577,
+      "sha256": "86b2c0c8b2618b1e0b220fadf4013282f93f1cc38c0b92c18d8dc56f7eb18b3f",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_ON_Quality_valid_telemetry-summary.json",
+      "size": 582,
+      "sha256": "73da344e420ca93a1704bb3840b7f0aec851c3f3f7039b02920c9ecddc294bbf",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_ORIGINAL_5MIN_TEST.json",
+      "size": 8932,
+      "sha256": "e454fc84ffcee901759301332bcf57ac38b1f8b49cb2b63189872987b272bccb",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_ORIGINAL_FINAL_MODULES.json",
+      "size": 1212,
+      "sha256": "f304d4c8c49562fc04649c630218f6bbee1544d5ae86fa42f22b75967c3796d8",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_ORIGINAL_RUNTIME_MODULES.json",
+      "size": 1170,
+      "sha256": "63fa07a5454f69a28951da011d56866ac1bc547854f0a828395faf5e249025bc",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_ORIGINAL_USER_VISUAL_CONFIRMATION.json",
+      "size": 180,
+      "sha256": "f9d0ccdc97401fecae3077afa4b65b44234791db7330b669ef0e58449e9ba290",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Reports/Cyberpunk2077-NR-installation-record-zh.txt",
+      "size": 15935,
+      "sha256": "bd6623836aadcaf716e33f46507fa868ee40333a415197b1c2ac56ac357b46ca",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Reports/Cyberpunk2077_CRASH_FIX_REPORT.txt",
+      "size": 4634,
+      "sha256": "7779f0c9302cbffeda876504ff6a0eac83c34a458e4b76631ce622eee9e26757",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Reports/Cyberpunk2077_DLSS5_BACKUP.txt",
+      "size": 54388,
+      "sha256": "59b04e9778ac5f885cbc26d9db2b3fa9b534213e8e94f42e1bdf2e98d612e0f4",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Reports/Cyberpunk2077_DLSS5_TEST_REPORT.txt",
+      "size": 4634,
+      "sha256": "7779f0c9302cbffeda876504ff6a0eac83c34a458e4b76631ce622eee9e26757",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Reports/Cyberpunk2077_NR_FG2_FINAL_REPORT.txt",
+      "size": 3385,
+      "sha256": "a6534dc162696f56e0f9f443e153df9ac5e8e0d14017fb9ac12d8c11c92d37fd",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Reports/Cyberpunk2077_NR_NO_FG_PROFILE.txt",
+      "size": 3270,
+      "sha256": "f659512cbc9b7b65d0a009057f5fd760fae40f52a22c9921022e04cad9bee482",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Reports/Cyberpunk2077_NR_REMOVED_STABILITY_REPORT.txt",
+      "size": 4589,
+      "sha256": "801d9c8cabc05944ce8d69fbaeffab54842d80c8ce701689bc12e72e1343a336",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Reports/Cyberpunk2077_NR_REPAIR_REPORT.txt",
+      "size": 5009,
+      "sha256": "36ec5181323937a9cee8fc4712ef28d921e1158b3cf582f4e1726dfb00fab8a2",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Reports/Cyberpunk2077_NR_STRENGTH_ROLLBACK.txt",
+      "size": 2852,
+      "sha256": "884952784bee58f79c9fd44edcac428d0f6297ddc11946c5d96f3291105c7f34",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Reports/Cyberpunk2077_OFF_Quality_telemetry.csv",
+      "size": 4348,
+      "sha256": "021f5dc903845ba681303346fdb376a7da7f02626f29193d00aa2b170478bd9e",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Reports/Cyberpunk2077_ON_Quality_telemetry.csv",
+      "size": 4316,
+      "sha256": "6cc53799714d7fb8a376684350e73b358590cdaa170255cd29c46fe05a928477",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Reports/Cyberpunk2077_ON_Quality_valid_telemetry.csv",
+      "size": 4376,
+      "sha256": "b3eaf149538abbf1c357f2036f89ac15dcb56fe20c2d8e5a39be0259693a9d5a",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Screenshots/Cyberpunk2077-NR-FG2-start.jpg",
+      "size": 209436,
+      "sha256": "8561b723ef70f254d0cf4d19feb8c5524055a9f5d0529774ef6ff5b4ef1b2ab5",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Screenshots/Cyberpunk2077-NR-no-FG-start.jpg",
+      "size": 120477,
+      "sha256": "74277dd95398264c143dd23aba2ad206825c3a03addc95b9827a66c7c60d7561",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Screenshots/Cyberpunk2077-NR-repair-gameplay.jpg",
+      "size": 138080,
+      "sha256": "2184f47361fc3d36658376f8e0716c6fc386bd89cafa062faf12dbf42a2a461c",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Screenshots/Cyberpunk2077-NR-repair-reload-gameplay.jpg",
+      "size": 168760,
+      "sha256": "6b422256814df187e6022d9b3e068f66783d312e08a8112fe0c4ed13452c658c",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Screenshots/Cyberpunk2077-NR-strength-rollback-gameplay.jpg",
+      "size": 153644,
+      "sha256": "185fec43afe2160f4b1dc4e62aebc12223dcb5cd29ae3f601b18e279cd422b56",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Screenshots/Cyberpunk2077-crash-fix-gameplay-start.jpg",
+      "size": 107977,
+      "sha256": "ea7fdc7d98570b1c988f4207fe1fe9c439a83a3b714fbb4923f3df00e27d3543",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Screenshots/Cyberpunk2077-original-gameplay-end.jpg",
+      "size": 29303,
+      "sha256": "45e964aa1ee44fde370174b535b89af2c15940297464cfef11e735d1a06c7068",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Screenshots/Cyberpunk2077-original-gameplay-start.jpg",
+      "size": 124064,
+      "sha256": "6df756e842cff4655babf19085e646ead947aa1a16fd31c5b943b9fb8cc51f31",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Screenshots/Cyberpunk2077_OFF_Quality_result.jpg",
+      "size": 113204,
+      "sha256": "9656985b980f94672c6199e5d526b186c456572473462ac87d3db08fcda4d392",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "01_Cyberpunk2077/Screenshots/Cyberpunk2077_ON_Quality_result.jpg",
+      "size": 113543,
+      "sha256": "ab0eae2b74e0af3c1c794d8502c22f697a3dac3f14eccad0986b72052e2cdd93",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "02_WutheringWaves/Data_JSON/WutheringWaves-NR-installation.json",
+      "size": 13265,
+      "sha256": "8d41d6f49523dbe328307b99a26828452a0108643688c68fc788233d117b3713",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "02_WutheringWaves/Data_JSON/WutheringWaves-NR-preflight.json",
+      "size": 25415,
+      "sha256": "18b75c239072539c92fbb0a0c582b667dc0dca6e12225552a35d9870ac0295ca",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "02_WutheringWaves/Data_JSON/WutheringWaves-readonly-audit.json",
+      "size": 88615,
+      "sha256": "29cfe8b36f952df2567e0f29bffd0b1bb5b81b1a5816b2e088c394568c614f3c",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "02_WutheringWaves/Data_JSON/WutheringWaves_NR_Passes3_Live.json",
+      "size": 423,
+      "sha256": "19e6bf1fb0d3dca9360fdbc8094f0f0526180b9eea800be2a8659f3dc8603aa7",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "02_WutheringWaves/Data_JSON/WutheringWaves_NR_Permanent3x100.json",
+      "size": 825,
+      "sha256": "f319f426d89584b09df0ab998635e7a10fea6900c8648dade79d3c49da5f8847",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "02_WutheringWaves/Data_JSON/WutheringWaves_NR_Quality85.json",
+      "size": 661,
+      "sha256": "69075d180eaf5f3341bc969afb3dfc589fe6d04dcc27edc9ac2aba53c17a7c7d",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "02_WutheringWaves/Reports/WutheringWaves-DLSS5-audit-zh.txt",
+      "size": 26138,
+      "sha256": "5607411d2037104412af92027ee667ca78bb100556031f737ca0e07aa8627e2b",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "02_WutheringWaves/Reports/WutheringWaves_DLSS5_BACKUP.txt",
+      "size": 10293,
+      "sha256": "e47bc93f859969b7c65c1b00d1e0ea5fbe99acc37fcb9929ba347c526d3fe3cf",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "03_Common_NR_Tools/NR-runtime-310.8.0-verification.json",
+      "size": 2643,
+      "sha256": "d652b7ca777c71004f62e9cf04875c63721e74b79f941dc21e134ccd25e835e4",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "03_Common_NR_Tools/NR-runtime-download-result-zh.txt",
+      "size": 4063,
+      "sha256": "c76247d8bd8c8202617a61a28f02d48c71bedec3875d78b7b0667e7642db500e",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "03_Common_NR_Tools/OptiScaler-DLSS5-1.2.1-static-audit.json",
+      "size": 33660,
+      "sha256": "5663ea070139781c22dc8b47fe1b9483d068156eaff565120e7d6b98732f88ac",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "04_AisiAssistant/AisiAssistant/download-verification.json",
+      "size": 589,
+      "sha256": "f256e4c8ace5391d6eaae1dbf69b7ba7c816e9e6f3709aaed35e05a7b5982cc8",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Common_NR_Tools/Data_JSON/Audit-final-hash-check.json",
+      "size": 6672,
+      "sha256": "663788ffe8b5361f314cd5fcf6967f39690f3ac7375f8479210233594a0bb54a",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Common_NR_Tools/Reports/NR-runtime-310.8.0-verification.json",
+      "size": 2643,
+      "sha256": "d652b7ca777c71004f62e9cf04875c63721e74b79f941dc21e134ccd25e835e4",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Common_NR_Tools/Reports/NR-runtime-download-result-zh.txt",
+      "size": 4063,
+      "sha256": "c76247d8bd8c8202617a61a28f02d48c71bedec3875d78b7b0667e7642db500e",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Common_NR_Tools/Reports/NVIDIA-Streamline-v2.14.1-inventory.json",
+      "size": 67823,
+      "sha256": "599e4812a9f69d6e8402a136ec4cf268ff5778263f38d80f70064d07283430b9",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Common_NR_Tools/Reports/NVIDIA-Streamline-v2.14.1-static-audit.json",
+      "size": 11952,
+      "sha256": "1e63691b6ab4f8576cead83f1f47660955789992247b1eff1c615c1feafb564e",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Common_NR_Tools/Reports/Offline-NR-review-proposal.txt",
+      "size": 4137,
+      "sha256": "0ef3d48318fc34a3821de097754b1dba53646f59a2b518552e1d6b8a41099310",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Common_NR_Tools/Reports/Offline-NR-signatures.json",
+      "size": 5111,
+      "sha256": "beb90ee9f1dd33d2f8190a094ab1b1ba521a7884777495af55be90eb59da6ae5",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Common_NR_Tools/Reports/Offline-NR-source-comparison.json",
+      "size": 691,
+      "sha256": "967bd035457fce128b597a040a6838628780e6024ca72cc7b492b44d47541ce1",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Common_NR_Tools/Reports/Offline-NR-static-audit.json",
+      "size": 38262,
+      "sha256": "688e72f1b4cfeec0e46777db8291ddafdcd7019dfb035912659f46b1337d5635",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Common_NR_Tools/Reports/Offline-NR-static-review-zh.txt",
+      "size": 8642,
+      "sha256": "2542503a5ea084b9e9e51a6fadcc8b37c545c64368cdc92c7eff3b6f3bf80088",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Common_NR_Tools/Reports/OptiScaler-DLSS5-1.2.1-static-audit.json",
+      "size": 33660,
+      "sha256": "5663ea070139781c22dc8b47fe1b9483d068156eaff565120e7d6b98732f88ac",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Common_NR_Tools/Reports/SimonAI-Cyberpunk-crash-review.txt",
+      "size": 1041,
+      "sha256": "3e7fbde180202cb5ea1c65d068c5b22cfaa626c445aaf2cdab3dd160ca894b7a",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Common_NR_Tools/Reports/SimonAI-Cyberpunk-install-review.txt",
+      "size": 2499,
+      "sha256": "c4d5623e0f28b5373d346ab6f5f838995b40aff9093428f7af5829a352f9f3ce",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Common_NR_Tools/Reports/SimonAI-consultation.txt",
+      "size": 5215,
+      "sha256": "e3e6a2462419df8e046d837447d3adaa30c9b47c7c932b45d16be7c331ea63c9",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Common_NR_Tools/Reports/SimonAI-local-game-selection.txt",
+      "size": 1997,
+      "sha256": "08553276e2f841b9c855edb81b4d307f265a51baf364802ed36e6ce4b83ce752",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Common_NR_Tools/Reports/SimonAI-official-sdk-review.txt",
+      "size": 2557,
+      "sha256": "bce68a758baadbb9b5c04a0160d311df2933a9f8fe5d39866bf6548694955958",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Common_NR_Tools/Reports/SimonAI-signature-review.txt",
+      "size": 2219,
+      "sha256": "da3485d3bbe64bb415d2f0e5906ea3557bbb4ff87d1e7f05d7cd8843f1adb78d",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-backup-manifest.json",
+      "size": 71255,
+      "sha256": "f4d6a0925955eb99fcba00dec20862f21b56397c9f88e7c9d0e86f288db1ef48",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-deployment-plan.json",
+      "size": 4994,
+      "sha256": "88639706173aada8992b29f33d3d8fb30fe6ddc9cedc9ce9cf8949713a501d14",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-installation-verification.json",
+      "size": 2493,
+      "sha256": "e6a4b79fab84039cf4a43198cd1d9a47dce31f7c31a4151aea03ca97af0e983d",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-installed-manifest.json",
+      "size": 5348,
+      "sha256": "d58e2b14e9a5ed0a671dc03ec2fabd453a3fe7590525416690369b8195129814",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-panel-installation.json",
+      "size": 2315,
+      "sha256": "4080d73fec5377122df845813f24b2ab3b2160baab0db1f283631717ec5291ec",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-postinstall-static-check.json",
+      "size": 17363,
+      "sha256": "ae8f631ba5bf3bcc4b0bdb336fdcd26240530ec36c15d172a2dc3a661d432d7d",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-preinstall-audit.json",
+      "size": 6829,
+      "sha256": "5e9766604d47b1f8d660303eacfdc8c22eb7d57998f40294c897f07b3ad95aca",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-repair-native-verification.json",
+      "size": 1462,
+      "sha256": "7c536f88217237ab7c31e4200426a19be0028c53611674678a09b599b71cdf45",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-repair-reload-monitor.json",
+      "size": 2829,
+      "sha256": "bc24e11d3aed1dac6b87b956b4d085bef79af720ffb93d9c89e5d66e9b579ae8",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-repair-result.json",
+      "size": 801,
+      "sha256": "e047b349309cbbc8f93042b291de2e28ced3b3c6a45e7aa1acfc095033d30dfe",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-repair-tool-changes.json",
+      "size": 2129,
+      "sha256": "a926c064525dbec81f901a4b3ba4bef07fb1949503f91c4e4f244de8d210d2e2",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-repair-trial1-process.json",
+      "size": 1227,
+      "sha256": "31de4db545b7efd1a63a19d1e0d331e5b040c690098249a7027173ddf93a4e95",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-restore-preview.json",
+      "size": 1503,
+      "sha256": "6e1d6d0a5887222b2ea8fa9e4adaefa09be617b5e0a74407902cd2c8548f7d50",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-NR-strength-rollback-tool-changes.json",
+      "size": 904,
+      "sha256": "2da850d18ec7a4f3083b35c9f30e1dff8ad144c82b9973002edc2fa2f9989755",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-crash-fix-runtime-evidence.json",
+      "size": 1710,
+      "sha256": "a0998e453b00cb4dcd385c5e681605a5285843c7cc8ac85888b2c08dd1216de8",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-crash-fix-stability-test.json",
+      "size": 2040,
+      "sha256": "9b21e1428ee77aa2de536f1001885ba5eed4f74ec4421d034ec91292c14fb2e2",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-crash-fix-test-pending.json",
+      "size": 464,
+      "sha256": "86c442d257834cb42b435ed46c65cba2b9c2b8353d6c332c43b73969dcb728c0",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-crash-fix-test-start.json",
+      "size": 148,
+      "sha256": "22204d90fbf177ff871cd8adee7d837069a3486d63e3a2185d40dd3f0e146a65",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-crash-incident-backup.json",
+      "size": 10878,
+      "sha256": "4369cc8853fb98bfc1c85cd9f4ccade0edc7bb622a30d7fbdf02eceee828083a",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-crash-minidump-analysis.json",
+      "size": 1484,
+      "sha256": "37bf6681bf483993a84fa1b0f8f563b739cf01fd6d1896dcdba19bce8572e338",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-strong-NR-rollback-monitor-valid.json",
+      "size": 1492,
+      "sha256": "0fa28e0bbf2899e138e320b7fa9cf939058533f2d140cabb289a006e4d724d1e",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077-strong-NR-rollback-monitor.json",
+      "size": 1227,
+      "sha256": "8bcef754c01674c0f654399309104c24dc6e3088d24a0538b7a7a3fac9bf861f",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_DLSS5_Tool_Status_PowerShell51.json",
+      "size": 2800,
+      "sha256": "9c2a07d0379c9a8a30f047d8357ca9b26002a98019b3898dbaa644c9ca857932",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_DLSS5_external_backup.json",
+      "size": 70470,
+      "sha256": "24541d042bf9360f8151e1a9a95818d3074108294684a766fc21ea3e0c9c53a9",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_FG2_10MIN.json",
+      "size": 17085,
+      "sha256": "9f396e11eeedda5be7a7f2f3cc108388db4c2508ab687f30e97d9febb88c0205",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_FG2_TOOL_BACKUPS.json",
+      "size": 3263,
+      "sha256": "575ef0a06ba4b873c56d58ce4b1d06f3efe7307e0128e51806c21d6f2087d860",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_FG2_TRIAL.json",
+      "size": 2038,
+      "sha256": "00658ffc3bed8f8bd9bd3aee1c77b6c018f92b44822e80e0747e2ab79684066a",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_FG2_VERIFIED_PROFILE.json",
+      "size": 564,
+      "sha256": "f09bf56eb6f681f1ab52a39833b536da9cb8d631f1e4fc74f23051ec9d070ef2",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_NO_FG_10MIN.json",
+      "size": 19470,
+      "sha256": "76c55f34d461c3d13adfa5632ee35ae8ce199d72ef631d5f03bcfdecc137d8e8",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_NO_FG_TOOL_BACKUPS.json",
+      "size": 3597,
+      "sha256": "21bcd207a9724dbfb2ad95e09474026fe75ce57eb90ebcc01dbeeda463b96eba",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_NO_FG_TRIAL.json",
+      "size": 2653,
+      "sha256": "8930361f2da080425c4c510ff62bd8600c79c7697f0884cea40290a4dd1c98e6",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_NO_FG_VERIFIED_PROFILE.json",
+      "size": 728,
+      "sha256": "b8b94d3ce64ba021b09a99314c9f6e795927b47c4a14831506b751d40418e2aa",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_RETIRED_STATE.json",
+      "size": 668,
+      "sha256": "8ebb895f8debafca99dc2d01877c7ff622ecc5a633d15b0b8900ab999419b984",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_OFF_Quality_benchmark.json",
+      "size": 408,
+      "sha256": "6a840b10dde5daee21991faf746933323dafec531db01c4cf1a8397fb9eebc92",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_OFF_Quality_modules.json",
+      "size": 2100,
+      "sha256": "fcc41a63886a884dd5ebf6433cf240253cc0b29dd967e4a64db011ac31b4e776",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_OFF_Quality_telemetry-summary.json",
+      "size": 577,
+      "sha256": "45e9dc72f5cdd00e29b717a7afa7df119b1769529f9e9450ab3188c3e208d099",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_ON_Quality_benchmark.json",
+      "size": 507,
+      "sha256": "bb58b1b02d253b184fcee7f12cb0e647e1e4dd138ad5720b844096672dbf6e7f",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_ON_Quality_in_benchmark_modules.json",
+      "size": 2054,
+      "sha256": "392a8126975f22085af59aaee53cabd104adcaf4ffd3dd8fc7f48c69140907b4",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_ON_Quality_modules.json",
+      "size": 2093,
+      "sha256": "ab5c62007203fd8c05f33a453d998abcac42d67ac12094c97b06179d19e6b964",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_ON_Quality_telemetry-summary.json",
+      "size": 577,
+      "sha256": "86b2c0c8b2618b1e0b220fadf4013282f93f1cc38c0b92c18d8dc56f7eb18b3f",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_ON_Quality_valid_telemetry-summary.json",
+      "size": 582,
+      "sha256": "73da344e420ca93a1704bb3840b7f0aec851c3f3f7039b02920c9ecddc294bbf",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_ORIGINAL_5MIN_TEST.json",
+      "size": 8932,
+      "sha256": "e454fc84ffcee901759301332bcf57ac38b1f8b49cb2b63189872987b272bccb",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_ORIGINAL_FINAL_MODULES.json",
+      "size": 1212,
+      "sha256": "f304d4c8c49562fc04649c630218f6bbee1544d5ae86fa42f22b75967c3796d8",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_ORIGINAL_RUNTIME_MODULES.json",
+      "size": 1170,
+      "sha256": "63fa07a5454f69a28951da011d56866ac1bc547854f0a828395faf5e249025bc",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Data_JSON/Cyberpunk2077_ORIGINAL_USER_VISUAL_CONFIRMATION.json",
+      "size": 180,
+      "sha256": "f9d0ccdc97401fecae3077afa4b65b44234791db7330b669ef0e58449e9ba290",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Reports/Cyberpunk2077-NR-installation-record-zh.txt",
+      "size": 15421,
+      "sha256": "f3a8791ee8e9d1c6d220f1e73b9fd422465a68cd815cc565887895f142db0839",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Reports/Cyberpunk2077_CRASH_FIX_REPORT.txt",
+      "size": 4620,
+      "sha256": "1bc1dee4e1511ca68b3d6ae577efe5cbca8ad36116df76b0b13f08b3aba86736",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Reports/Cyberpunk2077_DLSS5_BACKUP.txt",
+      "size": 54003,
+      "sha256": "6383b3b7b30067772302b782987ffa295210445b5dc9ff4d8fa0bca0260c075d",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Reports/Cyberpunk2077_DLSS5_TEST_REPORT.txt",
+      "size": 4620,
+      "sha256": "1bc1dee4e1511ca68b3d6ae577efe5cbca8ad36116df76b0b13f08b3aba86736",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Reports/Cyberpunk2077_NR_FG2_FINAL_REPORT.txt",
+      "size": 3372,
+      "sha256": "d4b4444fe19e6dbf97577c27214a417616c7006b17c86caf12654612b334c7e3",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Reports/Cyberpunk2077_NR_NO_FG_PROFILE.txt",
+      "size": 3271,
+      "sha256": "2c58881ccd88f0666287e76d4e4b5ca75460c7095c7f01acc0816d5736227e49",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Reports/Cyberpunk2077_NR_REMOVED_STABILITY_REPORT.txt",
+      "size": 4575,
+      "sha256": "300c1544cfa3b99464a62a014fda00302fc36c4557afe04116165ef69928f855",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Reports/Cyberpunk2077_NR_REPAIR_REPORT.txt",
+      "size": 4996,
+      "sha256": "5b56d67e11c8f6fa51c1366f7885a7a28cb9bfe7e618c0fb1c6f1275ea06cb86",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Reports/Cyberpunk2077_NR_STRENGTH_ROLLBACK.txt",
+      "size": 2853,
+      "sha256": "29fd2659d859ecd4918256fdc38660329b8af6de0497501f81ed2ae8230825c6",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Screenshots/Cyberpunk2077-NR-FG2-start.jpg",
+      "size": 209436,
+      "sha256": "8561b723ef70f254d0cf4d19feb8c5524055a9f5d0529774ef6ff5b4ef1b2ab5",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Screenshots/Cyberpunk2077-NR-no-FG-start.jpg",
+      "size": 120477,
+      "sha256": "74277dd95398264c143dd23aba2ad206825c3a03addc95b9827a66c7c60d7561",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Screenshots/Cyberpunk2077-NR-repair-gameplay.jpg",
+      "size": 138080,
+      "sha256": "2184f47361fc3d36658376f8e0716c6fc386bd89cafa062faf12dbf42a2a461c",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Screenshots/Cyberpunk2077-NR-repair-reload-gameplay.jpg",
+      "size": 168760,
+      "sha256": "6b422256814df187e6022d9b3e068f66783d312e08a8112fe0c4ed13452c658c",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Screenshots/Cyberpunk2077-NR-strength-rollback-gameplay.jpg",
+      "size": 153644,
+      "sha256": "185fec43afe2160f4b1dc4e62aebc12223dcb5cd29ae3f601b18e279cd422b56",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Screenshots/Cyberpunk2077-crash-fix-gameplay-start.jpg",
+      "size": 107977,
+      "sha256": "ea7fdc7d98570b1c988f4207fe1fe9c439a83a3b714fbb4923f3df00e27d3543",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Screenshots/Cyberpunk2077-original-gameplay-end.jpg",
+      "size": 29303,
+      "sha256": "45e964aa1ee44fde370174b535b89af2c15940297464cfef11e735d1a06c7068",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Screenshots/Cyberpunk2077-original-gameplay-start.jpg",
+      "size": 124064,
+      "sha256": "6df756e842cff4655babf19085e646ead947aa1a16fd31c5b943b9fb8cc51f31",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Screenshots/Cyberpunk2077_OFF_Quality_result.jpg",
+      "size": 113204,
+      "sha256": "9656985b980f94672c6199e5d526b186c456572473462ac87d3db08fcda4d392",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "Cyberpunk2077/Screenshots/Cyberpunk2077_ON_Quality_result.jpg",
+      "size": 113543,
+      "sha256": "ab0eae2b74e0af3c1c794d8502c22f697a3dac3f14eccad0986b72052e2cdd93",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "WutheringWaves/Data_JSON/WutheringWaves-NR-installation.json",
+      "size": 13265,
+      "sha256": "8d41d6f49523dbe328307b99a26828452a0108643688c68fc788233d117b3713",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "WutheringWaves/Data_JSON/WutheringWaves-NR-preflight.json",
+      "size": 25415,
+      "sha256": "18b75c239072539c92fbb0a0c582b667dc0dca6e12225552a35d9870ac0295ca",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "WutheringWaves/Data_JSON/WutheringWaves-readonly-audit.json",
+      "size": 88615,
+      "sha256": "29cfe8b36f952df2567e0f29bffd0b1bb5b81b1a5816b2e088c394568c614f3c",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "WutheringWaves/Data_JSON/WutheringWaves_NR_Passes3_Live.json",
+      "size": 423,
+      "sha256": "19e6bf1fb0d3dca9360fdbc8094f0f0526180b9eea800be2a8659f3dc8603aa7",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "WutheringWaves/Data_JSON/WutheringWaves_NR_Permanent3x100.json",
+      "size": 825,
+      "sha256": "f319f426d89584b09df0ab998635e7a10fea6900c8648dade79d3c49da5f8847",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "WutheringWaves/Data_JSON/WutheringWaves_NR_Quality85.json",
+      "size": 661,
+      "sha256": "69075d180eaf5f3341bc969afb3dfc589fe6d04dcc27edc9ac2aba53c17a7c7d",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "WutheringWaves/Reports/WutheringWaves-DLSS5-audit-zh.txt",
+      "size": 26138,
+      "sha256": "5607411d2037104412af92027ee667ca78bb100556031f737ca0e07aa8627e2b",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    },
+    {
+      "path": "WutheringWaves/Reports/WutheringWaves_DLSS5_BACKUP.txt",
+      "size": 10293,
+      "sha256": "e47bc93f859969b7c65c1b00d1e0ea5fbe99acc37fcb9929ba347c526d3fe3cf",
+      "source_commit": "f494230c3692b156b2bcf1ca9ab2aaa8084d0ff1"
+    }
+  ]
+}
