@@ -6,6 +6,13 @@
 
 这是历史归档，附带离线 Python 检查工具。Windows 控制器依赖原作者电脑的路径、备份及文件哈希，不能直接当通用安装器。仓库不提供游戏二进制或 NR DLL。
 
+## 试用公开发布版
+
+[Release / 下载](https://github.com/yirancheng12-design/dlss-neural-rendering-lab/releases/latest) · [演示与试用 / Evidence and trial](docs/github-release-guide.md)
+
+下载完整源码 ZIP，按安装前提运行，并在核对实际结果后反馈。
+
+
 ## Windows 一键安装
 
 已安装 Python 3.11+ 后，解压完整仓库，双击 [Install.cmd](Install.cmd)，自动创建 `.venv` 并验证归档与工具，不下载依赖包。之后双击 [Run.cmd](Run.cmd) 查看原始数据摘要。不会安装驱动、游戏 Mod 或运行时 DLL。详见[安装与故障恢复](INSTALL.md)。

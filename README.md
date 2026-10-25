@@ -9,6 +9,13 @@ What did a community Neural Rendering setup actually do in Cyberpunk 2077 and Wu
 
 **Start here:** this is a historical experiment archive with an offline Python inspector. The bundled Windows controllers are installation-specific historical scripts, not a portable mod installer. No game binaries or NR runtime DLLs are distributed here. Passing archive checks does not validate game compatibility.
 
+## Try the public release
+
+[Release / 下载](https://github.com/yirancheng12-design/dlss-neural-rendering-lab/releases/latest) · [演示与试用 / Evidence and trial](docs/github-release-guide.md)
+
+Download the complete source ZIP, follow the installation prerequisites, and inspect the evidence before reporting a result.
+
+
 ## One-click installation (Windows)
 
 With Python 3.11+ installed, extract the whole repository and double-click [Install.cmd](Install.cmd). It creates `.venv` and verifies the bundled archive/tools without package downloads. Then double-click [Run.cmd](Run.cmd) to display the recorded-data summary. It does not install drivers, game mods or runtime DLLs. See [installation details and recovery](INSTALL.md).
