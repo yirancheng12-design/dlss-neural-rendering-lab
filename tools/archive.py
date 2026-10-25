@@ -40,6 +40,8 @@ def repo_files(root):
     for directory, dirs, names in os.walk(root, followlinks=False):
         dirs[:] = sorted(d for d in dirs if d not in SKIP)
         for name in sorted(names):
+            if Path(directory) == root and name in {'.setup.log', '.setup-state.json'}:
+                continue
             yield (Path(directory) / name).relative_to(root).as_posix()
         for name in dirs[:]:
             candidate = Path(directory) / name

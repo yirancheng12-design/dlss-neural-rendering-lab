@@ -36,3 +36,18 @@ jobs:
           }
           if ($count -eq 0) { throw 'No scripts parsed' }
           Write-Output "Parsed $count historical scripts; none invoked."
+
+      - name: Install and verify in a fresh local environment
+        run: python tools/install.py
+      - name: Exercise the Windows double-click wrapper from another directory
+        if: runner.os == 'Windows'
+        shell: powershell
+        run: |
+          $env:SETUP_PYTHON = (Get-Command python).Source
+          $env:SETUP_NO_PAUSE = '1'
+          $entry = Join-Path $PWD 'Install.cmd'
+          Push-Location $env:RUNNER_TEMP
+          & $entry
+          $result = $LASTEXITCODE
+          Pop-Location
+          if ($result -ne 0) { throw "Install.cmd failed: $result" }

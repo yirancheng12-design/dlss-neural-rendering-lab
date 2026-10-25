@@ -12,6 +12,8 @@ python -m unittest discover -s tests -v
 
 For this revision, `verify` should report `ok: true`, 188 archived files, 120 JSON files and six curated cases. Markdown counts can grow as documentation is added. A nonzero exit or any error requires investigation; do not overwrite the baseline to make it pass.
 
+Local installer outputs `.setup.log` and `.setup-state.json` are excluded, like `.venv` and Git internals; they are not archival evidence.
+
 The regression suite exercises corrupt/missing/uninventoried evidence, invalid JSON, exact-case links, traversal and symlink rejection, missing recorded fields, required limitations, preservation of `UNKNOWN`/`NOT_RUN`, CLI exit codes, no file writes, and execution from another working directory. Symlink tests may be skipped on Windows if the runner cannot create them.
 
 GitHub Actions runs on Windows and Linux with Python 3.11 and 3.14. Windows additionally parses the five historical PowerShell files with the Windows PowerShell parser, without invoking them. CI has read-only repository permissions.

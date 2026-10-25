@@ -9,6 +9,23 @@ What did a community Neural Rendering setup actually do in Cyberpunk 2077 and Wu
 
 **Start here:** this is a historical experiment archive with an offline Python inspector. The bundled Windows controllers are installation-specific historical scripts, not a portable mod installer. No game binaries or NR runtime DLLs are distributed here. Passing archive checks does not validate game compatibility.
 
+## One-click installation (Windows)
+
+With Python 3.11+ installed, extract the whole repository and double-click [Install.cmd](Install.cmd). It creates `.venv` and verifies the bundled archive/tools without package downloads. Then double-click [Run.cmd](Run.cmd) to display the recorded-data summary. It does not install drivers, game mods or runtime DLLs. See [installation details and recovery](INSTALL.md).
+
+### Requirements before you click
+
+| Requirement | What you need |
+| --- | --- |
+| Python | Python 3.11+ with the standard `venv` module; enable `py` or `python` on PATH. Python is not automatically installed |
+| Files and permissions | Extract/clone the complete repository into a writable folder; run outside the ZIP. Administrator access is not required |
+| Platform | `.cmd` entry points require Windows. Linux/macOS users run `python3 tools/install.py` for the core tools |
+| Network and dependencies | After downloading the complete repository and installing Python, setup uses only the standard library; no pip packages or internet connection are required |
+| Hardware and scope | No NVIDIA GPU, installed game or administrator access is required. This installs an analysis/archive environment, not a GPU driver, tuning profile or game Mod |
+
+Successful setup ends with `Installation and verification passed` and `.setup-state.json` containing `ok: true`. If it fails, read `.setup.log`, fix the cause and rerun the installer; do not treat a created `.venv` alone as success.
+
+
 ## What the evidence supports
 
 | Case | Recorded observation | Limit |
