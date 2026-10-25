@@ -10,6 +10,18 @@
 
 已安装 Python 3.11+ 后，解压完整仓库，双击 [Install.cmd](Install.cmd)，自动创建 `.venv` 并验证归档与工具，不下载依赖包。之后双击 [Run.cmd](Run.cmd) 查看原始数据摘要。不会安装驱动、游戏 Mod 或运行时 DLL。详见[安装与故障恢复](INSTALL.md)。
 
+### 点击安装前的要求
+
+| 项目 | 具体要求 |
+| --- | --- |
+| Python | 预先安装 Python 3.11+，包含标准 `venv` 模块，并让 `py` 或 `python` 命令可用；安装入口不会自动安装 Python |
+| 文件与权限 | 完整解压或克隆到可写目录，在 ZIP 外运行；不要求管理员权限 |
+| 系统 | 双击 `.cmd` 适用于 Windows；Linux/macOS 使用 `python3 tools/install.py` 安装核心工具 |
+| 网络与依赖 | 完整下载仓库并安装 Python 后，初始化只使用标准库，无需 pip 依赖包或网络连接 |
+| 硬件与用途 | 不要求 NVIDIA 显卡、已安装游戏或管理员权限；安装的是分析/归档运行环境，不是显卡驱动、调校方案或游戏 Mod |
+
+只有显示 `Installation and verification passed` 且 `.setup-state.json` 中 `ok: true` 才表示安装检查通过。失败请查看 `.setup.log`，修复后重试；不能仅凭 `.venv` 已创建就认为成功。
+
 
 ## 结论和限制
 
