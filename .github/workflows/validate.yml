@@ -1,0 +1,38 @@
+name: Archive checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.11', '3.14']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python tools/archive.py verify --json
+      - run: python tools/archive.py summary --json
+      - run: python -m unittest discover -s tests -v
+      - name: Parse historical PowerShell without invoking it
+        if: runner.os == 'Windows'
+        shell: powershell
+        run: |
+          $count = 0
+          Get-ChildItem 01_Cyberpunk2077 -Recurse -Filter *.ps1 | ForEach-Object {
+            $tokens = $null; $parseErrors = $null
+            $null = [System.Management.Automation.Language.Parser]::ParseFile($_.FullName, [ref]$tokens, [ref]$parseErrors)
+            if ($parseErrors.Count -gt 0) { throw ($parseErrors | Out-String) }
+            $count++
+          }
+          if ($count -eq 0) { throw 'No scripts parsed' }
+          Write-Output "Parsed $count historical scripts; none invoked."

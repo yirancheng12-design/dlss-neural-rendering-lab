@@ -1,0 +1,12 @@
+# Preserve original evidence bytes on Windows and Linux checkouts.
+01_Cyberpunk2077/** -text
+02_WutheringWaves/** -text
+03_Common_NR_Tools/** -text
+04_AisiAssistant/** -text
+Cyberpunk2077/** -text
+WutheringWaves/** -text
+Common_NR_Tools/** -text
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+evidence/*.json text eol=lf

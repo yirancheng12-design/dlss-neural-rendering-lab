@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "cyberpunk-retired-oct16",
+      "source": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_RETIRED_STATE.json",
+      "fields": ["Time", "ModRemoved", "NativeVerified", "CompatibilityBlock"],
+      "limitations": "Earlier removal after crashes; later records describe selected-profile retests. Not the final archive state."
+    },
+    {
+      "id": "cyberpunk-fg2-oct16",
+      "source": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_NR_FG2_VERIFIED_PROFILE.json",
+      "fields": ["Time", "Monitor", "NewCrashReports", "NR", "NativeFrameGeneration", "X3X4", "LongTermStability"],
+      "limitations": "Ten-minute observation on one installation; no universal stability guarantee."
+    },
+    {
+      "id": "cyberpunk-controller-v2-oct17",
+      "source": "01_Cyberpunk2077/Cyberpunk2077_NR_Controller_v2/verification.json",
+      "fields": ["ObservedAt", "ElapsedMinutes", "NewCrashReports", "NR", "NativeFG", "TestedPrecision", "TestedPasses", "AverageFPS", "OnePercentLow", "HigherPrecisionAndPasses"],
+      "limitations": "One historical observation. Higher precision/passes were not stability-tested in this trial; no measured FPS or 1% low."
+    },
+    {
+      "id": "cyberpunk-benchmark-off",
+      "source": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_OFF_Quality_benchmark.json",
+      "fields": ["State", "DLSS", "Resolution", "AverageFPS", "Seconds", "OnePercentLow", "MFGSetting", "Source"],
+      "limitations": "Single built-in benchmark record; 3X differs from later 2x gameplay trial. Not a repeated controlled performance result."
+    },
+    {
+      "id": "cyberpunk-benchmark-on",
+      "source": "01_Cyberpunk2077/Data_JSON/Cyberpunk2077_ON_Quality_benchmark.json",
+      "fields": ["State", "DLSS", "Resolution", "AverageFPS", "Seconds", "OnePercentLow", "MFGSetting", "NR", "Source"],
+      "limitations": "Single built-in benchmark record. Does not establish 3X compatibility or an FPS gain; 1% low was not measured."
+    },
+    {
+      "id": "wuthering-waves-85-percent",
+      "source": "02_WutheringWaves/Data_JSON/WutheringWaves_NR_Quality85.json",
+      "fields": ["WorkingScaleBefore", "WorkingScaleAfter", "Passes", "CacheEnabled", "RuntimeTest", "GameWasRunning"],
+      "limitations": "Configuration change only. RuntimeTest is NOT_RUN; this is not gameplay validation."
+    }
+  ]
+}

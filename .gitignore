@@ -16,3 +16,8 @@ Thumbs.db
 
 # Log files (if not part of the research)
 *.log
+
+# Python inspector artifacts
+__pycache__/
+*.py[cod]
+.venv/

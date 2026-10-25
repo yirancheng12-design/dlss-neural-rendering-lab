@@ -1,59 +1,59 @@
-# 🚀 DLSS 5 & NVIDIA Reflex: Next-Gen Image Quality & Latency Research
+# DLSS Neural Rendering: community experiments and evidence
 
-![Status](https://img.shields.io/badge/Status-Research_In_Progress-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Focus](https://img.shields.io/badge/Focus-DLSS_5_%7C_NVIDIA_Reflex-orange)
+[简体中文](README.zh-CN.md) · [Findings](docs/findings.md) · [Read-only tools](docs/usage.md) · [Contributing](CONTRIBUTING.md)
 
-## 📖 Overview
+[![Archive checks](https://github.com/yirancheng12-design/dlss5guidens/actions/workflows/validate.yml/badge.svg)](https://github.com/yirancheng12-design/dlss5guidens/actions/workflows/validate.yml)
+[![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-This repository serves as a specialized technical archive dedicated to the research and empirical testing of **next-generation upscaling technologies** and **latency reduction frameworks**. 
+What did a community Neural Rendering setup actually do in Cyberpunk 2077 and Wuthering Waves? This archive keeps configuration records, crash investigations, screenshots and limited runtime observations so readers can inspect the evidence.
 
-As gaming hardware evolves, the integration of **DLSS 5 (Deep Learning Super Sampling)** and **NVIDIA Reflex (NR)** becomes critical for balancing visual fidelity with ultra-low latency. This collection documents our deep-dive analysis, stability testing, and optimization strategies across several high-profile AAA titles.
+**Start here:** this is a historical experiment archive with an offline Python inspector. The bundled Windows controllers are installation-specific historical scripts, not a portable mod installer. No game binaries or NR runtime DLLs are distributed here. Passing archive checks does not validate game compatibility.
 
----
+## What the evidence supports
 
-## 🔬 Core Research Domains
+| Case | Recorded observation | Limit |
+| --- | --- | --- |
+| Cyberpunk 2077, Oct 16 | Repeated crashes led to removal; later 10-minute trials recorded no new crashes with selected profiles | Both failure and later retest records matter |
+| Cyberpunk 2077 controller v2, Oct 17 | 19.4 minutes: 67% scale, one pass, native 2× frame generation, zero new crash reports | Average FPS and 1% low were not measured in this trial |
+| Cyberpunk 2077 photo comparison, Oct 17 | OFF and 100% scale / three-pass captures, with runtime observations recorded in the notes | Different frames, resized JPEGs, no long gameplay test |
+| Wuthering Waves | Audit, installation and configuration-change records | The 85% profile explicitly says `RuntimeTest: NOT_RUN` |
 
-### 🎮 Game-Specific Deep Dives
+Read the [English findings and source links](docs/findings.md). Here **NR means Neural Rendering**, as used by the archived `nvngx_dlssnr.dll` and `[DlssNr]` settings. It does not mean NVIDIA Reflex. NVIDIA describes DLSS 5 as a neural rendering feature; see the [official technology explanation](https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/). These community tests do not establish official game support.
 
-| Project | Focus Area | Key Research Objectives |
-| :--- | :--- | :--- |
-| [**Cyberpunk 2077**](./01_Cyberpunk2077) | `DLSS 5` & `Stability` | Analyzing frame generation stability, NR controller integration, and crash-fix methodologies. |
-| [**Wuthering Waves**](./02_WutheringWaves) | `Audit & Backup` | Comprehensive audit of DLSS 5 implementation and data integrity preservation. |
-| [**Death Stranding**](./03_DeathStranding) | `Stability & Mobile` | Investigating cross-platform stability and specialized testing logs. |
+## Inspect the archive in one minute
 
-### 🛠️ Infrastructure & Tooling
+Requires Python 3.11+. No packages, GPU, game, administrator access or network are needed. Run from the repository root:
 
-*   [**Common NVIDIA Reflex (NR) Tools**](./Common_NR_Tools)
-    *   Centralized repository for Reflex runtime analysis.
-    *   Offline review protocols and consultation logs for latency optimization.
-    *   Standardized deployment procedures for NR controllers.
+```console
+python tools/archive.py verify
+python tools/archive.py summary
+python -m unittest discover -s tests -v
+```
 
----
+`verify` checks the original evidence inventory, SHA-256 hashes, JSON syntax, evidence references and local Markdown targets. `summary` reads source JSON and prints observations with their limitations. Both commands read repository files only. Add `--json` for machine-readable output. See [expected output and validation limits](docs/validation.md).
 
-## 🛠 Technical Stack & Methodologies
+## Visual comparison
 
-Our research methodology leverages cutting-edge NVIDIA technologies to push the boundaries of real-time rendering:
+| Recorded NR OFF capture | Recorded NR ON: 100% scale, three passes |
+| --- | --- |
+| ![Archived NR OFF capture](01_Cyberpunk2077/Cyberpunk2077_NR100_3Pass_COMPARE_20261017/NR_OFF.jpg) | ![Archived NR ON capture](01_Cyberpunk2077/Cyberpunk2077_NR100_3Pass_COMPARE_20261017/NR_ON_100pct_3passes.jpg) |
 
-*   **DLSS 5 Integration**: Evaluating the impact of advanced AI-driven upscaling on temporal stability and image reconstruction.
-*   **NVIDIA Reflex (NR) Optimization**: Quantifying latency reduction and evaluating the stability of the Reflex controller in high-load scenarios.
-*   **Stability & Crash Diagnostics**: Systematic identification of software-hardware conflicts during high-performance rendering.
+The [capture notes](01_Cyberpunk2077/Cyberpunk2077_NR100_3Pass_COMPARE_20261017/README.txt) describe timing and restoration. Captures are 1707×1067 JPEGs from a 2560×1600 render; smoke and temporal effects can differ. They are not a matched-frame benchmark or a claim of increased FPS.
 
----
+## Repository map
 
-## 📂 How to Navigate This Repository
+| Location | Contents |
+| --- | --- |
+| [01_Cyberpunk2077](01_Cyberpunk2077/README.md) | Canonical game entry: reports, JSON, captures and historical controllers |
+| [02_WutheringWaves](02_WutheringWaves/README.md) | Canonical audit and configuration records |
+| [Archive map](docs/archive-map.md) | Common runtime/static audits, duplicate directories and unrelated historical material |
+| [tools](tools/archive.py) | Portable offline inspector |
+| [evidence](evidence/README.md) | Original-file inventory and curated source references |
 
-1.  **For Developers**: Explore the `Common_NR_Tools` for standardized implementation patterns.
-2.  **For Researchers**: Dive into the specific game directories (e.g., `01_Cyberpunk2077`) to review detailed logs and stability reports.
-3.  **For Enthusiasts**: Review the `README` files within each sub-directory for specific findings and optimization tips.
+Numbered and unnumbered historical directories are preserved. Some reports differ; use the numbered game entries for new links. Windows paths identify the author's machine, not setup instructions. Some identifiers remain: this archive is **not fully anonymized**.
 
----
+## Contribute a useful result
 
-## ⚠️ Disclaimer & Privacy
+Open an [evidence report](https://github.com/yirancheng12-design/dlss5guidens/issues/new?template=evidence.yml) with exact versions, changed settings, observation duration, runtime evidence, failures and unknowns. Follow [CONTRIBUTING.md](CONTRIBUTING.md) for reproducible comparisons. A star helps readers find the archive; independently repeatable evidence is the most useful contribution.
 
-> [!IMPORTANT]
-> **Data Anonymization**: To ensure professional standards and privacy, all sensitive information within these reports—including local file paths, hardware serial numbers, and user-specific identifiers—has been **anonymized** (e.g., `[USER_HOME]`, `[GPU_MODEL]`).
-
----
-*Developed as part of the DLSS 5 & Image Quality Enhancement Initiative.*
-
+Original project code and documentation use [MIT](LICENSE). Third-party captures, vendor names, logs and referenced components retain their respective rights; see [provenance](docs/provenance.md). This project is independent of NVIDIA and game publishers.
