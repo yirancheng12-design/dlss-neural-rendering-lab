@@ -1,8 +1,8 @@
-# DLSS Neural Rendering: community experiments and evidence
+# DLSS Neural Rendering Lab
 
 [简体中文](README.zh-CN.md) · [Findings](docs/findings.md) · [Read-only tools](docs/usage.md) · [Contributing](CONTRIBUTING.md)
 
-[![Archive checks](https://github.com/yirancheng12-design/dlss5guidens/actions/workflows/validate.yml/badge.svg)](https://github.com/yirancheng12-design/dlss5guidens/actions/workflows/validate.yml)
+[![Archive checks](https://github.com/yirancheng12-design/dlss-neural-rendering-lab/actions/workflows/validate.yml/badge.svg)](https://github.com/yirancheng12-design/dlss-neural-rendering-lab/actions/workflows/validate.yml)
 [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 What did a community Neural Rendering setup actually do in Cyberpunk 2077 and Wuthering Waves? This archive keeps configuration records, crash investigations, screenshots and limited runtime observations so readers can inspect the evidence.
@@ -71,6 +71,6 @@ Numbered and unnumbered historical directories are preserved. Some reports diffe
 
 ## Contribute a useful result
 
-Open an [evidence report](https://github.com/yirancheng12-design/dlss5guidens/issues/new?template=evidence.yml) with exact versions, changed settings, observation duration, runtime evidence, failures and unknowns. Follow [CONTRIBUTING.md](CONTRIBUTING.md) for reproducible comparisons. A star helps readers find the archive; independently repeatable evidence is the most useful contribution.
+Open an [evidence report](https://github.com/yirancheng12-design/dlss-neural-rendering-lab/issues/new?template=evidence.yml) with exact versions, changed settings, observation duration, runtime evidence, failures and unknowns. Follow [CONTRIBUTING.md](CONTRIBUTING.md) for reproducible comparisons. A star helps readers find the archive; independently repeatable evidence is the most useful contribution.
 
 Original project code and documentation use [MIT](LICENSE). Third-party captures, vendor names, logs and referenced components retain their respective rights; see [provenance](docs/provenance.md). This project is independent of NVIDIA and game publishers.
