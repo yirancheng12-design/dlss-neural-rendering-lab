@@ -10,3 +10,7 @@ Common_NR_Tools/** -text
 *.md text eol=lf
 *.yml text eol=lf
 evidence/*.json text eol=lf
+/Install*.cmd text eol=crlf
+/Run.cmd text eol=crlf
+/tools/install.py text eol=lf
+/tests/test_installer.py text eol=lf

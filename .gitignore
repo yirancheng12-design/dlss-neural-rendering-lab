@@ -21,3 +21,7 @@ Thumbs.db
 __pycache__/
 *.py[cod]
 .venv/
+
+# Local installer reports
+/.setup.log
+/.setup-state.json
